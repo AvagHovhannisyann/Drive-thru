@@ -22,6 +22,8 @@
 >
 > Glovo prices are delivery-platform prices. They may sit about 0–10% above in-store prices; A2 estimated about +10% for Cofix. We treat them as REPORTED and as an upper bound on in-store prices.
 
+> **Fact-check (2026-10-10).** An adversarial check re-tested 22 claims against the primary sources (PMC papers, CRRC CB 2024, Armstat ILCS 2024, Numbeo, Grand Candy, SAS, Karas, Max Oil and Glovo menus). 16 were confirmed, 5 corrected and 1 downgraded. The main fix is the VAT basis of the §3.11 food-cost percentages (overstated by ≈1.2×); the average-ticket estimate is downgraded pending reconciliation with A2, A3 and C2. Corrections are marked inline as *Fact-check correction*; the full log is in §7.
+
 ---
 
 ## 1. Executive summary
@@ -29,10 +31,10 @@
 1. **Armenians eat dough first. The menu should be built on hand-held baked goods, not on burgers or American breakfast plates.**
    - In the first nationally representative 24-hour recall (n = 1,400 adults), bread and flour products supply **53% of energy**. 1,230 of 1,400 respondents (88%) ate them on the recall day; the paper's text says about 96%.
    - **40%** ate biscuits, cakes, pastries or waffles that day. Mean energy intake is low, at 1,738 kcal/day (VERIFIED [35]).
-   - In a Yerevan fast-food frequency survey (FFQ, autumn 2019, n = 423), **pastry was the most-consumed fast food** at 76 g/day, ahead of fried chicken (53 g), hot dog/burger (50 g) and shawarma (49 g). Dough-based items made up about 41% of fast-food grams (VERIFIED [34]; ESTIMATE for the share).
+   - In a Yerevan fast-food frequency survey (FFQ, autumn 2019, n = 423), **pastry was the most-consumed fast food** at 76 g/day, ahead of fried chicken (53 g), hot dog/burger (50 g) and shawarma (49 g). Dough-based items made up about 41% of fast-food grams (VERIFIED [34]; ESTIMATE for the share: pastry 76.1 + pancake/doughnut 41.4 + pie 35.0 + khachapuri 32.2 = 184.7 g ÷ 449.8 g for all 11 items = 41.1%; counting pizza 33.9 g as dough-based gives 48.6%, so 41% is the conservative definition). *Fact-check note: formula added; figure confirmed.*
 2. **Eating out, and fast food in particular, is infrequent and low-spend. This is the main disconfirming evidence for a high-ticket concept.**
    - In the 2019 Yerevan FFQ, mean fast-food frequency was about **once a week** (range 0.38–1.93 per week). That is below the US benchmark the authors cite (2.07 per week), and the sample was 90% university-educated, so the true figure may be lower (VERIFIED [34]).
-   - The household survey shows food away from home at only **2.8% of consumption nationally and 3.5% in urban areas** (≈1,709 / 2,293 AMD per person per month; ILCS 2024, via A1 [44]).
+   - The household survey shows food away from home at only **2.8% of consumption nationally and 3.5% in urban areas** (≈1,709 / 2,293 AMD per person per month; ILCS 2024, via A1 [44]). *Fact-check note: figures confirmed against Armstat Tables 3.5–3.6, but they are a survey floor, not a hard cap. A1 shows 2024 food-service turnover implies ≈8,444 AMD per resident per month, about 5× the ILCS figure, because ILCS misses tourists, business spending and high-income non-response. For a highway site serving travellers, treat 2.8–3.5% as the typical household's willingness to spend, not as a ceiling on the ticket.*
    - In Caucasus Barometer 2024, **38%** of households say money is enough "for food only" or "not even for food". Only **19%** can afford durables or "anything" (VERIFIED [29]).
 3. **The local price anchors for snack food are very low, and they are visible in supermarkets on the way.** All prices are AMD, Oct 2026:
 
@@ -52,13 +54,13 @@
    Sources are REPORTED from Glovo and VERIFIED from the SAS and Grand Candy e-shops, §3.3. A drive-thru cannot charge a large premium for a commodity local pastry. The premium has to come from convenience, freshness, speed and bundling.
 4. **American donuts have a low local price anchor, and that anchor makes them risky.** KFC Armenia already sells filled donuts at 650 AMD and Cofix at 880 AMD (Glovo). A Grand Candy ponchik costs 150 AMD. A US-style donut at 800–1,000 AMD is therefore **5–7 times the local ponchik price** (ESTIMATE). A "fresh-filled Armenian ponchik" at 350–450 AMD is the safer play (ASSUMPTION).
 5. **The sweet iced-coffee niche is already served cheaply. A US-style menu and price level face strong local substitutes.**
-   - Coffee House sells Kinder/Nutella drinks, frappés and shakes at 1,400 AMD, smoothies at 1,100 AMD, matcha at 1,000–1,100 AMD and protein shakes at 1,600 AMD (Glovo [7]). It also runs an M4 drive-thru (A2).
+   - Coffee House sells Kinder/Nutella drinks, frappés and shakes at 1,400 AMD, smoothies at 1,100 AMD, matcha at 1,000–1,300 AMD and protein shakes at 1,600 AMD (Glovo [7]). *Fact-check correction: matcha range was 1,000–1,100; cream-cheese matcha latte and sky matcha are 1,300.* It also runs an M4 drive-thru (A2).
    - Cofix lists 12 iced coffee SKUs on Glovo at 550–1,760 AMD [8].
    - SAS stocks **65 ready-to-drink iced coffee SKUs**, 28 of them Armenian-made, including Starbucks ready-to-drink coffee at 1,250 AMD for 220 ml (VERIFIED [23]).
 6. **The energy-drink habit is visible, and retail prices put a ceiling on a Dutch Bros-style "Rebel" drink.**
-   - SAS's energy/cocktail category holds 151 SKUs. Brands include Burn, Red Bull, Monster, Adrenaline Rush, Lit, Jaguar, Revo, Gorilla, Flash Up, Max Power and Boom.
-   - Retail prices run from **280 to 990 AMD** per can. A 250 ml Red Bull is 670 AMD and a 500 ml Monster is 990 AMD (VERIFIED [22]). KFC sells Burn at 800 AMD [6].
-   - A customised energy drink at 1,500–1,800 AMD is 2–3 times the price of a can. We estimate its food cost at about 40–50% when built on retail cans, against about 30% for lemonade (ESTIMATE, §3.11).
+   - SAS stocks about **75–85 energy-drink SKUs** within a 151–153 SKU "cocktails, energy drinks, low-alcohol beverages" category. Energy brands include Burn, Red Bull, Monster, Adrenaline Rush, Lit, Jaguar, Revo, Gorilla, Flash Up, Max Power and Boom. *Fact-check correction: was "energy/cocktail category holds 151 SKUs"; the category also contains alcoholic RTD brands (Absolut, Bacardi, Jack Daniel's, Smirnoff, Le Coq, Очаково, Santo Stefano, etc.), and summing energy-brand counts gives only ≈75–85.*
+   - Retail prices run from **280 to 990 AMD** per can. A 250 ml Red Bull is 670 AMD and a 500 ml Monster is 990 AMD (VERIFIED [22]). KFC sells Burn at 800 AMD [6]. *Fact-check note: the Max Power 280 AMD lower bound was not on page 1 at re-check and could not be re-seen; the lowest re-confirmed can is Boom 450 ml at 340 AMD.*
+   - A customised energy drink at 1,500–1,800 AMD is 2–3 times the price of a can. We estimate its food cost at about **33–40%** of the menu price when built on retail cans (Burn base ≈33%, Red Bull base ≈40%), against about 25% for lemonade (ESTIMATE, §3.11). *Fact-check correction: was 40–50% vs ≈30%; §3.11 compared VAT-inclusive cost with ex-VAT price and mis-added the Rebel cost (643, not 660 AMD).*
    - We could not verify any age-of-sale rule for energy drinks (gap).
 7. **The health and alternative-milk trend is real and supplied locally.**
    - SAS lists **24 plant-milk SKUs, 5 of them barista grade**. Examples are Alpro Barista Oat at 1,410 AMD/L, OraSi Barista at 1,840–2,090 AMD/L, Valsoia, and Nushanush, a local almond milk.
@@ -71,11 +73,11 @@
    - Fish should **not** be on a drive-thru menu: only 2% of adults ate fish on the recall day [35], and fish brings odour, cooking-time and supply-legality risks.
    - Dried-fruit stands are a food-safety risk to avoid. A 2026 study found aflatoxin levels above EU limits in dried fruit from Yerevan open markets (VERIFIED abstract [39]).
 10. **Local supply is deep enough to run an outsourced pastry model on day one.** Verified suppliers and brands:
-    - **Bakery and pastry:** Grand Candy (19 Yerevan stores, 470 catalogue entries); SAS Sweet/SAS Product private label (52 bakery SKUs); Nor-Nar (Gavar gata); Zeytun; Levrim; Tnakan (ready pies); Karas (10 branches, including Abovyan on the M4 corridor).
+    - **Bakery and pastry:** Grand Candy (19 Yerevan stores, 470 catalogue entries); SAS Sweet/SAS Product private label (52 bakery SKUs); Nor-Nar (Gavar gata); Zeytun; Levrim; Tnakan (ready pies); Karas (10 branches, including Abovyan on the M4 corridor; the Abovyan branch is in town at 1/70 Hanrapetutyan Ave, not on the highway frontage).
     - **Dairy:** Marianna, Ashtarak Kat (Ashtarak Milk LLC), Bonilat, Yeremyan Products, Aparan (tan) and others.
     - **Water:** Bjni, Jermuk, Noy, Byuregh, Aparan.
 
-    The weak point is economics, not availability. Bought-in local pastries yield a food cost of only about 45–67% of net price at defensible menu prices. In-house wraps and sandwiches come in at about 29–39% (ESTIMATE, §3.11).
+    The weak point is economics, not availability. Bought-in local pastries carry a food cost of about **37–56%** of the menu price at defensible menu prices. In-house wraps come in at about **29–33%** (24–28% with a purchasing discount) (ESTIMATE, §3.11). *Fact-check correction: was 45–67% and 29–39%. §3.11 compared a VAT-inclusive purchase cost with an ex-VAT menu price, overstating every food-cost % by ≈1.2×. On a consistent basis (cost ÷ VAT-inclusive menu price under the catering turnover tax C4 recommends for year 1, or ex-VAT ÷ ex-VAT under VAT) the levels fall; the ranking is unchanged.*
 11. **Recommendation, as an assumption to be tested.** Use a "coffee + Armenian hand-held" menu of 10–14 food SKUs:
     - **Core items:**
       - Fresh-filled ponchik.
@@ -103,7 +105,7 @@
 | 6 | Adults eating eggs (scrambled / boiled) on recall day | 17% / 10% | as above | VERIFIED / ESTIMATE (238 and 142 of 1,400) | [35] |
 | 7 | Most-consumed fast foods in Yerevan (mean g/day) | Pastry 76.1; fried chicken 53.1; hot dog/burger 50.0; shawarma 49.3; pancake/doughnut 41.4; chips 36.2; pie 35.0; pizza 33.9; khachapuri 32.2; fries 27.9; popcorn 14.7 | FFQ autumn 2019, n = 423, ages 18–65 | VERIFIED | Pipoyan et al. 2022 [34] |
 | 8 | Mean fast-food frequency, Yerevan adults | ≈1×/week (0.38–1.93) | 2019 | VERIFIED | [34] |
-| 9 | Food away from home, share of consumption | 2.8% national; 3.5% urban (1,709 / 2,293 AMD/person/month) | ILCS 2024 | VERIFIED (via A1) | A1 [44] |
+| 9 | Food away from home, share of consumption | 2.8% national; 3.5% urban (1,709 / 2,293 AMD/person/month). *Fact-check note: survey floor; A1's turnover-based figure is ≈8,444 AMD/resident/month (≈5×)* | ILCS 2024 | VERIFIED (via A1) | A1 [44] |
 | 10 | Households: money enough only for food, or not even for food | 38% (12% + 26%) | CB 2024 (Jul–Oct 2024) | VERIFIED | CRRC [29] |
 | 11 | Households owning a car | 46% (ILCS 2024: 41.2%) | CB 2024 | VERIFIED | CRRC [30]; A1 [44] |
 | 12 | Fast "always/often" when religion requires (denomination members) | 4% (never: 83%) | CB 2024 | VERIFIED | CRRC [32] |
@@ -118,7 +120,7 @@
 | 21 | Hot dog | 300–1,400 AMD | Oct 2026 | REPORTED / VERIFIED | [2][4][12][16] |
 | 22 | Tan (ayran-type yogurt drink) | Retail 210–580 AMD (20 SKUs); fast food 470–550 per 0.5 L | Oct 2026 | VERIFIED / REPORTED | SAS [20]; Glovo [3][5][2] |
 | 23 | Fresh juice 0.5 L / lemonade / smoothie | 1,000–1,700 / 1,100–1,800 / 1,100 AMD | Oct 2026 | REPORTED | Glovo [2][7] |
-| 24 | Energy drinks, retail | Burn 250 ml 510; Red Bull 250 ml 670; Monster 500 ml 990; Max Power 280 AMD | Oct 2026 | VERIFIED | SAS [22] |
+| 24 | Energy drinks, retail | Burn 250 ml 510; Red Bull 250 ml 670; Monster 500 ml 990; Max Power 280 AMD. ≈75–85 energy-drink SKUs within a 151–153 SKU cocktails/energy/low-alcohol category. *Fact-check: Max Power 280 not re-seen on 10 Oct 2026; other prices re-confirmed* | Oct 2026 | VERIFIED (Max Power price unconfirmed) | SAS [22] |
 | 25 | Ready-to-drink iced coffee SKUs at SAS | 65 (28 Armenian-origin); Starbucks RTD 1,250 AMD/220 ml | Oct 2026 | VERIFIED | SAS [23] |
 | 26 | Plant-milk SKUs at SAS / barista-grade | 24 / 5; Alpro Barista Oat 1,410 AMD/L | Oct 2026 | VERIFIED | SAS [19] |
 | 27 | Whole milk retail (Marianna 3.2%) | 610 AMD / 950 ml (≈642 AMD/L); Numbeo avg 592/L | Oct 2026 | VERIFIED / REPORTED | SAS [18]; Numbeo [28] |
@@ -185,9 +187,11 @@ Delivery-aggregator coverage is partial: menu.am has moved to Yandex Eats, which
 - **Trans-fat regulation.** Trans fats are regulated only in fats and oils, under EAEU TR CU 024/2011 (limit 2% of fat since Jan 2018); prepared foods are not covered [34].
 - **What we found no data on.** No Armenian survey measures attitudes to "American" fast food, brand preferences or willingness to pay. None of MPG/Gallup International, Breavis or Ipsos published accessible studies (gap, §5).
 
-**Affordability anchor.** A2 calculates that a 1,950 AMD cappuccino costs about 1.1 hours of average gross pay (314,196 AMD per month in Aug 2026, about 1,775 AMD per hour at 177 hours). On the same basis (ESTIMATE):
-- a 2,000 AMD drink + pastry combo costs about **1.1 hours**;
-- Numbeo's 3,825 AMD fast-food combo costs about **2.2 hours** [28].
+**Affordability anchor.** A2 calculates that a 1,950 AMD cappuccino costs about 1.1 hours of average gross pay (314,196 AMD per month in Aug 2026 ÷ 173.3 h ≈ 1,813 AMD per hour). On the same basis (ESTIMATE):
+- a 2,000 AMD drink + pastry combo costs about **1.1 hours** (2,000 ÷ 1,813);
+- Numbeo's 3,825 AMD fast-food combo costs about **2.1 hours** (3,825 ÷ 1,813) [28].
+
+These use **gross** wages. Take-home pay is about 25% lower after 20% income tax and 5% pension contribution, so the real burden is about a third higher (e.g., the combo ≈1.5 h and the Numbeo combo ≈2.8 h of net pay; ESTIMATE). *Fact-check correction: the hours basis was given as 177 h / 1,775 AMD/h and attributed to A2; A2 actually uses 173.3 h / 1,813 AMD/h. The Numbeo combo moves from 2.2 h to 2.1 h; conclusions unchanged.*
 
 ### 3.3 Grab-and-go foods: what is sold and at what price (Oct 2026)
 
@@ -223,14 +227,14 @@ Delivery-aggregator coverage is partial: menu.am has moved to Yandex Eats, which
 | **Armenian coffee (soorj/jezve)** | The dominant home and office format. About 89% of green imports come from robusta origins (A2). Cofix sells instant "coffee mix" at 550 (Glovo) | VERIFIED via A2 [45]; REPORTED [8] | We found no to-go jezve price benchmark at chains. A local signature item; needs a fast brewing method (ASSUMPTION) |
 | **Espresso drinks, hot and iced** | Coffee House americano 800, cappuccino/latte 1,000, iced latte 1,000; Cofix iced latte 1,320 (Glovo); premium chains up to 1,950 | A2 [45]; [7][8] | Covered by A2. A2 recommends an affordable-premium iced latte at 1,600–1,800 |
 | **Sweet flavoured drinks** (Kinder, Nutella, Oreo, frappé) | Coffee House frappé/shakes 1,400; Cofix Kinder/Nutella hot 770, iced 1,100, milkshakes 1,650 | REPORTED [7][8] | Strong youth signal: both chains run large sweet ranges |
-| **Tea** | Coffee House black/green/herbal 550; citrus tea and "winter punch" 850; iced tea 600–950; matcha latte 1,000–1,100 | REPORTED [7] | Herbal (thyme/mint) is low-cost and on-trend |
+| **Tea** | Coffee House black/green/herbal 550; citrus tea and "winter punch" 850; iced tea 600–950; matcha 1,000–1,300 (matcha latte 1,000, matcha raf 1,100, cream-cheese matcha latte / sky matcha 1,300). *Fact-check correction: was 1,000–1,100* | REPORTED [7] | Herbal (thyme/mint) is low-cost and on-trend |
 | **Tan (salted yogurt drink)** | Retail 210–580 (Aparan 0.5 L 330; carbonated tan 290; Marianna 300 g 230); fast food 0.5 L 470–550; Tashir small 230 g 300 | VERIFIED [20]; REPORTED [3][4][5] | Zero prep. Pairs with savoury pastry. Low margin per unit (§3.11) |
 | **Fresh juices** | 0.5 L: orange 1,200; banana mixes 1,000–1,700; Tashir fresh juices 1,200 | REPORTED [2][4] | Slow and labour-heavy. Fruit waste |
 | **Lemonades** | SAS Food Court 1,100–1,800; Coffee House mojito 1,100, sea-buckthorn (chichkhan) 1,300 | REPORTED [2][7] | Batchable, high margin, summer peak |
 | **Smoothies / protein shakes** | Coffee House smoothies 1,100, detox green 1,400, protein shakes 1,600 | REPORTED [7] | Health trend proxy |
 | **Mineral and spring water** | Jermuk 0.5 L 210 (food court); Bjni 0.5 L 220–250, 1.5 L 360; Bonaqua 0.5 L 170; Noy 0.5 L 180–220; Evian 0.5 L 590 | REPORTED [2]; VERIFIED [21] | Traffic item for road trips |
 | **Soft drinks** | Coca-Cola 0.5 L retail 420; fast food 500–550 | VERIFIED [24]; REPORTED [3][6] | Commodity |
-| **Energy drinks** | Burn 250 ml 510; Red Bull 250 ml 670, 355 ml 920; Monster 500 ml 990; Adrenaline 449 ml 590; Lit 450 ml 680; Jaguar 450 ml 770; Max Power 250 ml 280; Boom 450 ml 340. KFC sells Burn 250 ml at 800 | VERIFIED [22]; REPORTED [6] | A broad, cheap category, which anchors "Rebel" pricing |
+| **Energy drinks** | Burn 250 ml 510; Red Bull 250 ml 670, 355 ml 920; Monster 500 ml 990; Adrenaline 449 ml 590; Lit 450 ml 680; Jaguar 450 ml 770; Max Power 250 ml 280; Boom 450 ml 340. KFC sells Burn 250 ml at 800 | VERIFIED [22] (Max Power 280 not re-seen at fact-check); REPORTED [6] | A cheap category of ≈75–85 SKUs, which anchors "Rebel" pricing. *Fact-check correction: the 151–153 SKU SAS category also includes alcoholic cocktails and low-alcohol RTDs* |
 | **Ready-to-drink iced coffee** | 65 SKUs (28 Armenian-origin): Grand Candy "Tonus" 200 ml 150; Duet 190–210; Kaffa 250 ml 630; Starbucks RTD 220 ml 1,250, Black 270 ml 1,670; no cold-brew labels on page 1 | VERIFIED [23] | Iced coffee is mainstream at retail. The Starbucks brand is already on shelves |
 | **Hot chocolate / cocoa** | Grand Candy cocoa 167 ml 140; Coffee House 600; Cofix 1,100 (Glovo) | VERIFIED [15]; REPORTED [7][8] | Winter and children |
 
@@ -248,7 +252,7 @@ On this basis iced and sweet coffee is mainstream among young urban consumers (R
 | Plant milks | 24 SKUs at SAS. 5 barista-grade (Alpro Barista Oat 1,410/L; OraSi Barista hazelnut, almond, coconut, soy-banana 1,840–2,090/L). Valsoia 1,930/L; local Nushanush almond 1,440/L; Landessa oat-vegan RTD coffee 750 | VERIFIED [19][23] |
 | Lactose-free milk | Parmalat 1,470–1,590/L; Lactel 1,440–1,490/L | VERIFIED [18] |
 | Protein products | Coffee House protein shakes 1,600 (3 SKUs); Cofix protein ball 660; "1Attimo" protein croissant 50 g 1,650 | REPORTED [7][8]; VERIFIED [16] |
-| Matcha | Coffee House 1,000–1,100; Cofix 1,100–1,320 (Glovo) | REPORTED [7][8] |
+| Matcha | Coffee House 1,000–1,300; Cofix 1,100–1,320 (Glovo). *Fact-check correction: Coffee House was 1,000–1,100* | REPORTED [7][8] |
 | Sugar-free soft and energy drinks | Coca-Cola Zero, Monster Zero/Ultra, Lit Original Zero on shelf | VERIFIED [22][24] |
 | Public-health stance | Researchers stress low dietary diversity and push nutrition education and trans-fat monitoring | VERIFIED [34][35][36] |
 | Counter-signal | Confectionery is eaten by 62–73% of adults on the recall day. Sweet bakery is a daily habit, so "healthy" will likely remain an add-on segment, not the core (ASSUMPTION) | VERIFIED [35] |
@@ -295,7 +299,7 @@ Retail prices are used; HoReCa prices would be lower. A **200–300 AMD surcharg
 | Tan | Aparan (6 SKUs), Bonilat (4), Champion, Ayg, Yeremyan, Sisian Kat, Marianna, Merci Milk, SAS | 20 SKUs | VERIFIED [20] |
 | Plant milk | Alpro (incl. Barista Oat), Valsoia, OraSi Barista, Nushanush (local almond) | 24 SKUs | VERIFIED [19] |
 | Water | Bjni, Jermuk (brand filter only), Arzni (filter only), Bonaqua, Aparan, Byuregh, Noy | 167 water SKUs in category | VERIFIED [21] |
-| Energy drinks | Burn, Red Bull, Monster, Adrenaline Rush, Jaguar, Lit, Max Power, Boom, Revo, Gorilla (4), Flash Up (7) | 151 SKUs in cocktail/energy category | VERIFIED [22] |
+| Energy drinks | Burn, Red Bull, Monster, Adrenaline Rush, Jaguar, Lit, Max Power, Boom, Revo, Gorilla (4), Flash Up (7) | ≈75–85 energy-drink SKUs within a 151–153 SKU "cocktails, energy drinks, low-alcohol beverages" category. *Fact-check correction: was "151 SKUs in cocktail/energy category"* | VERIFIED [22] (energy-SKU count is an ESTIMATE from brand-filter counts) |
 
 **Supply implication (ASSUMPTION).** A pastry programme could be bought in daily from 2–3 suppliers: Grand Candy for ponchik and gata, Nor-Nar or Zeytun for Gavar gata, and Tnakan or an SAS-type bakery for pies. That lets the operator open without a bakery. However, contract terms, minimum order quantities, delivery to an M4 site, and whether frozen bake-off formats exist are all **unverified** (gap).
 
@@ -357,6 +361,8 @@ The criteria follow common QSR design logic; every score is an **ASSUMPTION**:
 | Fresh-squeezed juice | 2 | 5 | 1 | 3 | 4 | 2 | **17** | No (offer bottled) |
 | Milkshake (ice-cream based) | 3 | 5 | 3 | 4 | 4 | 2 | **21** | Optional (summer) |
 
+*Fact-check note: all row totals re-added and correct. The Margin scores were set against the pre-correction §3.11 food-cost levels, which were overstated by ≈1.2× (VAT basis). The ranking of items holds, but re-scoring could raise Margin by about 1 point for bought-in gata and khachapuri. Verdicts are judgement calls and do not follow totals strictly (e.g., cookies at 22 are "Add-on" while lahmajo at 20 is "Test").*
+
 ### 3.10 American items: likely to resonate or flop?
 
 | American item | Evidence for | Evidence against | Verdict (ASSUMPTION) |
@@ -365,7 +371,7 @@ The criteria follow common QSR design logic; every score is an **ASSUMPTION**:
 | **Bagels** | One bakery bagel exists (160 AMD) [16]. Green Bean café is known for bagels (A2) | No mass bagel culture. Bread eaters prefer white wheat bread and lavash [35] | **Likely flop** as a core item. Keep at most one bagel SKU, aimed at expats |
 | **Breakfast sandwiches** | Eggs and cheese are Armenian breakfast staples [35]. Commuter direction confirmed (B1). Breakfast skipping is reported as widespread [36] | No grab-and-go breakfast habit found. English muffins and bacon add supply risk and are unfamiliar | **Resonates if localised:** egg, cheese and herbs (plus optional basturma or sujukh) in lavash or matnakash at 1,200–1,600 AMD |
 | **Cold brew** | Iced coffee is mainstream at retail (65 RTD SKUs) [23] and at chains [7][8]. Batch production suits speed | No cold-brew SKUs seen at SAS. The consumer taste is sweet and milky (A2) | **Product yes, label no:** use it as the base for sweet iced drinks rather than selling "black cold brew" |
-| **Energy "Rebels" (Dutch Bros)** | Broad energy category (151 SKUs, 11+ brands) [22]. Night and long-distance drivers. Strong differentiation | Retail cans cost 280–990; a Rebel at 1,500–1,800 is 2–3× the price. Health framing [34][35]. Possible minors restriction unverified | **Limited test** (2–3 SKUs, sugar-free option). Do not make it the brand pillar |
+| **Energy "Rebels" (Dutch Bros)** | Established energy category (≈75–85 SKUs, 11+ brands, within a 151–153 SKU cocktails/energy/low-alcohol category) [22]. *Fact-check correction: was "151 SKUs" as an energy category.* Night and long-distance drivers. Strong differentiation | Retail cans cost 280–990; a Rebel at 1,500–1,800 is 2–3× the price. Health framing [34][35]. Possible minors restriction unverified | **Limited test** (2–3 SKUs, sugar-free option). Do not make it the brand pillar |
 | **Frappé / blended sweet drinks** | Already successful at Coffee House and Cofix [7][8] | Occupied niche at 1,100–1,650 | **Resonates**, but is not a differentiator |
 | **Muffins and cookies** | Already sold at Coffee House and Cofix [7][8] | Commodity | Add-on only |
 | **Pancakes / waffles** | Crepes 500–1,600 and Belgian waffles 800–2,300 at SAS Food Court [2] | Not car-friendly | No |
@@ -374,28 +380,28 @@ The criteria follow common QSR design logic; every score is an **ASSUMPTION**:
 
 **Method.**
 - Bought-in purchase cost is taken as about 75% of the observed retail price. That implies a 33% retail markup (ASSUMPTION; actual supplier quotes needed).
-- Menu prices include 20% VAT; net price = menu price ÷ 1.2. This assumes the operator is VAT-registered at the standard rate; confirm with the tax workstream.
-- Food cost % = cost ÷ net price.
+- Food cost % = cost ÷ **VAT-inclusive** menu price. This is the correct basis under the **catering turnover tax** that C4 recommends for year 1: TT replaces VAT, so the whole menu price is revenue, and TT (effective ≈5–6.5% of receipts) is a separate tax line, not food cost (C4 §1). Under the VAT regime the ratio is the same, because both sides go ex-VAT: input VAT on purchases from VAT-registered suppliers (Grand Candy, SAS, Marianna) is recoverable, so cost ÷ 1.2 and price ÷ 1.2 cancel.
+- *Fact-check correction: the original method divided only the menu price by 1.2 ("net price") while leaving the VAT-inclusive purchase cost unchanged. That overstated every food-cost % by ≈1.2×. All percentages below are restated; the original figures are shown as "was". Align this basis with C2 (which reports COGS on both gross and net-of-VAT bases) and C4 before the figures go into the model.*
 
-| Item | Cost basis | Cost (AMD) | Menu price (AMD) | Food + pack cost % of net | Comment |
+| Item | Cost basis | Cost (AMD) | Menu price (AMD, VAT-incl.) | Food + pack cost % of menu price | Comment |
 |---|---|---|---|---|---|
-| Ponchik, fresh-filled (bought-in shell) | Grand Candy 150 retail × 0.75 | ≈113 | 400 | **≈34%** | Good if customers accept 2.7× the Ponchikanoc price for fresh filling and convenience |
-| Mini gata 175 g (bought-in) | 300 × 0.75 | ≈225 | 600 / 700 | **45% / 39%** | Thin margin. Negotiate or make a smaller 100 g piece |
-| Zhingyalov hats 90 g (bought-in) | 400 × 0.75 | ≈300 | 750 | **48%** | Better made in-house (herbs + dough) |
-| Lahmajo (bought-in) | Karas 480 × 0.75 | ≈360 | 800 | **54%** | Weak. Needs in-house production or a wholesale contract |
-| Cheese puff / khachapuri piece (bought-in) | 400–520 retail × 0.75 | 300–390 | 700 | **51–67%** | Weak at retail-derived cost |
-| **Breakfast lavash wrap (in-house)** | Lavash 50 g 60 + 2 eggs 167 (Numbeo 1,004/12) + cheese 40 g 124 (Numbeo 3,099/kg) + herbs and veg 40 + oil 15 + wrap 50 | ≈457 (≈388 with a 15% purchasing discount) | 1,400 / 1,600 | **39% / 34%** (with discount 33% / 29%) | Best food economics among localised items |
-| Bottled tan 0.5 L | Aparan 330 × 0.75 | ≈250 | 500 | **60%** | Traffic item, not a profit item |
-| Batch lemonade 400 ml | Ingredients 150–250 + cup and lid 80 (ASSUMPTION) | ≈280 | 1,100 | **≈31%** | High margin. Summer |
-| Energy "Rebel" 400 ml | Red Bull 250 ml 670 × 0.75 + syrup 60 + cup and ice 80 | ≈660 | 1,600 | **≈50%** (≈40% on a Burn base) | Weaker than coffee and lemonade |
+| Ponchik, fresh-filled (bought-in shell) | Grand Candy 150 retail × 0.75 | ≈113 | 400 | **≈28%** (was ≈34%) | Good if customers accept 2.7× the Ponchikanoc price for fresh filling and convenience |
+| Mini gata 175 g (bought-in) | 300 × 0.75 | ≈225 | 600 / 700 | **37.5% / 32%** (was 45% / 39%) | Thin margin. Negotiate or make a smaller 100 g piece |
+| Zhingyalov hats 90 g (bought-in) | 400 × 0.75 | ≈300 | 750 | **40%** (was 48%) | Better made in-house (herbs + dough) |
+| Lahmajo (bought-in) | Karas 480 × 0.75 | ≈360 | 800 | **45%** (was 54%) | Weak. Needs in-house production or a wholesale contract. *Fact-check note: the 480 AMD base is a restaurant's (Karas) Glovo delivery price, not a wholesale quote* |
+| Cheese puff / khachapuri piece (bought-in) | 400–520 retail × 0.75 | 300–390 | 700 | **43–56%** (was 51–67%) | Weak at retail-derived cost |
+| **Breakfast lavash wrap (in-house)** | Lavash 50 g 60 + 2 eggs 167 (Numbeo 1,004/12) + cheese 40 g 124 (Numbeo 3,099/kg) + herbs and veg 40 + oil 15 + wrap 50 | ≈456 (≈388 with a 15% purchasing discount; ≈395 if the discount is applied to ingredients only, not packaging) | 1,400 / 1,600 | **33% / 29%** (with discount 28% / 24%) (was 39% / 34%; with discount 33% / 29%) | Best food economics among localised items |
+| Bottled tan 0.5 L | Aparan 330 × 0.75 | ≈248 | 500 | **≈50%** (was 60%) | Traffic item, not a profit item |
+| Batch lemonade 400 ml | Ingredients 150–250 + cup and lid 80 (ASSUMPTION) | ≈280 | 1,100 | **≈25%** (was ≈31%) | High margin. Summer |
+| Energy "Rebel" 400 ml | Red Bull 250 ml 670 × 0.75 + syrup 60 + cup and ice 80 = 642.5 | ≈643 | 1,600 | **≈40%** (≈33% on a Burn base: 510 × 0.75 + 140 = 522.5) (was ≈50% / ≈40%) | Weaker than coffee and lemonade. *Fact-check correction: cost was mis-added as ≈660; on the original (inconsistent) basis it would be ≈48%* |
 
 **Takeaways (ESTIMATE).**
-1. Low, visible retail anchors cap the margin on bought-in Armenian pastries. In-house assembled items and drinks carry the margin.
-2. A plausible food attach scenario:
+1. Low, visible retail anchors cap the margin on bought-in Armenian pastries (about 37–56% food cost for gata, zhingyalov, lahmajo and khachapuri at the lower menu price). In-house assembled items (wrap ≈24–33%) and drinks (lemonade ≈25%) carry the margin. The ranking is unchanged by the fact-check correction; only the levels fell.
+2. A food attach scenario (**downgraded at fact-check; not a base-case model input**):
    - **Inputs (ASSUMPTION; no local data on attach rate):** 30–45% of orders include food, averaging 800 AMD per food item; average beverage ticket 1,300–1,500 AMD (A2).
-   - **Formula:** average ticket = beverage + attach rate × 800.
+   - **Formula:** average ticket = beverage + attach rate × 800 (1,300 + 0.30 × 800 = 1,540; 1,500 + 0.45 × 800 = 1,860).
    - **Result:** about **1,540–1,860 AMD**.
-   - **Status:** to be calibrated in the financial model.
+   - **Status:** ASSUMPTION-driven, unreconciled. *Fact-check correction (downgraded): the arithmetic holds, but the 800 AMD food item and the attach rate are unsupported, and the result contradicts the sibling workstreams: A2 §4.6 says hot savoury food "could raise the ticket to about 3,500–4,000 AMD"; A3 §4.4 plans around a 3,500–4,500 AMD ticket; C2 models 1,691 AMD per drink and 1,130 AMD per food item (croissant/wrap/gata mix). A4's own §3.12 menu prices the hero wrap at 1,400–1,700 and croissant sandwiches at 1,300–1,600, which is hard to square with an 800 AMD average food item. Using C2's inputs at 30–45% attach gives 1,691 + 0.30 × 1,130 ≈ 2,030 to 1,691 + 0.45 × 1,130 ≈ 2,200 AMD. A2/A3's 3,500+ looks optimistic given the affordability evidence in §3.2. Do not feed 1,540–1,860 into the model until A2, A3, A4 and C2 agree on one ticket build-up (drinks per car, price per drink, attach rate, price per food item).*
 
 ### 3.12 Recommended localised drive-thru menu (to test, ASSUMPTION)
 
@@ -423,18 +429,18 @@ The criteria follow common QSR design logic; every score is an **ASSUMPTION**:
 
 1. **"American-style" should describe the service format, not the menu.** The evidence shows a bread-and-pastry diet and once-weekly fast-food habits. Local substitutes cost 80–1,350 AMD and are available at every supermarket and bakery. An American menu (donuts, bagels, English-muffin sandwiches, black cold brew) is the weakest part of the founder's idea. The format itself — speed, a car lane, mobile ordering, consistent quality — is transferable.
 2. **Food is a differentiator against Coffee House, but only if it is hot, savoury and fast.**
-   - Coffee House, the incumbent on the M4, sells sweets but no savoury food on its delivery menu [7].
+   - Coffee House, the incumbent on the M4, sells sweets but no savoury food on its delivery menu [7] (re-confirmed at fact-check: no sandwich items on Glovo).
    - Fuel-station cafés sell hot dogs [27].
    - A hot Armenian breakfast wrap and zhingyalov hats fill a real gap.
 
    **Disconfirming risk:** both incumbents can copy this cheaply within months (ASSUMPTION).
 3. **The ticket is constrained.**
-   - Households spend only 2.8–3.5% of consumption on food away from home, and 38% of households report money "enough only for food" or less [29][44].
+   - Households spend only 2.8–3.5% of consumption on food away from home, and 38% of households report money "enough only for food" or less [29][44]. *Fact-check note: the ILCS share is a survey floor for the typical household, not a hard cap. A1 shows 2024 food-service turnover implies ≈8,444 AMD per resident per month, about 5× the ILCS 1,709, because the survey misses tourists, business spending and high-income non-response. For a highway site serving travellers, this constraint is overstated.*
    - Food prices therefore need to sit at 400–1,600 AMD.
-   - A ticket above about 2,000 AMD will be occasional, except for summer leisure groups heading to Sevan.
-   - Base case: average ticket about 1,500–1,900 AMD with food attach (ESTIMATE).
+   - A ticket above about 2,000 AMD will be occasional among local households, except for summer leisure groups heading to Sevan (ASSUMPTION).
+   - **Average ticket: unreconciled (downgraded at fact-check).** A4's build-up gives about 1,540–1,860 AMD, but it rests on an unsupported 800 AMD food item and attach rate. C2's inputs (1,691 per drink, 1,130 per food item) at 30–45% attach give about 2,030–2,200 AMD; A2 and A3 use 3,500–4,500 AMD, which looks optimistic given the affordability evidence. *Fact-check correction: was "Base case: average ticket about 1,500–1,900 AMD with food attach (ESTIMATE)". Do not use any of these as the base case until A2, A3, A4 and C2 agree one ticket build-up (§3.11).*
 4. **Margins on local pastries are thin.**
-   - Visible retail anchors cap them: bought-in gata, lahmajo and khachapuri run at about 45–67% food cost (ESTIMATE).
+   - Visible retail anchors cap them: bought-in gata, lahmajo and khachapuri run at about 37–56% food cost (ESTIMATE). *Fact-check correction: was 45–67%, which compared a VAT-inclusive cost with an ex-VAT price (§3.11).*
    - A credible plan needs **in-house assembly** (wraps, sandwiches) and **high-margin drinks** (lemonade, iced coffee, tea) to carry the P&L, plus negotiated wholesale contracts.
 5. **Seasonality cuts both ways.**
    - **Summer:** cold drinks, lemonades and tan for Sevan-bound leisure traffic.
@@ -449,7 +455,7 @@ The criteria follow common QSR design logic; every score is an **ASSUMPTION**:
    - Daily confectionery use (62–73%) shows indulgence still dominates [35].
 8. **Energy-drink "Rebels" are a risk.**
    - A Rebel at 1,500–1,800 AMD competes with 510–990 AMD cans.
-   - Its food cost (≈40–50%) is worse than coffee's.
+   - Its food cost (≈33–40%) is worse than coffee's. *Fact-check correction: was ≈40–50% (VAT-basis error and a cost mis-added as 660 instead of 643 AMD; §3.11).*
    - Public-health framing is negative.
    - An age-of-sale rule may exist (unverified).
    - Test it, but do not anchor the brand on it.
@@ -508,7 +514,7 @@ The criteria follow common QSR design logic; every score is an **ASSUMPTION**:
 19. SAS e-shop, Non-dairy drinks (24 SKUs). https://www.sas.am/en/catalog/vochkatnayin/
 20. SAS e-shop, Tan & okroshka (20 SKUs). https://www.sas.am/en/catalog/tan_okroshka/
 21. SAS e-shop, Water (167 SKUs; pages 1–2 viewed). https://www.sas.am/en/catalog/voda/
-22. SAS e-shop, Cocktails/energy drinks (151 SKUs; page 1 viewed). https://www.sas.am/en/catalog/kokteyl_energeticheskiy_napitok/
+22. SAS e-shop, "Cocktails, energy drinks, low-alcohol beverages" (151 SKUs at research, 153 at fact-check on 10 Oct 2026, of which ≈75–85 are energy drinks; page 1 viewed). https://www.sas.am/en/catalog/kokteyl_energeticheskiy_napitok/
 23. SAS e-shop, Ice coffee (65 SKUs; page 1 viewed). https://www.sas.am/en/catalog/kholodnoe_kofe/
 24. SAS e-shop, Refreshing drinks (302 SKUs; page 1 viewed). https://www.sas.am/en/catalog/osvezhayushchiy_napitok/
 25. SAS e-shop, Fresh fish (rainbow trout 3,050 AMD/kg). https://www.sas.am/en/catalog/zhivaya_ryba/
@@ -544,3 +550,36 @@ The criteria follow common QSR design logic; every score is an **ASSUMPTION**:
 - menu.am (Yandex captcha)
 - Yandex Maps Coffee House Drive-Thru menu (timeout)
 - Overpass API mirrors overpass-api.de, overpass.kumi.systems, private.coffee, maps.mail.ru (500/reset/504)
+
+---
+
+## 7. Fact-check log
+
+*Adversarial fact-check, 2026-10-10. Sources re-opened directly; no WebSearch calls; no source was unreachable. Result counts: 16 confirmed, 5 corrected, 1 downgraded, 0 wrong, 0 unverifiable.*
+
+| # | Claim | Result | Correction / evidence |
+|---|---|---|---|
+| 1 | 24HR recall (Pipoyan et al. 2026): n = 1,400; bread/flour 53% of energy; 1,230/1,400 (88%) table vs ≈96% text; 40% pastries; 1,738 kcal (W 1,608, M 1,892); fish 2% (28); scrambled eggs 238 (17%) (§1.1; §2 rows 1–6; §3.1) | Confirmed | PMC13229743 re-opened; every figure matches, including the text/table inconsistency (87.9% vs 96%). No fieldwork year; database cited as a 2023 Nutrients paper, so data are ≥3 years old (disclosed). Minor: Table 2 lists 142 under an "Eggs" group while the text says 11% ate boiled eggs, so labelling 142 as "boiled eggs" is approximate |
+| 2 | Yerevan FFQ (Foods 2022), autumn 2019, n = 423: pastry 76.1 g/day, fried chicken 53.1, hot dog/burger 50.0, shawarma 49.3; ≈1×/week (0.38–1.93); King County 2.07; 90% higher education, 56% male, 66% refused income, mean age 31.9; trans fats ≤2% since Jan 2018 (§1.1–1.2; §2 rows 7–8; §3.2) | Confirmed | PMC9105336 re-opened; all values match (76.09, 53.09, 49.97, 49.26, 41.36; Iran 1.673; age 31.91). TR CU 024/2011 limit went from 20% to 2% in Jan 2018. Data are 7 years old (flagged in §4.10) |
+| 3 | ESTIMATE: dough-based items ≈41% of fast-food grams (§1.1) | Confirmed | 76.1 + 41.4 + 35.0 + 32.2 = 184.7 g ÷ 449.8 g = 41.1%; with pizza 48.6%. Formula now shown inline in §1.1 |
+| 4 | Food away from home 2.8% national, 3.5% urban (1,709 / 2,293 AMD/person/month, ILCS 2024) (§1.2; §2 row 9; §4.3) | Confirmed (caveat added) | Armstat Social Snapshot and Poverty 2025, Tables 3.5–3.6 (rural 604, 1.2%). Caveat added inline: A1 shows food-service turnover implies ≈8,444 AMD/resident/month (≈5× ILCS), so the share is a survey floor, not a hard cap on a highway-site ticket |
+| 5 | CB 2024 ECONSTN: 38% food-only or less; 19% durables/anything. NOMONFD: 14% lacked food money at least monthly; 68% never (§1.2; §2 row 10; §3.2) | Confirmed | ECONSTN 12/26/42/12/7; NOMONFD 2/4/8 and 68. Fieldwork 27 Jul–10 Oct 2024 |
+| 6 | Car ownership 46% (CB 2024) vs 41.2% (ILCS 2024) (§2 row 11; §3.2) | Confirmed | OWNCARS Yes 46 / No 54; ILCS 41.2% consistent with A1 and Armstat poverty_2025_en_4.pdf |
+| 7 | Religious fasting: 4% always/often; 83% never (CB 2024 RELFAST) (§1.8; §2 row 12; §3.6) | Confirmed | Always 2, Often 2, Sometimes 5, Rarely 8, Never 83, DK/RA 1; asked of denomination members only |
+| 8 | Grand Candy ponchik 130/150/150/80 AMD; 19 stores; US donut 5–7× ponchik; 400 AMD ponchik 2.7× (§1.3–1.4; §2 rows 13, 29; §3.3; §3.11) | Confirmed | grandcandy.am prices and 19 store addresses (incl. Mashtots 54) match. The 150 and 80 AMD items are "Ponchikanoc only"; 130 AMD vanilla is the widely available one. 800/150 = 5.3; 1,000/150 = 6.7; 400/150 = 2.67 |
+| 9 | KFC donut 650, Burn 800; Cofix donut 880, banana-Nutella 1,100, milkshakes 1,650; Cofix 12 iced SKUs 550–1,760 (§1.4–1.5; §2 row 14; §3.8) | Confirmed | Glovo menus match. The 12 "Classic cold" items include iced matcha, Kinder and Nutella drinks, so not all are strictly coffee. REPORTED is correct |
+| 10 | Coffee House: shakes/frappés 1,400; smoothies 1,100; matcha 1,000–1,100; protein shakes 1,600 (3 SKUs); no savoury food (§1.5; §3.4; §3.5; §3.8; §4.2) | **Corrected** | Matcha runs **1,000–1,300** (cream-cheese matcha latte and sky matcha 1,300; matcha latte 1,000; matcha raf 1,100). Fixed in §1.5, §3.4, §3.5. All other figures confirmed; no sandwich items. No effect on the decision |
+| 11 | SAS energy drinks: Red Bull 670, Monster 990, Burn 510; "energy/cocktail category holds 151 SKUs"; "broad energy category (151 SKUs, 11+ brands)" (§1.6; §2 row 24; §3.4; §3.7; §3.10) | **Corrected** | Prices re-confirmed (plus Jaguar 770, Boom 340). The category is "Cocktails, energy drinks, low-alcohol beverages", now 153 SKUs, and includes alcoholic RTD brands; energy-brand counts sum to only **≈75–85 SKUs**. Fixed in §1.6, §2 row 24, §3.4, §3.7, §3.10 and source [22]. Max Power 280 AMD was not on page 1 and could not be re-seen (flagged in §1.6 and §2 row 24) |
+| 12 | SAS RTD iced coffee: 65 SKUs, 28 Armenian; Starbucks RTD 1,250 AMD/220 ml (§1.5; §2 row 25; §3.4; §4.9) | Confirmed | "Ice coffee (65)", Armenia filter 28; Starbucks Cappuccino 220 ml 1,250 (5,682 AMD/L); 9 Starbucks SKUs |
+| 13 | ESTIMATE: oat milk +≈115 AMD per 150 ml drink; Alpro Barista Oat 1,410/L; Marianna 642/L; 24 plant-milk SKUs, 5 barista (§1.7; §2 rows 26–27, 33; §3.5) | Confirmed | 0.15 × (1,410 − 642) = 115.2. Alpro on promotion at 1,140 (1–14 Oct 2026); using the regular price is right. With UHT Marianna at 790/L the gap is ≈93 AMD; conclusion holds |
+| 14 | Numbeo Yerevan (upd. 3 Oct 2026): combo 3,825 (2,895–4,990); inexpensive meal 4,000; milk 592/L; eggs 1,004/12; cheese 3,099/kg (§2 rows 27, 34; §3.3; §3.11) | Confirmed | All values match; cheese 1,405.79/lb ÷ 0.4536 = 3,099/kg. 112 contributors. REPORTED is correct |
+| 15 | Affordability: 1,950 AMD cappuccino ≈1.1 h of gross pay at "177 h, ≈1,775 AMD/h" per A2; 2,000 AMD combo ≈1.1 h; Numbeo combo ≈2.2 h (§3.2) | **Corrected** | Wage 314,196 AMD (Aug 2026) confirmed on Armstat. A2 uses **173.3 h → 1,813 AMD/h**, not 177 h. Recomputed: 2,000/1,813 = 1.10 h; 3,825/1,813 = **2.11 h**. Note added that these are gross; net pay is ≈25% lower (20% PIT + 5% pension), so the real burden is ≈⅓ higher. Conclusion unchanged |
+| 16 | §3.11 unit economics: cost = 75% of retail; net price = menu ÷ 1.2; food cost % = cost ÷ net price → ponchik ≈34%, gata 45/39%, zhingyalov 48%, lahmajo 54%, cheese puff 51–67%, wrap 39/34%, tan 60%, lemonade ≈31%; headline "bought-in pastries 45–67%" (§1.10; §3.11; §4.4) | **Corrected** | Arithmetic correct, method inconsistent: a VAT-inclusive cost was divided by an ex-VAT price. Under VAT, input VAT is recoverable (cost ÷ 1.2 too); under the catering TT recommended by C4 for year 1, price is not divided by 1.2. Every % was overstated ≈1.2×. Restated: ponchik **≈28%**; gata **37.5/32%**; zhingyalov **40%**; lahmajo **45%**; cheese puff **43–56%**; wrap **33/29%** (28/24% with discount); tan **≈50%**; lemonade **≈25%**. Headline now **≈37–56%** for bought-in pastries and **≈24–33%** for the wrap. Fixed in §1.10, §3.11 method and table, §4.4. Also noted: lahmajo cost base is Karas's Glovo restaurant price, not a wholesale quote. Ranking unchanged; align tax basis with C2/C4 before modelling |
+| 17 | Energy "Rebel": cost = 670 × 0.75 + 60 + 80 ≈ 660 AMD; ≈50% food cost at 1,600 (≈40% on Burn) (§1.6; §3.11; §4.8) | **Corrected** | 502.5 + 60 + 80 = **642.5**, not 660; ≈48% on the original basis. On a consistent tax basis: **≈40%** (Red Bull), **≈33%** (Burn: 522.5/1,600). Fixed in §1.6, §3.11, §4.8. Still weaker than coffee and lemonade |
+| 18 | In-house wrap: 60 + 167 + 124 + 40 + 15 + 50 ≈ 457 AMD (≈388 with 15% discount); 39%/34% (33%/29%) (§3.11) | Confirmed (with caveats) | Recomputed 456.4 (rounding). The 15% discount was also applied to packaging (≈395 if ingredients only), and the VAT-basis issue (#16) applies: true cost ≈33%/29%, or 28%/24% with discount. Restated in §3.11 |
+| 19 | Average ticket: beverage 1,300–1,500 + 30–45% × 800 = 1,540–1,860 AMD; §4 base case ≈1,500–1,900 (§3.11 takeaway 2; §4.3) | **Downgraded** | Arithmetic checks, but the 800 AMD food item and attach rate are unsupported ASSUMPTIONs and contradict A2 §4.6 (3,500–4,000 with food), A3 §4.4 (3,500–4,500), C2 (1,691/drink, 1,130/food item) and A4's own §3.12 menu prices. With C2 inputs at 30–45% attach: **≈2,030–2,200 AMD**. Base-case label removed in §3.11 and §4.3; do not model until A2, A3, A4 and C2 agree one ticket build-up |
+| 20 | Karas 10 branches incl. Abovyan; lahmajo 480 (690 with cheese), khachapuri 480, tan 0.5 L 470; Max Oil 50+ stations, Max Cafe km 12.2; 10 OSM seafood stalls km ≈68–74 (§2 rows 15, 30–31; §3.6–3.8) | Confirmed | karas.am lists 10 branches; Glovo prices match; maxoil.am "50 and more" stations 24/7; B2 CSV has 10 shop=seafood points at km 68.1–74.1. The Karas Abovyan branch is in town (1/70 Hanrapetutyan Ave), not on the highway frontage (clarified in §1.10) |
+| 21 | Aflatoxins above EU limits in Yerevan open-market dried fruit (Foods 2026, VERIFIED abstract); Sevan trout fishing stopped 1976; IUCN 3.1 extinct per Wikipedia (REPORTED) (§1.9; §3.6) | Confirmed | Crossref 10.3390/foods15081329 (Foods 15(8), 10 Apr 2026) abstract matches; small sample (5 dried-fruit composites). Wikipedia shows status EX, IUCN3.1 (Freyhof 2019). The 1976 Council of Ministers sentence carries a {{Citation needed}} flag, so it is weaker than presented |
+| 22 | §3.9 suitability matrix totals (gata 26, wrap 24, ponchik 23 … fish 10; iced latte 25 … juice 17) (§3.9) | Confirmed | All 25 row totals re-added and correct. Scores are ASSUMPTIONs; verdicts do not strictly follow totals (cookies 22 "Add-on" vs lahmajo 20 "Test"). Margin scores relied on the overstated §3.11 food-cost levels; note added under the matrix that re-scoring could raise gata and khachapuri Margin |
+
+**Fact-checker's overall assessment.** The primary-source data in A4 hold up well: almost every number, unit and date matched and the status tags are appropriate. The errors sit in A4's own analysis. Four matter for the investment decision: (1) the VAT basis of the §3.11 food-cost percentages; (2) the unreconciled average ticket; (3) presenting the ILCS food-away-from-home share as a hard constraint; (4) describing a mixed cocktails/energy/low-alcohol category as a 151-SKU energy category. Stale-data risks are disclosed (FFQ from 2019; 24HR survey with no fieldwork year).

@@ -27,19 +27,27 @@
    - A resident LLC in public catering can stay on turnover tax (TT) at **any revenue level**. It must file a "catering" TT declaration; the declaration overrides the AMD 115M ceiling and the related-party restrictions.
    - **TT replaces both VAT and the 18% profit tax** (Art. 253).
    - 2026 catering formula: **TT = 12% × catering receipts − 9% × documented operating expenses, never less than 3.5% of receipts.** Unused deductions carry forward.
-   - At typical café cost structures this means an **effective rate of about 5–6.5% of gross receipts** (ESTIMATE, §3.11). The VAT regime instead takes 16.67% of every VAT-inclusive sale before input credits, plus profit tax.
+   - At typical café cost structures this means an **effective rate of about 4.5–6.5% of gross receipts** (ESTIMATE, §3.11). That is 5.2% / 6.25% at AMD 150M / 300M with AMD 6M land rent, and 4.5% / 5.9% with the model-wide AMD 18M rent. The VAT regime instead takes 16.67% of every VAT-inclusive sale before input credits, plus profit tax.
+     - *Fact-check correction: the original "5–6.5%" assumed AMD 6M a year of land rent, which contradicts C6/B4 (AMD 15.6–21.6M). Higher documented rent lowers TT. See §3.11.*
 2. **The 2024–2025 reform doubled the headline catering rate and only reached the M4 corridor on 1 Jan 2026** (VERIFIED) [2][3].
    - Law HO-285-N (12 Jun 2024) replaced the old **flat 6%** catering TT with the 12% / 9% / 3.5% formula. It applied in Yerevan from 1 Jan 2025 and **outside Yerevan (Kotayk, Gegharkunik) from 1 Jan 2026**.
    - HO-72-N (26 Mar 2025) widened the deductible expenses to include administrative and selling costs from 2025.
-   - **The SRC's own guidance page still shows the old 6% rate** (last updated 6 Oct 2022) [15]. Any secondary source quoting 6% is out of date.
+   - **The SRC's own guidance page still shows the old 6% rate** (last updated 6 Oct 2022) [15]. Any secondary source quoting 6% is out of date. *Fact-check: source unreachable on 10 Oct 2026; treat as unverified.* (The page body loads dynamically and could not be retrieved. No 2026 figure depends on it: the 12% rate is confirmed from Art. 258 itself, and ARKA (6 Jun 2024) [23] confirms the pre-reform 6%.)
+   - *Fact-check note: part of the M-4 corridor (Nor Nork / Avan) lies inside Yerevan's administrative boundary. A site there has been on the new formula since 1 Jan 2025 and cannot use micro-entrepreneurship (§3.6).*
 3. **Expenses that do not count against TT** (VERIFIED, Art. 258(6) as amended): capex, depreciation, costs incurred on fixed assets (repairs and maintenance), business trips and representation.
    - TT therefore gives **no relief for the heavy capex** of a drive-thru, and a TT payer **cannot recover the 20% VAT** on construction and equipment.
    - That VAT is about 1/6 of the VAT-inclusive capex: **≈ AMD 36M for the mid-range unit** (ESTIMATE, using C1/C2 capex).
-4. **Recommended regime, year 1, single unit, AMD 150–300M receipts: catering turnover tax.** The exception is a high-capex flagship.
-   - Annual cash saving versus the VAT regime is about **AMD 7.7M at 150M and AMD 21.5M at 300M** of receipts (ESTIMATE).
-   - The VAT regime recovers the capex VAT once. As a result, **5-year NPV breakeven (at 14%) is about 186M of receipts for mid-range capex**, ≈86M for lean and ≈344M for flagship. Over 10 years the breakevens fall to ≈132M, ≈53M and ≈242M (ESTIMATE, §3.11).
+4. **Recommended regime for a single unit depends on both capex and revenue. In the study's base case (mid-range capex, AMD 100–150M receipts) the VAT regime is better on 5-year NPV.** Catering TT wins clearly only with lean capex, or with receipts above about AMD 200M at mid capex (ESTIMATE, §3.11(a)).
+   - *Fact-check correction: the original text recommended "catering TT for AMD 150–300M receipts; the exception is a high-capex flagship". That contradicted this file's own breakeven table: the mid-capex 5-year breakeven was ≈186M even on the original timing. It also ignored the study's base revenue of AMD 100–150M (C6-benchmarks.md: base 140M = 150 tx × AMD 2,600 × 360 days).*
+   - Steady-state annual cash saving of TT versus the VAT regime (ESTIMATE): about **AMD 6.9–7.4M at 140M, AMD 7.7M at 150M and AMD 20.4–21.5M at 300M** of receipts. Each range runs from AMD 6M to AMD 18M of land rent.
+   - The VAT regime recovers the capex VAT once, during construction: ≈AMD 36M for a mid-range unit. **With that refund at t=0, the 5-year NPV breakeven at 14% is ≈AMD 200–203M of receipts for mid-range capex, ≈107M for lean and ≈364–375M for flagship.** The 10-year breakevens are ≈145M, ≈60M and ≈257–262M. At the model-wide AMD 18M rent, the mid 5-year breakeven rises to ≈216M (ESTIMATE, §3.11).
+   - At mid capex and G = AMD 100–140M, **TT minus VAT 5-year NPV is −15 to −19M** with the refund at t=0, or −11 to −14M if the refund is 12 months late. The 10-year NPV is roughly break-even (−9 to +3M), and that assumes TT survives for 10 years (item 5, §4.2).
+   - *Fact-check correction (downgraded): the original breakevens (≈186M mid, ≈86M lean, ≈344M flagship; ≈132M, ≈53M, ≈242M over 10 years) discounted the capex-VAT refund by a full year (t=1) without saying so. §3.11 keeps them as a "refund delayed 12 months" scenario for a new company flagged as "risky" under Art. 74(5).*
    - The decision is sticky. Moving from VAT to TT **claws back 20% of the net book value** of assets on which VAT was recovered (Art. 73(14), VERIFIED). You therefore **cannot harvest the capex VAT and then switch**.
 5. **Multi-unit chain: stay on catering TT.** The catering path has no cap and lifts the related-party ban. At an illustrative 5 units × AMD 300M, TT saves about **AMD 98M a year** against roughly AMD 180M of capex VAT forgone, so payback is under 2 years (ESTIMATE).
+   - **Policy risk: the Government has said it intends to abolish turnover tax.** In June 2024 PM Pashinyan said "the turnover tax should be completely abandoned in Armenia… step by step", in favour of a unified tax system. The Ministry of Finance called TT an "extraordinary favourable treatment" (REPORTED, ARKA, 6 Jun 2024 [23]). No 2027 amendment to Arts 253–265 has been enacted yet; the consolidated notes show only the HO-83-N and HO-385-N exclusions.
+   - **Treat TT surviving more than 2–3 years as a key risk.** If TT ends early, the capex VAT forgone at the start cannot be recovered, except possibly gradually under Art. 73(4)(2) (unverified). At G ≤ AMD 200M, TT takes about 3–7 years to repay that VAT.
+   - *Fact-check correction: the original treated TT only as a "policy-dependent concession", did not cite the stated abolition policy, and used 10-year NPVs that assume TT survives 10 years.*
    - **Trap:** once the catering declaration is filed, **all non-catering income is taxed at 20% of turnover** (Art. 258 row 7, VERIFIED). This covers retail bags of beans, merchandise, rent and similar.
    - Put any retail, roastery, wholesale or franchising activity in a **separate VAT-registered entity**.
 6. **Profit tax and payout rules** (VERIFIED) [1]:
@@ -53,7 +61,8 @@
    - Assets **up to AMD 50,000 are expensed immediately**.
 8. **Property tax is now at 100% of cadastral value** (the phase-in was 75% in 2025) (VERIFIED, Art. 229, 233(7)).
    - Rates: **public-purpose (service) buildings 0.3% a year**; unimproved settlement land 1%; industrial land 0.25%; energy, transport and utility land 0.5%. Companies pay half-yearly (1 June, 1 December).
-   - For a mid-range site this is about AMD 0.4–0.9M a year (ESTIMATE). Cadastral values were not obtained.
+   - For a mid-range site this is about **AMD 0.9–1.8M a year if the company owns the plot, or AMD 0.3–0.45M (building only) if the land is leased** (ESTIMATE, §3.8). Cadastral values were not obtained.
+   - *Fact-check correction: the original "AMD 0.4–0.9M" did not match §3.8's own table (≈0.4–0.65M). That table also valued the land at AMD 2,000–8,000/m², far below B4's market evidence for Kotayk suburban plots ($66–150/m² ≈ AMD 24,000–54,000/m²).*
 9. **Local and road levies are small but site-specific.**
    - Abovyan community (Kotayk) 2025 draft rates [18] (REPORTED): catering permit **AMD 18,000 a quarter** for 100–200 m²; **operating after 24:00, AMD 100,000 a year**; outdoor advertising **AMD 1,500 per m² per month**; waste fee **AMD 50 per m²**.
    - Advertising boards on the **interstate M-4 outside settlement limits** pay state **road tax of AMD 10,000 per m² per year** instead (VERIFIED, Art. 190).
@@ -122,8 +131,11 @@
 | 41 | "Armenia" or "Hay" in a trade name | AMD 600,000 a year | Oct 2026 | VERIFIED | [17] |
 | 42 | National trademark state duty | Base duty AMD 1,000. Filing 30×, examination 40× (+15× per extra class), registration 50×, renewal 120× (+10× per extra class). **1 class AMD 120k; 3 classes AMD 150k** (ESTIMATE from the coefficients) | 2026 | VERIFIED | [13] Art. 8, 18(4) |
 | 43 | Madrid Protocol | WIPO basic fee CHF 653 (B/W) or 903 (colour); complementary fee CHF 100 per designation, or the individual fee where a party has one; supplementary CHF 100 per class beyond 3. Armenian office handling fee AMD 30,000; Armenia's individual fee when designated AMD 100,000 (+10,000 per class) | WIPO schedule in force 1 Feb 2023; State Duty law 2026 | VERIFIED | [20]; [13] Art. 18(4)(իբ)–(իգ) |
-| 44 | Effective TT rate, illustrative café | 5.2% of receipts (AMD 150M case); 6.25% (AMD 300M case). Range if wages and rent are *not* deductible: 7.4–8.3% | 2026 rules | ESTIMATE | §3.11 |
+| 44 | Effective TT rate, illustrative café | 5.2% of receipts (AMD 150M case) and 6.25% (AMD 300M case) at AMD 6M land rent; **4.5% and 5.9% at the model-wide AMD 18M rent**. If wages (and rent) are *not* deductible: 7.4–8.3% (computed at 6M rent). *Fact-check correction: rent basis aligned with C6/B4.* | 2026 rules | ESTIMATE | §3.11 |
 | 45 | Capex VAT forgone under TT | ≈ AMD 36M per mid-range unit (20% × ≈180M ex-VAT); ≈18M lean; ≈74M flagship | 2026 | ESTIMATE | C1, C2 capex × 20% |
+| 46 | Stamp duty (military insurance fund), employee | AMD 1,000 a month for gross ≤ AMD 1,000,000; AMD 15,000 above. *Fact-check correction: replaces the unverified "AMD 1,500–15,000 by band".* | from Dec 2025 | REPORTED | [24]; C3 |
+| 47 | Universal health insurance (UHI) | Employee premium withheld: AMD 0 (gross ≤ 200k), 4,800 (200–500k), 10,800 (> 500k) a month. **Draft employer levy AMD 4,400 a month per employee earning ≤ AMD 200k**, from the Dec-2026 payroll if adopted | from Dec 2025 (draft: Dec 2026) | REPORTED (levy: draft) | [24]; C3 |
+| 48 | Turnover-tax policy outlook | Government's stated aim (June 2024) to abandon TT "step by step" for a unified tax system. No amendment to Arts 253–265 enacted for 2027 | 2024 statement; Oct 2026 status | REPORTED | [23]; [1] |
 
 ---
 
@@ -139,7 +151,7 @@
   - HO-385-N: bank dividends taxed at 15%, and bank shareholders barred from TT and micro, from 1 Feb 2027.
   - HO-309-N: e-HDM regime from 1 Jan 2027.
   - HO-391-N: realtor and property-manager rules from 1 Jun 2027.
-- **Source conflict.** The SRC's explanatory page "About turnover tax" [15] still lists catering TT at **6%**, trade at 5% and production at 3.5%. It was last updated on 6 Oct 2022 and is overtaken by HO-285-N.
+- **Source conflict.** The SRC's explanatory page "About turnover tax" [15] still lists catering TT at **6%**, trade at 5% and production at 3.5%. It was last updated on 6 Oct 2022 and is overtaken by HO-285-N. *Fact-check: source unreachable on 10 Oct 2026; treat as unverified.*
   - **I trust the arlis consolidated text and the amending law** because they are the legal acts themselves. The SRC page is only guidance.
   - Online articles or bank guides citing "6% turnover tax for restaurants" should be treated as obsolete for 2026.
 
@@ -241,6 +253,7 @@
 - **(a) Wages and land rent.** My reading is that wages are deductible: Art. 258(6)(1) points to Art. 121(7) "direct costs", which explicitly include the pay of staff in service processes, and to Art. 55(12) documents, which cover payroll. Land rent paid to an individual should also be deductible via Art. 55(13).
   - If SRC disagrees, the effective rate rises to about **7.4% (A) or 7.7% (B)** without wages, and about **8.2–8.3%** without wages, rent and utilities.
   - The TT regime still beats the VAT regime on recurring cash, but by a smaller margin: about AMD 3.3M a year in Case A and AMD 15.3M in Case B (ESTIMATE).
+  - *Fact-check note: 3.3 / 15.3 is the worst case (no wages, rent or utilities). With only wages disallowed, the margin is ≈4.5 / 17.1. All of these use AMD 6M rent. At mid capex, a 3.3M-a-year margin takes about 11 years to repay the ≈36M of capex VAT forgone.*
 - **(b) Fixed-asset costs.** Utilities and cleaning are deductible, but maintenance contracts on equipment fall under the "costs on fixed assets" exclusion.
 - **(c) Retail-type products.** Bottled water and packaged snacks sold through the window are probably "catering" if they are part of the catering service. Bags of coffee beans, mugs and gift cards are probably not, and would be taxed at 20%.
 
@@ -253,6 +266,7 @@
 - Status is chosen per **tax year**. To leave the VAT regime, the TT declaration is filed by 20 Feb of the next year.
 - **VAT → TT:** previously recovered VAT on assets held at the switch date is reversed in the last VAT return, equal to 20% of net book value for fixed assets and 20% of cost for inventory.
   - With 20-year building lives, roughly 95% of building VAT is clawed back after one year. **"Recover capex VAT in the construction year, then switch to TT" therefore yields only a timing benefit** of about one year's use of AMD 36M, worth about AMD 5M at 14% (ESTIMATE). It also carries audit risk.
+  - *Fact-check note: the 5M figure leaves out the VAT that is kept for good after one year of depreciation: ≈5% of building VAT, ≈20% of equipment VAT and 100% of IT VAT, about AMD 3M more. That makes ≈AMD 8M in total, and only if the company runs a full year on the VAT regime.*
 - **TT → VAT:**
   - Unused TT expense deductions × 10 become a profit-tax deduction in the switch period (Art. 264(4)).
   - Fixed assets' tax basis continues with notional TT-period depreciation (Art. 264(2)).
@@ -262,7 +276,7 @@
 ### 3.6 Micro-entrepreneurship
 
 - Applies to resident companies and individual entrepreneurs with prior-year turnover ≤ AMD 24M (≈ USD 66k).
-- **Catering is excluded only inside Yerevan's administrative boundaries** (Art. 267(5)(2), as amended by HO-285-N). An M4 site in Kotayk could technically qualify.
+- **Catering is excluded only inside Yerevan's administrative boundaries** (Art. 267(5)(2), as amended by HO-285-N). An M4 site in Kotayk could technically qualify. *Fact-check note: the Nor Nork / Avan stretch of the M-4 is inside Yerevan, so a site there is excluded.*
 - It is exempt from all state taxes except import taxes, **PIT and pension withholding on wages**, excise, environmental and road tax (Art. 269) (VERIFIED).
 - The status ends the moment turnover passes AMD 24M (Art. 268(1)(2)). The company must then elect TT within 20 days or become a VAT payer.
 - **Implication:** useful only for a seasonal pop-up or test kiosk. A drive-thru at AMD 150–300M a year (≈ AMD 0.4–0.8M a day) would breach the cap within the first 1–2 months (ESTIMATE).
@@ -274,9 +288,13 @@
   - **5%** of salary up to AMD 500,000 a month; **10% − AMD 25,000** above that; the base is capped at 15 × the minimum monthly wage.
   - At the AMD 75,000 minimum wage (REPORTED in A1), the cap is AMD 1,125,000 (ESTIMATE).
   - Withheld from the employee for persons covered by the mandatory scheme (born from 1974 onward, per Art. 5; not re-read in detail).
-- **Employer-side contributions:** I found none in the Tax Code. Armenian payroll levies are employee-side withholdings, so employer cost ≈ gross wage (ASSUMPTION; confirm).
-- **Stamp duty ("military" duty):** a fixed monthly per-employee amount under a separate law, roughly AMD 1,500–15,000 by wage band. **Not verified** (Section 5).
-- **Model:** net pay = gross × (1 − 20% − 5%) − stamp duty, for wages up to AMD 500k a month (ESTIMATE).
+- **Employer-side contributions:** none in force in 2026, so employer cost ≈ gross wage (REPORTED; C3-labor.md §3.4).
+  - **A draft universal-health-insurance (UHI) amendment would add an employer levy of AMD 4,400 a month for each employee earning ≤ AMD 200k gross**, from the Dec-2026 payroll if adopted. This is about AMD 53k per such employee a year (REPORTED, draft e-draft 10624; C3).
+  - Model it as an employer-side cost from Dec 2026 or 2027.
+- **Stamp duty (military insurance fund):** **AMD 1,000 a month** for gross pay up to AMD 1,000,000, and AMD 15,000 above that, from Dec 2025 (REPORTED, PwC Tax Summaries reviewed 30 Jun 2026 [24]; C3).
+- **UHI premium (employee, withheld), from the Dec-2025 payroll:** AMD 0 for gross ≤ AMD 200k; **AMD 4,800 a month for AMD 200–500k**; AMD 10,800 above AMD 500k (REPORTED [24]; C3).
+- **Model:** net pay = gross × 0.75 − AMD 1,000 − UHI premium (0 / 4,800 / 10,800 by band), for wages up to AMD 500k a month. The 0.75 factor is 1 − 20% PIT − 5% pension (ESTIMATE).
+- *Fact-check correction: the original text set employer cost at gross with no employer-side levy and gave stamp duty as "roughly AMD 1,500–15,000 by wage band" (not verified). It left out health insurance and used net pay = gross × 0.75 − stamp duty. That was out of date and contradicted C3-labor.md.*
 
 ### 3.8 Property, land, local and road levies
 
@@ -293,8 +311,13 @@ Mid-range site (140 m² building, 2,500 m² plot, per C1). The cadastral values 
 | Item | Value | Rate | Annual tax |
 |---|---|---|---|
 | Building cadastral value (assume 70–100% of AMD 150M ex-VAT cost) | AMD 105–150M | 0.3% | AMD 315–450k |
-| Land cadastral value (assume AMD 2,000–8,000 per m² × 2,500 m²) | AMD 5–20M | 1% | AMD 50–200k |
-| **Total** | | | **≈ AMD 0.4–0.65M** (ESTIMATE) |
+| Land cadastral value, **if the company owns the plot**. Re-based on B4 asking prices for Kotayk suburban plots ($66–150 per m² ≈ AMD 24,000–54,000 per m²) × 2,500 m², since cadastral value approximates market value | AMD 60–136M | 1% | AMD 0.6–1.36M |
+| **Total, land owned** | | | **≈ AMD 0.9–1.8M** (ESTIMATE) |
+| **Total, land leased** (land tax falls on the landlord, though it may be passed through in rent) | | | **≈ AMD 0.3–0.45M** (ESTIMATE) |
+
+*Fact-check correction: the original land row assumed AMD 2,000–8,000 per m² (AMD 5–20M, tax 50–200k), for a total of ≈AMD 0.4–0.65M. That conflicts with B4-alt-corridors.md, where Abovyan, Ptghni and Arinj ask $66–150 per m². Asking prices may overstate cadastral value, so get a Cadastre extract for the actual plot (gap 5).*
+
+*Fact-check note on local duties (below): the Abovyan annex applies coefficients of 0.5–3.0 to villages in the enlarged community, e.g. Arinj ×3.0 on some lines and Ptghni / Verin Ptghni ×0.5–0.75. A site outside Abovyan town may pay different rates.*
 
 **Local duties and fees** (REPORTED: Abovyan community, Kotayk, draft 2025 decisions on e-draft.am [18][19]; adoption and 2026 rates not checked):
 - Local duty rates are set annually by each community council within the ranges of the Law on Local Duties and Fees. That law was not opened.

@@ -39,7 +39,8 @@ Visitor counts for specific sites (Sevan beaches, Sevanavank, Tsaghkadzor, Dilij
    - **14 % of "tourists" are Armenian citizens**, mostly diaspora, with an average stay of 63 nights.
    - **41 % are Russian citizens** (average stay 25 nights).
    - Only **about 16 % (~0.37 m)** come from nationalities whose average stay is ≤18 nights, the classic short-stay sightseeing profile (ESTIMATE from VERIFIED [1]).
-   - The coach and taxi day-tour segment that passes Sevan is therefore a few hundred thousand people a year, not 2.3 million.
+   - **≈0.6–1.0 m international visitor-trips a year pass Sevan** (point estimate ≈0.81 m; the 2023 International Visitor Survey found that 35.8 % of tourists visit Gegharkunik; REPORTED [18]). Most of them are long-stay and diaspora visitors. The short-stay sightseeing pool within that is ~0.37 m. *Fact-check correction: this bullet previously said the Sevan-passing day-tour segment "is a few hundred thousand people a year, not 2.3 million". That contradicted §3.6, which sizes it at 0.57–1.02 m, and appears to have conflated the ≤18-night pool (0.37 m) with all Sevan visitors.*
+   - **Per-day spending is only moderately higher for sightseers** (IVS 2023, REPORTED [18]). The survey average was US$50.8/day. Leisure visitors spent US$61.8/day (≈1.2× the average and 1.5× visitors to friends and relatives, at US$42.1). Only package tourists (5.4 % of visitors) spent far more, at US$193/day (≈4×). *Fact-check correction: added; see §3.3.*
 3. **Tourism is concentrated in Yerevan. The corridor regions capture only a small share.** VERIFIED [7][9].
 
    | Region | Hotel revenue share, 2025 | Accommodation + food-service turnover share, 2024 |
@@ -67,9 +68,9 @@ Visitor counts for specific sites (Sevan beaches, Sevanavank, Tsaghkadzor, Dilij
    | **B. Hrazdan–Sevan** | 69 | 151 | 2.3 (range 2.0–2.7) | 34 % |
    | **C. Sevan–Dilijan** | 67 | 159 | 2.6 (range 2.2–3.0) | 35 % |
 
-   - Segment A checks against the only measured interurban figure, the M-1 counter at +19.7 % in July (B1).
+   - Segment A's July value (122) is close to the M-1 counter's +19.7 % in July (B1). That is only a **loose plausibility check**: the M-1 data are Roads Department figures of ~2005–09 (period inferred) for a different corridor with no Sevan or Tsaghkadzor leisure overlay. The real validation will be the 7-day summer and February counts (§5). *Fact-check correction: previously presented as a validation.*
    - The model placeholder (Jan 0.66, Aug 1.46) matches segment B. It overstates seasonality for a Yerevan-edge site.
-6. **The Sevan beach season is short.** Coastal water reaches ~21 °C only in July–August (21.2 °C in both months of 2026), and it was 15.4 °C in October 2025 (VERIFIED, Armstat/Hydromet [6]). The swimming peak is about 8–12 weekends, ending around Independence Day (21 Sept).
+6. **The Sevan beach season is short.** Coastal water reaches ~21 °C only in July–August (21.2 °C in both months of 2026), and it was 15.4 °C in October 2025 (VERIFIED, Armstat/Hydromet [6]). The swimming peak is about **8–12 summer weekends (~16–24 weekend days)**, ending around Independence Day (21 Sept). *Fact-check correction: this peak definition is now used consistently in §1.11 and §4.2, which previously said "~10–14 weekends" and "~10–14 weekend days".*
 
    Winter at Sevan (~1,940 m) is long and hard (ESTIMATE, Open-Meteo/ERA5 2016–25 [14]):
 

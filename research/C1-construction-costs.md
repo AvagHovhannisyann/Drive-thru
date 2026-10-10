@@ -9,13 +9,14 @@
 
 ## 1. Executive summary
 
-1. **The three build options come out at roughly $255k, $505k and $1.04M (all-in, excl. land and equipment).** These are ESTIMATES.
-   - Lean modular: **≈ AMD 92M (≈ $254k)**.
-   - Mid-range steel-frame: **≈ AMD 183M (≈ $506k)**.
-   - Flagship architect-designed: **≈ AMD 376M (≈ $1.04M)**.
-   - All three include VAT, soft costs and a 10–12% contingency. If the company is VAT-registered and recovers input VAT, net cash cost is about 1/6 lower.
+1. **The three build options come out at roughly $325k, $545k and $1.06M (all-in, excl. land and equipment, greenfield M4 site with norm-compliant access lanes).** These are ESTIMATES.
+   - Lean modular: **≈ AMD 118M (≈ $327k)**; range AMD 116–126M ($320–347k) depending on the access-lane length. With an existing compliant access instead of new lanes: ≈ AMD 92M ($255k). Co-located on a fuel-station forecourt: ≈ AMD 70.5M ($195k).
+   - Mid-range steel-frame: **≈ AMD 197M (≈ $545k)**; range AMD 195–205M ($538–566k).
+   - Flagship architect-designed: **≈ AMD 382M (≈ $1.06M)**; range AMD 379–386M ($1.05–1.07M).
+   - *Fact-check correction: the earlier totals (AMD 92M / 183M / 376M) carried M4 access works of AMD 7–28M. Road norm ՀՀՇՆ 32-01-2022 Table 31 requires full speed-change lanes costing ≈ AMD 27–36M per greenfield M4 site (§3.4). The totals above also add the EIA Category B state duty (AMD 315k; see §4 item 5).*
+   - All three include VAT, soft costs and a 10–12% contingency. **Use these gross, VAT-inclusive totals as the base case.** *Fact-check correction: the earlier text said net cash cost is "about 1/6 lower" for a VAT-registered company. Sibling C4-tax recommends catering turnover tax for a single unit, under which capex VAT cannot be recovered; registering for VAT during construction and then switching to TT triggers a clawback of 20% of net book value (Tax Code Art. 73(14)), worth only ≈ AMD 5M of timing benefit. The ÷1.2 figure is kept only as a flagship / VAT-regime sensitivity, and even then overstates recovery (duties carry no VAT; many small contractors issue no VAT invoices).*
    - Uncertainty is about **±25–35%**, because most building-system, signage and technology lines have no Armenian quote yet.
-2. **Site works, not the building, drive the budget.** Paving, drainage, lighting, landscaping and M4 access lanes are **31–37% of total cost** (36% lean, 37% mid, 31% flagship), against **21–27% for the building**. The single largest unknown is the highway access works (decel/accel lanes) that the roads authority would require. I carry them at AMD 7–28M per scenario as an ASSUMPTION.
+2. **Site works, not the building, drive the budget.** Paving, drainage, lighting, landscaping and M4 access lanes are **32–47% of total cost** (47% lean, 40% mid, 32% flagship), against **20–24% for the building**. The largest single site item is the highway access works (deceleration and acceleration lanes). Armenian road norm ՀՀՇՆ 32-01-2022 Table 31 requires a 140–230 m acceleration lane, a 90–110 m deceleration lane and an 80 m taper on each for any drive to a roadside building on an IA/IB/IC/II road with ≥ 50 PCU/day. That is ≈ 1,155–1,500 m² of heavy-duty pavement, or **≈ AMD 27–36M per greenfield M4 site** (ESTIMATE; the norm is VERIFIED by the fact-check). I carry AMD 29.2M (lean, mid) and 32.6M (flagship) at the middle column of Table 31. *Fact-check correction (WRONG → fixed): the earlier text said the standard had not been found and carried AMD 7–28M as an ASSUMPTION, which put shares at 31–37% site works and 21–27% building. The lean ~300 m² taper does not comply with the norm. Only a site with an existing access, or with access from a local road or interchange, avoids this cost.*
 3. **Building cost per m² (ESTIMATE, Q4-2026, incl. VAT):**
    - Economy/modular: ≈ **AMD 200–300k/m² ($550–830)**.
    - Standard steel-frame + sandwich panel: ≈ **AMD 250–350k ($690–970)**. My bottom-up mid-range case gives AMD 277k ($766).
@@ -36,13 +37,15 @@
    - Veolia Jur publishes regulated unit prices (Q2-2026, VERIFIED). A 100 m water service line with meter costs **≈ AMD 0.32M**, and a 100 m sewer connection with 2 manholes **≈ AMD 1.2M**, both incl. VAT (ESTIMATE).
    - Supply was rationed to **17 h/day** for selected subscribers in summer 2026 (REPORTED). On-site storage (5–15 m³) is therefore needed.
    - Where there is no public sewer, a packaged biological treatment unit costs roughly **AMD 2–4.5M installed** (ESTIMATE, scaled from Russian list prices). It needs an effluent permit, which I could not verify.
-7. **Go all-electric.** I could not obtain Gazprom Armenia connection fees (the site was unreachable and search returned nothing). The non-residential electricity tariff is **53.48 / 43.48 AMD/kWh day/night** (VERIFIED). A gas connection adds a separate permit path and timeline for little benefit at this scale.
+7. **Go all-electric.** I could not obtain Gazprom Armenia connection fees (the site was unreachable and search returned nothing). The non-residential electricity tariff is **53.48 / 43.48 AMD/kWh day/night** incl. VAT, in force since 1 Feb 2022 (VERIFIED). *Fact-check correction: the key-data table dated this tariff "from Feb 2025". Only the single rate of 54.61 AMD/kWh for consumers who fail to obtain qualified-consumer status or who choose another supplier under the wholesale-market rules took effect on 1 Feb 2025. The model should check whether a commercial consumer could fall into that 54.61 rate.* A gas connection adds a separate permit path and timeline for little benefit at this scale.
 8. **Ground conditions can turn cheap earthworks into expensive ones.** Veolia's regulated unit rates show machine excavation of ordinary soil at **AMD 730–1,400/m³**, against **AMD 7,260–8,580/m³ for rock (hydraulic hammer)**, i.e. 5–10× (VERIFIED). The volcanic plateau terrain along the M4 makes a **geotechnical survey before land purchase** essential.
 9. **US benchmark and ratio.**
    - Dutch Bros spent **$241.1M of capex in FY2025 while opening 141 company-operated shops**, i.e. ≤ $1.71M per opening. That figure is an upper-bound proxy: it includes maintenance and IT capex, and many shops are on build-to-suit or ground leases. Dutch Bros targets lots ≥ 25,000 sq ft (≈ 2,320 m²) (VERIFIED, 10-K).
-   - On that basis the Armenian mid-range build is **≈ 0.3× the US per-shop capex**, and **≈ 0.35–0.5×** on a like-for-like scope (ESTIMATE, low confidence).
+   - A directly disclosed US drive-thru coffee unit cost is much lower. Black Rock Coffee Bar's IPO prospectus (424B4, 15 Sep 2025) gives a **target net capex of $0.6M per unit**, with new-store development costs historically averaging about $600k blended. Sibling C6 reports **$860k gross / ~$650k net** in 2025 (VERIFIED).
+   - The Armenian mid-range build plus coffee and kitchen equipment comes to ≈ **$620k** ($545k from this file plus ≈ $75k equipment from C4/C2). That is **≈ 0.7× a US gross unit cost and ≈ 1.0× a US net unit cost** (ESTIMATE). The flagship (≈ $1.06M before equipment) costs more than a typical US drive-thru coffee unit. **Armenian construction gives no material capex discount against lean US drive-thru coffee formats.**
+   - *Fact-check correction: the earlier text said the mid-range build is "≈ 0.3× the US per-shop capex" and "≈ 0.35–0.5×" like-for-like. Those ratios used the Dutch Bros upper-bound proxy (≤ $1.71M, which includes maintenance and IT capex) and have been removed.*
    - I found no Starbucks per-store build cost (not disclosed publicly).
-10. **Soft costs typically add 10–14% of hard cost.** Armenia's former public-sector norms (Order 41-N, repealed Dec 2024; VERIFIED) set technical supervision at 2% of the estimate (≤ AMD 50M), author supervision at 0.6% and contingency at 5–6%. Private design fees are not published; I assume 5% (lean) to 10% (flagship) of hard cost. Permit state fees are small (≈ AMD 0.2–0.4M for a building up to 500 m²; REPORTED).
+10. **Soft costs typically add 10–14% of hard cost.** Armenia's former public-sector norms (Order 41-N, repealed Dec 2024; VERIFIED) set technical supervision at 2% of the estimate (≤ AMD 50M), author supervision at 0.6% and contingency at 5–6%. Private design fees are not published; I assume 5% (lean) to 10% (flagship) of hard cost. Permit state fees are small (≤ AMD 0.3M for a building up to 500 m²; REPORTED). *Fact-check correction: (a) the hartak.am fees (AMD 75,000 / 150,000) are most likely Yerevan zone-coefficient values; the Law on Local Duties Art. 11 gives AMD 15,000 for a public building ≤ 200 m² and 30,000 × zone coefficient for 200–500 m². (b) Under GD 596-N (sibling C5), a catering building ≤ 300 m² is risk category II. In that category a designer's guarantee letter replaces state design expertise, and a contractor's guarantee replaces technical supervision. Expertise (AMD 0.5–1.5M) and technical supervision (AMD 1.8–4.6M) are therefore optional quality costs, not statutory ones. They stay in the totals but are labelled as optional (≈ AMD 2.3–6.1M per scenario).*
 
 ---
 
@@ -65,7 +68,7 @@
 | 13 | Standard fee coverage limit | Whole settlement area; outside settlement only ≤ 200 m from connection point (extra line/substation charged at ENA average unit costs) | Current rules (guide undated) | REPORTED | [11] |
 | 14 | Maximum connection times | 0.4 kV: 15 working days (simplified, ≤ 30 kVA, no earthworks) or 60 days; 6(10) kV: 90 days; 50% prepayment | Current rules | REPORTED | [11] |
 | 15 | ENA status | Temporary manager since 18 Jul 2025; PSRC revoked licence 17 Nov 2025 (connection-timeline violations cited); nationalisation planned | 2025–2026 | REPORTED | [12] |
-| 16 | Electricity tariff, non-residential 0.38 kV | 53.48 day / 43.48 night AMD/kWh incl. VAT | From Feb 2025, valid 2026 | VERIFIED | [13] |
+| 16 | Electricity tariff, non-residential 0.38 kV | 53.48 day / 43.48 night AMD/kWh incl. VAT; single rate 54.61 for consumers without qualified-consumer status or with another supplier (sub-item "գ") | In force since 1 Feb 2022 (the 54.61 rate since 1 Feb 2025); current Oct 2026. *Fact-check correction: previously "From Feb 2025".* | VERIFIED | [13] |
 | 17 | Net-metering cap (autonomous producer) | ≤ 150 kW per connection point | Current | VERIFIED | [13] |
 | 18 | Veolia unit prices (excl. VAT): crushed-stone base 10 cm / coarse asphalt 6 cm / fine asphalt 4 cm | AMD 1,480 / 5,770 / 4,290 per m² (±75 AMD per cm of base, ±1,000 per cm of asphalt) | Q2 2026 | VERIFIED | [14] |
 | 19 | Veolia: concrete curb 15×30 incl. curb / basalt curb | AMD 7,660 / 10,630 per m (excl. VAT) | Q2 2026 | VERIFIED | [14] |
@@ -79,8 +82,8 @@
 | 27 | Portable generator 14 kW / ATS | AMD 984,000 list / 135,000 list | Oct 2026 | REPORTED | [19] |
 | 28 | Water tariff (non-vulnerable subscribers) | AMD 200.42/m³ | 2026 | REPORTED | [20] |
 | 29 | Water supply regime | 17 h/day for selected subscribers (summer 2026); Veolia lease to Dec 2031; serves ~75% of population | 2026 | REPORTED | [21] |
-| 30 | Construction permit state fee | AMD 75,000 (≤ 200 m² public/industrial); 150,000 (200–500 m²); issued ≤ 15 working days (risk grades 1–4) | 2026 | REPORTED | [22] |
-| 31 | Final act + operating permit (100–500 m²) | AMD 100,000 + 50,000 | 2026 | REPORTED | [22] |
+| 30 | Construction permit state fee | AMD 75,000 (≤ 200 m² public/industrial); 150,000 (200–500 m²); issued ≤ 15 working days (risk grades 1–4). *Fact-check correction: these are most likely Yerevan zone-coefficient values. Law on Local Duties Art. 11 (via C5): AMD 15,000 (public building ≤ 200 m²) and 30,000 × zone coefficient (200–500 m²).* | 2026 | REPORTED | [22]; C5 |
+| 31 | Final act + operating permit | AMD 100,000 + 50,000 (100–500 m²: mid, flagship); AMD 50,000 + 25,000 (< 100 m²: the 90 m² lean building) | 2026 | REPORTED. *Fact-check correction: the lean building falls in the < 100 m² tier.* | [22] |
 | 32 | Former public norms: technical supervision / author supervision / contingency | 2.0% (estimate ≤ AMD 50M), 1.8% (50–100M); 0.6% (civil); 5/6% (public buildings, special design) | Order 41-N, in force 2008 – 11 Dec 2024 | VERIFIED (historical) | [23] |
 | 33 | EAEU import duty, modular steel building units (HS 9406 20) | 5% | 2026 | REPORTED | [24] |
 | 34 | Packaged bio-treatment unit (Eurolos BIO 8, 1.6 m³/d) | RUB 200,600 + RUB 46,000 installation (≈ AMD 0.86M + 0.20M) | 2026 list (Russia) | REPORTED | [25] |
@@ -88,7 +91,9 @@
 | 36 | Dutch Bros AUV / pre-opening cost per new shop / target lot | $2.115M / $180k / ≥ 25,000 sq ft | FY2025 | VERIFIED | [26], [27] |
 | 37 | New-build apartment prices, Yerevan outskirts | From AMD 380k/m² (foundation stage) to 600k/m² (completed) | May 2025 | REPORTED | [28] |
 | 38 | Generic Armenian build-cost guide | $500–800/m² standard, $800–1,200 mid, $1,200–2,000+ premium (residential); commercial +20–30% | "As of 2024", published 29 Apr 2025 | REPORTED (low confidence, law-firm marketing) | [29] |
-| 39 | Scenario totals (excl. land and equipment, incl. VAT) | Lean AMD 91.9M ($254k); mid 183.2M ($506k); flagship 376.3M ($1.04M) | Q4 2026 prices | ESTIMATE | §3.11 |
+| 39 | Scenario totals (excl. land and equipment, incl. VAT; greenfield M4 site with norm-compliant access lanes) | Lean AMD 118.3M ($327k; range 115.7–125.8M); mid 197.1M ($545k; range 194.6–204.8M); flagship 382.3M ($1.06M; range 379.4–386.1M). *Fact-check correction: previously AMD 91.9M / 183.2M / 376.3M, with access works under-scoped (see row 40).* | Q4 2026 prices | ESTIMATE | §3.11 |
+| 40 | M4 speed-change lanes (ՀՀՇՆ 32-01-2022, Table 31; IA/IB/IC/II roads, ≥ 50 PCU/day, incl. drives to roadside buildings) | Acceleration 140–230 m, deceleration 90–110 m, 80 m taper each; width = adjacent lane, 0.75 m separator → ≈ 1,155–1,500 m² heavy-duty pavement ≈ AMD 27–36M incl. markings and design | Norm Order 28-N, amended 04-N 2025 | VERIFIED (norm; opened by the fact-check on arlis.am) + ESTIMATE (cost) | [35]; C5 |
+| 41 | Black Rock Coffee Bar new-unit capex (US drive-thru coffee) | Target net capex $0.6M per unit; historical development cost ≈ $600k blended; $860k gross / ~$650k net in 2025 | Sep 2025 – FY2025 | VERIFIED (via fact-check and C6) | [34]; C6 |
 
 ---
 
@@ -119,7 +124,7 @@ Status: VERIFIED.
 - CBA rate on 9 Oct 2026: **361.93 AMD/USD** [1].
 - The AMD was about 4.6% stronger y/y in Aug 2026 (index 95.4) [2].
 - The 2025 average was 386.82 and the 2026 YTD average 370.81 (ESTIMATE from CBA daily data).
-- **Implication:** at 386.8 AMD/USD (the 2025 average) the mid-range scenario would read $474k instead of $506k. **Model capex in AMD.** Only imported items (modular kits, drive-thru windows, digital boards, generators, packaged treatment units) should be USD/EUR-linked.
+- **Implication:** at 386.8 AMD/USD (the 2025 average) the mid-range scenario would read $510k instead of $545k (fact-check-corrected totals). **Model capex in AMD.** Only imported items (modular kits, drive-thru windows, digital boards, generators, packaged treatment units) should be USD/EUR-linked.
 
 **Escalation assumption for the model (ASSUMPTION): +4–6% p.a. in AMD for 2027 start.** The basis is CPI at 4.4%, PPI at 8.9%, construction volume +25% and the official construction index at +1.5%. I weight towards CPI because labour and margins dominate small projects.
 
@@ -219,17 +224,25 @@ Status: VERIFIED.
 | Landscaping with drip irrigation | AMD 6,500/m² | Assumption |
 | Road markings and signs | AMD 0.4–1.5M lump sum | Assumption |
 
-**Highway access (critical, ASSUMPTION).**
-- A stand-alone site on the M4 will likely need a junction designed to the roads authority's technical conditions (Ministry of Territorial Administration and Infrastructure): deceleration and acceleration lanes, drainage, signage. I did not find the applicable technical standard or any fee.
-- Assumed quantities:
+**Highway access (critical; norm VERIFIED, cost ESTIMATE).**
+- A stand-alone site on the M4 needs a junction designed to the roads authority's technical conditions (Ministry of Territorial Administration and Infrastructure): deceleration and acceleration lanes, drainage, signage.
+- **Applicable standard:** road norm ՀՀՇՆ 32-01-2022 (Order 28-N, amended by 04-N in 2025), the paragraph before Table 31 and Table 31 itself [35]. On IA, IB, IC and II roads, speed-change lanes are required at exits and entries with ≥ 50 PCU/day ("50 բերված միավ./օր և ավել"), including drives to buildings beside the road. Table 31, row 1 (IA/IB/IC/II) sets:
+  - acceleration lane 140 / 160 / 180 / 200 / 230 m;
+  - deceleration lane 110 / 105 / 100 / 95 / 90 m;
+  - an 80 m taper on each lane;
+  - width equal to the adjacent lane, with a 0.75 m separator.
+- Area = (La + Ld) × w + 2 × 0.5 × 80 × w ≈ **1,155–1,500 m²** of heavy-duty pavement (w = 3.5–3.75 m). At the heavy-duty composite of 20,409 AMD/m² plus AMD 3.5–5M for markings, signs and design, that is **≈ AMD 27–36M per greenfield M4 site** (ESTIMATE).
+- Carried quantities (central case = middle column of Table 31: 180 m acceleration + 100 m deceleration + 2 × 80 m tapers; ASSUMPTION pending the MTAI technical conditions):
 
-| Scenario | Assumed access works | Carried cost |
-|---|---|---|
-| Lean | Short taper / shared access, ~300 m² + markings | AMD 7M |
-| Mid | 2 × 100 m × 3.5 m = 700 m² heavy-duty pavement + AMD 3.5M signs/markings/design | AMD 17.8M |
-| Flagship | 2 × 150 m × 3.75 m = 1,125 m² + AMD 5M | AMD 28M |
+| Scenario | Access works carried | Carried cost | Range |
+|---|---|---|---|
+| Lean (greenfield, direct M4 access) | (180 + 100 + 80) m × 3.5 m = 1,260 m² heavy-duty + AMD 3.5M signs/markings/design | AMD 29.2M | AMD 27.1–35.6M |
+| Mid | (180 + 100 + 80) m × 3.5 m = 1,260 m² + AMD 3.5M | AMD 29.2M | AMD 27.1–35.6M |
+| Flagship | (180 + 100 + 80) m × 3.75 m = 1,350 m² + AMD 5M | AMD 32.6M | AMD 30.3–35.6M |
 
-- If the authority requires less, for example on a site with an existing access, the saving is direct.
+- *Fact-check correction (WRONG → fixed): the earlier text said "I did not find the applicable technical standard" and carried AMD 7M (lean, ~300 m² taper), 17.8M (mid, 2 × 100 m × 3.5 m = 700 m²) and 28.0M (flagship, 1,125 m²). The lean taper does not comply with Table 31. Effect on totals, with soft costs and contingency scaled: mid +AMD 11–21M, lean (greenfield) +AMD 24–34M, flagship +AMD 3–10M. Sibling C5 reaches the same norm, but its AMD 43M upper bound double-counts markings (it applies 25,409/m², which already includes them) and mislabels C1's scenarios (700 m² was mid, 1,125 m² was flagship).*
+- Only a site with an existing permitted access, or with access from a local road or an interchange, avoids this cost. For such a site the original lean allowance (AMD 7M for access upgrades and markings) is a reasonable placeholder, giving a lean total of ≈ AMD 92M.
+- Still open: the road category and design speed the MTAI assigns to the relevant M4 section (these select the Table 31 column), drainage culverts, and any fee.
 
 **Ground conditions.**
 - Rock excavation is 5–10× the cost of ordinary soil (table above).
@@ -280,7 +293,7 @@ Status: VERIFIED.
 - All-electric adds water heating and space heating. Inverter heat pumps keep this moderate.
 
 **Tariff and solar.**
-- Non-residential 0.38 kV tariff: 53.48 AMD/kWh day, 43.48 night, incl. VAT [13].
+- Non-residential 0.38 kV tariff: 53.48 AMD/kWh day, 43.48 night, incl. VAT, in force since 1 Feb 2022 under PSRC 478-N (29 Dec 2021) as amended by 448-N (30 Dec 2024) [13]. A single rate of 54.61 AMD/kWh (sub-item "գ", in force since 1 Feb 2025) applies to consumers who fail to obtain qualified-consumer status or who choose another supplier under the wholesale-market rules. *Fact-check correction: the effective date was previously given as Feb 2025; the model should check whether the business could fall into the 54.61 rate.*
 - Net metering is available up to 150 kW per connection point [13]. Canopy or roof PV is a credible flagship option (not costed in base).
 
 #### 3.5.2 Water (Veolia Jur or community network)
@@ -385,12 +398,13 @@ The successor document was not located. Private projects are not bound by these 
 **Private design fees.** No published Armenian rates were found. The law-firm example [29] implies ≈ $40–60/m² for a 10,000 m² residential complex, which is not comparable at our scale. **Assumed: 5% (lean, where the modular supplier provides most of the design) / 7% (mid) / 10% (flagship, architect-led) of hard cost.** Small projects carry minimum-fee effects.
 
 **Permits and fees** (hartak.am, the state services portal [22]; REPORTED):
-- Construction permit: AMD 75,000 (≤ 200 m² public/industrial) or 150,000 (200–500 m²); issued within ≤ 15 working days for risk grades 1–4.
+- Construction permit: AMD 75,000 (≤ 200 m² public/industrial) or 150,000 (200–500 m²); issued within ≤ 15 working days for risk grades 1–4. *Fact-check correction: these are most likely Yerevan zone-coefficient values (75,000 = 15,000 × 5). Sibling C5 cites the Law on Local Duties Art. 11: AMD 15,000 for a public building ≤ 200 m², and 30,000 × zone coefficient for 200–500 m². Outside Yerevan the duty is likely lower.*
 - Start-of-works notice: free, ≥ 3 days ahead.
-- Final act: 100,000. Operating permit: 50,000 (100–500 m²).
+- Final act: 100,000 and operating permit: 50,000 (100–500 m²: mid and flagship). For the 90 m² lean building (< 100 m² tier): 50,000 + 25,000. *Fact-check correction: the lean building was previously placed in the 100–500 m² tier; the AMD 75,000 difference sits inside the lean permits lump sum.*
 - Community local fees vary. Abovyan's 2025 draft lists AMD 14,000 for completion recording, and an operating permit at 1% of the permit fee, minimum 14,000 [31].
 - The law-firm guide gives overall pre-construction permitting of 4–9 months in Yerevan (internally inconsistent) [29].
-- Scenarios carry AMD 0.6–1.2M for permits, technical conditions and cadastre, plus AMD 0.5–1.5M for design expertise (ASSUMPTION).
+- **Risk category II simplifications** (GD 596-N, via sibling C5): catering buildings ≤ 300 m² fall into risk category II. A designer's guarantee letter replaces state design expertise, and a contractor's guarantee replaces technical supervision. **State design expertise and technical supervision are therefore optional quality costs, not statutory ones.** *Fact-check correction: they were previously presented as part of the required soft costs.*
+- Scenarios carry AMD 0.6–1.2M for permits, technical conditions and cadastre (ASSUMPTION). They also carry AMD 0.5–1.5M for design expertise and 1.5–1.8% of hard cost for technical supervision as **optional** quality costs (ASSUMPTION; ≈ AMD 2.3–6.1M per scenario), plus the EIA Category B state duty of AMD 315,000 (sibling C5, VERIFIED there), because every costed layout exceeds 1,000 m² of impervious surface (§4 item 5).
 
 ### 3.9 US benchmarks and Armenia-vs-US ratio
 
@@ -402,17 +416,25 @@ The successor document was not located. Private projects are not bound by these 
 - 2026 capex guidance was raised to **$350–370M** (≥ 185 system openings) in Aug 2026 [27].
 - The 10-K flags inflation in "sitework and permitting, construction materials, labor, and equipment".
 
+**Black Rock Coffee Bar** (IPO prospectus 424B4 of 15 Sep 2025 [34]; sibling C6; VERIFIED):
+- "Target Average New Unit Economics at 18 months ... Net Capital Expenditures per Unit $0.6" (US$ M).
+- "Our new store development costs have historically averaged approximately $600,000 per store, which represents a blended cost based on various build types."
+- C6 reports **$860k gross / ~$650k net of landlord allowances** per new store in 2025.
+- This is a directly disclosed US drive-thru coffee unit cost. It is a better benchmark than the Dutch Bros figure, which is an upper-bound proxy (total capex ÷ openings, including maintenance and IT).
+
 **Starbucks / Dunkin'.** No per-store build cost was retrieved. Starbucks does not disclose one. Dunkin' franchise disclosure documents (Item 7) were not accessed because the search quota was exhausted. This is a gap.
 
-**Indicative ratios** (ESTIMATE, low confidence):
+**Indicative ratios** (ESTIMATE, fact-check-corrected totals):
 
-| Armenian scenario | Total | Ratio to Dutch Bros ≤ $1.71M per opening |
-|---|---|---|
-| Lean | $254k | 0.15 |
-| Mid | $506k | 0.30 |
-| Flagship | $1.04M | 0.61 |
+| Armenian scenario | Total (excl. equipment) | Ratio to Dutch Bros ≤ $1.71M per opening (upper-bound proxy only) | Ratio incl. ≈ $75k equipment to Black Rock $860k gross / $600k net |
+|---|---|---|---|
+| Lean (greenfield) | $327k | 0.19 | n/a (lean equipment not costed here) |
+| Mid | $545k | 0.32 | ≈ 0.72× gross / ≈ 1.03× net ($620k) |
+| Flagship | $1.06M | 0.62 | > 1.3× gross (exceeds a typical US unit) |
 
-Adjusting for scope (our figures exclude coffee and kitchen equipment, which Dutch Bros capex includes; Dutch Bros often excludes the building shell), a like-for-like Armenia/US construction ratio is plausibly **≈ 0.35–0.5×**. Labour-intensive items are cheaper in Armenia; imported technology (screens, windows, gensets, modular units) is at parity or more expensive.
+**Armenian construction gives no material capex discount against lean US drive-thru coffee formats.** Labour-intensive items are cheaper in Armenia, but imported technology (screens, windows, gensets, modular units) is at parity or more expensive, and M4 access, utilities and on-site treatment add costs that many US pads avoid.
+
+*Fact-check correction: the earlier text gave ratios of 0.15 / 0.30 / 0.61 to Dutch Bros and called a like-for-like Armenia/US ratio "plausibly ≈ 0.35–0.5×". Against Black Rock's disclosed unit cost, Armenian mid-range plus equipment is ≈ 0.7× US gross and ≈ 1.0× US net. The "0.3×" claim is removed. Equipment ≈ $75k is the C4/C2 mid-range figure (AMD 27M ex-VAT).*
 
 ### 3.10 Contingency, escalation and risk quantification
 
@@ -422,7 +444,8 @@ Adjusting for scope (our figures exclude coffee and kitchen equipment, which Dut
 | Escalation | 4–6% p.a. in AMD from Q4-2026 (§3.1) | ASSUMPTION |
 | Substation / long-line risk | +AMD 10–30M above the carried contingency if a new 10/0.4 kV substation and > 200 m line are required outside a settlement | ASSUMPTION; ENA technical conditions needed |
 | Rock excavation | +AMD 3.5–5M for a typical case (§3.4) | ESTIMATE |
-| Highway access scope | −AMD 7M (shared access) to +AMD 10M (longer lanes, culverts) around the carried values | ASSUMPTION |
+| Highway access scope | Carried AMD 29.2M (lean, mid) / 32.6M (flagship) at the middle column of ՀՀՇՆ 32-01-2022 Table 31. Range −AMD 2M to +AMD 6M around these for the lane-length column (AMD 27.1–35.6M), plus culverts if needed. −AMD 22–33M (before soft costs and contingency) if the site has an existing permitted access or access from a local road or interchange. | ESTIMATE (norm VERIFIED). *Fact-check correction: previously "−AMD 7M to +AMD 10M around carried values of 7–28M", which under-scoped a norm-compliant junction.* |
+| EIA Category B (impervious surface ≥ 1,000 m²) | Every costed layout exceeds the threshold: 1,100 m² (lean), 1,500 m² (mid), 2,100 m² (flagship) of on-site paving, before counting the access lanes. The state duty of AMD 315k is carried. The licensed EIA report is not priced (gap). Schedule +5–7 months, and a community council consent vote can veto the project. | REPORTED (sibling C5, VERIFIED there). *Fact-check addition.* |
 | FX | Every 1% AMD depreciation raises the USD-linked share (~20–30% of capex: modular kit, screens, windows, gensets, packaged treatment unit) by ~1% in AMD | ESTIMATE |
 
 ### 3.11 Three build-cost estimates (line items, AMD and USD)
@@ -432,6 +455,7 @@ Adjusting for scope (our figures exclude coffee and kitchen equipment, which Dut
 - Excludes land purchase and rent, land-use change, coffee and kitchen equipment, furniture, POS/IT, pre-opening costs, financing and working capital.
 - "Veolia" means the Veolia Jur Q2-2026 unit price list [14]. Composite rates are in §3.4.
 - Quantities (paved areas, curb lengths, numbers of poles) are ASSUMPTIONS sized for the plot and lane count stated in each title.
+- All three scenarios assume a **greenfield M4 site with direct highway access**. M4 speed-change lanes are sized to ՀՀՇՆ 32-01-2022 Table 31 (middle column; §3.4). *Fact-check correction: the access lines (L11, M11, F12), the dependent soft-cost and contingency lines, and all subtotals and totals have been recomputed. An EIA Category B state-duty line (37a / 39a) has been added. Expertise and technical-supervision lines are relabelled as optional for a risk-category-II building.*
 
 #### Scenario 1 - LEAN MODULAR (90 m2 building, ~2,000 m2 plot, 1 lane)
 
@@ -447,7 +471,7 @@ Adjusting for scope (our figures exclude coffee and kitchen equipment, which Dut
 | 8 | Site works | LED site lighting poles (installed) | 8 | pcs | 450,000 | 3,600,000 | 9,945 | ASSUMPTION | intl. equipment benchmarks, no AM quote |
 | 9 | Site works | Fencing (welded mesh, partial) | 120 | m | 15,000 | 1,800,000 | 4,972 | ASSUMPTION | no Armenian quote |
 | 10 | Site works | Landscaping basic (no irrigation) | 400 | m2 | 3,000 | 1,200,000 | 3,315 | ASSUMPTION | no Armenian quote |
-| 11 | Site works | Highway access taper / shared access works | 1 | ls | 7,000,000 | 7,000,000 | 19,337 | ASSUMPTION | ~300 m2 heavy pavement + markings; MTAI conditions unknown |
+| 11 | Site works | M4 decel/accel lanes per ՀՀՇՆ 32-01-2022 Table 31 ((180 + 100 + 80) m x 3.5 m, heavy-duty) + signs/markings/design | 1,260 | m2 | ≈ 23,187 | 29,215,340 | 80,705 | ESTIMATE | 1,260 m2 x HD 20,409 + 3.5M AMD markings/signs/design; range 27.1-35.6M. *Fact-check correction: previously AMD 7.0M for a ~300 m2 taper, which does not comply with the norm. Use AMD 7M only for a site with an existing permitted access.* |
 | 12 | Building | Modular building 90 m2 (shell + basic fit-out), delivered & installed | 90 | m2 | 180,000 | 16,200,000 | 44,751 | ASSUMPTION | bottom-up from AM panel/steel prices; no supplier quote |
 | 13 | Building | Foundations / plinth & ground slab | 90 | m2 | 25,000 | 2,250,000 | 6,215 | ESTIMATE | ~0.22 m3 RC/m2 x Veolia RC 92,130 AMD/m3 + VAT |
 | 14 | Building | Food-grade interior upgrade | 90 | m2 | 20,000 | 1,800,000 | 4,972 | ASSUMPTION |  |
