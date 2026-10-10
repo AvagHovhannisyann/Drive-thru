@@ -1,0 +1,1056 @@
+country,query,osm_type,osm_id,amenity,brand,brand_wikidata,name,name_en,drive_through,cuisine,opening_hours,city,lat,lon,osm_base
+AM,intl_brand,node,616054277,fast_food,KFC,Q524757,KFC,KFC,,chicken,Mo-Su 10:00-23:00,Երևան,40.20573,44.50514,2026-10-10T11:04:36Z
+AM,intl_brand,node,2327059455,fast_food,KFC,Q524757,KFC,,,chicken,10:00-24:00,Երևան,40.184559,44.512517,2026-10-10T11:04:36Z
+AM,intl_brand,node,3501547989,fast_food,KFC,Q524757,KFC,,no,chicken,Mo-Su 10:00-23:00,Երևան,40.186552,44.521219,2026-10-10T11:04:36Z
+AM,intl_brand,node,3721912748,fast_food,KFC,Q524757,KFC,KFC,,chicken,Mo-Su 10:00-23:00,Վանաձոր,40.80887,44.492921,2026-10-10T11:04:36Z
+AM,intl_brand,node,4070832320,fast_food,KFC,Q524757,KFC,,,chicken,10:00-23:00,Երևան,40.183628,44.515319,2026-10-10T11:04:36Z
+AM,intl_brand,node,4299181616,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,Երևան,40.17392,44.513969,2026-10-10T11:04:36Z
+AM,intl_brand,node,4609461189,fast_food,KFC,Q524757,KFC,KFC,,chicken,,,40.202235,44.496646,2026-10-10T11:04:36Z
+AM,intl_brand,node,4675188390,fast_food,Burger King,Q177054,Burger King,,,burger,Mo-Su 10:00-00:00,,40.17975,44.487974,2026-10-10T11:04:36Z
+AM,intl_brand,node,5304518321,fast_food,Burger King,Q177054,Burger King,,,burger,Mo-Su 10:00-00:00,Երևան,40.181483,44.514854,2026-10-10T11:04:36Z
+AM,intl_brand,node,7282000259,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-22:00,Երևան,40.180239,44.487586,2026-10-10T11:04:36Z
+AM,intl_brand,node,7282008828,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-22:00,Երևան,40.155529,44.498045,2026-10-10T11:04:36Z
+AM,intl_brand,node,7282201325,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-22:00,Երևան,40.201926,44.50477,2026-10-10T11:04:36Z
+AM,intl_brand,node,9207268701,fast_food,Burger King,Q177054,Burger King,,no,burger,10:00-22:00,,40.180215,44.487632,2026-10-10T11:04:36Z
+AM,intl_brand,node,11311349551,fast_food,Burger King,Q177054,Burger King,,no,burger,,,40.155792,44.498204,2026-10-10T11:04:36Z
+AM,intl_brand,node,11361717247,fast_food,KFC,Q524757,KFC,,,chicken,"Mo-Su,PH 10:00-23:00",,40.178765,44.503519,2026-10-10T11:04:36Z
+AM,intl_brand,node,11396554945,fast_food,KFC,Q524757,KFC,,,chicken,,,40.206139,44.52117,2026-10-10T11:04:36Z
+AM,intl_brand,node,11778952349,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:00,Երևան,40.789885,43.846338,2026-10-10T11:04:36Z
+AM,intl_brand,node,13651988598,fast_food,Wendy's,Q550258,Wendy's,,,burger,Mo-Su 10:00-02:00,,40.179926,44.514035,2026-10-10T11:04:36Z
+GE,drive_through=yes,node,2981681503,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,09:00-01:00,ბათუმი,41.643199,41.618124,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,4040416943,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,08:00-24:00,,41.717626,44.77754,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,4354214322,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,24/7,,41.794369,44.770958,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,4470255389,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,09:00-24:00,,41.790348,44.814791,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,4970034626,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,24/7,ქუთაისი,42.271671,42.706062,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,10082959117,fast_food,,,Adrenaline,Adrenaline,yes,coffee_shop,24/7,,41.706699,44.792514,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,11238167958,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,Mo-Su 08:00-00:00,,41.78708,44.777759,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,11423623529,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,,,41.754095,44.76963,2026-10-10T11:00:34Z
+GE,drive_through=yes,node,11816734960,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,Mo-Su 08:00-01:00,,41.684753,44.870342,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,61978130,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,08:00-24:00,,41.718806,44.778862,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,486755917,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,,,41.683596,44.840606,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,506221384,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,08:00-24:00,,41.727743,44.787892,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1033647460,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,08:00-24:00,,41.787133,44.776746,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1186493428,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,Mo-Su 09:00-01:00,,41.68871,44.924707,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1255966241,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,24/7,,41.669333,44.85606,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1292376794,fast_food,საბვეი,Q244457,საბვეი,Subway,yes,sandwich,Mo-Su 10:00-01:00,,41.637865,41.620399,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1292376795,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,Mo-Su 10:00-01:00,ბათუმი,41.637612,41.620515,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1292376796,fast_food,დანკინ დონათსი,Q847743,დანკინ,Dunkin',yes,donut;bagel;pizza;hot_dog;burger,Mo-Su 10:00-01:00,ბათუმი,41.637619,41.620385,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1300880526,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,Mo-Su 09:00-00:00,ზუგდიდი,42.503909,41.86789,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1349968540,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,08:00-24:00,,41.734859,44.77435,2026-10-10T11:00:34Z
+GE,drive_through=yes,way,1374844216,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,09:00-24:00,,41.749798,44.784728,2026-10-10T11:00:34Z
+GE,intl_brand,node,289358475,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,08:00-24:00,,41.70349,44.789911,2026-10-10T11:03:35Z
+GE,intl_brand,node,390453078,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,no,burger,08:00-24:00,,41.709626,44.796889,2026-10-10T11:03:35Z
+GE,intl_brand,node,2216989232,fast_food,ბურგერ კინგი,Q177054,ბურგერ კინგი,Burger King,,burger,,,41.817363,44.771979,2026-10-10T11:03:35Z
+GE,intl_brand,node,2937229720,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,no,burger,09:00-24:00,,41.711414,44.757752,2026-10-10T11:03:35Z
+GE,intl_brand,node,2981681503,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,09:00-01:00,ბათუმი,41.643199,41.618124,2026-10-10T11:03:35Z
+GE,intl_brand,node,3742757178,fast_food,დანკინ დონათსი,Q847743,დანკინ,Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.71143,44.75763,2026-10-10T11:03:35Z
+GE,intl_brand,node,3984549591,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.657654,41.676173,2026-10-10T11:03:35Z
+GE,intl_brand,node,4040416943,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,08:00-24:00,,41.717626,44.77754,2026-10-10T11:03:35Z
+GE,intl_brand,node,4322749418,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;coffee_shop,Mo-Su 08:00-00:00,,41.723769,44.743267,2026-10-10T11:03:35Z
+GE,intl_brand,node,4354214322,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,24/7,,41.794369,44.770958,2026-10-10T11:03:35Z
+GE,intl_brand,node,4380368277,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,08:00-24:00,,41.71761,44.777651,2026-10-10T11:03:35Z
+GE,intl_brand,node,4381911395,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,Mo-Su 08:00-22:00,,41.689435,44.897562,2026-10-10T11:03:35Z
+GE,intl_brand,node,4470255389,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,09:00-24:00,,41.790348,44.814791,2026-10-10T11:03:35Z
+GE,intl_brand,node,4632134792,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;coffee_shop,,,41.7253,44.75915,2026-10-10T11:03:35Z
+GE,intl_brand,node,4641745890,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,no,chicken,Mo-Su 10:00-22:00,,41.683328,44.841191,2026-10-10T11:03:35Z
+GE,intl_brand,node,4887716321,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,Mo-Su 09:00-10:30,,41.789627,44.814714,2026-10-10T11:03:35Z
+GE,intl_brand,node,4970034626,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,24/7,ქუთაისი,42.271671,42.706062,2026-10-10T11:03:35Z
+GE,intl_brand,node,5358528214,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',no,donut;coffee_shop,08:00-23:00,,41.708922,44.798075,2026-10-10T11:03:35Z
+GE,intl_brand,node,5803284653,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,Mo-Su 10:00-22:30,,41.694652,44.799938,2026-10-10T11:03:35Z
+GE,intl_brand,node,5876124424,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,Mo-Su 08:00-23:00,,42.016323,44.065786,2026-10-10T11:03:35Z
+GE,intl_brand,node,5876124425,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,Mo-Su 08:00-23:00,,42.01634,44.06586,2026-10-10T11:03:35Z
+GE,intl_brand,node,5898107198,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,09:00-24:00,ბათუმი,41.651565,41.636191,2026-10-10T11:03:35Z
+GE,intl_brand,node,6024535688,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,no,,09:00-24:00,,42.270529,42.702146,2026-10-10T11:03:35Z
+GE,intl_brand,node,6464331485,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,თბილისი,41.68967,44.896561,2026-10-10T11:03:35Z
+GE,intl_brand,node,6744430387,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,no,burger;wings;chicken,Mo-Su 09:00-22:00,,41.694223,44.800234,2026-10-10T11:03:35Z
+GE,intl_brand,node,7829898930,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,08:00-24:00,,41.709318,44.767233,2026-10-10T11:03:35Z
+GE,intl_brand,node,8420870797,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;coffee_shop,,,41.736329,44.839054,2026-10-10T11:03:35Z
+GE,intl_brand,node,8663532360,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,42.147991,42.96523,2026-10-10T11:03:35Z
+GE,intl_brand,node,8663532386,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,42.172638,42.933221,2026-10-10T11:03:35Z
+GE,intl_brand,node,8663532387,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,42.17265,42.933076,2026-10-10T11:03:35Z
+GE,intl_brand,node,8663532399,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,42.148011,42.965333,2026-10-10T11:03:35Z
+GE,intl_brand,node,8868037117,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.701046,44.804497,2026-10-10T11:03:35Z
+GE,intl_brand,node,9285497017,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,,,41.721534,44.770126,2026-10-10T11:03:35Z
+GE,intl_brand,node,9306255886,fast_food,ბურგერ კინგი,Q177054,ბურგერ კინგი,Burger King,,burger,,,41.628044,41.602301,2026-10-10T11:03:35Z
+GE,intl_brand,node,9306314609,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.62798,41.602208,2026-10-10T11:03:35Z
+GE,intl_brand,node,9306325077,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;coffee_shop,,,41.627928,41.602129,2026-10-10T11:03:35Z
+GE,intl_brand,node,9680860817,fast_food,ბურგერ კინგი,Q177054,ბურგერ კინგი,Burger King,,burger,11:00-23:00,,41.709269,44.768801,2026-10-10T11:03:35Z
+GE,intl_brand,node,9758962417,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,no,chicken;burger,10:00-24:00,,41.650717,41.635776,2026-10-10T11:03:35Z
+GE,intl_brand,node,9844222544,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;coffee_shop,,,41.679246,44.827286,2026-10-10T11:03:35Z
+GE,intl_brand,node,9878845557,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;coffee_shop,,,41.785108,44.798951,2026-10-10T11:03:35Z
+GE,intl_brand,node,9915054017,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,Mo-Su 08:00-00:00,,41.741442,44.739344,2026-10-10T11:03:35Z
+GE,intl_brand,node,9995976023,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,no,burger;wings;chicken,"Mo-Su,PH 10:00-22:00",,41.563187,44.977633,2026-10-10T11:03:35Z
+GE,intl_brand,node,9995976024,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,no,coffee_shop;donut,Mo-Su 10:00-22:00,,41.563072,44.977496,2026-10-10T11:03:35Z
+GE,intl_brand,node,10023067417,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,Mo-Su 08:00-00:00,,41.774755,44.769281,2026-10-10T11:03:35Z
+GE,intl_brand,node,10287775483,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,coffee_shop;donut,Mo-Su 08:00-00:00,,41.690116,44.808065,2026-10-10T11:03:35Z
+GE,intl_brand,node,10295008336,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.694289,44.800193,2026-10-10T11:03:35Z
+GE,intl_brand,node,10295008436,fast_food,ბურგერ კინგი,Q177054,ბურგერ კინგი,Burger King,,burger,,,41.694757,44.799871,2026-10-10T11:03:35Z
+GE,intl_brand,node,10295008437,fast_food,ბურგერ კინგი,Q177054,ბურგერ კინგი,Burger King,,burger,,,41.694698,44.799932,2026-10-10T11:03:35Z
+GE,intl_brand,node,10690428963,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,8:00-24:00,,41.707346,44.775398,2026-10-10T11:03:35Z
+GE,intl_brand,node,10748977384,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;coffee_shop,08:00-24:00,,41.693324,44.802193,2026-10-10T11:03:35Z
+GE,intl_brand,node,10748977385,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,09:00-24:00,,41.693268,44.802188,2026-10-10T11:03:35Z
+GE,intl_brand,node,10777643906,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,coffee_shop;donut,,,41.69265,44.960668,2026-10-10T11:03:35Z
+GE,intl_brand,node,10777657008,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.684627,44.889391,2026-10-10T11:03:35Z
+GE,intl_brand,node,10794837416,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.748098,44.780341,2026-10-10T11:03:35Z
+GE,intl_brand,node,10989248161,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;chicken;wings,Mo-Su 10:00-22:00,,42.26274,42.669256,2026-10-10T11:03:35Z
+GE,intl_brand,node,11018212492,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,09:00-24:00,,42.270529,42.702118,2026-10-10T11:03:35Z
+GE,intl_brand,node,11103888462,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,42.462383,44.481207,2026-10-10T11:03:35Z
+GE,intl_brand,node,11205635094,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.719857,44.778305,2026-10-10T11:03:35Z
+GE,intl_brand,node,11208065222,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.783592,44.7995,2026-10-10T11:03:35Z
+GE,intl_brand,node,11212280073,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.709854,44.797661,2026-10-10T11:03:35Z
+GE,intl_brand,node,11238167958,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,Mo-Su 08:00-00:00,,41.78708,44.777759,2026-10-10T11:03:35Z
+GE,intl_brand,node,11338992620,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.68783,44.827321,2026-10-10T11:03:35Z
+GE,intl_brand,node,11373966135,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,chicken,,,41.789059,44.765455,2026-10-10T11:03:35Z
+GE,intl_brand,node,11373966138,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;coffee_shop,,,41.759119,44.768213,2026-10-10T11:03:35Z
+GE,intl_brand,node,11373966148,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,coffee_shop;donut,,,41.786375,44.768898,2026-10-10T11:03:35Z
+GE,intl_brand,node,11373992225,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.753948,44.769871,2026-10-10T11:03:35Z
+GE,intl_brand,node,11392595385,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,"Mo-Su 10:30-24:00,00:00-03:00",თბილისი,41.725191,44.799949,2026-10-10T11:03:35Z
+GE,intl_brand,node,11406251578,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.723998,44.730918,2026-10-10T11:03:35Z
+GE,intl_brand,node,11423623529,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,,,41.754095,44.76963,2026-10-10T11:03:35Z
+GE,intl_brand,node,11429360359,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.912828,44.725628,2026-10-10T11:03:35Z
+GE,intl_brand,node,11469941652,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.683374,44.775484,2026-10-10T11:03:35Z
+GE,intl_brand,node,11475907978,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.686204,44.82299,2026-10-10T11:03:35Z
+GE,intl_brand,node,11478634073,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,,,41.724639,44.775662,2026-10-10T11:03:35Z
+GE,intl_brand,node,11533997421,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.635388,41.607673,2026-10-10T11:03:35Z
+GE,intl_brand,node,11610272876,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,coffee_shop;donut,,,41.775995,44.775932,2026-10-10T11:03:35Z
+GE,intl_brand,node,11610272954,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,no,burger;wings;chicken,,,41.774473,44.774638,2026-10-10T11:03:35Z
+GE,intl_brand,node,11758046822,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,,,41.687391,44.89921,2026-10-10T11:03:35Z
+GE,intl_brand,node,11758046854,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,,,41.689495,44.897964,2026-10-10T11:03:35Z
+GE,intl_brand,node,11758446692,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.689647,44.896627,2026-10-10T11:03:35Z
+GE,intl_brand,node,11772375881,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.669053,44.965041,2026-10-10T11:03:35Z
+GE,intl_brand,node,11772375882,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.669123,44.965137,2026-10-10T11:03:35Z
+GE,intl_brand,node,11795456875,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,,,41.81727,44.772012,2026-10-10T11:03:35Z
+GE,intl_brand,node,11795456882,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,coffee_shop;donut,,,41.816719,44.772314,2026-10-10T11:03:35Z
+GE,intl_brand,node,11795456883,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.816661,44.772341,2026-10-10T11:03:35Z
+GE,intl_brand,node,11809978984,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,10:00-03:00,,41.708884,44.771529,2026-10-10T11:03:35Z
+GE,intl_brand,node,11816734960,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,Mo-Su 08:00-01:00,,41.684753,44.870342,2026-10-10T11:03:35Z
+GE,intl_brand,node,11831338110,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.732534,44.79685,2026-10-10T11:03:35Z
+GE,intl_brand,node,11920716686,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,42.112633,43.024883,2026-10-10T11:03:35Z
+GE,intl_brand,node,11942222076,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,coffee_shop;donut,,,41.647616,41.645242,2026-10-10T11:03:35Z
+GE,intl_brand,node,11958671624,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',no,donut;bagel;pizza;hot_dog;burger,Mo-Su 08:00-00:00,,41.724162,44.727813,2026-10-10T11:03:35Z
+GE,intl_brand,node,11959857816,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,08:00-24:00,,41.726834,44.756785,2026-10-10T11:03:35Z
+GE,intl_brand,node,11982784473,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.52181,41.54867,2026-10-10T11:03:35Z
+GE,intl_brand,node,12121880658,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,10:00-23:00,,41.723523,44.776538,2026-10-10T11:03:35Z
+GE,intl_brand,node,12175014287,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;coffee_shop,,,41.722305,44.777023,2026-10-10T11:03:35Z
+GE,intl_brand,node,12231214687,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,no,burger,Mo-Su 08:00-00:00,,41.724404,44.730367,2026-10-10T11:03:35Z
+GE,intl_brand,node,12235127958,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,24/7,,41.751188,44.774127,2026-10-10T11:03:35Z
+GE,intl_brand,node,12326259627,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;coffee_shop,,,41.919423,45.471538,2026-10-10T11:03:35Z
+GE,intl_brand,node,12393502222,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.728695,44.776702,2026-10-10T11:03:35Z
+GE,intl_brand,node,12425650809,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.787673,44.799923,2026-10-10T11:03:35Z
+GE,intl_brand,node,12480648495,fast_food,დანკინ დონათსი,Q847743,დანკინ,Dunkin',,donut;bagel;pizza;hot_dog;burger,,ზუგდიდი,42.507786,41.871511,2026-10-10T11:03:35Z
+GE,intl_brand,node,12522679240,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.720734,44.78569,2026-10-10T11:03:35Z
+GE,intl_brand,node,12531498703,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.643162,42.982809,2026-10-10T11:03:35Z
+GE,intl_brand,node,12766030862,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;chicken;wings,,,41.712242,44.878418,2026-10-10T11:03:35Z
+GE,intl_brand,node,12766030884,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,bagel;burger;donut;hot_dog;pizza,,,41.711966,44.880357,2026-10-10T11:03:35Z
+GE,intl_brand,node,12766134591,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,bagel;burger;donut;hot_dog;pizza,,,41.708572,44.876173,2026-10-10T11:03:35Z
+GE,intl_brand,node,12768307254,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,bagel;burger;donut;hot_dog;pizza,,,41.692715,44.967594,2026-10-10T11:03:35Z
+GE,intl_brand,node,12772474752,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,08:00-24:00,,41.725409,44.747211,2026-10-10T11:03:35Z
+GE,intl_brand,node,12823773517,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.793731,44.771068,2026-10-10T11:03:35Z
+GE,intl_brand,node,12846404882,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,42.182259,42.465807,2026-10-10T11:03:35Z
+GE,intl_brand,node,12889530520,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,41.677197,44.873884,2026-10-10T11:03:35Z
+GE,intl_brand,node,13053641116,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.688604,44.845794,2026-10-10T11:03:35Z
+GE,intl_brand,node,13068522796,cafe,Costa,Q608845,კოსტა კოფი,Costa Coffee,,coffee_shop,,,41.669335,44.964295,2026-10-10T11:03:35Z
+GE,intl_brand,node,13097164311,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,Mo-Su 09:00-00:00,,41.750301,43.528313,2026-10-10T11:03:35Z
+GE,intl_brand,node,13113323825,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,,,41.635361,41.607709,2026-10-10T11:03:35Z
+GE,intl_brand,node,13113335469,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,,,41.635343,41.607737,2026-10-10T11:03:35Z
+GE,intl_brand,node,13206963601,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,08:00-24:00,,41.777233,44.815906,2026-10-10T11:03:35Z
+GE,intl_brand,node,13265842126,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.708962,44.797386,2026-10-10T11:03:35Z
+GE,intl_brand,node,13340501442,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,42.24922,42.69328,2026-10-10T11:03:35Z
+GE,intl_brand,node,13576172601,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,,,41.734421,44.796325,2026-10-10T11:03:35Z
+GE,intl_brand,node,13912283877,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.735531,44.839992,2026-10-10T11:03:35Z
+GE,intl_brand,node,13912283879,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.735644,44.840214,2026-10-10T11:03:35Z
+GE,intl_brand,node,13985745490,cafe,Starbucks,Q37158,სტაებაქსი,Starbucks,,coffee_shop,,,41.711633,44.756911,2026-10-10T11:03:35Z
+GE,intl_brand,node,14076348583,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;wings;chicken,,,41.79355,44.817909,2026-10-10T11:03:35Z
+GE,intl_brand,way,61978130,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,08:00-24:00,,41.718806,44.778862,2026-10-10T11:03:35Z
+GE,intl_brand,way,221731878,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,Mo-Su 08:00-00:00,ქუთაისი,42.256774,42.670621,2026-10-10T11:03:35Z
+GE,intl_brand,way,445085796,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,09:00-24:00,,41.554243,44.984789,2026-10-10T11:03:35Z
+GE,intl_brand,way,486755917,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,,,41.683596,44.840606,2026-10-10T11:03:35Z
+GE,intl_brand,way,506221384,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,08:00-24:00,,41.727743,44.787892,2026-10-10T11:03:35Z
+GE,intl_brand,way,598229692,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,,,,41.715038,44.745336,2026-10-10T11:03:35Z
+GE,intl_brand,way,1033647460,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,08:00-24:00,,41.787133,44.776746,2026-10-10T11:03:35Z
+GE,intl_brand,way,1075605540,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,08:00-24:00,,41.690444,44.80764,2026-10-10T11:03:35Z
+GE,intl_brand,way,1081012247,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',no,donut;bagel;pizza;hot_dog;burger,,,41.724471,44.753187,2026-10-10T11:03:35Z
+GE,intl_brand,way,1156808736,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.704681,44.794031,2026-10-10T11:03:35Z
+GE,intl_brand,way,1186493428,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,Mo-Su 09:00-01:00,,41.68871,44.924707,2026-10-10T11:03:35Z
+GE,intl_brand,way,1255966241,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,24/7,,41.669333,44.85606,2026-10-10T11:03:35Z
+GE,intl_brand,way,1292376795,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,Mo-Su 10:00-01:00,ბათუმი,41.637612,41.620515,2026-10-10T11:03:35Z
+GE,intl_brand,way,1292376796,fast_food,დანკინ დონათსი,Q847743,დანკინ,Dunkin',yes,donut;bagel;pizza;hot_dog;burger,Mo-Su 10:00-01:00,ბათუმი,41.637619,41.620385,2026-10-10T11:03:35Z
+GE,intl_brand,way,1300880526,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,Mo-Su 09:00-00:00,ზუგდიდი,42.503909,41.86789,2026-10-10T11:03:35Z
+GE,intl_brand,way,1316838872,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,,08:00-24:00,,41.735185,44.774076,2026-10-10T11:03:35Z
+GE,intl_brand,way,1349968540,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,yes,burger,08:00-24:00,,41.734859,44.77435,2026-10-10T11:03:35Z
+GE,intl_brand,way,1352947926,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,,,41.730739,44.774327,2026-10-10T11:03:35Z
+GE,intl_brand,way,1374844216,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,yes,burger,09:00-24:00,,41.749798,44.784728,2026-10-10T11:03:35Z
+GE,intl_brand,way,1424986577,fast_food,დანკინ დონათსი,Q847743,დანკინ დონათსი,Dunkin' Donuts,,donut;bagel;pizza;hot_dog;burger,,,42.47079,44.492301,2026-10-10T11:03:35Z
+GE,intl_brand,relation,17845196,fast_food,მაკდონალდსი,Q38076,მაკდონალდსი,McDonald's,,burger,Mo-Su 10:00-22:00,,41.724453,44.737323,2026-10-10T11:03:35Z
+GE,intl_brand,relation,17845197,fast_food,კეი ეფ სი,Q524757,კეი ეფ სი,KFC,,burger;chicken;wings,,,41.724429,44.737067,2026-10-10T11:03:35Z
+GE,intl_brand,relation,17845198,fast_food,დანკინ დონათსი,Q847743,დანკინ',Dunkin',,donut;bagel;pizza;hot_dog;burger,,,41.724417,44.73693,2026-10-10T11:03:35Z
+GE,intl_brand,relation,17845199,fast_food,ბურგერ კინგი,Q177054,ბურგერ კინგი,Burger King,,burger,,,41.724359,44.736742,2026-10-10T11:03:35Z
+GE,intl_brand,relation,17845642,fast_food,ვენდი'ს,Q550258,ვენდი'ს,Wendy's,,burger,,,41.72441,44.736852,2026-10-10T11:03:35Z
+AZ,drive_through=yes,node,1304761821,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,40.402881,49.869975,2026-10-10T11:06:36Z
+AZ,drive_through=yes,node,4523299703,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 08:00-01:00",,40.399515,49.849868,2026-10-10T11:06:36Z
+AZ,drive_through=yes,node,9744012507,fast_food,,,Bir Iki Dönər,BIR-IKI Döner Shop,yes,kebab,,Bakı,40.391419,49.848351,2026-10-10T11:06:36Z
+AZ,drive_through=yes,node,10060576190,fast_food,,,MR. Ribs Steak & Burger,,yes,burger;steak_house,Mo-Su 11:00-01:00,Baku,40.373235,49.836922,2026-10-10T11:06:36Z
+AZ,drive_through=yes,way,1311484800,fast_food,,,Kababxana,,yes,kebab,sunrise-sunset,,39.955171,46.723317,2026-10-10T11:06:36Z
+AZ,intl_brand,node,1304761821,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,40.402881,49.869975,2026-10-10T11:06:36Z
+AZ,intl_brand,node,1474037683,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.371856,49.837799,2026-10-10T11:06:36Z
+AZ,intl_brand,node,2966012004,fast_food,KFC,Q524757,KFC Fəvvarələr Meydanı,,,chicken,Mo-Su 09:00-23:00,,40.370086,49.835851,2026-10-10T11:06:36Z
+AZ,intl_brand,node,4229083298,fast_food,McDonald's,Q38076,McDonald's,,no,burger,Mo-Su 09:00-23:00,,40.417541,49.964505,2026-10-10T11:06:36Z
+AZ,intl_brand,node,4352826894,cafe,Starbucks,Q37158,Starbucks 28 Mall,,,coffee_shop,,,40.379122,49.846648,2026-10-10T11:06:36Z
+AZ,intl_brand,node,4352888589,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,,,40.375547,49.860934,2026-10-10T11:06:36Z
+AZ,intl_brand,node,4373221389,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,,,40.400143,49.851867,2026-10-10T11:06:36Z
+AZ,intl_brand,node,4439003090,cafe,Starbucks,Q37158,Starbucks,Starbucks coffee,,coffee_shop,,,40.369719,49.837061,2026-10-10T11:06:36Z
+AZ,intl_brand,node,4490536189,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.46509,50.051728,2026-10-10T11:06:36Z
+AZ,intl_brand,node,4523299703,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 08:00-01:00",,40.399515,49.849868,2026-10-10T11:06:36Z
+AZ,intl_brand,node,5463546322,fast_food,KFC,Q524757,KFC,KFC,,chicken,,,40.374345,49.953371,2026-10-10T11:06:36Z
+AZ,intl_brand,node,5615860224,fast_food,KFC,Q524757,KFC,,no,chicken,08:00-01:00,,40.380003,49.8494,2026-10-10T11:06:36Z
+AZ,intl_brand,node,5620244722,fast_food,KFC,Q524757,KFC,KFC,,chicken,Mo-Su 08:00-23:00,Gəncə,40.677353,46.359705,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6054228983,fast_food,KFC,Q524757,KFC,,,chicken,,,40.378893,49.847228,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6054228984,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.378964,49.847197,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6054238010,fast_food,Burger King,Q177054,Burger King,,,burger,,,40.400509,49.853572,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6054238029,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.400359,49.852855,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6054241085,fast_food,Burger King,Q177054,Burger King,,,burger,,,40.379437,49.846973,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6054242430,fast_food,KFC,Q524757,KFC,,,chicken,,,40.400312,49.852618,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6054271222,fast_food,McDonald's,Q38076,McDonald's,,,burger,,Gəncə,40.677255,46.359663,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6404834685,fast_food,McDonald's,Q38076,McDonald's Koroğlu,McDonald’s,,burger,Mo-Su 08:00-00:00,Bakı,40.419057,49.91431,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6595747259,fast_food,McDonald's,Q38076,McDonald's,,,burger,,Bakı,40.372177,49.844001,2026-10-10T11:06:36Z
+AZ,intl_brand,node,6595747986,fast_food,McDonald's,Q38076,McDonald's \ 20 Yanvar Bakı,,,burger,,,40.401638,49.810417,2026-10-10T11:06:36Z
+AZ,intl_brand,node,7618933521,fast_food,KFC Amburan \ Bilgəh,Q524757,KFC,,,chicken,,,40.588655,50.057713,2026-10-10T11:06:36Z
+AZ,intl_brand,node,7618933522,fast_food,McDonald's Amburan,Q38076,McDonald's,,,burger,,,40.588403,50.057484,2026-10-10T11:06:36Z
+AZ,intl_brand,node,7619000921,fast_food,Burger King,Q177054,Burger King,,,burger,,,40.358451,49.836924,2026-10-10T11:06:36Z
+AZ,intl_brand,node,7619000922,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.358224,49.837834,2026-10-10T11:06:36Z
+AZ,intl_brand,node,7619000923,fast_food,KFC,Q524757,KFC,,,chicken,,,40.35861,49.837106,2026-10-10T11:06:36Z
+AZ,intl_brand,node,7619003492,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,,,40.358674,49.837423,2026-10-10T11:06:36Z
+AZ,intl_brand,node,8282297721,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.419752,49.846465,2026-10-10T11:06:36Z
+AZ,intl_brand,node,10082586532,fast_food,KFC,Q524757,KFC,,,chicken,,,40.424592,49.960076,2026-10-10T11:06:36Z
+AZ,intl_brand,node,10090512262,fast_food,McDonald's,Q38076,McDonald's,,,burger,,Bakı,40.387873,49.824273,2026-10-10T11:06:36Z
+AZ,intl_brand,node,10967457040,fast_food,McDonald's,Q38076,McDonalds BağçaŞəhər,,,burger,,Sumqayıt,40.573156,49.639761,2026-10-10T11:06:36Z
+AZ,intl_brand,node,10967459446,fast_food,McDonald's,Q38076,McDonald's \ Nargilə Dairəsi,,,burger,,,40.369102,49.937286,2026-10-10T11:06:36Z
+AZ,intl_brand,node,10967473062,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.394478,49.815953,2026-10-10T11:06:36Z
+AZ,intl_brand,node,11039353744,fast_food,McDonald's,Q38076,McDonald's Park Sumqayıt,,,burger,,,40.59208,49.682164,2026-10-10T11:06:36Z
+AZ,intl_brand,node,11758588328,cafe,Costa,Q608845,Costa,,,coffee_shop,Mo-Su 08:00-23:00,Bakı,40.400591,49.853601,2026-10-10T11:06:36Z
+AZ,intl_brand,node,11760387619,fast_food,KFC,Q524757,KFC,,,chicken,,Bakı,40.372395,49.844264,2026-10-10T11:06:36Z
+AZ,intl_brand,node,11780660297,cafe,Costa,Q608845,Costa,,,coffee_shop,Mo-Su 09:00-23:00,Bakı,40.371922,49.837643,2026-10-10T11:06:36Z
+AZ,intl_brand,node,11781518745,cafe,Costa,Q608845,Costa,,,coffee_shop,,Bakı,40.385032,49.828234,2026-10-10T11:06:36Z
+AZ,intl_brand,node,11879472257,fast_food,KFC,Q524757,KFC,,,chicken,,,40.382852,49.823648,2026-10-10T11:06:36Z
+AZ,intl_brand,node,11971358762,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.591848,49.979922,2026-10-10T11:06:36Z
+AZ,intl_brand,node,12043190728,cafe,Costa,Q608845,Costa,,,coffee_shop,Mo-Su 08:00-23:00,Bakı,40.358145,49.837498,2026-10-10T11:06:36Z
+AZ,intl_brand,node,12043237277,cafe,Costa,Q608845,Costa,,,coffee_shop,Mo-Su 08:00-23:00,Bakı,40.36608,49.836689,2026-10-10T11:06:36Z
+AZ,intl_brand,node,12091495015,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.418717,49.962426,2026-10-10T11:06:36Z
+AZ,intl_brand,node,12095473082,fast_food,McDonald's,Q38076,McDonald's,,no,burger,08:00-04:00,,40.395595,49.840262,2026-10-10T11:06:36Z
+AZ,intl_brand,node,12146358665,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,,,40.373802,49.859566,2026-10-10T11:06:36Z
+AZ,intl_brand,node,12582465065,fast_food,KFC,Q524757,KFC,,,chicken,,,40.373975,49.859585,2026-10-10T11:06:36Z
+AZ,intl_brand,node,12582465066,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.373941,49.859418,2026-10-10T11:06:36Z
+AZ,intl_brand,node,13692319240,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.471534,50.105058,2026-10-10T11:06:36Z
+AZ,intl_brand,node,13692319241,fast_food,KFC,Q524757,KFC,,,chicken,,,40.471874,50.105744,2026-10-10T11:06:36Z
+AZ,intl_brand,node,13734067049,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.387612,49.802907,2026-10-10T11:06:36Z
+AZ,intl_brand,node,13785670538,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.410262,49.813908,2026-10-10T11:06:36Z
+AZ,intl_brand,way,195589070,fast_food,McDonald's,Q38076,McDonald's,McDonalds / Neftçilәr,,burger,Mo-Su 08:00-00:00,Bakı,40.410551,49.94374,2026-10-10T11:06:36Z
+AZ,intl_brand,way,239293536,fast_food,McDonald's,Q38076,McDonald's,,,burger,,,40.386771,49.954464,2026-10-10T11:06:36Z
+KZ,drive_through=yes,node,4564587432,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,yes,burger,,Ақтөбе,50.285042,57.182304,2026-10-10T11:08:34Z
+KZ,drive_through=yes,node,4564591141,fast_food,Burger King,Q177054,Burger King,,yes,burger,,Ақтөбе,50.285857,57.144845,2026-10-10T11:08:34Z
+KZ,drive_through=yes,node,4909151313,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 10:00-01:00,,51.145554,71.461411,2026-10-10T11:08:34Z
+KZ,drive_through=yes,node,4931058926,fast_food,,,Hardee's,,yes,burger,,,51.145576,71.459509,2026-10-10T11:08:34Z
+KZ,drive_through=yes,node,6093327177,fast_food,,,Донер Мырза,,yes,kebab;turkish,24/7,,46.959271,53.986,2026-10-10T11:08:34Z
+KZ,drive_through=yes,node,6103474426,fast_food,,,Velvet Burger,,yes,burger,Mo-Su 11:00-23:00,,52.265104,76.968965,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,50568029,fast_food,Food Solutions,,I'm,I'm,yes,burger,Mo-Su 07:00-24:00,Алматы,43.255654,76.949247,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,54049106,fast_food,Food Solutions,,I'm,,yes,burger;chicken;kebab;fries;donut;wings,Mo-Su 05:00-04:00,,49.797431,73.090924,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,462075855,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 10:00-24:00,,52.274171,76.987649,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,528673428,fast_food,KFC,Q524757,KFC,KFC,yes,chicken,"Fr-Sa 10:00-03:00; Mo-Th,Su 10:00-24:00",Ақтөбе,50.292551,57.159897,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,649489875,fast_food,Food Solutions,Q118149812,I’m,I’m,yes,burger,Mo-Su 07:00-00:00,Ақтөбе,50.280523,57.192985,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,778823183,fast_food,McDonald's,Q38076,I’m,,yes,burger,Mo-Su 07:00-24:00,Алматы,43.236274,76.927236,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,1055705867,fast_food,,,I'm,,yes,burger,Mo-Su 07:00-00:00,,43.225581,76.907902,2026-10-10T11:08:34Z
+KZ,drive_through=yes,way,1153309926,fast_food,,,Статус,,yes,burger;pizza;coffee_shop;ice_cream;juice,Mo-Fr 09:00-17:00,Жетысай,40.782297,68.30882,2026-10-10T11:08:34Z
+KZ,intl_brand,node,1194196335,fast_food,Burger King,Q177054,Burger King,,,burger,,Ақтөбе,50.289474,57.193035,2026-10-10T11:10:39Z
+KZ,intl_brand,node,2690965969,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-22:00,,51.11467,71.416502,2026-10-10T11:10:39Z
+KZ,intl_brand,node,3158017637,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:00,,43.275004,76.948109,2026-10-10T11:10:39Z
+KZ,intl_brand,node,3301995161,fast_food,KFC,Q524757,KFC,,,chicken,Fr-Su 10:00-02:00;Mo-Th 10:00-24:00,,51.175247,71.402361,2026-10-10T11:10:39Z
+KZ,intl_brand,node,3525006965,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,no,burger,,Алматы,43.241165,76.924192,2026-10-10T11:10:39Z
+KZ,intl_brand,node,3525036993,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,43.260754,76.953249,2026-10-10T11:10:39Z
+KZ,intl_brand,node,3874929202,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-04:00,,43.252847,76.911747,2026-10-10T11:10:39Z
+KZ,intl_brand,node,3905664169,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,43.225446,76.904902,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4023416051,fast_food,Burger King,Q177054,Burger King,,,burger,"Su-Th 10:00-24:00, Fr,Sa 10:00-02:00",,43.647869,51.156235,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4424464125,fast_food,KFC,Q524757,KFC,,,chicken,,,43.254004,76.839078,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4511709290,fast_food,Burger King,Q177054,Burger King,,,burger,,,47.105546,51.924374,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4529714898,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,43.254585,76.936975,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4564587432,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,yes,burger,,Ақтөбе,50.285042,57.182304,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4564591141,fast_food,Burger King,Q177054,Burger King,,yes,burger,,Ақтөбе,50.285857,57.144845,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4581101591,fast_food,,Q38076,Food Solutions,Food Solutions,,burger,Mo-Su 10:00-24:00,,43.263701,76.929455,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4786496031,fast_food,KFC,Q524757,KFC,KFC,,chicken,Mo-Su 10:00-00:00,,51.149252,71.44534,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4893199026,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,51.171631,71.439425,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4898293562,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:00,,43.233255,76.958176,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4909151313,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 10:00-01:00,,51.145554,71.461411,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4915119666,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,51.133398,71.435927,2026-10-10T11:10:39Z
+KZ,intl_brand,node,4931059138,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,51.160943,71.441294,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5132817725,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 07:30-23:00; Sa-Su 08:00-23:00,,51.125069,71.432656,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5140712121,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,52.284304,76.940375,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5198288883,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,43.242254,76.957431,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5333278825,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 09:30-23:00,,51.145965,71.424318,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5435745826,fast_food,KFC,Q524757,KFC,KFC,,chicken,Mo-Su 10:00-00:00,,51.217503,51.379182,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5632870625,cafe,Starbucks,Q37158,Starbucks,Starbucks,no,coffee_shop,Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00,,43.257854,76.949549,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5688425622,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-00:00,,43.240439,76.904761,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5766102030,fast_food,,Q38076,Food Solutions,Food Solutions,,burger,Mo-Su 07:00-24:00,,51.177487,71.422017,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5803753055,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-23:00; Sa-Su 09:00-23:00,,43.26198,76.941558,2026-10-10T11:10:39Z
+KZ,intl_brand,node,5889720185,cafe,Costa,Q608845,Costa,,,coffee_shop,Mo-Su 08:00-22:00,,51.159744,71.428515,2026-10-10T11:10:39Z
+KZ,intl_brand,node,6407383055,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-21:00; Sa-Su 10:00-18:00,,43.230243,76.933499,2026-10-10T11:10:39Z
+KZ,intl_brand,node,6495499786,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,51.128293,71.411616,2026-10-10T11:10:39Z
+KZ,intl_brand,node,6573960137,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Fr-Su 08:30-23:00; Mo-Th 08:30-22:00,,43.24235,76.957777,2026-10-10T11:10:39Z
+KZ,intl_brand,node,6573960138,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:00-23:00,,43.2336,76.957476,2026-10-10T11:10:39Z
+KZ,intl_brand,node,6634677992,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-21:00; Sa 09:00-19:00; Su 10:00-19:00,,43.248312,76.936725,2026-10-10T11:10:39Z
+KZ,intl_brand,node,6817076685,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,49.788282,73.135902,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738817,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,43.250809,76.880214,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738818,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,42.899941,71.388379,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738819,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,47.108004,51.899892,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738821,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,49.948947,82.617665,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738822,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,42.321763,69.586024,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738823,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,43.673478,51.177759,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738824,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,43.667394,51.152338,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738825,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,51.138245,71.410747,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738826,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,51.145136,71.414126,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738828,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,51.128024,71.426126,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738830,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,51.181836,71.375443,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738831,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,43.341483,76.984305,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738832,fast_food,KFC,Q524757,KFC,,,chicken,Mo 10:00-24:00;Tu-Su 10:00-23:45,,43.227807,76.864544,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738833,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,43.319544,76.916611,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738836,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,43.232946,76.879887,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738837,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Fr 10:00-22:00,,43.233307,76.777412,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738839,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-22:00,,43.202031,76.892681,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670738840,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,43.262086,76.941535,2026-10-10T11:10:39Z
+KZ,intl_brand,node,7670739438,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,43.217992,76.842327,2026-10-10T11:10:39Z
+KZ,intl_brand,node,8237746259,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,51.246002,51.394631,2026-10-10T11:10:39Z
+KZ,intl_brand,node,8237746260,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-06:00,,51.160263,71.428291,2026-10-10T11:10:39Z
+KZ,intl_brand,node,8332491343,cafe,Costa,Q608845,Costa,,,coffee_shop,,,43.230163,76.945064,2026-10-10T11:10:39Z
+KZ,intl_brand,node,8520886963,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,42.314668,69.588132,2026-10-10T11:10:39Z
+KZ,intl_brand,node,8944222179,fast_food,,Q38076,I’m,Food Solutions,,burger,Mo-Su 07:00-24:00,,43.234178,76.879948,2026-10-10T11:10:39Z
+KZ,intl_brand,node,8944222180,fast_food,,Q38076,Food Solutions,Food Solutions,,burger,Mo-Su 10:00-23:00,,43.233829,76.777237,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047285104,fast_food,,Q38076,Food Solutions,Food Solutions,no,burger,Mo-Fr 10:00-22:45; Sa-Su 10:00-23:45,,51.089292,71.40767,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331867,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:00-24:00,,43.218905,76.929306,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331868,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 07:30-19:00,,51.130891,71.423656,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331869,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:00-22:00,,43.244878,76.955222,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331870,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-23:00; Sa-Su 09:00-23:00,,43.258418,76.944791,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331871,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:00-21:00,,43.250886,76.941621,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331872,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-20:00,,43.23158,76.94542,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331873,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 09:00-22:00; Sa-Su 10:00-22:00,,43.225703,76.908309,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331874,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:30-23:00,,43.226844,76.863332,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331875,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-22:00; Sa-Su 09:00-21:00,,51.130493,71.392532,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331877,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 0:00-24:00,,43.346622,77.012102,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331879,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:00-22:00,,51.089009,71.408916,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331880,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 09:00-23:00,,51.128073,71.425491,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331881,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:00-23:00,,51.145254,71.413973,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331882,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 08:30-22:00,,51.14022,71.46574,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331883,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-21:00; Sa-Su 10:00-18:00,,43.236867,76.915294,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331886,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 09:30-22:00,,43.263515,76.92938,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331887,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Fr-Sa 08:00-23:00; Mo-Th 08:00-22:00; Su 09:00-22:00,,43.240176,76.905068,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9047331888,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,"Fr-Sa 08:00-23:00; Mo-Th,Su 08:00-22:00",,43.200741,76.892474,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9629148688,fast_food,,Q38076,Food Solutions,Food Solutions,,burger,Mo-Su 07:00-24:00,,51.148546,71.471633,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9749291997,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,Mo-Su 09:00-23:00,,42.314431,69.588395,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9792096132,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,43.218452,76.927615,2026-10-10T11:10:39Z
+KZ,intl_brand,node,9792096134,fast_food,KFC,Q524757,KFC,,,chicken,,,43.218167,76.927556,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10068608231,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,"Mo-Su,PH 10:00-22:00",,43.264079,76.93012,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10094786018,fast_food,Макдоналдс,Q38076,I'm,I'm,,burger,Mo-Su 07:00-00:00,,43.26462,76.900762,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10147153426,fast_food,Wendy's,Q550258,Wendy's,,,burger,,,43.262044,76.941408,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10170946741,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Su 09:30-22:00,,51.121842,71.42805,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10228324652,fast_food,,Q38076,Food Solutions,Food Solutions,,burger,Mo-Su 08:00-24:00,,51.270739,71.368786,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10593358820,fast_food,KFC,Q524757,KFC,,,chicken,,,53.211816,63.638233,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10719274115,fast_food,KFC,Q524757,KFC,,,chicken,,,43.240547,76.926085,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10976889338,cafe,Starbucks,Q37158,Starbucks,Starbucks,,coffee_shop,Mo-Fr 08:00-23:00; Sa-Su 09:00-23:00,,42.32071,69.585834,2026-10-10T11:10:39Z
+KZ,intl_brand,node,10976892637,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,24/7,,51.026821,71.461314,2026-10-10T11:10:39Z
+KZ,intl_brand,node,11967659266,cafe,Costa,Q608845,Costa,,,coffee_shop,Mo-Su 10:00-24:00,Алматы,43.202637,76.892107,2026-10-10T11:10:39Z
+KZ,intl_brand,node,12033664853,fast_food,KFC,Q524757,KFC,,,chicken,,,43.314462,77.024594,2026-10-10T11:10:39Z
+KZ,intl_brand,node,12033664855,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,43.31483,77.024935,2026-10-10T11:10:39Z
+KZ,intl_brand,node,12909507573,fast_food,KFC,Q524757,KFC,,,chicken,,,43.217656,76.6578,2026-10-10T11:10:39Z
+KZ,intl_brand,node,13191789678,cafe,Costa,Q608845,Costa,Costa,,coffee_shop,,,43.349524,77.012181,2026-10-10T11:10:39Z
+KZ,intl_brand,node,13191789679,fast_food,KFC,Q524757,KFC,,,chicken,,,43.349298,77.012169,2026-10-10T11:10:39Z
+KZ,intl_brand,node,13261741652,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,,,43.229451,76.946163,2026-10-10T11:10:39Z
+KZ,intl_brand,node,13289322091,fast_food,Wendy's,Q550258,Wendy's,,,burger,,Алматы,43.234704,76.955459,2026-10-10T11:10:39Z
+KZ,intl_brand,node,13380879158,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,,,43.241497,76.95597,2026-10-10T11:10:39Z
+KZ,intl_brand,node,13827531527,fast_food,KFC,Q524757,KFC,,,chicken,,,43.410883,76.982451,2026-10-10T11:10:39Z
+KZ,intl_brand,node,14019840959,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,43.205769,76.898228,2026-10-10T11:10:39Z
+KZ,intl_brand,way,225585500,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,51.218917,51.38723,2026-10-10T11:10:39Z
+KZ,intl_brand,way,345831372,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,43.252303,76.91306,2026-10-10T11:10:39Z
+KZ,intl_brand,way,462075855,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 10:00-24:00,,52.274171,76.987649,2026-10-10T11:10:39Z
+KZ,intl_brand,way,498349323,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,Астана,51.159054,71.465589,2026-10-10T11:10:39Z
+KZ,intl_brand,way,528673428,fast_food,KFC,Q524757,KFC,KFC,yes,chicken,"Fr-Sa 10:00-03:00; Mo-Th,Su 10:00-24:00",Ақтөбе,50.292551,57.159897,2026-10-10T11:10:39Z
+KZ,intl_brand,way,721957973,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,47.105441,51.895975,2026-10-10T11:10:39Z
+KZ,intl_brand,way,759964158,fast_food,,Q38076,I'm,I'm,,burger,Mo-Su 07:00-24:00,,43.245889,76.934512,2026-10-10T11:10:39Z
+KZ,intl_brand,way,778823183,fast_food,McDonald's,Q38076,I’m,,yes,burger,Mo-Su 07:00-24:00,Алматы,43.236274,76.927236,2026-10-10T11:10:39Z
+KZ,intl_brand,way,819754891,fast_food,I'M,Q38076,I'M,I'M,,burger,Mo-Su 07:00-24:00,,43.199737,76.879293,2026-10-10T11:10:39Z
+KZ,intl_brand,way,876203562,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-23:45,,43.301232,76.930469,2026-10-10T11:10:39Z
+KZ,intl_brand,way,978432399,fast_food,KFC,Q524757,KFC,,,chicken,,,52.268177,76.968661,2026-10-10T11:10:39Z
+KZ,intl_brand,way,1020733718,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,49.789472,73.102918,2026-10-10T11:10:39Z
+KZ,intl_brand,way,1041676675,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,43.24012,76.904404,2026-10-10T11:10:39Z
+KZ,intl_brand,way,1116584668,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,43.240529,76.839757,2026-10-10T11:10:39Z
+KZ,intl_brand,way,1449301315,cafe,Starbucks,Q37158,Starbucks,,,coffee_shop,,,51.132727,71.403763,2026-10-10T11:10:39Z
+KZ,intl_brand,way,1533610453,fast_food,Бургер Кинг,Q177054,Бургер Кинг,Burger King,,burger,,,49.800659,73.088432,2026-10-10T11:10:39Z
+KZ,intl_brand,way,1533610454,fast_food,KFC,Q524757,KFC,,,chicken,Mo-Su 10:00-24:00,,49.800373,73.088657,2026-10-10T11:10:39Z
+UA,drive_through=yes,node,504234980,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,,50.501936,30.605114,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,873489005,fast_food,,,Cosa Nostra,,yes,pizza,,,50.583059,30.486645,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,1946591202,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,Mo-Su 06:00-24:00,,50.462557,30.481539,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,2120779849,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,07:00-22:00,,50.393856,30.610814,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,2516331027,fast_food,Domino's,Q839466,Domino's,,yes,pizza,Mo-Su 10:00-22:00,,50.418302,30.654752,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,3233357745,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,50.455423,30.634759,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,4084852794,fast_food,,,Кури-гриль,,yes,,,,50.553531,30.214019,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,4127363589,fast_food,,,Eaty,Eaty,yes,burger;ice_cream;coffee_shop,24/7,,44.591744,33.486517,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,4854107621,fast_food,,,Lysko,,yes,,Mo-Su 08:00-22:00,,49.82123,23.987976,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,5383777421,fast_food,KFC,Q524757,KFC,KFC,yes,chicken,Mo-Su 11:00-22:30,,50.407079,30.610897,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,6726304152,fast_food,,,EАTY,,yes,burger;ice_cream;coffee_shop,24/7,Керчь,45.364998,36.475425,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,6937226660,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,,,50.514921,30.78328,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,7545072519,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Не працює / Closed,,49.993008,36.222844,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,7685389841,fast_food,,,Master Kebab,,yes,kebab,,,49.352942,23.520381,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,8603394698,fast_food,,,SUSHI FOX,,yes,japanese;sushi,,,49.432958,32.083668,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,8656552392,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 09:30-21:00,,49.794536,24.054307,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,8779408517,fast_food,,,Fresh & Panini,,yes,fast_food;coffee,Mo-Sa 08:00-20:00,,51.001158,26.746507,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,9006181114,fast_food,,,Hot Cafe,,yes,,,,49.835547,24.069086,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,10571653490,fast_food,KFC,Q524757,KFC,,yes,chicken,24/7,,50.515496,30.783119,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,10865502577,fast_food,,,BUDUSUSHi,,yes,japanese,Mo-Su 11:00-23:00,,46.452455,30.640695,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,11269779466,fast_food,,,Doner House,,yes,шаурма;shawarma,,,48.502102,32.255934,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,11417740605,fast_food,,,FOODIE,,yes,,Mo-Su 09:00-21:00,,48.800523,23.441687,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,11875982749,cafe,,,,,yes,,,,49.421021,31.26674,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,11876022252,cafe,,,,,yes,,,,49.421824,31.260273,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,11876022253,cafe,,,Кафе Nicollet,,yes,,,,49.419586,31.25689,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,11891043634,fast_food,,,еНка,,yes,regional,,,49.837634,24.045535,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,12056823139,fast_food,,,Okko Drive,,yes,,,,49.803358,24.009275,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,12068472280,fast_food,,,Street Pizza,,yes,pizza,,,49.435531,32.09992,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,12214472209,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,49.862081,24.017368,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,12337084599,cafe,,,Кав'ярня Max Drive,,yes,coffee_shop;sandwich;cake;shawarma;fries;burger,Mo-Sa 08:00-22:00,,50.342638,30.966125,2026-10-10T11:14:50Z
+UA,drive_through=yes,node,12752165121,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,24/7,,48.932326,24.745724,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,23657775,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-22:00,,50.44339,30.626833,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,28086494,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,07:00-23:00,,48.477281,35.020242,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,28479272,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,,,50.48848,30.497863,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,36976130,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,50.406243,30.519173,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,37850202,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,06:00-23:45,,48.48541,34.922491,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,65464830,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Sa 06:00-23:45,,50.506458,30.450263,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,77366014,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,48.422841,35.064163,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,104299459,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 06:00-23:00,,49.440699,32.06437,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,108238219,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,50.456521,30.612498,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,122289383,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,06:30-23:00,,46.430444,30.729003,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,135508476,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 06:00-22:00,,50.447099,30.22672,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,142826398,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,46.967768,31.990596,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,151377166,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,07:00-22:00,,49.856393,24.022401,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,181509009,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,49.810881,23.998116,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,181582541,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,closed,,50.013417,36.226104,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,233583343,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 06:00-23:00,,49.560547,34.525848,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,313506808,fast_food,KFC,Q524757,KFC,,yes,chicken,24/7,,50.459212,30.632209,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,315948586,fast_food,KFC,Q524757,KFC,,yes,chicken,,,50.424468,30.458894,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,321520296,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,Mo-Su 04:30-24:00,,46.468984,30.742025,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,350988710,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,,48.425532,35.02474,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,354185735,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-23:59,,46.589677,30.795732,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,400811807,fast_food,KFC,Q524757,KFC,KFC,yes,chicken,,,49.441429,32.065596,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,428980449,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,closed,,47.858492,35.104747,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,460957282,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 06:00-23:45,,50.436987,30.487169,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,580079126,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,50.45687,30.387431,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,614289314,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-22:00,,50.435687,30.606322,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,673458794,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,,,50.456185,30.360449,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,683528588,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,50.498512,30.769122,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,751959860,fast_food,McDonald's,Q4043856,МакДональдз,McDonald's,yes,burger,Mo-Su 07:00-23:00,,48.778827,30.258717,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,764125561,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:45,,48.40213,35.034546,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,769037269,fast_food,,,Kebab House,,yes,oriental;kebab;grill;shawarma,,,45.358146,28.818579,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,801954405,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,Mo-Su 06:30-23:00,,49.774669,24.012393,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,824657159,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,Mo-Su 08:30-22:00,,50.411186,30.384392,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,835397732,fast_food,,,Lysko Drive,,yes,coffee_shop;kebab;hot_dog,Mo-Su 08:00-21:45,,49.807856,24.053315,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,857173449,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,,,46.475539,30.709426,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,900286304,fast_food,,,Yizha,,yes,burger;chinese,Mo-Fr 12:00-20:00,,50.427525,30.509273,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,902053915,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,off,,50.134186,30.662855,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,922851642,cafe,Lviv Croissants,Q116871093,Lviv Croissants,Lviv Croissants,yes,coffee_shop,Mo-Su 09:00-22:00,,49.44906,32.051687,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,936916441,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,24/7,,49.551152,25.566228,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,943566112,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,50.458071,30.410375,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,993330991,cafe,,,Kava Plus,Kava Plus,yes,coffee_shop;hot_dog,Mo-Fr 08:30-18:30; Sa 08:30-18:00; Su 09:00-18:00,,50.735027,24.65214,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1109949261,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,,,49.794625,24.054913,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1171496042,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,,,50.553741,30.212029,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1209834433,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,50.583861,30.496369,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1224867628,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-22:00,,48.449604,24.553626,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1233524182,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,49.814471,24.060709,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1234449217,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,,,48.655246,33.121403,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1238807302,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,50.424464,30.565912,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1253206745,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Su-Sa 07:00-22:00,,48.507082,32.264812,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1334199413,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,50.489152,30.36522,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1344366701,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,49.237614,28.480309,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1347345148,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,48.619938,22.287756,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1373559951,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,50.414714,30.625964,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1383059507,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 07:00-23:00,,48.459967,22.714453,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1412749971,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,50.349209,30.425878,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1448302744,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,Mo-Su 06:00-23:00,,50.346786,30.282861,2026-10-10T11:14:50Z
+UA,drive_through=yes,way,1503689077,fast_food,McDonald's,Q4043856,McDonald's,McDonald's,yes,burger,,,50.417005,30.642349,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,997415112,fast_food,Burger King,Q177054,Burger King,Burger King,yes,burger,,,24.471621,54.344987,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,2037731774,fast_food,McDonald's,Q38076,McDonald's,McDonald's,yes,burger,24/7,,25.092583,55.186141,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,2479728846,fast_food,مكدونالدز,Q38076,McDonald's,McDonald's,yes,burger,"Mo-We,Sa-Su 10:00-23:00; Th-Fr 10:00-24:00",أم القيوين,25.548035,55.544888,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,3574743220,fast_food,Wendy's,Q550258,Wendy's,Wendys,yes,burger,,,25.081137,55.21591,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4370208852,fast_food,,,Burger Pit,Burger Pit,yes,burger,24/7,,24.911392,54.963138,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4370208853,fast_food,,,Poco Loco,Poco Loco,yes,mexican,24/7,,24.911508,54.963228,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4370208854,cafe,ستاربكس,Q37158,ستاربكس,Starbucks,yes,coffee_shop,24/7,,24.911057,54.962335,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4560477120,fast_food,,,Big Smoke Burger,Big Smoke Burger,yes,burger,24/7,,24.911234,54.962869,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4560505097,fast_food,,,Chicks N'Friends,Chicks N'Friends,yes,,24/7,,24.911567,54.963434,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4571027616,fast_food,,,,unknown,yes,unknown,24/7,,24.911315,54.963035,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4571027620,fast_food,,,The Hot Dog Stand,The Hot Dog Stand,yes,sandwich,24/7,,24.911034,54.963095,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4571027621,fast_food,,,Don Pizza,Don Pizza,yes,pizza,24/7,,24.911221,54.963249,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4571027622,fast_food,,,اوبيريشن فلافل,Operation Falafel,yes,arab,24/7,,24.911101,54.962524,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4571027626,fast_food,,,Urban Seafood,Urban Seafood,yes,fish,24/7,,24.911148,54.962711,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,4917025625,fast_food,,,Hardee's,Hardee's,yes,burger,,,24.203851,55.584735,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,5568910392,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,,25.128822,55.415315,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,5694317323,fast_food,KFC,Q524757,KFC,KFC,yes,chicken,,,25.625707,55.808369,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,6130596016,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,,25.065994,55.218447,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,6130596019,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,"Mo-We, Sa-Su 09:00-04:00; Th-Fr 09:00-05:00",,25.06623,55.217931,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,6514615387,fast_food,,,Burger Junction,,yes,burger,,,24.380619,54.719224,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,7218038912,fast_food,,,Zad,,yes,pizza;burger;sandwich,24/7,Sharjah,25.317633,55.474686,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,7843646107,fast_food,ماكدونالدز,Q38076,ماكدونالدز,McDonald's,yes,burger,Mo-Su 08:00-24:00,,25.122788,55.204802,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,7843646114,fast_food,ماكدونالدز,Q38076,ماكدونالدز,McDonald's,yes,burger,24/7,,25.232246,55.311269,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,8176727504,cafe,,,Fog Cafe,,yes,coffee_shop;hot_coffee;cold_coffee;hot_chocolate;mojito;acai;sweets,Mo-Su 08:00-12:00,Al Ain City,24.198484,55.661951,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,9379438445,cafe,Costa,Q608845,Costa,,yes,coffee_shop,,,25.153556,55.214585,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,9385967028,fast_food,,,Rawdha Al Sham,,yes,,24/7,,25.40161,55.502998,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156481,fast_food,,,Steak On Fries,,yes,fries,,,25.235068,55.474107,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156485,fast_food,,,Nash Hot Chicken,,yes,,,,25.235063,55.4743,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156486,fast_food,,,Over!,She Burger,yes,burger,,,25.235028,55.474477,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156487,fast_food,,,Sushi Station,,yes,sushi,,,25.234995,55.474642,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156488,fast_food,,,Slice & Bun,,yes,burger,,,25.234998,55.474792,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156489,fast_food,,,Mr. Brisket,,yes,,,,25.234965,55.474957,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156490,fast_food,,,Little Rolls,,yes,,,,25.234976,55.475089,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156491,fast_food,,,Chicken Man,,yes,chicken,,,25.234949,55.475279,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,10550156492,fast_food,,,Cupagahwa,,yes,,,,25.234933,55.475456,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,11578175197,cafe,Tassedecafe,,Tassedecafe,,yes,coffee_shop;french;chocolate;ice_cream;juice,24/7,dubai,25.176197,55.544722,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,11707752687,cafe,ستاربكس,Q37158,ستاربكس,Starbucks,yes,coffee_shop,,,24.461898,54.672694,2026-10-10T11:14:50Z
+AE,drive_through=yes,node,11921200101,fast_food,Shake Shack,,Shake Shack,,yes,burger,24/7,,25.110371,55.185706,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,450985239,fast_food,Burger King,Q177054,Burger King,Burger King,yes,burger,24/7,,25.059281,55.285763,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,497506292,fast_food,KFC,Q524757,KFC,KFC,yes,chicken,24/7,,25.17317,55.218212,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,497508804,cafe,Costa,Q608845,Costa,Costa,yes,coffee_shop,24/7,,25.161741,55.209069,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,499184487,cafe,Starbucks,Q37158,Starbucks,Starbucks,yes,coffee_shop,,دبي,25.180516,55.234919,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,557290773,fast_food,ماكدونالدز,Q38076,ماكدونالدز,McDonald's,yes,burger,24/7,,25.161604,56.351727,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,576205648,fast_food,,,Last Exit,,yes,,,,24.914112,54.960584,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,1095916416,fast_food,دانكن,Q847743,دانكن دونتس,Dunkin' Donuts,yes,donut;coffee_shop,,,25.345543,55.422721,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,1095916417,fast_food,دجاج كنتاكي,Q524757,دجاج كنتاكي,KFC,yes,chicken,,,25.345727,55.422672,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,1107084775,fast_food,دجاج كنتاكي,Q524757,دجاج كنتاكي,KFC,yes,chicken,,,24.23645,55.720301,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,1107084776,fast_food,Hardee's,Q1585088,Hardee's,Hardee's,yes,burger,,,24.236285,55.720308,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,1340486627,fast_food,ماكدونالدز,Q38076,ماكدونالدز,McDonald's,yes,burger,,,25.712714,55.839325,2026-10-10T11:14:50Z
+AE,drive_through=yes,way,1554390748,fast_food,ماكدونالدز,Q38076,ماكدونالدز,McDonald's,yes,burger,Mo-Su 11:00-24:00,العين,24.18867,55.799224,2026-10-10T11:14:50Z
+TR,drive_through=yes,node,2627130685,fast_food,,,Harman Kebap,,yes,kebab,,Düzce,40.849917,31.182289,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,4663157604,fast_food,,,Asker Abi'nin Yeri,,yes,international;sandwich;soup,24/7,istanbul,40.994477,29.025144,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,5294667790,fast_food,,,Çevirdik Tavuk,,yes,,Mo-Su 09:00-21:00,istanbul,40.969337,29.085407,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,5555489314,fast_food,,,Paket Döner,,yes,burger;chicken;turkish,,,40.34803,26.68521,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,5737602914,fast_food,,,Kumrucu Hüseyin,,yes,Kumru,,,38.305534,26.367203,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,5737602915,fast_food,,,Kumrucu Hüseyin,,yes,Kumru,,,38.308026,26.361556,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,6034052904,fast_food,,,SD Pastaneleri,,yes,pizza;ice_cream;turkish;coffee_shop,Mo-Su 09:00-21:00,İstanbul,41.154384,28.623281,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,6293984605,fast_food,,,PATSO CAFE,,yes,burger;sandwich;chinese;turkish,Mo-Su 08:00-22:00,tokat,40.669543,36.574709,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,6792683328,fast_food,,,Einburgerung Antakya,,yes,burger,,Hatay,36.199562,36.160072,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,6926529712,fast_food,,,Gurme Piliç,,yes,chicken;grill;turkish,Mo-Su 10:00-20:00,Çanakkale,40.157238,26.411028,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,7006490098,fast_food,Domino's,Q839466,Domino's,,yes,pizza,Mo-Su 11:00-01:45,Bursa,40.085571,29.508901,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,7035097786,fast_food,,,Maydonoz Döner,,yes,burger;kebab;turkish;regional,Mo-Su 11:00-00:00,Bursa,40.077268,29.509463,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,7424904128,fast_food,,,Ziyafet Çiğköfte,,yes,turkish,Mo-Su 08:00-22:00,,41.076781,28.889212,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,7559992982,fast_food,,,Paşa Döner,,yes,kebab,,,40.900945,29.228286,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,7623076459,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 10:00-22:00,SİİRT,37.93848,41.943368,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,7688114190,fast_food,,,Domino’s Pizza,,yes,pizza,,Düzce,40.843577,31.163551,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,7972856409,fast_food,,,şaşmaz market tekel bayii,,yes,,,,39.930559,32.715945,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,8001595235,fast_food,,,Bereket Dürüm,,yes,kebab;turkish,Mo-Su 10:00-20:30,İstanbul,40.931836,29.147013,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,8207370108,fast_food,Narlı cafe Burger & castello coffee,,Narlı cafe Burger & castello coffee,,yes,burger;coffee_shop;italian;sandwich;kebab;american;steak_house,24/7,Çanakkale,40.148918,26.400263,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,8316248087,fast_food,,,Yummy döner,,yes,doner,Mo-Su 09:00-21:00,,41.09394,28.77459,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,8325890811,fast_food,,,Toast.on,,yes,toast;sandwich;kahve;tost;karışık_tost;kaşarlı_tost;sanayi_tostu,Mo-Sa 08:00-20:00,Antalya,36.855953,30.770137,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,8354372327,fast_food,,,Zater Döner Isparta,,yes,kebab,,,37.765943,30.554453,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,9018784160,fast_food,,,,,yes,fish_and_chips,,,37.03328,27.439408,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,9388497473,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 10:00-00:00,,40.773896,29.980056,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,9677882617,cafe,,,Köşe Kahve,,yes,pizza;burger;coffee_shop;regional;sandwich;ice_cream;breakfast;fish_and_chips;turkish;tea,Mo-Su 09:30-01:00,İzmir,38.284755,26.375082,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,9682631002,cafe,,,Amore Shisha Lounge,,yes,pizza;coffee_shop;regional;burger;sandwich;chicken;kebab;ice_cream;american;breakfast;steak_house;bubble_tea;noodle;salad;dünya_mutfağı;juice;pasta,08.00-05.00,İstanbul,41.079896,28.927748,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,9788917814,fast_food,,,Mangal Köfte Evi,,yes,turkish,,Afyonkarahisar,38.463698,30.27118,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,10584493878,cafe,,,K-Tea Chinese Dim Sum Cafe,,yes,asian;chinese,Mo-Su 10:00-20:00,İSTANBUL,40.818959,29.296851,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,11041671491,fast_food,,,Kral Tantuni (Üniversite),,yes,tantuni;patates;aparatif;turkish,10:00-04:00,Gaziantep,37.03299,37.319037,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,11347901782,cafe,,,Liqapafruitjuicebreakfast,,yes,breakfast;coffee_shop;dessert;cake,,,41.026384,40.51706,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,11431659573,fast_food,,,grillays pizza,,yes,pizza;burger,,,38.580674,26.969808,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,11654495434,cafe,,,Mola Cafe&Patisserie,,yes,regional;sandwich;turkish,24/7,Zonguldak,41.376926,31.958081,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12297368474,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,41.023082,29.114315,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12392550474,fast_food,Pasaport Pizza,Q6057390,Pasaport Pizza,,yes,pizza,Mo-Su 10:00-00:00,Balıkesir,39.328344,26.712955,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12624303092,restaurant,,,Pizza Pan,,yes,pizza,We-Mo 11:00-04:00,Adana,37.008493,35.277789,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12637187642,cafe,,,Mango Coffee & Patisserie ☕🍰,,yes,coffee_shop;pasta,Mo-Su 08:00-01:00,Santral Mahallesi,36.933727,30.637182,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12668743910,fast_food,,,Cazibe Balık Cafe Restaurant,,yes,fish_and_chips,Mo-Su 09:00-23:00,Hatay,36.124621,35.916074,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12703460098,cafe,,,Dodo Belgium Waffle & Coffee,,yes,waffle;coffee_shop;dessert,,istanbul,41.010239,28.66819,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12740898778,cafe,,,Aşk Waffle & Cafe,,yes,waffle;coffee_shop;ice_cream;cake;pasta;tea;juice,13:00-00:00,İstanbul,41.030017,28.830841,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12777038787,cafe,,,Marrakesh Garden Etlik,,yes,pizza;coffee_shop;burger,Mo-Su 09:00-01:00,Ankara,39.971218,32.83818,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12794274415,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,39.584329,27.022074,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12833383798,cafe,,,Balkaya Pastanesi Erol Usta,,yes,pasta;bakery,Mo-Su 07:00-01:00,İstanbul,41.076144,28.992558,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12899326924,cafe,,,Atlas Bikery Cafe,,yes,coffee_shop;pastry;dessert;sandwich;cake;tea;coffee,Mo-Sa 08:00-18:00,MUĞLA,36.634679,29.121467,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12957795632,fast_food,,,Burger Blast Finans Şehir,,yes,burger;chicken;hot_dog,,İstanbul,41.00264,29.117393,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,12959668704,fast_food,Burger Blast,,Burger Blast Ömerli,,yes,burger;chicken;wings;sausage;salad,,İstanbul,41.084412,29.329468,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13019819236,cafe,Nimora Coffee,,Nimora Coffee & Bakery,,yes,coffee_shop;ice_cream,Mo-Su 08:00-22:00,Mardin,37.228817,40.624437,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13021015841,fast_food,,,Omar's Kokobüs - Mobil Köfteci,,yes,turkish;sandwich;burger;chicken,24/7,Antalya,36.269153,29.412234,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13032003990,cafe,,,Koffee,,yes,coffee_shop;italian,Mo-Su 10:00-22:00,Tekirdağ,41.263292,28.03179,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13283103385,fast_food,,,Loop Burger Brasserie,,yes,pizza;coffee_shop;burger;german;sandwich;grill,Mo-Su 08:00-23:00,Hatay,36.174559,36.142108,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13298558468,fast_food,,,pizza bulls,,yes,pizza;chicken,24/7,İstanbul,41.100402,28.998483,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13653475073,restaurant,,,BEREKET DÖNER,,yes,turkish;burger;sandwich;chicken;kebab;juice;tea;steak_house;dessert;salad;breakfast,11:00-03:00,ORDU,40.978607,37.910541,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13739492808,fast_food,,,Nazar Kasap Izgara,,yes,bistro;chicken;steak_house,Mo-Su 11:00-20:00,istanbul,41.052013,28.965045,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,13816192581,fast_food,,,BONKÖR APERATİF,,yes,turkish,Mo-Su 10:00-22:00,Manisa,38.916638,27.836817,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14014641479,fast_food,,,Okan Ustam,,yes,,,,41.677558,26.552663,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14014641493,fast_food,,,Los Pollos,,yes,,,,41.677289,26.552678,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14014641500,fast_food,,,Melis Döner,,yes,,,,41.678261,26.568339,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14018717296,fast_food,,,Can Kardeşler Döner Salonu,,yes,,,,41.676999,26.559921,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14025099137,fast_food,,,Çi Börekçim,,yes,,Mo-Sa 09:00-20:00; Su 11:00-19:30,,41.671919,26.555113,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14062842773,fast_food,,,İzmir Kumrucusu Konuralp,,yes,sandwich;burger;tea;hot_dog,24/7,Düzce,40.899869,31.170603,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14109881600,fast_food,,,Güya Mutfak Smash Burger ve Meze,,yes,burger;meze;pizza;tost;gözleme,11.00-23.00,ankara,39.966581,32.94487,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14157570311,fast_food,,,Tezgah Burger Döşemealtı,,yes,burger,11:00-00:00,Antalya,37.002885,30.597131,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14196138152,fast_food,Komagene,Q108919263,Komagene,,yes,kebab,10:30-04:00,İstanbul,41.023843,29.090656,2026-10-10T11:18:51Z
+TR,drive_through=yes,node,14205298753,fast_food,,,ASG Döner,,yes,kebab,,,41.634601,32.337088,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,235392132,fast_food,Burger King,Q177054,Burger King,,yes,burger,,,40.964003,29.064372,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,479302181,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,39.804928,32.803296,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,502126076,fast_food,,,Play Pizza,,yes,pizza,,İstanbul,41.028868,28.973681,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,666369970,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,36.910097,30.697135,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,677660497,fast_food,,,Kumrucu Hüseyin,,yes,,,İzmir,38.321124,26.303369,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,682136989,fast_food,,,Kumrucu Hüseyin,,yes,,,İzmir,38.283074,26.375822,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,893405945,fast_food,Burger King,Q177054,Burger King,,yes,burger,,İstanbul,41.1042,28.806662,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,1297287633,cafe,,,Kiraz Cafe & Pastane,,yes,dessert;ice_cream;coffee_shop;breakfast;cake;fries;bagel,07:00-23:00,İstanbul,41.03605,29.06452,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,1483886235,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,İzmir,38.356788,26.858407,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,1539005713,cafe,Starbucks,Q37158,Starbucks,,yes,coffee_shop,,,38.795319,30.390264,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,1559870614,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,36.964025,30.621521,2026-10-10T11:18:51Z
+TR,drive_through=yes,way,1564407457,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Adana,37.004028,35.333454,2026-10-10T11:18:51Z
+PL,drive_through=yes,node,181717228,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Warszawa,52.238994,20.898054,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,248994742,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-24:00,Warszawa,52.168816,21.083669,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,278830758,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-01:00,Warszawa,52.252988,20.982491,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,310097405,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Th 07:00-24:00, Fr,Sa 07:00-01:30, Su 08:00-24:00",,51.046554,16.965075,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,470010911,fast_food,McDonald's,,McDonald's,,yes,burger;breakfast,24/7,Wrocław,51.117426,17.000308,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,533996826,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Szczecin,53.382695,14.660357,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,683185855,fast_food,KFC,Q524757,KFC,,yes,chicken,,,51.514874,19.905748,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,866620920,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-00:00,,52.40338,17.053023,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,900519007,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Sa 08:00-22:00; Su 09:00-21:00,Warszawa,52.234757,21.119795,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1128617833,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Częstochowa,50.824549,19.097214,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1212229805,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Lublin,51.266613,22.572368,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1364617662,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,,52.39547,20.937599,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1382340739,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,,52.433799,16.80083,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1628680180,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Th 08:00-23:30; Fr-Su 08:00-24:00,Pabianice,51.665064,19.336848,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1643404713,fast_food,McDonald's,Q38076,McDonald's,,yes,burger;breakfast,Mo-Su 06:30-00:00,Wrocław,51.150892,17.027494,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1710660432,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Th 09:00-21:30; Fr 09:00-22:00; Sa,Su 09:00-21:00",,52.154008,21.041385,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1842728629,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,50.318201,19.10769,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,1908095546,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Sa 09:00-21:00; Su 10:00-20:00,Gdańsk,54.35189,18.524071,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,2148923673,cafe,Starbucks,Q37158,Starbucks,,yes,coffee_shop,Mo-Fr 07:00-21:30; Sa-Su 08:00-21:30,Bielany Wrocławskie,51.046742,16.95784,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,2402342814,fast_food,,,Ola Ole - Domowe zapiekanki,,yes,burger;pizza;regional;coffee_shop;sandwich;international;zapiekanka;buritto,Mo-Sa 12:00-19:00,Katowice,50.22495,18.966702,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,2567928194,fast_food,,,Bolat Kebab,,yes,kebab,,Kłobuck,50.90337,18.93881,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,2651910116,fast_food,,,Alle Pizza,,yes,burger;sandwich;kebab;pizza;regional,"Mo-Th 12:30-23:00, Fr-Sa 12:30-00:00, Su 14:00-22:00",Świdnik,51.22195,22.701274,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,2837505561,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Konin,52.227023,18.262528,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3048224518,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,05:00-04:00,Warszawa,52.220763,20.915664,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3148804651,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-23:00,,50.370346,18.743475,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3437307672,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Kołobrzeg,54.176215,15.595739,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3733017514,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Warszawa,52.18788,20.910413,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3746981054,fast_food,,,Tab Kebab,,yes,kebab,"We-Su 13:00-18:00; Mo,Tu Off",Łódź,51.74395,19.494817,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3768663043,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Th 08:00-23:00, Fr-Sa 09:00-24:00; Su 09:00-23:00",,54.20177,16.196556,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3875284346,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Sa 08:00-23:00, Su 09:00-23:00",Wrocław,51.087578,16.998703,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,3890134269,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 09:00-23:00,Warszawa,52.301829,21.054886,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,4286222952,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 08:00-22:00,,50.115657,19.967961,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,4321711089,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-23:00,,50.299967,18.681853,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,4335349246,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-00:00,,50.372067,18.741018,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,4478843836,fast_food,,,KFC Kołbaskowo,,yes,fried_chicken,"Mo-Sa 07:00-22:00, Su 07:00-24:00",,53.338787,14.424651,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,4578180935,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Starogard Gdański,53.966034,18.515899,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,4899236626,fast_food,,,Top Drive,,yes,pizza;burger;kebab,Mo-Th 09:00-22:00; Fr-Sa 09:00-23:45; Su 12:00-23:45,Sokołów Podlaski,52.409122,22.227696,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,5042980425,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Żary,51.63564,15.119609,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,5091233821,cafe,,,Maja,Maja Cafe,yes,,,Spytkowice,49.995935,19.510276,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,5257359457,fast_food,,,Bar Tęcza,,yes,regional,"Mo-Sa 08:00-20:00, Su 10:00-18:00; PH off",Białystok,53.143351,23.212453,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,5637210648,fast_food,Burger King,Q177054,Burger King,,yes,burger,24/7,,50.25314,19.047179,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,5885464638,fast_food,KFC,Q524757,KFC,,yes,chicken,24/7,,52.293683,17.651325,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,5885464639,fast_food,KFC,Q524757,KFC,,yes,chicken,24/7,,52.295719,17.652084,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,5898717554,fast_food,,,Man Ramen,,yes,,,,52.140776,21.060064,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,6259973736,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 06:00-23:00; Fr-Su 06:00-24:00,,50.08121,19.772533,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,6328029973,fast_food,KFC,Q524757,KFC,,yes,chicken,,,52.47892,16.869205,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,6681270696,fast_food,,,Bar Pogodny,,yes,regional,"Mo-Sa 08:00-20:00, Su 10:00-18:00; PH off",Białystok,53.117554,23.142612,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,6715427187,fast_food,,,Fryta do Syta,,yes,kebab;frytki;frytki_belgijskie;fast_food;frytki+sos_serowy+boczek;frytki+gulasz;ziemniak_na_patyku,Mo-Su 11:00-20:00,Nowa Sól,51.800938,15.718089,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,6752777761,fast_food,KFC,Q524757,KFC,,yes,chicken,,,51.157009,16.921059,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,7097123013,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 09:00-22:30,Kraków,50.093191,20.02642,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,7204616683,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 09:00-21:00,,51.143466,17.032274,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,7787547537,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-22:00,,51.259906,17.045835,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,8311291736,fast_food,,,Swider Food Truck,,yes,jewish,Mo-Su 12:00-19:00,,52.14394,21.290498,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,8381018339,cafe,Costa,Q608845,Costa,,yes,coffee_shop,,Olsztyn,53.776929,20.483735,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,8597007755,fast_food,,,Aladin Spicy Kebab,,yes,kebab;barbecue,Mo-Su 10:00-01:00,Dąbrowa Górnicza,50.323342,19.184321,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,8713480064,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Th 08:00-22:00; Fr 08:00-23:00; Sa 08:00-22:00; Su 09:00-22:00,,51.320732,18.069457,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9139619341,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Sa 09:00-23:00,,51.647973,16.078283,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9198422586,fast_food,,,Express Pizza,,yes,pizza,,,51.146512,17.112667,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9385758512,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,,53.683289,15.089868,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9472451015,fast_food,,,Śniadaniowa: drive thru,,yes,,,,52.39026,16.789964,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9561351161,fast_food,,,Bistro Camper Camping,,yes,burger,Mo-Su 13:00-21:00,Czaplinek,53.556756,16.222995,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9627716063,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Th 08:00-23:00; Fr-Sa 08:00-00:00; Su 08:00-23:00,Brzeg,50.851503,17.45667,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9805945832,fast_food,,,Kapsalon,,yes,kebab,Mo-Su 11:30-22:30,Brusy,53.884862,17.724092,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,9871067043,restaurant,,,Royal Pizza,,yes,pizza,,Żurawica,49.823517,22.789282,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,10274013929,fast_food,,,O Kurczaki!,,yes,chicken,"Mo-Th, Su 12:00-21:00; Fr-Sa 12:00-22:00",Pruszków,52.165165,20.806299,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11048587017,fast_food,Społem,Q11826043,Bar KEN,,yes,regional,Mo-Sa 08:00-20:00; Su 10:00-18:00,Białystok,53.14985,23.091056,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11049152386,fast_food,,,Bar Hermes,,yes,regional,"Mo-Sa 08:00-20:00, Su 10:00-18:00; PH off",Białystok,53.152992,23.121379,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11132489105,fast_food,,,Sułtan Kebab,,yes,kebab,Mo-Su 11:30-22:00,Łódź,51.822326,19.430918,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11262798091,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Fr 00:00-01:00,08:00-24:00; Sa-Su 00:00-02:00,08:00-24:00",,49.674699,21.773785,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11343630492,fast_food,,,Smaki Bożeny,,yes,polish;dessert,,Tarnów,50.016967,20.97646,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11469140767,fast_food,,,Bar Zodiak,,yes,regional,"Mo-Sa 08:00-20:00, Su 10:00-18:00; PH off",Białystok,53.122349,23.089212,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11497554328,fast_food,,,Bufallo,,yes,burger;shawarma;karkówka;nuggets;strips,12:00 - 21:00,Stary Toruń,53.034098,18.490096,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11653406076,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-22:00,Bytów,54.180619,17.496526,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11883604905,fast_food,,,Gastrospecial Pizza Pasta Burger,,yes,pizza;burger;italian;pasta;jedzenie;restauracja,"poniedziałek-Zamknięte, wtorek-13:00-21:00, środa-13:00-21:00, czwartek-13:00-21:00, piątek-13:00-22:00, sobota-13:00-22:00, niedziela-13:00-21:00",Kraków,49.987451,19.911929,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,11883847432,fast_food,,,,,yes,kebab;fries,Mo-Fr 12:00-21:00; Sa 12:00-18:00,Pabianice,51.649438,19.360738,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,12169864174,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Limanowa,49.700112,20.425535,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,12696293480,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Katowice,50.260032,19.02249,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,12749960813,fast_food,,,Anarchia Street Food&Kebab,,yes,barbecue,"Mo-Th 12:00-22:00; Fr,Sa 12:00-23:00; Su 12:00-21:00",Kołobrzeg,54.175987,15.587101,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,12769869377,fast_food,,,Star Kebap & Pizza,,yes,kebab,,Jaworze,49.806047,18.947325,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,13131819044,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Su,PH 05:00-24:00",,50.845386,17.255167,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,13205011882,fast_food,,,Dhaka Kebab,,yes,kebab,Su-Th 10:00-23:00; Fr-Sa 10:00-24:00,Kock,51.644518,22.437382,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,13294826215,fast_food,,,Mega-Food Kebab,,yes,kebab,,,51.320818,18.972234,2026-10-10T11:24:51Z
+PL,drive_through=yes,node,13694801059,fast_food,Am Am Kebab,,Am Am Kebab Włocławek,,yes,kebab,Mo-Sa 10:30-20:30,Włocławek,52.656145,19.061156,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,27590097,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Sa 00:00-01:00,07:00-24:00; Su 00:00-01:00,08:00-24:00; PH off",Warszawa,52.215183,20.956247,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,34428192,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Su-We 06:00-24:00, Th-Sa 06:00-01:00",Warszawa,52.190792,20.957747,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,36876479,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Poznań,52.383885,16.916962,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,39093663,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Sa 07:00-23:00, Su 08:00-23:00",Bielany Wrocławskie,51.04776,16.958674,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,42799623,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-24:00,Poznań,52.383391,16.944847,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,56364217,fast_food,KFC,Q524757,KFC,,yes,chicken,,Szczecin,53.406258,14.506432,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,61992932,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 08:00-22:00,,53.384728,14.642801,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,68219809,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-23:00,Chojnice,53.694776,17.55645,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,71119857,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Sa 08:30-01:00, Su 10:00-24:00",Poznań,52.438035,16.921412,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,83008379,fast_food,KFC,Q524757,KFC,,yes,chicken,,Kraków,50.087125,20.005129,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,100234665,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Gdańsk,54.411448,18.567048,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,100310717,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Su-Th 08:00-23:00; Fr-Sa 08:00-02:00,Słupsk,54.458953,16.99448,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,100735657,fast_food,McDonald's,Q38076,McDonald's,,yes,burger;breakfast,Mo-Su 07:00-24:00,Wrocław,51.060809,16.993018,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,100932745,fast_food,McDonald's,Q38076,McDonald's,,yes,burger;breakfast,24/7,Wrocław,51.082357,17.048617,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,101207945,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-01:00,Wrocław,51.116342,17.024117,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,101372831,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Łódź,51.789172,19.420301,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,101572117,fast_food,KFC,Q524757,KFC,,yes,chicken,,Wrocław,51.131683,17.061967,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,103000070,restaurant,,,It-Am Pizza & Burger,,yes,burger;coffee_shop;ice_cream;italian;grill,Mo-Su 11:00-22:00,Łódź,51.816453,19.425372,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,103969279,fast_food,KFC,Q524757,KFC,,yes,chicken,,Warszawa,52.314494,20.977777,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,107903401,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Kraków,50.034743,19.940231,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,125376926,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Głogów,51.664407,16.087152,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,126125197,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,08:00-23:00;PH 12:00-23:00,Białystok,53.145793,23.077803,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,126200446,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Toruń,53.026241,18.673403,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,126665609,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Inowrocław,52.79986,18.256786,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,134253609,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,08:00-23:45,Gdynia,54.527176,18.512085,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,135036645,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Toruń,52.992727,18.63237,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,136701113,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Th 08:30-23:00; Fr-Sa 08:30-23:30; Su 08:30-23:00,Wałbrzych,50.804866,16.293977,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,136701692,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 07:00-24:00",Wałbrzych,50.774655,16.273726,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,138632324,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-23:00,Warszawa,52.303305,20.987946,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,146959849,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Kędzierzyn-Koźle,50.342566,18.192498,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,155180276,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Olsztyn,53.783947,20.499331,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,157713400,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Gliwice,50.320021,18.664904,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,160264001,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Kępno,51.288729,17.995792,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,164963615,fast_food,KFC,Q524757,KFC,,yes,chicken,,Rumia,54.572865,18.384794,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,165809441,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Th 00:00-02:00, 07:00-24:00; Fr-Su 00:00-00:04, 07:00-24:00",Bydgoszcz,53.125431,17.989735,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,167956617,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Su,PH 07:00-23:00",Warszawa,52.308548,21.081777,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,168003827,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Warszawa,52.281115,20.922706,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,170024729,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Brzesko,49.96672,20.599127,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,170246557,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Leszno,51.843956,16.593485,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,170477810,fast_food,KFC,Q524757,KFC,,yes,chicken,,,51.86271,16.573007,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,170876602,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-01:00,Wrocław,51.106598,16.948967,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,171876348,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Suwałki,54.106977,22.935801,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,173765906,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Bełchatów,51.359778,19.355783,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,174290621,fast_food,KFC,Q524757,KFC,,yes,chicken,,Kowale,54.30921,18.562192,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,179940542,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Włocławek,52.644983,19.071618,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,180737219,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Szczecin,53.453819,14.561351,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,182600885,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Kielce,50.86956,20.617623,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,190949684,fast_food,KFC,Q524757,KFC,,yes,chicken,,,53.104238,18.009284,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,191892320,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,Warszawa,52.308649,20.928967,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,192447854,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-23:00,Stare Miasto,52.185192,18.232723,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,193967302,fast_food,Burger King,Q177054,Burger King,,yes,burger,,Gorzów Wielkopolski,52.733589,15.254213,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,194693045,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Stargard,53.339167,15.028137,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,194713381,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-00:00,Skierniewice,51.972287,20.149534,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,194713384,fast_food,KFC,Q524757,KFC,,yes,chicken,"Su-Th 08:00-23:00, Fr,Sa 08:00-24:00",Skierniewice,51.971352,20.147592,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,197227699,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Rzeszów,50.019807,21.993685,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,202259322,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Katowice,50.284022,18.972031,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,202835230,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Zabrze,50.310355,18.786241,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,204399901,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Czechowice-Dziedzice,49.93079,18.991121,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,206409047,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Fr 06:00-01:00; Sa-Su 06:00-01:00,Ruda Śląska,50.299401,18.853377,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,208315258,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,,50.225084,19.230949,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,211185955,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Th 06:00-01:00, Fr-Sa 06:00-03:00, Su 06:00-01:00",Poznań,52.354011,16.842584,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,211535517,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-02:00;PH 11:00-02:00,Białystok,53.131864,23.137731,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,214323762,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Th, Su 08:00-23:00; Fr-Sa 08:00-24:00",Białystok,53.125749,23.184302,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,223586539,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Su-Th 07:00-01:00; Fr-Sa 07:00-03:00,Nysa,50.47434,17.34229,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,230036134,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-00:00,Kostrzyn nad Odrą,52.580767,14.640432,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,232364515,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,,49.320918,19.98497,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,233880498,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Rzeszów,50.037725,22.022131,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,237150299,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Toruń,53.031053,18.61012,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,246227120,fast_food,KFC,Q524757,KFC,,yes,chicken,,,50.780123,19.145175,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,246314522,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-24:00,Warszawa,52.170265,21.009639,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,250508043,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Polkowice,51.502737,16.063005,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,253115274,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Su-Th 06:00-24:00, Fr,Sa 06:00-02:00",Piaseczno,52.08173,21.019688,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,254511981,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Lisowice,50.674755,18.648132,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,255108008,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-24:00; PH 11:00-24:00,Białystok,53.122889,23.122819,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,274801678,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,Jarocin,51.970579,17.506651,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,280966939,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Zgorzelec,51.152014,15.018316,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,282465060,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Tczew,54.091808,18.776495,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,286829439,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Sa 08:00-23:00; Su 10:00-23:00,Gdańsk,54.348653,18.681486,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,294929454,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Nowy Targ,49.459756,20.02115,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,294980028,fast_food,KFC,Q524757,KFC,,yes,chicken,,Włocławek,52.644318,19.06118,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,298468530,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Brodnica,53.26039,19.396091,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,298875688,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Th,Su 07:00-24:00; Fr-Sa 07:00-01:00",Płock,52.545807,19.710383,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,301779685,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Su 08:00-24:00; PH ""może być zamknięte""",Wrocław,51.083536,17.050431,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,304065815,fast_food,McDonald's,Q38076,McDonald's,,yes,burger;breakfast,24/7,Długołęka,51.18134,17.199603,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,304503880,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-01:00,Chełm,51.146047,23.43839,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,306908446,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Su 00:00-03:00,04:00-24:00",,52.136109,18.635008,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,311462241,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-23:59,Poznań,52.425584,16.977345,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,312271470,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Th 07:00-00:00, Fr-Su 07:00-02:00",Mielec,50.284025,21.42935,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,312472042,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-24:00,Tychy,50.111158,18.978004,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,312991974,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-02:00,Bielawa,52.110499,21.113449,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,313982991,fast_food,KFC,Q524757,KFC,,yes,chicken,,,50.835799,19.116175,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,315101238,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo,We,Tu,Th,Su 06:00-01:00; Fr,Sa 00:00-24:00",Kłodzko,50.450951,16.641965,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,321398274,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-24:00,,53.581754,14.813035,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,342752342,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Su 07:00-01:00 open ""Dine-in"" || 24/7 open ""Drive-thru""",Wadowice,49.876908,19.507755,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,355672122,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 09:00-24:00,Łódź,51.750843,19.437342,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,359850640,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 06:00-00:00; Fr-Sa 06:00-02:00; PH off,Ostrowiec Świętokrzyski,50.934559,21.387751,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,362744387,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Radom,51.417655,21.136092,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,362915803,fast_food,,,Chicken Drive,,yes,,Mo-Sa 09:00-21:00,Sławno,54.363847,16.676192,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,364738058,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,,51.409379,19.67585,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,373179921,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Kórnik,52.255306,17.076087,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,384042355,fast_food,KFC,Q524757,KFC,,yes,chicken,,Płońsk,52.614995,20.386361,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,386871374,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-00:00,Kłodzko,50.450462,16.639737,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,394552463,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 06:00-24:00",Sitno,53.05076,14.86725,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,396662257,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Luboń,52.349072,16.881348,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,400517025,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Su 00:00-03:00, 04:00-24:00",,52.465853,19.192501,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,413985464,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,Nowy Dwór Mazowiecki,52.432934,20.697746,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,425050733,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-24:00,Suchedniów,51.03072,20.816693,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,430626946,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 07:00-23:00,,52.902116,18.723477,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,430627569,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 07:00-24:00,,52.900766,18.720665,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,431624260,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Łozienica,53.545915,14.800696,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,438196515,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,Warszawa,52.331997,20.966108,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,441811991,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-23:00,Przemyśl,49.783538,22.805097,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,445778050,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,,53.3467,18.710012,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,446358009,fast_food,,,Alanya,,yes,pizza,Su-Th 12:00-22:00; Fr-Sa 12:00-24:00,Szamotuły,52.601005,16.59811,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,451702930,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,08:00-23:00;PH 12:00-23:00,Białystok,53.159164,23.094982,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,456215710,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Wieniec,52.654423,18.930567,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,456390595,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:30-23:00,Gorzów Wielkopolski,52.738329,15.1974,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,463723071,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Sa 09:00-21:00; Su 10:00-21:00,Poznań,52.426948,16.976481,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,467486480,fast_food,Burger King,Q177054,Burger King,,yes,burger,09:00-22:30,Poznań,52.426403,16.966528,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,475020032,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Su-We 07:00-23:00; Th-Sa 07:00-00:00,Pruszcz Gdański,54.248196,18.633145,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,479663751,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,08:00-00:00,Sierpc,52.864627,19.663035,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,485646687,fast_food,KFC,Q524757,KFC,,yes,chicken,06:01-23:59,Baranów,52.109006,20.462243,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,486694972,fast_food,KFC,Q524757,KFC,,yes,chicken,,,51.944721,19.180468,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,488091329,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 08:00-24:00,Kraków,50.07264,20.018318,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,491197050,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,,52.029289,20.00198,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,493841098,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-24:00,Żyrardów,52.048859,20.445419,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,513159549,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Su 00:00-02:00, 05:00-24:00",,52.156128,20.684994,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,514484368,fast_food,KFC,Q524757,KFC,,yes,chicken,,Stalowa Wola,50.572326,22.064552,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,514679291,fast_food,McDonald's,Q38076,McDonald's,,yes,burger;american,Mo-Su 07:00-00:00,Stalowa Wola,50.559749,22.067867,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,526240595,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Lębork,54.532236,17.758567,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,533985713,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-25:00,Kraków,50.03526,19.81985,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,542200979,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 06:00-00:00,,52.112127,20.464066,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,548630514,fast_food,KFC,Q524757,KFC,,yes,chicken,,,51.381188,21.181676,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,548909726,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Wieniec,52.656332,18.931443,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,550387267,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,,52.064865,15.617677,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,561866844,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-22:00,Polkowice,51.500813,16.061215,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,564996077,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Łaziska,49.94346,18.428509,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,566274732,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Fr 08:30-23:30; Sa,Su 08:00-23:00",Józefów,52.126695,21.240468,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,577576358,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Su,PH 06:00-24:00",Żywiec,49.691044,19.181237,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,596792126,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-24:00,Świecie,53.418649,18.47457,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,603746103,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Mrągowo,53.860423,21.281888,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,611307074,fast_food,Max,Q1912172,Max Premium Burgers,,yes,burger,Su-Th 09:00-00:00; Fr-Sa 09:00-01:00,Gdańsk,54.321723,18.553885,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,614778326,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,,51.744467,20.911904,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,623798942,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 05:00-24:00,,51.356504,18.525469,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,626381244,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Nakło nad Notecią,53.150393,17.591413,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,627140984,fast_food,Max,Q1912172,Max,,yes,burger,Mo-Sa 08:00-24:00; Su 09:00-24:00,Świętochłowice,50.290057,18.933057,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,641004335,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Lubin,51.38924,16.210979,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,642646020,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Strzegom,50.976556,16.365289,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,651671477,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 08:00-22:30,Ruda Śląska,50.298496,18.848561,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,655208074,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Częstochowa,50.818568,19.13778,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,657051613,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-24:00,Starachowice,51.038013,21.087361,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,658608319,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Odolion,52.870036,18.750109,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,661726401,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Knurów,50.235692,18.662706,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,665785046,fast_food,KFC,Q524757,KFC,,yes,chicken,24/7,Nowy Targ,49.460243,20.021119,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,676031898,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Poznań,52.413271,16.83485,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,679060860,fast_food,,,Berlin Döner Kebap,,yes,kebab,,Szczecin,53.393175,14.501483,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,680857406,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Tarnów,50.034379,21.011417,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,681813516,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Człuchów,53.669591,17.350642,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,683677329,fast_food,KFC,Q524757,KFC,,yes,chicken,,Pruszcz Gdański,54.265137,18.627015,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,684661670,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 06:00-24:00,Radziejowice-Parcel,51.993738,20.545678,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,694993485,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Augustów,53.832531,22.963632,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,695972324,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Sieradz,51.588151,18.722366,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,697610536,fast_food,KFC,Q524757,KFC,,yes,chicken,"Tu-Sa 07:00-01:00; Mo,Su 08:00-01:00",,50.954384,17.27437,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,699794419,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,,51.880374,20.854386,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,700295389,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 06:00-01:00,,51.698955,20.929223,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,719028792,fast_food,KFC,Q524757,KFC,,yes,chicken,,Czeladź,50.316687,19.1085,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,719599732,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Zator,49.997724,19.420661,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,719991970,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-23:59,Kielce,50.881936,20.577997,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,720010122,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Th,Su 08:00-24:00; Fr-Sa 08:00-01:00",Piaseczno,52.081873,21.020383,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,720386751,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Su-Th 07:00-24:00; Fr-Sa 07:00-01:00,Oleśnica,51.226913,17.368485,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,738889887,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-01:00,Ruda Śląska,50.275923,18.863564,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,740940978,fast_food,KFC,Q524757,KFC,,yes,chicken,"Mo-Su,PH 08:30-23:00",,50.007423,19.881795,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,746496456,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Grodzisk Wielkopolski,52.217892,16.36797,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,760944658,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Jawczyce,52.215805,20.850106,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,764878582,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Su,PH 06:00-24:00",,53.299896,20.435272,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,767377907,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00 - 00:00,Kraków,50.037649,20.051672,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,768623295,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-24:00,Warszawa,52.266487,21.059387,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,771637290,fast_food,Max,Q1912172,Max,,yes,burger,08:00-01:00,Tychy,50.102914,19.007357,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,776271771,fast_food,KFC,Q524757,KFC,,yes,chicken,24/7,Kraków,50.091361,19.922075,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,795418174,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Skarżysko-Kamienna,51.117685,20.862429,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,801513668,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Ustroń,49.759016,18.803546,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,829978276,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-01:00,Zawiercie,50.48566,19.397735,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,836782074,fast_food,Max,Q1912172,Max,,yes,burger,Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00; PH off,Radom,51.380545,21.176526,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,845778176,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Kąty Wrocławskie,51.023398,16.760711,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,860442463,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Włocławek,52.653419,19.047394,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,868695307,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 08:00-22:30,Czechowice-Dziedzice,49.927946,18.991551,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,878726027,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Andrychów,49.860598,19.322023,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,880644059,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 07:00-24:00; Fr-Su 07:00-01:00,Piastów,52.191332,20.855758,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,884174060,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Pułtusk,52.697403,21.088069,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,886795572,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Koszalin,54.208542,16.151646,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,892062267,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 06:00-24:00",Kochlice,51.284467,16.149078,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,892062273,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 06:00-24:00",Kochlice,51.283348,16.152008,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,894415346,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-02:00; PH 11:00-02:00,Białystok,53.123944,23.187375,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,896359565,fast_food,KFC,Q524757,KFC,,yes,chicken,,,51.036324,16.582109,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,900560223,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Sa 06:00-24:00; Su 11:00-01:00,Kielce,50.882066,20.582824,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,903733892,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Sa 06:00-00:00,Piekary Śląskie,50.370203,18.944729,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,909183352,fast_food,KFC,Q524757,KFC,,yes,chicken,,,52.371835,16.767378,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,911435860,fast_food,,,u Karolka,,yes,kebab;pizza;burger,Mo-Su 09:00-21:00,Wola Rasztowska,52.441356,21.289322,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,916665250,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 06:00-24:00",,51.436247,16.897389,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,916811759,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-01:00,Tarnów,50.014315,21.012095,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,918382769,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-24:00,Turek,52.012705,18.48497,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,919354775,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Zamość,50.718603,23.285769,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,921259505,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:30-00:00,Bielsko-Biała,49.845738,19.033478,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,922246591,fast_food,KFC,Q524757,KFC,,yes,chicken,,Tomaszkowo,53.725614,20.440491,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,922246592,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Tomaszkowo,53.725431,20.437607,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,929029637,fast_food,McDonald's,Q38076,McDonald's,,yes,burger;breakfast;coffee_shop;sandwich,24/7,Kraków,50.005397,19.946059,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,936519375,fast_food,,,Taj-Style,,yes,thai,Mo-Su 10:00-22:00,Warszawa,52.158397,21.020523,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,947810856,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Kościerzyna,54.108798,17.974749,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,951157658,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 07:00-23:00",Warszawa,52.153507,21.070746,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,952457598,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Chorzów,50.290344,18.934881,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,960054046,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-01:00,,52.198376,18.655453,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,962898863,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Fr 08:00-24:00; Sa-Su 09:00-24:00,Warszawa,52.151803,21.016722,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,974789385,fast_food,KFC,Q524757,KFC,,yes,chicken,,,50.273799,19.127984,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,975923475,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Żnin-Wieś,52.849286,17.698993,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,983299314,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Będzin,50.32293,19.155583,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,986652053,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-00:00,Wągrowiec,52.808254,17.231665,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,990933638,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Świecie,53.418938,18.476605,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,995929595,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-24:00,,51.834174,20.878178,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,996047904,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Wejherowo,54.6099,18.199312,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,998262055,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,Bielsko-Biała,49.841489,19.069004,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1006765478,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Lasocice,51.826217,16.501781,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1013762546,fast_food,Max,Q1912172,Max,,yes,burger,09:00-01:00,Pruszków,52.172689,20.839933,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1014920965,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Sa 07:00-00:00,Gorzów Wielkopolski,52.738049,15.194625,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1017601564,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-23:00,,54.564233,18.502825,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1018660497,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Łódź,51.799704,19.386465,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1022852957,fast_food,Max,Q1912172,Max,,yes,burger,,Płock,52.537954,19.740239,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1023737527,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Kiekrz,52.497961,16.756428,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1033995645,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Wałcz,53.291198,16.457375,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1046874591,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 06:00-24:00; Fr-Sa 06:00-03:00; Su 06:00-24:00,Czechowice-Dziedzice,49.891702,18.992938,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1067573438,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Józefów,52.127809,21.239572,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1068987086,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Ząbkowice Śląskie,50.596362,16.806751,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1071128382,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Th,Su 06:00-24:00, Fr-Sa 06:00-02:00",Olsztyn,53.773108,20.477447,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1071649964,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Th 08:00-22:00; Fr-Sa 08:00-23:00; Su 08:00-22:00,Giżycko,54.041879,21.791858,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1074868312,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Gorzów Wielkopolski,52.696629,15.231053,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1076452800,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 6:00-0:00,Iława,53.596555,19.576827,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1081282784,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"Mo-Th 06:00-23:00, Fr 06:00-02:00, Sa 08:00-02:00, Su 08:00-23:00",Kolbuszowa,50.241586,21.78008,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1083799526,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-24:00,,51.158814,16.173992,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1092964482,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Jarosław,50.025047,22.638937,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1094735394,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00 - 00:00,,53.335084,20.435823,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1095281455,fast_food,Max,Q1912172,Max,,yes,burger,Mo-Su 08:00-24:00,Kraków,50.057368,20.000576,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1098200781,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 09:00-22:00,,51.46022,16.121092,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1098641729,fast_food,KFC,Q524757,KFC,,yes,chicken,07:00-23:00,Skawina,49.991395,19.846111,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1099939114,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,"PH,Mo-Su 06:00-24:00",Kołobrzeg,54.162237,15.60273,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1107944659,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Wałbrzych,50.822834,16.301963,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1113622310,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Su-Th 06:00-24:00; Fr-Sa 06:00-02:00,Krapkowice,50.468669,17.954646,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1113842846,fast_food,KFC,Q524757,KFC,,yes,chicken,,Kąty Wrocławskie,51.024284,16.761098,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1119232519,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Świebodzin,52.261477,15.532692,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1119618427,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Th 08:00-23:00; Fr-Su 08:00-24:00,Łany,51.086192,17.165746,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1120784264,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-01:00,Kraśnik,50.961944,22.178549,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1123139168,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Częstochowa,50.746858,19.046814,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1123193216,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Słupsk,54.460585,17.048303,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1124137749,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Tuchola,53.57943,17.876363,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1125659217,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,,54.051291,22.894421,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1127997421,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Zambrów,52.975192,22.221264,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1130999178,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Olsztyn,53.747602,20.48633,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1136455001,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Wieluń,51.224804,18.570777,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1137406293,fast_food,Max,Q1912172,MAX Premium Burgers,,yes,burger,Mo-Su 09:00-01:00,,52.299985,21.028968,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1137840577,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Kędzierzyn-Koźle,50.343123,18.202978,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1137862874,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Płońsk,52.63045,20.381899,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1141325898,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Łask,51.591605,19.148475,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1149356562,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Kraków,50.047882,19.899699,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1158020101,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 06:00-00:00; Fr-Sa 06:00-02:00; Su 06:00-00:00,,50.623628,20.284205,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1160696151,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Słupsk,54.465388,17.041242,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1162184617,fast_food,Max,Q1912172,Max,,yes,burger,Mo-Su 08:00-01:00,Olsztyn,53.749971,20.485414,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1164157796,fast_food,Max,Q1912172,Max,,yes,burger,Mo-Su 07:00-24:00,Łódź,51.748618,19.48857,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1175154770,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Kozienice,51.589385,21.54378,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1185793131,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Rydułtowy,50.073027,18.415784,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1189902768,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-24:00,,54.027687,21.800805,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1196643974,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-23:00,Wolbórz,51.501807,19.869767,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1198144878,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Pasłęk,54.044088,19.663222,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1201859023,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Chodzież,52.9863,16.905678,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1202754552,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Sa 06:00-00:00,,50.574943,19.048396,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1202902308,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Piotrków Trybunalski,51.403688,19.72355,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1206821950,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Myszków,50.56214,19.304852,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1210854352,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,,51.445961,21.036545,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1218761981,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Grudziądz,53.503996,18.80002,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1219522895,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,,53.747372,18.935123,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1219623385,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 07:00-00:00; Fr-Sa 07:00-01:00; Su 07:00-00:00,Hrubieszów,50.781616,23.888166,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1224835998,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Dzierżoniów,50.72988,16.656986,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1226991118,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Kościan,52.07349,16.619902,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1228018605,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Tu 08:00-23:00; We 08:00-00:00; Th-Su 08:00-23:00,Ząbkowice Śląskie,50.607148,16.821418,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1228390913,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-23:00,Kraków,50.09757,19.961628,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1230888026,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,07:00-00:00,,52.305771,16.138706,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1231029217,fast_food,KFC,Q524757,KFC,,yes,chicken,,,51.350791,19.375093,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1232763560,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Żagań,51.614522,15.332591,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1233425285,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Działdowo,53.2382,20.175393,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1235633745,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 09:00-23:00,,51.523533,16.07634,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1236353113,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Szczytno,53.565252,20.974479,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1236844468,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-00:00,Szewce,50.841588,20.48233,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1239403971,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 09:00-23:00,Sierakowo,52.094026,16.606855,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1239403975,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 09:00-23:00,Sierakowo,52.094157,16.612544,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1239920944,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,,50.59733,20.254754,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1240156036,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Brzesko,49.971342,20.593644,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1240734911,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,Lubań,51.127446,15.285478,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1259815928,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-22:00,,53.986396,15.436104,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1259815929,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-22:00,,53.988394,15.433862,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1263668065,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Sędziszów Małopolski,50.069518,21.677596,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1266821857,fast_food,KFC,Q524757,KFC,,yes,chicken,,Kielce,50.852709,20.562102,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1279174869,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,51.873447,20.868618,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1304505910,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Ostrzeszów,51.434493,17.916896,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1308388835,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,51.044285,22.382247,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1316754184,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Blizne Łaszczyńskiego,52.24062,20.890446,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1317611800,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Myślibórz,52.924906,14.880654,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1318113772,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Nowy Sącz,49.638752,20.695928,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1318130019,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Kudowa-Zdrój,50.433985,16.232875,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1322541002,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Lipno,52.853074,19.174817,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1323472221,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,Mo-Th 09:00-23:00; Fr-Sa 09:00-00:00; Su 10:00-23:00,,53.383651,14.666603,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1328607934,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,,52.210834,21.461211,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1329957602,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Kamień,54.478681,18.276899,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1331104435,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,Poskwitów,50.227728,20.014841,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1332461946,fast_food,KFC,Q524757,KFC,,yes,chicken,,Kamień,54.475181,18.277338,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1333288113,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Bytów,54.17973,17.497087,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1334813005,fast_food,KFC,Q524757,KFC,,yes,chicken,,Zawiercie,50.486058,19.398342,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1337214113,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-24:00,Białystok,53.159231,23.200218,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1338924343,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-02:00,Gryfice,53.906298,15.201897,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1338997372,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Zielona Góra,51.956652,15.52237,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1339059169,fast_food,KFC,Q524757,KFC,,yes,chicken,,Sanok,49.536457,22.224798,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1344570451,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,Mo-Su 08:00-00:00,,49.948862,19.888749,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1344592434,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Międzyrzecz,52.443038,15.561794,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1345019073,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 07:00-23:00,Wieprz,49.657709,19.171677,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1345997657,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-23:00,Poskwitów,50.225877,20.011684,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1348178054,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,24/7,Ostrów Wielkopolski,51.653826,17.807276,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1348473455,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:30-22:30,Wałcz,53.292199,16.456377,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1348696715,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Kętrzyn,54.081609,21.357937,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1349656095,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,,53.685929,20.00008,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1350449218,fast_food,Burger King,Q177054,Burger King,,yes,burger,Mo-Su 08:00-22:00,Bielsko-Biała,49.845553,19.034335,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1351010916,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Płock,52.545082,19.709112,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1352075755,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Iława,53.594055,19.583443,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1355494267,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,Schodnia,50.676785,18.199024,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1356931279,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Szczuczyn,53.567478,22.267281,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1359339996,fast_food,KFC,Q524757,KFC,,yes,chicken,,Lublin,51.229074,22.482053,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1368090202,fast_food,,,Grand Kebab,,yes,kebab,Mo-Sa 09:00-21:00; Su 10:00-20:00,,51.657375,17.846564,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1373714588,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-00:00,,51.912542,21.597216,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1392187100,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-00:00,,51.574084,18.935651,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1396305183,fast_food,Burger King,Q177054,Burger King,,yes,burger,"Mo-Fr,Su 09:00-23:00; Sa 09:00-01:00",,50.034084,21.014133,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1408344156,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,,51.90419,15.585804,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1408344169,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,,51.905932,15.590088,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1408938374,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 08:00-00:00,Niepołomice,50.047922,20.214707,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1409263933,fast_food,KFC,,KFC,,yes,chicken,,Wieliczka,49.995004,20.034844,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1417710664,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Koszalin,54.213809,16.176958,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1422360279,fast_food,Pasibus,Q110428053,Pasibus,,yes,burger,"Mo-Sa 08:00-23:00, Su 09:00-22:00",,51.046849,16.959695,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1422972916,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,53.833176,22.33061,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1427531704,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Świerklaniec,50.436989,18.944647,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1427783554,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Wolin,53.849352,14.596813,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1433328417,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,50.054475,21.967965,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1436479992,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Emilianów,52.440544,21.245507,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1441951213,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Rybnik,50.067236,18.516752,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1445454010,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,Mo-Su 07:00-24:00,Częstochowa,50.816264,19.104864,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1446466225,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Sa 06:00-00:00,Chełmno,53.352958,18.449453,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1446990143,fast_food,KFC,Q524757,KFC,,yes,chicken,,Turek,52.012247,18.486197,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1451702443,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Miłków,50.80798,15.765933,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1452924584,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,08:00-00:00,Bratian,53.464567,19.616167,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1453090622,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,,Gorzów,52.762544,15.276719,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1453419076,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 07:00-24:00,Łódź,51.79871,19.386077,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1454943139,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Lubin,51.401516,16.175988,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1457180021,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-01:00,Tomaszów Lubelski,50.467507,23.425997,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1457823267,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Jelenia Góra,50.908019,15.736875,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1458488280,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Biłgoraj,50.546721,22.704733,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1459624676,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,,,51.175024,17.181545,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1462180087,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Sierakowo,51.627615,16.848615,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1462299787,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Legnica,51.18873,16.174916,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1462418516,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-00:00,Namysłów,51.077276,17.743846,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1462579402,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Th 07:00-23:00; Fr-Sa 07:00-00:00; Su 08:00-23:00,Wojkowice,50.365967,19.027827,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1462821520,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-23:00,Rybnik,50.091444,18.519296,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1473446455,fast_food,KFC,Q524757,KFC,,yes,chicken,Mo-Su 08:00-22:00,Nowa Sól,51.811986,15.71,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1476300821,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Pleszew,51.897611,17.758691,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1505388490,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,,52.56587,19.655984,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1506838315,fast_food,KFC,Q524757,KFC,,yes,chicken,08:00-00:00,Kraków,50.011597,20.004053,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1527309731,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,,Rzeszów,50.015521,21.960079,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1532414464,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Kraków,50.066873,20.060583,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1535959054,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 07:00-23:00,Jawor,51.080089,16.185263,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1537575626,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,06:00-24:00,Białystok,53.151522,23.170737,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1541357395,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,,,50.624024,20.284557,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1554703226,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-00:00,Lipienice,53.690591,17.616501,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1556342114,fast_food,Popeyes,Q1330910,Popeyes,,yes,chicken,,,53.431017,14.479711,2026-10-10T11:24:51Z
+PL,drive_through=yes,way,1557404855,fast_food,McDonald's,Q38076,McDonald's,,yes,burger,Mo-Su 06:00-24:00,,50.330047,19.012906,2026-10-10T11:24:51Z

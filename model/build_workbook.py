@@ -121,6 +121,12 @@ for k in ["fx_amd_per_usd", "opening_month", "open_days_per_year", "vat_rate", "
     a = A[k]
     put_input(k, a["label"], a["unit"], scalar_or_scen(k), a["status"], a["source"] + (" — " + a["basis"] if a.get("basis") else ""),
               PCT2 if k in PCT_KEYS else ('#,##0.00' if k == "fx_amd_per_usd" else None))
+put_input("tax_regime_tt", "Catering turnover-tax regime? (1 = TT, 0 = VAT + profit tax)", "flag",
+          [1 if A.get("tax_regime", {}).get("value", "vat") == "catering_tt" else 0] * 3, A.get("tax_regime", {}).get("status", "ASSUMPTION"),
+          A.get("tax_regime", {}).get("source", ""))
+for k in ["tt_rate", "tt_deduction_rate", "tt_min_rate"]:
+    if k in A:
+        put_input(k, A[k]["label"], A[k]["unit"], [A[k]["value"]] * 3, A[k]["status"], A[k]["source"], PCT2)
 # concept selector
 put_input("concept_index", "Concept modelled (1 = Lean, 2 = Mid-range, 3 = Flagship)", "index", [2, 2, 2], "ASSUMPTION", "Recommended: Mid-range")
 put_input("land_mode_lease", "Land via ground lease? (1 = lease, 0 = buy)", "flag", [1 if A["land_mode"]["value"] == "lease" else 0] * 3, "ASSUMPTION", A["land_mode"]["source"])
@@ -290,7 +296,7 @@ def build_engine(s):
         f["Transactions / day"] = f"={R('Passing traffic (veh/day)')}*{IN('accessible_share')}*{R('Capture rate')}+{IN('other_transactions_day')}*{R('Ramp multiplier')}"
         f["Average ticket (AMD, incl. VAT)"] = f"={IN('avg_ticket_amd')}*(1+{IN('price_inflation')})^({R('Year')}-1)"
         f["Gross sales (incl. VAT)"] = f"={R('Transactions / day')}*{R('Trading days')}*{R('Average ticket (AMD, incl. VAT)')}"
-        f["Net sales (excl. VAT)"] = f"={R('Gross sales (incl. VAT)')}/(1+{IN('vat_rate')})"
+        f["Net sales (excl. VAT)"] = f"={R('Gross sales (incl. VAT)')}/(1+{IN('vat_rate')}*(1-{IN('tax_regime_tt')}))"
         f["COGS + waste"] = f"={R('Net sales (excl. VAT)')}*({IN('cogs_pct')}+{IN('waste_pct')})"
         f["Card fees"] = f"={R('Gross sales (incl. VAT)')}*{IN('card_share')}*{IN('card_fee_pct')}"
         f["Marketing"] = f"={R('Net sales (excl. VAT)')}*{IN('marketing_pct')}+IF({R('Month #')}<=3,{IN('launch_marketing_amd')}/3,0)"
@@ -312,7 +318,7 @@ def build_engine(s):
         f["Depreciation"] = "=" + "+".join(dep_terms)
         f["EBIT"] = f"={R('EBITDA')}-{R('Depreciation')}"
         # annual adjustments pulled from Annual sheet (tax, maintenance capex, delta WC) spread evenly
-        f["Cash before tax/capex adj."] = (f"={R('EBITDA')}-(INDEX(Annual!$C${{TAX}}:$G${{TAX}},1,{R('Year')})"
+        f["Cash before tax/capex adj."] = (f"={R('EBITDA')}-(INDEX(Annual!$C${{TAX}}:$G${{TAX}},1,{R('Year')})+INDEX(Annual!$C${{TT}}:$G${{TT}},1,{R('Year')})"
                                             f"+INDEX(Annual!$C${{MCX}}:$G${{MCX}},1,{R('Year')})+INDEX(Annual!$C${{DWC}}:$G${{DWC}},1,{R('Year')}))/12")
         f["Cumulative cash (after investment)"] = (f"=-{INVEST}+{R('Cash before tax/capex adj.')}" if m == 1 else
                                                    f"={P}{LR['Cumulative cash (after investment)']}+{R('Cash before tax/capex adj.')}")
@@ -350,7 +356,8 @@ for j in range(5):
 an.column_dimensions["H"].width = 3
 ROWS_A = ["Transactions (year)", "Transactions / day (avg)", "Average ticket (AMD incl. VAT)", "Gross sales (incl. VAT)", "Net sales (excl. VAT)",
           "COGS + waste", "Gross profit", "Gross margin %", "Labour", "Ground rent", "Utilities", "Card fees", "Marketing", "Repairs & maintenance",
-          "Other variable", "Other fixed + land tax", "Total operating costs", "EBITDA", "EBITDA margin %", "Depreciation", "EBIT", "Loss carried forward (opening)",
+          "Other variable", "Other fixed + land tax", "Total operating costs", "EBITDA before turnover tax", "TT deduction credit (incl. carried)",
+          "Turnover tax (catering TT)", "EBITDA", "EBITDA margin %", "Depreciation", "EBIT", "Loss carried forward (opening)",
           "Taxable profit", "Profit tax", "Net income", "Net margin %", "Maintenance capex", "Working capital (closing)", "Δ Working capital",
           "Operating cash flow", "Free cash flow", "Cumulative FCF after investment"]
 SUMMARY_ROWS = {}
@@ -385,11 +392,19 @@ for s in SCEN:
         f["Gross profit"] = f"={R('Net sales (excl. VAT)')}-{R('COGS + waste')}"
         f["Gross margin %"] = f"=IFERROR({R('Gross profit')}/{R('Net sales (excl. VAT)')},0)"
         for line in ("Labour", "Ground rent", "Utilities", "Card fees", "Marketing", "Repairs & maintenance", "Other variable", "Other fixed + land tax",
-                     "Total operating costs", "EBITDA", "Depreciation", "EBIT"):
+                     "Total operating costs", "Depreciation"):
             f[line] = SUMY(line)
+        f["EBITDA before turnover tax"] = SUMY("EBITDA")
+        tt = I_('tax_regime_tt', s)
+        f["TT deduction credit (incl. carried)"] = (f"={tt}*({I_('tt_deduction_rate', s)}*({R('Total operating costs')}-{R('Repairs & maintenance')})"
+                                                    f"+{R('Loss carried forward (opening)')})")
+        f["Turnover tax (catering TT)"] = (f"={tt}*MAX({I_('tt_rate', s)}*{R('Gross sales (incl. VAT)')}-{R('TT deduction credit (incl. carried)')},"
+                                           f"{I_('tt_min_rate', s)}*{R('Gross sales (incl. VAT)')})")
+        f["EBITDA"] = f"={R('EBITDA before turnover tax')}-{R('Turnover tax (catering TT)')}"
+        f["EBIT"] = f"={R('EBITDA')}-{R('Depreciation')}"
         f["EBITDA margin %"] = f"=IFERROR({R('EBITDA')}/{R('Net sales (excl. VAT)')},0)"
         f["Loss carried forward (opening)"] = "=0" if Y == 1 else f"=MAX(0,-({P}{rows['EBIT']}-{P}{rows['Loss carried forward (opening)']}))"
-        f["Taxable profit"] = f"=MAX(0,{R('EBIT')}-{R('Loss carried forward (opening)')})"
+        f["Taxable profit"] = f"=(1-{tt})*MAX(0,{R('EBIT')}-{R('Loss carried forward (opening)')})"
         f["Profit tax"] = f"={R('Taxable profit')}*{I_('profit_tax_rate', s)}"
         f["Net income"] = f"={R('EBIT')}-{R('Profit tax')}"
         f["Net margin %"] = f"=IFERROR({R('Net income')}/{R('Net sales (excl. VAT)')},0)"
@@ -405,11 +420,13 @@ for s in SCEN:
     for name in ("Net sales (excl. VAT)", "EBITDA", "Net income", "Free cash flow"):
         an.cell(row=rows[name], column=1).font = F_B
     # Loss carry-forward fix: opening loss = cumulative unused losses
+    ttf = I_('tax_regime_tt', s)
     for j in range(1, 5):
         L_ = COL(3 + j)
         P = COL(2 + j)
         an.cell(row=rows["Loss carried forward (opening)"], column=3 + j,
-                value=f"=MAX(0,{P}{rows['Loss carried forward (opening)']}-{P}{rows['EBIT']})")
+                value=(f"=IF({ttf}=1,MAX(0,{P}{rows['TT deduction credit (incl. carried)']}-({I_('tt_rate', s)}-{I_('tt_min_rate', s)})*{P}{rows['Gross sales (incl. VAT)']}),"
+                       f"MAX(0,{P}{rows['Loss carried forward (opening)']}-{P}{rows['EBIT']}))"))
     # KPIs
     k0 = rows[ROWS_A[-1]] + 2
     kp = {
@@ -421,7 +438,7 @@ for s in SCEN:
         "NPV @ discount rate (5 yrs + residual)": None,
         "IRR (5 yrs + residual)": None,
         "IRR (5 yrs, no residual)": None,
-        "ROIC Year 3 (NOPAT / investment)": f"=G{rows['EBIT']}*0+E{rows['EBIT']}*(1-{I_('profit_tax_rate', s)})/{INVEST}",
+        "ROIC Year 3 (NOPAT / investment)": f"=(E{rows['EBIT']}-E{rows['Profit tax']})/{INVEST}",
         "Year-3 EBITDA (USD)": f"=E{rows['EBITDA']}/{I_('fx_amd_per_usd', s)}",
     }
     krow = {}
@@ -449,18 +466,18 @@ for s in SCEN:
         c = an.cell(row=krow[name], column=3, value=val)
         c.number_format = PCT if ("IRR" in name or "ROIC" in name) else ('"$"#,##0' if "USD" in name else AMD)
     SUMMARY_ROWS[s] = dict(rows=rows, krow=krow)
-    TAXROW[s] = (rows["Profit tax"], rows["Maintenance capex"], rows["Δ Working capital"])
+    TAXROW[s] = (rows["Profit tax"], rows["Maintenance capex"], rows["Δ Working capital"], rows["Turnover tax (catering TT)"])
     blk = cf2 + 3
 
 an.freeze_panes = "C3"
 # patch engine cash formulas with Annual row numbers
 for s in SCEN:
     ws = ENG[s]
-    tax, mcx, dwc = TAXROW[s]
+    tax, mcx, dwc, ttr = TAXROW[s]
     rr = LR["Cash before tax/capex adj."]
     for m in range(1, NM + 1):
         c = ws.cell(row=rr, column=2 + m)
-        c.value = c.value.replace("{TAX}", str(tax)).replace("{MCX}", str(mcx)).replace("{DWC}", str(dwc))
+        c.value = c.value.replace("{TAX}", str(tax)).replace("{MCX}", str(mcx)).replace("{DWC}", str(dwc)).replace("{TT}", str(ttr))
 
 # ======================================================================================
 # Break-even
@@ -473,7 +490,7 @@ for j in range(3):
     be.column_dimensions[COL(3 + j)].width = 18
 header(be, 3, ["Metric", "", "Conservative", "Base", "Optimistic"])
 BE_LINES = ["Year-2 net sales", "Variable costs as % of net sales", "Fixed costs per year (labour, rent, fixed, utilities fixed)",
-            "Net ticket (excl. VAT)", "Contribution per transaction", "Break-even transactions/day (EBITDA = 0)",
+            "Net ticket (excl. VAT)", "Contribution per transaction", "Break-even receipts per year (after turnover tax)", "Break-even transactions/day (EBITDA = 0)",
             "Break-even transactions/day (EBIT = 0)", "Capture used (Y2)", "Accessible share used", "Non-highway transactions/day",
             "Break-even passing vehicles/day (two-way)", "Transactions/day for 4-year cash payback", "Passing vehicles/day for 4-year payback",
             "Modelled Year-2 transactions/day", "Safety margin vs EBITDA break-even"]
@@ -490,17 +507,27 @@ for j, s in enumerate(SCEN):
                                              f"+{I_('utilities_variable_pct', s)}")
     f["Fixed costs per year (labour, rent, fixed, utilities fixed)"] = (f"={Y2('Labour')}+{Y2('Ground rent')}+{Y2('Other fixed + land tax')}+{Y2('Utilities')}"
                                                                         f"-{Y2('Net sales (excl. VAT)')}*{I_('utilities_variable_pct', s)}")
-    f["Net ticket (excl. VAT)"] = f"={Y2('Average ticket (AMD incl. VAT)')}/(1+{I_('vat_rate', s)})"
+    f["Net ticket (excl. VAT)"] = f"={Y2('Average ticket (AMD incl. VAT)')}/(1+{I_('vat_rate', s)}*(1-{I_('tax_regime_tt', s)}))"
     f["Contribution per transaction"] = f"={L_}{BER['Net ticket (excl. VAT)']}*(1-{L_}{BER['Variable costs as % of net sales']})"
-    f["Break-even transactions/day (EBITDA = 0)"] = f"={L_}{BER['Fixed costs per year (labour, rent, fixed, utilities fixed)']}/{L_}{BER['Contribution per transaction']}/{I_('open_days_per_year', s)}"
-    f["Break-even transactions/day (EBIT = 0)"] = f"=({L_}{BER['Fixed costs per year (labour, rent, fixed, utilities fixed)']}+{Y2('Depreciation')})/{L_}{BER['Contribution per transaction']}/{I_('open_days_per_year', s)}"
+    Fx = f"{L_}{BER['Fixed costs per year (labour, rent, fixed, utilities fixed)']}"
+    Vv = f"{L_}{BER['Variable costs as % of net sales']}"
+    def R_for(target):
+        # R solving after-tax EBITDA = target; TT: floor branch if it binds, else formula branch; VAT: (F+T)/(1-v)
+        tr, td, tm, rm = I_('tt_rate', s), I_('tt_deduction_rate', s), I_('tt_min_rate', s), I_('repairs_maint_pct', s)
+        Ra = f"(({Fx})+({target}))/(1-{Vv}-{tm})"
+        Rb = f"((1-{td})*({Fx})+({target}))/(1-{Vv}-{tr}+{td}*({Vv}-{rm}))"
+        floor_binds = f"({tr}*{Ra}-{td}*({Vv}*{Ra}+{Fx}-{rm}*{Ra})<={tm}*{Ra})"
+        return f"IF({I_('tax_regime_tt', s)}=1,IF({floor_binds},{Ra},{Rb}),(({Fx})+({target}))/(1-{Vv}))"
+    f["Break-even receipts per year (after turnover tax)"] = "=" + R_for("0")
+    f["Break-even transactions/day (EBITDA = 0)"] = f"={L_}{BER['Break-even receipts per year (after turnover tax)']}/{L_}{BER['Net ticket (excl. VAT)']}/{I_('open_days_per_year', s)}"
+    f["Break-even transactions/day (EBIT = 0)"] = "=" + R_for(Y2('Depreciation')) + f"/{L_}{BER['Net ticket (excl. VAT)']}/{I_('open_days_per_year', s)}"
     f["Capture used (Y2)"] = f"={I_('capture_rate', s)}*(1+{I_('capture_growth', s)})"
     f["Accessible share used"] = f"={I_('accessible_share', s)}"
     f["Non-highway transactions/day"] = f"={I_('other_transactions_day', s)}"
     f["Break-even passing vehicles/day (two-way)"] = (f"=MAX(0,{L_}{BER['Break-even transactions/day (EBITDA = 0)']}-{L_}{BER['Non-highway transactions/day']})"
                                                        f"/({L_}{BER['Accessible share used']}*{L_}{BER['Capture used (Y2)']})")
-    f["Transactions/day for 4-year cash payback"] = (f"=({L_}{BER['Fixed costs per year (labour, rent, fixed, utilities fixed)']}+{INVEST}/4/(1-0.18*0.6))"
-                                                      f"/{L_}{BER['Contribution per transaction']}/{I_('open_days_per_year', s)}")
+    tgt = f"{INVEST}/4/IF({I_('tax_regime_tt', s)}=1,1,(1-{I_('profit_tax_rate', s)}*0.6))"
+    f["Transactions/day for 4-year cash payback"] = "=" + R_for(tgt) + f"/{L_}{BER['Net ticket (excl. VAT)']}/{I_('open_days_per_year', s)}"
     f["Passing vehicles/day for 4-year payback"] = (f"=MAX(0,{L_}{BER['Transactions/day for 4-year cash payback']}-{L_}{BER['Non-highway transactions/day']})"
                                                      f"/({L_}{BER['Accessible share used']}*{L_}{BER['Capture used (Y2)']})")
     f["Modelled Year-2 transactions/day"] = f"={Y2('Transactions / day (avg)')}"
@@ -510,7 +537,7 @@ for j, s in enumerate(SCEN):
         c.number_format = PCT if ("%" in n or "Capture" in n or "share" in n or "margin" in n) else ('#,##0' if "AMD" not in n and ("day" in n or "vehicles" in n) else AMD)
 # required traffic grid (base scenario)
 g0 = BER[BE_LINES[-1]] + 3
-be.cell(row=g0, column=1, value="Passing vehicles/day (two-way) needed for EBITDA break-even — BASE cost structure").font = F_B
+be.cell(row=g0, column=1, value="Passing vehicles/day (two-way) needed for EBITDA break-even — BASE scenario cost structure & access/other tx").font = F_B
 be.cell(row=g0 + 1, column=1, value="Rows: capture rate of accessible traffic · Columns: average ticket (AMD incl. VAT, Year-1 prices)")
 caps = [0.008, 0.010, 0.012, 0.015, 0.018, 0.022, 0.026, 0.030, 0.035, 0.040]
 ticks = [1500, 1800, 2100, 2400, 2700, 3000, 3300, 3600, 4000]
@@ -528,8 +555,8 @@ for i, cp in enumerate(caps):
     for j in range(len(ticks)):
         T = f"{COL(3 + j)}${g0 + 2}"
         CAP = f"$B{rr}"
-        contrib = f"({T}*(1+{I_('price_inflation')})/(1+{I_('vat_rate')})*(1-$D${BER['Variable costs as % of net sales']}))"
-        tx = f"($D${BER['Fixed costs per year (labour, rent, fixed, utilities fixed)']}/{contrib}/{I_('open_days_per_year')})"
+        tnet = f"({T}*(1+{I_('price_inflation')})/(1+{I_('vat_rate')}*(1-{I_('tax_regime_tt')})))"
+        tx = f"($E${BER['Break-even receipts per year (after turnover tax)']}/{tnet}/{I_('open_days_per_year')})"
         be.cell(row=rr, column=3 + j, value=f"=MAX(0,{tx}-{I_('other_transactions_day')})/({I_('accessible_share')}*{CAP})").number_format = '#,##0'
 be.column_dimensions["B"].width = 16
 

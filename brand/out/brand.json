@@ -1,0 +1,33 @@
+{
+ "name_latin": "CHAMPA",
+ "name_armenian": "ՃԱՄՓԱ",
+ "name_russian": "ЧАМПА",
+ "tagline_en": "May your road be open",
+ "tagline_hy": "Ճամփադ բաց",
+ "colors": {
+  "primary": "#0F3B40",
+  "accent": "#EE8A3B",
+  "light": "#F6EFE4",
+  "tuff": "#D39B7F",
+  "ink": "#1B1E1D",
+  "sky": "#A9D3DA",
+  "bronze": "#4A3524"
+ },
+ "fonts": {
+  "display": "Unbounded",
+  "body": "Manrope",
+  "armenian": "Noto Sans Armenian"
+ },
+ "textures": {
+  "logo_tower": "/home/user/Drive-thru/brand/out/tex_logo_tower.png",
+  "logo_badge": "/home/user/Drive-thru/brand/out/tex_logo_badge.png",
+  "pylon_face": "/home/user/Drive-thru/brand/out/tex_pylon_face.png",
+  "wordmark_fascia": "/home/user/Drive-thru/brand/out/tex_wordmark_fascia.png",
+  "wordmark_vertical": "/home/user/Drive-thru/brand/out/tex_wordmark_vertical.png",
+  "window_W1": "/home/user/Drive-thru/brand/out/tex_window_W1.png",
+  "window_W2": "/home/user/Drive-thru/brand/out/tex_window_W2.png",
+  "menu_board": "/home/user/Drive-thru/brand/out/tex_menu_board.png",
+  "menu_interior": "/home/user/Drive-thru/brand/out/tex_menu_interior.png",
+  "preview_board": "/home/user/Drive-thru/brand/out/tex_preview_board.png"
+ }
+}

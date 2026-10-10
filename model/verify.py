@@ -78,6 +78,19 @@ def main():
         if abs((report[s]["npv_excel"] or 0) - res["npv"]) > max(1.0, abs(res["npv"]) * 1e-6):
             ok = False
             print(f"MISMATCH NPV {s}: {report[s]['npv_excel']} vs {res['npv']}")
+    be = wb["BreakEven"]
+    lab = {be.cell(row=r, column=1).value: r for r in range(1, 40) if be.cell(row=r, column=1).value}
+    for j, s in enumerate(["conservative", "base", "optimistic"]):
+        res = engine.run(a, s)
+        for key, eng_key in (("Break-even transactions/day (EBITDA = 0)", "tx_per_day_ebitda_breakeven"),
+                             ("Break-even passing vehicles/day (two-way)", "vehicles_per_day_breakeven"),
+                             ("Transactions/day for 4-year cash payback", "tx_per_day_4yr_payback")):
+            xl = be.cell(row=lab[key], column=3 + j).value
+            py = res["breakeven"][eng_key]
+            if abs((xl or 0) - py) > max(0.05, abs(py) * 1e-4):
+                ok = False
+                print(f"MISMATCH breakeven {s} {key}: excel={xl} python={py}")
+            report.setdefault(s, {})[key] = (xl, py)
     (ROOT / "verify_report.json").write_text(json.dumps(report, indent=1, default=str))
     print("VERIFY", "PASS" if ok else "FAIL")
     sys.exit(0 if ok else 1)

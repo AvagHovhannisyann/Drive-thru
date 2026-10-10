@@ -1,0 +1,147 @@
+{
+ "name_latin": "CHAMPA",
+ "name_armenian": "ՃԱՄՓԱ",
+ "name_russian": "ЧАМПА",
+ "tagline_en": "May your road be open",
+ "tagline_hy": "Ճամփադ բաց",
+ "colors": {
+  "primary": "#0F3B40",
+  "accent": "#EE8A3B",
+  "light": "#F6EFE4",
+  "tuff": "#D39B7F",
+  "ink": "#1B1E1D",
+  "sky": "#A9D3DA",
+  "bronze": "#4A3524"
+ },
+ "fonts": {
+  "display": "Unbounded",
+  "body": "Manrope",
+  "armenian": "Noto Sans Armenian"
+ },
+ "promo": {
+  "en": "Apricot",
+  "en2": "honey latte",
+  "hy": "Ծիրանի մեղրով լատտե",
+  "price": "1 900 ֏"
+ },
+ "campaign": {
+  "en": "Coffee in 3 minutes.",
+  "en2": "Sevan in 45.",
+  "hy": "Ճամփադ բաց։ Սուրճը՝ 3 րոպեում"
+ },
+ "menu": {
+  "sections": [
+   {
+    "title_en": "Coffee",
+    "title_hy": "Սուրճ",
+    "items": [
+     {
+      "en": "Cappuccino 350",
+      "hy": "Կապուչինո",
+      "price": 1500
+     },
+     {
+      "en": "Latte 400",
+      "hy": "Լատտե",
+      "price": 1600
+     },
+     {
+      "en": "Americano 350",
+      "hy": "Ամերիկանո",
+      "price": 1100
+     },
+     {
+      "en": "Flat white",
+      "hy": "Ֆլեթ ուայթ",
+      "price": 1500
+     },
+     {
+      "en": "Armenian coffee",
+      "hy": "Հայկական սուրճ",
+      "price": 800
+     },
+     {
+      "en": "Espresso",
+      "hy": "Էսպրեսո",
+      "price": 900
+     }
+    ]
+   },
+   {
+    "title_en": "Cold & signature",
+    "title_hy": "Սառը և հատուկ",
+    "items": [
+     {
+      "en": "Iced latte 450",
+      "hy": "Սառը լատտե",
+      "price": 1700
+     },
+     {
+      "en": "Apricot honey latte",
+      "hy": "Ծիրան-մեղր լատտե",
+      "price": 1900
+     },
+     {
+      "en": "Cold brew 450",
+      "hy": "Քոլդ բրյու",
+      "price": 1600
+     },
+     {
+      "en": "Tarragon lemonade",
+      "hy": "Թարխունի լիմոնադ",
+      "price": 1300
+     },
+     {
+      "en": "Sea-buckthorn tea",
+      "hy": "Չիչխանի թեյ",
+      "price": 1200
+     },
+     {
+      "en": "Hot chocolate",
+      "hy": "Տաք շոկոլադ",
+      "price": 1500
+     }
+    ]
+   },
+   {
+    "title_en": "Bakery & breakfast",
+    "title_hy": "Թխվածք և նախաճաշ",
+    "items": [
+     {
+      "en": "Butter croissant",
+      "hy": "Կրուասան",
+      "price": 900
+     },
+     {
+      "en": "Gata, Garni style",
+      "hy": "Գաթա",
+      "price": 800
+     },
+     {
+      "en": "Lavash breakfast wrap",
+      "hy": "Լավաշով նախաճաշ",
+      "price": 1900
+     },
+     {
+      "en": "Cheese penovani",
+      "hy": "Պենովանի",
+      "price": 1000
+     },
+     {
+      "en": "Turkey & cheese toast",
+      "hy": "Տոստ",
+      "price": 1700
+     },
+     {
+      "en": "Road snack box",
+      "hy": "Ճամփի տուփ",
+      "price": 2400
+     }
+    ]
+   }
+  ]
+ },
+ "tagline_alt_en": "Coffee for the road",
+ "tagline_alt_hy": "Սուրճ ճամփի համար",
+ "pronunciation": "chahm-PAH — 'the road' in Armenian"
+}

@@ -23,7 +23,7 @@ Source numbers in [brackets] refer to Section 6.
    - Accommodation & food workers earned **AMD 160,253** (Jan–Aug 2026). The minimum wage is still **AMD 75,000**, and the average pension is **AMD 49,451** [VERIFIED: 4, 5, 3; minimum wage REPORTED: 33].
 3. **The official exchange rate for the model is AMD 361.93 per USD.** This is the CBA rate set on **Fri 9 Oct 2026**, which also applies on Sat 10 Oct.
    - 12-month range: **361.81 (5 Oct 2026) to 383.05 (24 Oct 2025)**; 12-month average 373.39.
-   - The dram has strengthened **5.4% y/y** against the USD. EUR = 405.58 and RUB = 4.2677 [VERIFIED: 1].
+   - The AMD/USD rate is **5.4% lower y/y** (382.68 → 361.93), which means the dram's value in USD is up about 5.7%. EUR = 405.58 and RUB = 4.2677 [VERIFIED: 1; re-pulled from the CBA web service in the fact-check].
    - Recommendation: use 362 as the base rate and stress-test 345–390.
 4. **Inflation is above target again and policy has turned tighter.**
    - CPI was **4.3% y/y in Sept 2026**; food was **6.2%** and restaurants & hotels **5.4%**. Inflation has been above the 3% ±1 target band since Feb 2026.
@@ -32,7 +32,7 @@ Source numbers in [brackets] refer to Section 6.
 5. **A 1,500–2,500 AMD drink is priced like a drink in the US.**
    - In dollars it is **$4.14–6.91**, which in PPP terms is like paying about $14 in the US for a 2,000-AMD drink.
    - At the average net wage, one 2,000-AMD drink costs **about 1.5 hours of work**; for a food-service worker it costs about 2.9 hours.
-   - A habit of eight drinks a month would take **≥11.6% of per-capita income for 90% of the population** (deciles I–IX). Only decile X comes in under 10% [ESTIMATE from 9].
+   - A habit of eight drinks a month would take **≥11.6% of per-capita income for 90% of the population** (deciles I–IX). Only decile X comes in under 10% [ESTIMATE from 9; based on decile *average* incomes, so the top of decile IX will be somewhat below 11.6%].
 6. **Household survey data show very little spending on eating out.**
    - The average urban resident spends **AMD 2,293/month** on food away from home, which is **3.5%** of consumption. That is about one premium coffee a month. Nationally the figure is 1,709 AMD (2.8%).
    - Food takes **43.5%** of consumption on average and **52.5%** in the poorest decile [VERIFIED: 9, ILCS 2024].
@@ -42,8 +42,8 @@ Source numbers in [brackets] refer to Section 6.
    - There are **5.47 m cards** (1.76 per resident), and **87% of them are NFC-enabled**.
    - Physical-POS purchases grew **+41% in value and +66% in count** in H1 2026 y/y. The **average POS ticket fell to AMD 3,473** in Q2 2026, from 6,654 in Q1 2024.
    - Apple Pay works with 17 Armenian issuers, including Telcell Wallet, and Google Pay is live.
-   - The CBA capped acquiring fees from 1 Mar 2026 at **0.5% for ArCa and 0.9% for Visa/Mastercard**, for businesses with turnover of AMD 150 m or less.
-   - Even so, **cash withdrawals were still about 44% of card turnover** in H1 2026 [VERIFIED: 19–21, 26; REPORTED: 23, 25].
+   - The CBA capped acquiring fees from 1 Mar 2026 at **0.5% for ArCa and 0.9% for Visa/Mastercard**, for businesses with **annual** turnover of AMD 150 m or less. *Fact-check caveat:* AMD 150 m a year is only about AMD 411 k a day (≈$1,135/day), so a drive-thru that hits its volume targets will probably **exceed** the threshold and not qualify.
+   - Even so, **cash withdrawals were still about 44% of card turnover** in H1 2026 [VERIFIED: 19–21, 26; REPORTED: 23, 25; ESTIMATE: 44% share].
 9. **Car ownership is modest, which limits who can use a drive-thru.**
    - **41.2% of households own a car** (ILCS 2024) [VERIFIED: 9].
    - About **954 k vehicles** of all types were registered as of 1 Sep 2024, which is about **310 per 1,000 residents**; Yerevan had 343 k [REPORTED: 32; ESTIMATE].
@@ -78,17 +78,18 @@ Source numbers in [brackets] refer to Section 6.
 | GDP per capita | AMD 3,674,818 ≈ $9,495 | 2025 | VERIFIED (AMD) / ESTIMATE ($, at 2025 avg rate 387.01) | [3] |
 | GDP per capita, nominal (IMF) | $9,521 (2025); $10,410 (2026f); $10,995 (2027f) | 2025–27 | VERIFIED (IMF projection) | [13] |
 | GDP per capita, PPP (IMF) | $24,871 (2025); $27,024 (2026f) | 2025–26 | VERIFIED (IMF projection) | [13] |
-| Real GDP growth forecast 2026 | IMF WEO 5.3%; IMF SBA "around 5¼%"; WB 5.6% (latest), 5.3% (June GEP); CBA 5.3–5.7% | 2026 | VERIFIED (IMF, WB page) / REPORTED (CBA) | [13], [14], [16], [8] |
+| Real GDP growth forecast 2026 | IMF WEO 5.3%; IMF SBA "around 5¼%"; WB 5.6% (latest; the WB page cites data to July 2026), 5.3% (WB *Armenia Economic Development Report*, presented 29 Jul 2026, down from 5.9%); CBA 5.3–5.7% | 2026 | VERIFIED (IMF, WB page) / REPORTED (CBA, WB July report) | [13], [14], [16], [8], [38] |
 | Real GDP growth forecast 2027 | IMF WEO 5.5%; IMF SBA 5.3%; WB 5.1% | 2027 | VERIFIED / REPORTED (snippet) | [13], [14], [38] |
 | Average gross monthly nominal wage | AMD 312,486 (+5.6% y/y) | Jan–Aug 2026 | VERIFIED | [4], [6] |
 | Average gross wage, latest month | AMD 314,196 (≈$860 at Aug avg rate) | Aug 2026 | VERIFIED | [6] |
 | Average gross wage, full year | AMD 303,140 | 2025 | VERIFIED | [4] |
 | Average gross wage, Yerevan | AMD 357,583 (2025: 348,141) | Q2 2026 | VERIFIED | [5] |
 | Average gross wage, Kotayk / Gegharkunik | AMD 208,210 / 158,949 | Q2 2026 | VERIFIED | [5] |
-| Average gross wage, accommodation & food service (NACE I) | AMD 160,253 (Aug: 165,472; 2025: 150,621) | Jan–Aug 2026 | VERIFIED | [5] |
+| Average gross wage, accommodation & food service (NACE I) | AMD 160,253 (+7.8% y/y vs Jan–Aug 2025's 148,707; Aug: 165,472; 2025: 150,621) | Jan–Aug 2026 | VERIFIED | [5] |
 | Average gross wage, micro firms (1–9 employees) | AMD 145,114 | Jul 2026 | VERIFIED | [6] |
 | Real wage growth | ≈ +1.1% | Jan–Aug 2026 | ESTIMATE (1.056/1.045 − 1) | [4], [7] |
-| Minimum monthly wage | AMD 75,000 (since 1 Jan 2023; AMD 85,000 was planned "by 2026" but not enacted) | 2026 | REPORTED | [33], [34], [35] |
+| Minimum monthly wage | AMD 75,000 (since 1 Jan 2023; AMD 85,000 was planned "by 2026" but not enacted) | 2026 | REPORTED (Trading Economics, Jan 2026; PwC Tax Summaries, reviewed 30 Jun 2026, still uses 75,000) | [33], [34], [35], [43] |
+| Employee payroll deductions (for net-pay maths) | PIT 20%; funded pension 5% (gross < AMD 500 k); **health-insurance contribution AMD 4,800/month for gross AMD 200 k–500 k (from 25 Dec 2025)**; stamp duty AMD 1,000 (gross ≤ AMD 1 m) | 2026 | REPORTED | [43] |
 | Average monthly pension | AMD 49,451 | 2025 | VERIFIED | [3] |
 | Unemployment rate (LFS) | 12.8% (prelim.); 2024: 13.4% | 2025 | VERIFIED | [3] |
 | CPI inflation, y/y | 4.3% (Aug 4.4%; Jan–Sep avg 4.5%) | Sep 2026 | REPORTED (Sept) / VERIFIED (Aug) | [8], [7] |
@@ -122,7 +123,7 @@ Source numbers in [brackets] refer to Section 6.
 | Average POS purchase ticket | AMD 3,473 (Q1 2024: 6,654; 2025: 4,083) | Q2 2026 | ESTIMATE (value / count) | [21] |
 | Non-cash share of Armenian-card turnover in Armenia | 56.1% (2025: 49.5%; 2024: 47.3%) | H1 2026 | ESTIMATE from CBA (secondary press reports 56% for 2025 on a wider scope) | [21], [23] |
 | Apple Pay issuers in Armenia | 17 (incl. Telcell Wallet) | Oct 2026 | VERIFIED | [26] |
-| Card acquiring fee caps (physical POS, small merchants) | 0.5% ArCa; 0.9% Visa/MC (from 1 Mar 2026) | 2026 | REPORTED (snippet) | [25] |
+| Card acquiring fee caps (physical POS, small merchants) | 0.5% ArCa; 0.9% Visa/MC (from 1 Mar 2026; annual turnover ≤ AMD 150 m). The same article also cites a 0.2% cap for "small businesses" and fixed monthly caps (AMD 4,600 Yerevan / 3,000 regional towns / 1,000 rural) for merchants with ≤ AMD 50 k monthly POS turnover | 2026 (CBA Board decision 9 Feb 2026) | REPORTED (ArmInfo/Finport article opened in fact-check; CBA decision text not read) | [25] |
 | Internet users | 80.0% of population; mobile connections 138% | Oct 2025 | REPORTED | [30] |
 | Internet use in last 12 months, of which via mobile phone | 83.4%, of which 81.5% via mobile phone; mobile phone in 98.3% of households | 2024 | VERIFIED | [9] |
 | Households perceiving "high/very high" price growth | 49.6% (Q2 2026: 40.0%) | Q3 2026 | VERIFIED (CBA survey) / ESTIMATE (sum) | [22] |
@@ -175,7 +176,7 @@ Source numbers in [brackets] refer to Section 6.
 - **Forecasts for 2026.**
   - IMF WEO April 2026 (DataMapper): **5.3%** for 2026 and 5.5% for 2027 [VERIFIED: 13].
   - The IMF Board's SBA first review (9 Jun 2026) says growth will slow "to around 5¼ percent in 2026". Its Table 1 shows 5.5%, then 5.3% in 2027 and 5.0% in 2028. It cites "Middle East war effects on trade" and softer domestic demand [VERIFIED: 14].
-  - World Bank: 5.3% in the April MPO / June GEP [REPORTED (snippet): 38], later raised to **5.6%** on the WB Armenia page [VERIFIED: 16].
+  - World Bank: 5.3% (cut from 5.9%) in the *Armenia Economic Development Report* presented on 29 Jul 2026 [REPORTED: 38; corrected in fact-check, which opened the article; it is not the April MPO or June GEP], later raised to **5.6%** on the WB Armenia page, whose text cites data to July 2026 [VERIFIED: 16].
   - CBA Q3 2026 Monetary Policy Report: **5.3–5.7%** depending on scenario [REPORTED: 8].
 - **External sector.**
   - The current account deficit was 4.9% of GDP in 2025, with 4.8% projected for 2026 [VERIFIED: 14].
@@ -210,17 +211,19 @@ Source numbers in [brackets] refer to Section 6.
 **Accommodation & food service activities (NACE I), gross AMD [VERIFIED: 5]**
 
 - Monthly 2025: from 143,017 (Feb) to 160,438 (Dec). Annual average **150,621**.
-- Monthly 2026: Jan 157,367; Apr 158,544; Jun 161,501; Jul 164,176; **Aug 165,472**. **Jan–Aug average 160,253 (+6.4% y/y)**.
+- Monthly 2026: Jan 157,367; Apr 158,544; Jun 161,501; Jul 164,176; **Aug 165,472**. **Jan–Aug average 160,253 (+7.8% y/y against Jan–Aug 2025's 148,707)**. *Fact-check correction: the earlier "+6.4% y/y" compared Jan–Aug 2026 with the full-year 2025 average (150,621), not with the same period.* Hospitality wages are therefore rising faster than the all-economy +5.6%.
 - This sector pays about **51% of the national average** and is the lowest-paid of the sectors shown.
 - Declared payroll wages in hospitality are widely thought to understate real pay because of tips and informal top-ups [ASSUMPTION; standard caveat for tax-register wage data]. Labor-cost modelling should treat this as a floor.
 
 **Net pay and the labour-time cost of a coffee [ESTIMATE].**
 - Assumed deductions: 20% flat personal income tax, 5% funded-pension contribution, and a stamp duty of about AMD 1,500–3,000 [all ASSUMPTION based on the Tax Code as I understand it; verify with the SRC (src.am)].
+  - *Fact-check update [REPORTED: 43, PwC Tax Summaries, reviewed 30 Jun 2026]:* from December 2025 the stamp duty is **AMD 1,000** for gross pay up to AMD 1 m. From 25 Dec 2025 a new **health-insurance contribution** applies to employees earning over AMD 200 k gross: **AMD 4,800/month** up to AMD 500 k and AMD 10,800 above that. The pension rate (5% below AMD 500 k) is confirmed.
 - Net average wage ≈ 312,486 × 0.75 − 3,000 ≈ **AMD 231 k/month**, or about **AMD 1,335 per net hour** (173.3 hours/month).
-- A 2,000-AMD drink therefore costs **≈1.5 hours of net work** for an average earner and **≈2.9 hours** for a food-service worker (net ≈ AMD 119 k).
+  - *Recomputed with the 2026 rules:* 312,486 − 20% PIT − 5% pension − 4,800 − 1,000 ≈ **AMD 228.6 k/month** (≈ AMD 1,319 per net hour). The conclusion does not change.
+- A 2,000-AMD drink therefore costs **≈1.5 hours of net work** for an average earner and **≈2.9 hours** for a food-service worker (net ≈ AMD 119 k; the health-insurance contribution does not apply below AMD 200 k gross).
 
 **Minimum wage.**
-- AMD 75,000/month since 1 Jan 2023, up from 68,000 [REPORTED: 34 (Hetq, 29 Sep 2022)]. Trading Economics shows it unchanged in 2026, citing the MLSA [REPORTED: 33].
+- AMD 75,000/month since 1 Jan 2023, up from 68,000 [REPORTED: 34 (Hetq, 29 Sep 2022)]. Trading Economics shows it unchanged in 2026, citing the MLSA [REPORTED: 33]. PwC Tax Summaries (reviewed 30 Jun 2026) still uses AMD 75,000 as the minimum salary when it sets the pension-contribution cap [REPORTED: 43; fact-check corroboration].
 - A 2021 plan targeted AMD 85,000 "by 2026" [REPORTED: 35], but I found no evidence that it has been enacted.
 - *Verify the current law text on arlis.am before finalising staffing costs.*
 
@@ -244,7 +247,7 @@ Source numbers in [brackets] refer to Section 6.
 - **Coffee as a retail good.** The average retail price of coffee was **AMD 5,549/kg in 2025**, up from 4,836 in 2024 (+14.7%) and 3,778 in 2021 [VERIFIED: 11]. Input-cost inflation for coffee is high.
 - **Policy and forecasts.**
   - Core inflation was 4.8% y/y in Aug 2026 [REPORTED: 17].
-  - The CBA raised its rate to **6.75%** on 15 Sep 2026 after holding at 6.5% since Dec 2025. The Board vote was split 4–4 [REPORTED: 17].
+  - The CBA raised its rate to **6.75%** on 15 Sep 2026 after holding at 6.5% since Dec 2025. The Board vote was split 4–4, according to the Governor as quoted by ArmBanks on 15 Sep [REPORTED: 17; fact-check opened both articles].
   - The IMF expects inflation "to remain elevated in the near term on the back of commodity price increases and increased logistics costs from trade re-routing" [VERIFIED: 14].
   - The IMF WEO projects 2026 average CPI of 3.6% [VERIFIED: 13], which looks out of date against the actual 4.5% year to date.
   - The EDB forecasts 4.4% at end-2026 [REPORTED (snippet): 42]. The CBA Q3 MPR projects 4.2–4.5% for 2026 [REPORTED (snippet); verify on cba.am].
@@ -343,7 +346,8 @@ Source numbers in [brackets] refer to Section 6.
   - That gives **≈310 vehicles per 1,000 residents** (953,965 / 3,076.2 k) [ESTIMATE] and ≈300 per 1,000 in Yerevan (343,220 / 1,141.1 k) [ESTIMATE].
   - These ratios cover all vehicle types. If passenger cars were still about 80% of the fleet, as in Jan 2013 (388,043 of 483,614 vehicles; [REPORTED (snippet): 40]), there would be roughly **760 k passenger cars, ≈250 per 1,000 residents** [ESTIMATE using an ASSUMPTION; verify with Road Police].
 - **No official 2025–26 passenger-car count was found** (Road Police / MIA do not appear to publish one regularly; see the gaps section).
-- **Taxi substitution.** Taxis carried **28.1% of passenger trips** in 2024, up from 1.3% in 2022, now that taxi trips are recorded via electronic receipts [VERIFIED: Armstat Yearbook 2025, transport chapter]. Ride-hailing is an important way people move around Yerevan. Taxi drivers could be a drive-thru customer segment [ASSUMPTION], but car-free consumers cannot be served by a drive-thru lane.
+- **Taxi substitution.** Taxis carried **28.1% of passengers carried by *commercial* transport** in 2024 (table 15.4: rail, road motor transport including taxis, air, and electric transport). The 1.3% figure for 2022 is not comparable. Before 2023 it counted only taxis run by legal entities; from 2023 it counts all electronic-receipt taxi trips (25.0% in 2023) [VERIFIED: Armstat Yearbook 2025, transport chapter, tables 15.4 and footnotes].
+  - *Fact-check correction:* the statistic **excludes private-car trips and walking**. It does not show that taxis carry 28% of all trips, and it does not show that "taxis and walking dominate" travel in Yerevan. It does show that ride-hailing is now a large share of paid passenger transport. Taxi drivers could be a drive-thru customer segment [ASSUMPTION], but car-free consumers cannot be served by a drive-thru lane.
 - **Fuel prices:**
   - **AI-95: AMD 630/l ($1.74) on 5 Oct 2026**, the series high (first reached 28 Sep 2026). Long-run average since 2014: AMD 489 [REPORTED: 31].
   - **Diesel: AMD 710/l ($1.96)**, also a record [REPORTED: 31].
@@ -377,7 +381,7 @@ Source numbers in [brackets] refer to Section 6.
 | ATMs (Yerevan / regions) | 1,518 (946 / 572) | 1,455 (921 / 534) | 1,401 (908 / 493) |
 | Cash-in payment kiosks | – | 11,501 | 11,444 (5,131 Yerevan / 6,313 regions) |
 
-ATM numbers are falling while POS numbers rise, which points to a structural move toward card acceptance. The CBA links the growth in terminals to the **mandatory cashless-acceptance rule introduced in July 2022** [REPORTED: 23, 24].
+ATM numbers are falling while POS numbers rise, which points to a structural move toward card acceptance. ArmInfo links the growth in card use to the **legislative restrictions on cash transactions introduced on 1 July 2022 (2022 law on non-cash payments)** [REPORTED: 23, 24; wording corrected in fact-check to match the source, which does not describe it as a "mandatory cashless-acceptance rule"].
 
 **Card usage: Armenian cards used in Armenia (CBA quarterly data; my aggregation) [VERIFIED base data: 21; aggregates are ESTIMATES]**
 
@@ -398,11 +402,12 @@ ATM numbers are falling while POS numbers rise, which points to a structural mov
 - **Foreign cards** (tourists and relocants using foreign-issued cards) spent **AMD 133.3 bn at POS in 2024 and 164.6 bn in 2025**, **+15.3% y/y in H1 2026** [ESTIMATE from 21].
 - **Mobile wallets and tokens:**
   - Apple Pay is supported by **17 issuers**: ACBA, Ameriabank, AMIO, AraratBank, Ardshinbank, Armeconombank, AEB, ArmSwissBank, Artsakhbank, Byblos, Converse, Evocabank, Fast Bank, ID Bank, Inecobank, **Telcell Wallet** and Unibank [VERIFIED: 26].
-  - Google Pay / Google Wallet has been live since Nov 2022 (Ameriabank, Ardshinbank, ACBA, Armeconombank, Converse, Evocabank at launch) [REPORTED (snippet): 27, 28].
+  - Google Pay / Google Wallet has been live since Nov 2022 (Ameriabank, Ardshinbank, ACBA, Armeconombank, Converse, Evocabank at launch) [REPORTED (snippet): 27, 28]. *The fact-check confirmed only Ameriabank's launch on 15 Nov 2022 (source 27 opened). The other launch banks and the current issuer list are UNVERIFIED.*
   - ArmInfo notes Apple Pay and Google Pay for Visa/Mastercard, and ArCaPay/ArCa QR for ArCa cards [REPORTED: 23].
-  - **QR wallets:** Idram runs the largest open QR network, quoted at about 26,000 QR payment points. EasyPay and Fastshift users can pay at Idram QR points (>22,500 POS). Telcell has >4,000 terminals and is expanding QR [REPORTED (snippet, provider and comparison sites): 29].
+  - **QR wallets:** Idram runs the largest open QR network, quoted at about 26,000 QR payment points [UNVERIFIABLE in fact-check; snippet only]. EasyPay users can pay at Idram QR points (>22,500 POS) [REPORTED: 29; ARMENPRESS article opened in fact-check, dated 2 Dec 2024]. Telcell has >4,000 terminals and is expanding QR [REPORTED (snippet, provider and comparison sites): 29].
   - **Active-user counts for Idram, Telcell, Fastshift and EasyPay were not found.**
-- **Merchant fees.** From 1 Mar 2026 the CBA capped physical-POS acquiring fees at **0.5% (ArCa)** and **0.9% (Visa/Mastercard)** for businesses with turnover up to AMD 150 m [REPORTED (snippet): 25]. For the model, use a blended card fee of about 0.7–0.9% if the business qualifies, and 1.5–2% if it does not [ASSUMPTION; get bank acquiring quotes].
+- **Merchant fees.** From 1 Mar 2026 the CBA capped physical-POS acquiring fees at **0.5% (ArCa)** and **0.9% (Visa/Mastercard)** for businesses with **annual** turnover up to AMD 150 m [REPORTED: 25; ArmInfo/Finport article of 11 Feb 2026 opened in fact-check; CBA Board decision of 9 Feb 2026]. The article also mentions a 0.2% cap for "small businesses" and fixed caps for merchants with ≤ AMD 50 k monthly POS turnover. For the model, use a blended card fee of about 0.7–0.9% if the business qualifies, and 1.5–2% if it does not [ASSUMPTION; get bank acquiring quotes].
+  - *Fact-check flag:* AMD 150 m a year is about AMD 12.5 m a month, or ≈4,100 tickets a month at AMD 3,000. A single site at target volume would likely exceed this, so the **base case should use the uncapped 1.5–2%** and treat the cap as upside only.
 
 ### 3.10 Smartphones and mobile internet
 
@@ -490,7 +495,7 @@ ATM numbers are falling while POS numbers rise, which points to a structural mov
    - Only about 146 k people live in the corridor towns. A highway site therefore depends on **discretionary leisure trips from Yerevan** (Sevan in summer, Tsaghkadzor in winter, Dilijan) and on tourists. That means **strong seasonality and weekday weakness** [ASSUMPTION; to be tested with traffic counts in another workstream].
 3. **The car-owning base is modest.**
    - **41% of households own a car** and there are about 310 vehicles of all types per 1,000 residents.
-   - Taxis (28% of passenger trips) and walking dominate in Yerevan. In US markets drive-thru penetration rests on near-universal car ownership; that is not the case here.
+   - Taxis now carry 28% of passengers on *commercial* transport, so ride-hailing is a big part of paid mobility in Yerevan. *Fact-check correction: this statistic excludes private cars and walking, so it does not show that "taxis and walking dominate".* In US markets drive-thru penetration rests on near-universal car ownership; that is not the case here.
 4. **Fuel prices are at records** (AI-95 AMD 630, petrol +11.7% y/y, diesel +25%) and inflation expectations are rising, which may squeeze leisure driving and discretionary spending in 2026–27.
 5. **Cost inflation outpaces headline inflation.** Food CPI is 6–9%, the retail coffee price rose +14.7% in 2025, wages are growing about 5.6%, and Yerevan catering CPI is +6%. Margins will be squeezed unless prices rise, and price rises hurt affordability.
 6. **Relocant- and tourist-driven demand is volatile.** It depends on Russian politics and on Armenia–Russia relations, which worsened in 2026. In a downside scenario (Russia–Armenia rupture, end of inflows), the dram could weaken by 5–8% and Yerevan's premium-café demand could fall.
@@ -507,7 +512,8 @@ ATM numbers are falling while POS numbers rise, which points to a structural mov
   - Real GDP growth 5–5.5%.
   - Nominal wage growth 5.5–6.5% a year.
   - Card share of sales 75–90% for a drive-thru with app pre-order [ASSUMPTION].
-  - Card fee 0.7–0.9% (capped) to 1.5–2% (if not eligible).
+  - Card fee 0.7–0.9% (capped) to 1.5–2% (if not eligible). *Fact-check: the cap only applies up to AMD 150 m annual turnover (≈AMD 411 k/day), so base on 1.5–2%.*
+  - Payroll: add the employee health-insurance contribution (AMD 4,800/month for gross AMD 200–500 k, from 25 Dec 2025) when grossing up net-pay offers [REPORTED: 43].
 
 ---
 
@@ -526,7 +532,7 @@ ATM numbers are falling while POS numbers rise, which points to a structural mov
 | **Minimum-wage law text; personal income tax and social payment rates for 2026** | Labour-cost and net-pay calculations | arlis.am (law on minimum monthly salary); SRC / Tax Code on src.am. |
 | **Smartphone share of handsets** | App-ordering adoption | GSMA Intelligence; Public Services Regulatory Commission; operator reports (Team, Viva, Ucom). |
 | **Through-traffic split at Bagratashen (M4/Dilijan vs M6/Vanadzor)** | M4 corridor volume | Ministry of Territorial Administration & Infrastructure / Roads Department traffic counts; manual counts. |
-| **Google Pay current issuer list; acquiring-fee cap details** | Payments set-up | Google Wallet help centre (supported banks, Armenia); CBA decision text, March 2026 (finport/armbanks reports seen only in snippets). |
+| **Google Pay current issuer list; acquiring-fee cap details** | Payments set-up | Google Wallet help centre (supported banks, Armenia); CBA Board decision text of 9 Feb 2026 (the fact-check opened the ArmInfo/Finport report; the definition of the 0.2% "small business" tier is still unclear). |
 | **Source-coverage limit** | Some secondary items seen only in search snippets (marked "snippet") | Re-open the cited URLs before investor circulation. The web-search budget was exhausted during this task; a follow-up session can re-run targeted searches (fleet statistics, relocant stock, wallet users). |
 
 ---
@@ -549,7 +555,7 @@ ATM numbers are falling while POS numbers rise, which points to a structural mov
 14. IMF Press Release No. 26/195: "IMF Executive Board Completes the First Review Under the Stand-By Arrangement with Armenia", 9 Jun 2026. https://www.imf.org/en/news/articles/2026/06/09/pr-26195-armenia-imf-executive-board-completes-the-first-review-under-the-stand-by-arrangement
 15. World Bank: *Armenia Monthly Economic Update – September 2026* (Manookian and Chemutai), file dated 14 Sep 2026. https://thedocs.worldbank.org/en/doc/97bb24e66a54baf6d2dd3bd582fca75c-0080012026/original/ARM-MEU-09-09-2026.pdf
 16. World Bank: Armenia country page (growth 5.6% for 2026; UMIC poverty line figures). https://www.worldbank.org/ext/en/country/armenia
-17. ArmBanks.am: "Central Bank of Armenia raised its monetary policy rate for the first time in over three years…", 16 Sep 2026. https://armbanks.am/en/2026/09/16/279708/ (core inflation and the 4–4 vote also reported at https://armbanks.am/en/2026/09/15/279616/, snippet)
+17. ArmBanks.am: "Central Bank of Armenia raised its monetary policy rate for the first time in over three years…", 16 Sep 2026. https://armbanks.am/en/2026/09/16/279708/ (this article gives core inflation of 4.8% for Aug 2026; the 4–4 vote and the reasons for the hike are in https://armbanks.am/en/2026/09/15/279616/. The fact-check opened both.)
 18. ARMENPRESS: "Armenia's GDP grows 7.2% in 2025 to $29.2 billion", 20 Feb 2026. https://armenpress.am/en/article/1242737
 19. CBA: *RA payment card infrastructure* (quarterly, to Q2 2026). https://www.cba.am/file_manager/Statistics_reports/finorg/Payment_card_infrastructure_eng.xls (page: https://www.cba.am/en/statistics/ra-payment-infrastructure/137)
 20. CBA: *Number of payment cards* (quarterly, to Q2 2026). https://www.cba.am/file_manager/Statistics_reports/finorg/Number_of_payment_cards_eng.xls (page: https://www.cba.am/en/statistics/payment-cards-circulation-in-armenia/237)
@@ -557,7 +563,7 @@ ATM numbers are falling while POS numbers rise, which points to a structural mov
 22. CBA: *Inflation expectations survey of households* (quarterly to 2026 Q3). https://www.cba.am/file_manager/Statistics_reports/survey/Infl_Exp_for_housholds_Eng.xlsx (page: https://www.cba.am/en/statistics/inflation-expectations-surveys/103)
 23. Finport.am / ArmInfo: "Cashless card transactions in Armenia exceed cash transactions by 56%", 19 Feb 2026. https://finport.am/full_news.php?id=55636&lang=3
 24. Finport.am / ArmInfo: "Number of virtual POS terminals nearing 6,000 in Armenia", 19 Feb 2026. https://finport.am/full_news.php?id=55622&lang=3
-25. Finport.am: "Armenia's Central Bank sets maximum commission fee limits for cashless payments through physical POS terminals: 0.5% for ArCa cards and 0.9% for Visa and MC cards" (snippet). https://finport.am/full_news.php?id=55549&lang=3. See also ArmBanks, 12 Feb 2026 (snippet): https://armbanks.am/en/2026/02/12/270539/
+25. Finport.am / ArmInfo (K. Melikyan, 11 Feb 2026): "Armenia's Central Bank sets maximum commission fee limits for cashless payments through physical POS terminals: 0.5% for ArCa cards and 0.9% for Visa and MC cards" (opened in the fact-check). https://finport.am/full_news.php?id=55549&lang=3. See also ArmBanks, 12 Feb 2026 (snippet): https://armbanks.am/en/2026/02/12/270539/
 26. Apple Support: "Apple Pay participating banks in Africa, Europe, and the Middle East", Armenia section. https://support.apple.com/en-am/109516
 27. Ameriabank media room: Google Pay launch (15 Nov 2022) (snippet). https://ameriabank.am/en/media-room/articleid/5244
 28. Intech.am: "Google Wallet in Armenia" (launch bank list) (snippet). https://intech.am/google-wallet-in-armenia/
@@ -570,8 +576,61 @@ ATM numbers are falling while POS numbers rise, which points to a structural mov
 35. ARKA: "Minimum monthly wage in Armenia to grow to 85,000 drams in 2026", 5 Nov 2021. https://arka.am/en/news/economy/minimum_monthly_wage_in_armenia_to_grow_to_85_000_drams_in_2026/
 36. Wikipedia: "2026 in Armenia" (chronology; secondary). https://en.wikipedia.org/wiki/2026_in_Armenia
 37. Wikipedia: "Russian emigration following the Russian invasion of Ukraine" (cites ARKA, 7 Apr 2022, "Minister: Some 50,000 people relocate to Armenia"). https://en.wikipedia.org/wiki/Russian_emigration_following_the_Russian_invasion_of_Ukraine
-38. ARKA: "World Bank has lowered its forecast for Armenia's economic growth in 2026 from 5.9% to 5.3%…" (snippet; 2027: 5.1%). https://arka.am/en/news/economy/world-bank-has-lowered-its-forecast-for-armenia-s-economic-growth-in-2026-from-5-9-to-5-3-due-to-the/
+38. ARKA: "World Bank has lowered its forecast for Armenia's economic growth in 2026 from 5.9% to 5.3%…", 29 Jul 2026 (WB *Armenia Economic Development Report*, presented by A. Manukyan; 2027: 5.1%). Opened in the fact-check. https://arka.am/en/news/economy/world-bank-has-lowered-its-forecast-for-armenia-s-economic-growth-in-2026-from-5-9-to-5-3-due-to-the/
 39. ArmBanks.am: "IMF Improves Armenia's GDP Growth Forecast to 5.3% in 2026", 15 Apr 2026 (snippet). https://armbanks.am/en/2026/04/15/272187/
 40. Azatutyun (RFE/RL Armenian): passenger cars in Armenia, Jan 2013 (388,043 passenger cars of 483,614 vehicles) (snippet only). https://www.azatutyun.am/a/25082940.html
 41. ARKA: "The poverty rate in Armenia by the end of 2024 was 21.7%" (2023: 23.7%), 12 Nov 2025 (snippet). https://arka.am/en/news/economy/the-poverty-rate-in-armenia-by-the-end-of-2024-was-21-7
-42. ArmBanks.am: "EDB forecasts inflation in Armenia at 4.4% by the end of 2026", 7 Sep 2026 (snippet). https://armbanks.am/en/2026/09/07/279065/
+42. ArmBanks.am: "EDB forecasts inflation in Armenia at 4.4% by the end of 2026", 7 Sep 2026 (opened in the fact-check). https://armbanks.am/en/2026/09/07/279065/
+43. PwC Worldwide Tax Summaries: Armenia, Individual, "Other taxes" (pension contributions, health-insurance contribution from 25 Dec 2025, stamp duty from Dec 2025), last reviewed 30 Jun 2026. https://taxsummaries.pwc.com/armenia/individual/other-taxes (added in the fact-check)
+
+---
+
+## 7. Fact-check log
+
+Adversarial fact-check carried out on 2026-10-10. Primary files were re-downloaded and re-parsed where possible: CBA SOAP API, CBA xls files, Armstat xlsx/PDF/7z files, and the IMF DataMapper API. The shared web-search budget was already exhausted, so this check opened cited or known URLs directly and ran no new searches. Items that need a search to confirm are left UNVERIFIABLE. **Overall:** the core quantitative base (FX, wages, CPI, cards/POS, ILCS, border flows, GDP) reproduces exactly from primary sources. Nothing looks invented. The corrections are about interpretation and attribution, plus one wrong growth rate.
+
+| # | Claim | Verdict | Evidence URL |
+|---|---|---|---|
+| 1 | CBA USD rate 361.93 on 9 Oct 2026; EUR 405.58; RUB 4.2677 | CONFIRMED (API re-queried) | https://api.cba.am/exchangerates.asmx (ExchangeRatesByDateByISO, 2026-10-09) |
+| 2 | 12-month USD range 361.81 (5 Oct 2026) to 383.05 (24 Oct 2025); average 373.39; 251 business days; 382.68 on 10 Oct 2025 | CONFIRMED. Wording note: AMD/USD is −5.4% y/y, which equals dram appreciation of +5.7% (text clarified) | https://api.cba.am/exchangerates.asmx (ExchangeRatesByDateRangeByISO) |
+| 3 | Average gross wage Jan–Aug 2026 AMD 312,486 (+5.6% y/y); Aug 314,196; 2025 average 303,140; monthly y/y figures (Jan +5.5, Mar −1.2, May +10.8, Jul +5.3, Aug +6.5); Dec 2025 376,743 | CONFIRMED | https://www.armstat.am/file/doc/99571893.xlsx ; https://armstat.am/file/article/sv_08_26r_03.pdf |
+| 4 | Q2 2026 gross wage: Yerevan 357,583; Kotayk 208,210; Gegharkunik 158,949 (2025: 348,141 / 201,018 / 150,233) | CONFIRMED | https://www.armstat.am/file/doc/99571903.xlsx |
+| 5 | Accommodation & food (NACE I) wage Jan–Aug 2026 AMD 160,253 "+6.4% y/y" | CORRECTED: +6.4% → **+7.8% y/y** (Jan–Aug 2025 = 148,707; 6.4% was the gap to the full-year 2025 average). Level confirmed | https://www.armstat.am/file/doc/99571893.xlsx (cumulative sheet, row I) |
+| 6 | Minimum wage AMD 75,000 (since 1 Jan 2023), 85,000 plan not enacted | CONFIRMED (REPORTED, two secondary sources current to Jan/Jun 2026; arlis.am law text not read) | https://tradingeconomics.com/armenia/minimum-wages ; https://taxsummaries.pwc.com/armenia/individual/other-taxes ; https://hetq.am/en/article/148796 |
+| 7 | Net-pay deductions: 20% PIT + 5% pension + AMD 1,500–3,000 stamp duty (ASSUMPTION) | NEWER DATA: health-insurance contribution of AMD 4,800/month (gross AMD 200–500 k) from 25 Dec 2025; stamp duty AMD 1,000 from Dec 2025. Net average wage ≈ 228.6 k, not 231 k. Hours-per-drink conclusion unchanged | https://taxsummaries.pwc.com/armenia/individual/other-taxes |
+| 8 | CPI Sep 2026 4.3% y/y; food 6.2%; restaurants & hotels 5.4% | CONFIRMED (REPORTED; the Armstat September bulletin is not yet online, cpi_09_2026 returns 404) | https://arka.am/en/news/economy/armenia-records-4-3-year-on-year-inflation-in-september-prices-rose-0-2-month-on-month/ |
+| 9 | Aug 2026 CPI detail: headline 4.4; catering 4.6; fast food 4.8; coffee 5.4; petrol +11.7; diesel +25.0; petrol index 107.7 (Dec 2025 = 100); accommodation +18.1% vs Dec; Yerevan restaurants & hotels 6.0 vs Hrazdan 0.0 / Gavar 0.6 | CONFIRMED | https://armstat.am/file/article/cpi_08_2026-eng.pdf |
+| 10 | CBA policy rate raised 6.5% → 6.75% on 15 Sep 2026, first hike in over three years; 4–4 vote; core inflation 4.8% (Aug) | CONFIRMED (REPORTED; the vote split is in the 15 Sep article, core inflation in the 16 Sep article) | https://armbanks.am/en/2026/09/16/279708/ ; https://armbanks.am/en/2026/09/15/279616/ |
+| 11 | AI-95 AMD 630/l ($1.74) and diesel AMD 710/l ($1.96) on 5 Oct 2026; both series highs from 28 Sep 2026 | CONFIRMED (REPORTED; aggregator, not an official price) | https://www.globalpetrolprices.com/Armenia/gasoline_prices/ ; https://www.globalpetrolprices.com/Armenia/diesel_prices/ |
+| 12 | Payment cards 5,468,517 (Q2 2026); NFC 86.9%; ArCa-MIR 434,003 | CONFIRMED (NFC sum 4,753,357) | https://www.cba.am/file_manager/Statistics_reports/finorg/Number_of_payment_cards_eng.xls |
+| 13 | POS terminals 103,235; catering POS 12,355 (+38.8% vs Q4 2024); ATMs 1,401 | CONFIRMED | https://www.cba.am/file_manager/Statistics_reports/finorg/Payment_card_infrastructure_eng.xls |
+| 14 | Physical-POS purchases H1 2026 AMD 668.4 bn (+41.0%), 185.4 m transactions (+65.8%); average ticket 3,473 (Q2 2026) vs 6,654 (Q1 2024); foreign-card POS AMD 164.6 bn (2025), +15.3% in H1 2026; non-cash share Q2 2026 55.9% | CONFIRMED (recomputed from quarterly sheets) | https://www.cba.am/file_manager/Statistics_reports/finorg/Payment_card_transactions_eng.xls |
+| 15 | Acquiring-fee caps 0.5% ArCa / 0.9% Visa-MC from 1 Mar 2026, turnover ≤ AMD 150 m | CONFIRMED (tag upgraded from "snippet" to REPORTED, article opened). **Flag:** the threshold is *annual* turnover, which a target-volume drive-thru will likely exceed; the article also mentions an unexplained 0.2% "small business" tier | https://finport.am/full_news.php?id=55549&lang=3 |
+| 16 | Apple Pay: 17 Armenian issuers including Telcell Wallet | CONFIRMED | https://support.apple.com/en-am/109516 |
+| 17 | Google Pay live since Nov 2022 with six launch banks | PARTLY CONFIRMED: Ameriabank 15 Nov 2022 confirmed; the other five banks are UNVERIFIABLE | https://ameriabank.am/en/media-room/articleid/5244 |
+| 18 | Idram ~26,000 QR points; >22,500 POS | UNVERIFIABLE for 26,000 (snippet only); >22,500 POS CONFIRMED (ARMENPRESS, Dec 2024) | https://armenpress.am/en/article/1206443 |
+| 19 | 41.2% of households own a car (ILCS 2024) | CONFIRMED (the source text reads "car (41.2)" in the list of durables available to households) | https://armstat.am/file/article/poverty_2025_en_4.pdf |
+| 20 | Poverty 21.7% (2024); Yerevan 16.9%, Kotayk 24.8% (CI 13.9–35.8), Gegharkunik 27.6% | CONFIRMED. Note the very wide Kotayk confidence interval: the regional gap with Yerevan is not statistically robust | https://armstat.am/file/article/poverty_2025_en_2.pdf |
+| 21 | Food away from home AMD 1,709/month (2.8%); urban 2,293 (3.5%) | CONFIRMED | https://armstat.am/file/article/poverty_2025_en_3.pdf |
+| 22 | Taxis = 28.1% of passenger trips (2024); "taxis and walking dominate in Yerevan" | CORRECTED: this is 28.1% of passengers carried by *commercial* transport, which excludes private cars and walking. The jump from 1.3% (2022) is a methodology break. "Dominate" is not supported | https://armstat.am/file/doc/99563708.pdf (table 15.4) |
+| 23 | Registered vehicles 953,965 (Yerevan 343,220) "as of 1 Sep 2024" | CONFIRMED as REPORTED. The article is dated 8 Sep 2025, so "2024" may be a typo for 2025 and the year stays uncertain | https://www.amnews.am/language/ru/social-ru-1073/ |
+| 24 | Net border entries of Russian citizens Jan–Aug 2026 +65,750 (1,095,480 − 1,029,730); Bagratashen 927,780; Zvartnots 1,906,110 | CONFIRMED | https://armstat.am/file/article/sv_08_26r_510.pdf |
+| 25 | GDP 2025 AMD 11,342.7 bn, +7.1%; per capita 3,674,818; Q1/Q2 2026 +5.2/+6.7; pension 49,451; population 3,096.9 k (end-2025) | CONFIRMED | https://armstat.am/file/article/f_sec_2_2026_1.pdf |
+| 26 | IMF: GDP per capita $9,521 (2025) / $10,410 (2026f); PPP $27,024; growth 5.3% (2026) / 5.5% (2027); CPI 3.6% (2026) | CONFIRMED (October 2026 WEO not yet in DataMapper) | https://www.imf.org/external/datamapper/api/v1/NGDPDPC/ARM |
+| 27 | IMF SBA review: "around 5¼ percent" in 2026; Table 1 5.5 / 5.3 / 5.0; current account −4.9% (2025) / −4.8% (2026) | CONFIRMED | https://www.imf.org/en/news/articles/2026/06/09/pr-26195-armenia-imf-executive-board-completes-the-first-review-under-the-stand-by-arrangement |
+| 28 | World Bank 2026 growth: 5.6% (latest) and 5.3% "April MPO / June GEP" | CORRECTED attribution: 5.3% comes from the WB *Armenia Economic Development Report* (29 Jul 2026, cut from 5.9%). The 5.6% on the WB page is later (it cites data to July 2026). UMIC poverty 46.5% → 43.7% confirmed | https://arka.am/en/news/economy/world-bank-has-lowered-its-forecast-for-armenia-s-economic-growth-in-2026-from-5-9-to-5-3-due-to-the/ ; https://www.worldbank.org/ext/en/country/armenia |
+| 29 | WB September MEU: Yerevan centre prices +12.7% y/y; "new influx of Russians"; reserves record $6.5 bn; Russia transfers +37.3%; business registrations +29%; budget surplus 0.3%; health spending +76.1% | CONFIRMED | https://thedocs.worldbank.org/en/doc/97bb24e66a54baf6d2dd3bd582fca75c-0080012026/original/ARM-MEU-09-09-2026.pdf |
+| 30 | Food & beverage service turnover AMD 311.7 bn (2024); real growth +18.9 / +27.1 / +10.9 | CONFIRMED | https://armstat.am/file/doc/99563713.pdf |
+| 31 | Coffee retail price AMD 5,549/kg (2025) vs 4,836 (2024) | CONFIRMED (5,549.1 / 4,836.1) | https://armstat.am/file/article/gner_2026_xlsx.7z (Gner_2026_2.xlsx, sheet 19) |
+| 32 | Accommodation & food services AMD 281.5 bn, +13.9% (Jan–Aug 2026); retail trade +7.1% | CONFIRMED | https://armstat.am/file/article/sv_08_26r_126.pdf |
+| 33 | 2026 political events: Turkey lifts trade restrictions 13 May; EU–Armenia summit 5 May; Civil Contract 49.8% on 7 Jun; Russian bans on Jermuk, wine and cognac 23 May | CONFIRMED as REPORTED (Wikipedia chronology only; no primary source opened) | https://en.wikipedia.org/wiki/2026_in_Armenia |
+| 34 | CBA household survey Q3 2026: 49.6% perceive high or very high price growth (Q2: 40.0%) | CONFIRMED (33.4 + 16.2; expectations 13.7 + 5.7 = 19.4, a rounding difference from 19.5) | https://www.cba.am/file_manager/Statistics_reports/survey/Infl_Exp_for_housholds_Eng.xlsx |
+| 35 | DataReportal: 80.0% internet users, 138% mobile connections, 66.7 Mbps | CONFIRMED (REPORTED; uses UN population of 2.95 m, not Armstat's 3.10 m) | https://datareportal.com/reports/digital-2026-armenia |
+| 36 | Poverty 23.7% in 2023; passenger cars 388,043 in 2013; Telcell >4,000 terminals | UNVERIFIABLE (snippet-only sources; search budget exhausted) | — |
+
+**Red flags for the model team**
+1. **Card-fee cap eligibility.** The AMD 150 m threshold is annual turnover (≈AMD 411 k/day). Do not use the 0.5–0.9% capped fee in the base case.
+2. **Hospitality wage inflation is +7.8% y/y, not +6.4%.** Labour-cost escalation in the model should run above all-economy wage growth (+5.6%).
+3. **New payroll item.** The employee health-insurance contribution (AMD 4,800/month for gross AMD 200–500 k, from 25 Dec 2025) affects gross-up of net offers for supervisors and managers.
+4. **Taxi statistic misread.** The "28% of trips by taxi" figure does not measure car-free mobility. Use ILCS car ownership (41.2%) and traffic counts instead.
+5. **Vehicle fleet year (2024 vs 2025)** is still ambiguous in the only source found.

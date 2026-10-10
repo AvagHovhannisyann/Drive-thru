@@ -79,7 +79,8 @@ def run(a: dict, s: str = "base", concept: str | None = None, overrides: dict | 
             a[k] = {"value": v}
     concept = concept or val(a, "concept")
     fx = val(a, "fx_amd_per_usd")
-    vat = val(a, "vat_rate")
+    regime = val(a, "tax_regime") if "tax_regime" in a else "vat"
+    vat = val(a, "vat_rate") if regime == "vat" else 0.0   # under catering turnover tax receipts carry no VAT
     months = 60
     start_month = val(a, "opening_month")          # 1..12 calendar month of opening
     infl_price = scen(a, "price_inflation", s)
@@ -168,13 +169,26 @@ def run(a: dict, s: str = "base", concept: str | None = None, overrides: dict | 
         agg["transactions"] = sum(r["tx_day"] * r["days"] for r in R)
         agg["tx_per_day"] = agg["transactions"] / sum(r["days"] for r in R)
         agg["avg_ticket"] = agg["gross"] / agg["transactions"]
-        taxable = agg["ebit"] - loss_cf
-        if taxable < 0:
-            loss_cf = -taxable
+        agg["ebitda_pre_tt"] = agg["ebitda"]
+        if regime == "catering_tt":
+            # Tax Code Art. 254(6)-(7), 258: TT = 12% receipts - 9% documented opex (excl. capex, depreciation, repairs), floor 3.5%;
+            # unused deductions carry forward. TT replaces VAT and profit tax, so it is shown above EBITDA.
+            credit = val(a, "tt_deduction_rate") * (agg["opex"] - agg["rm"]) + loss_cf
+            tt = max(val(a, "tt_rate") * agg["gross"] - credit, val(a, "tt_min_rate") * agg["gross"])
+            loss_cf = max(0.0, credit - (val(a, "tt_rate") - val(a, "tt_min_rate")) * agg["gross"])
+            agg["turnover_tax"] = tt
+            agg["ebitda"] = agg["ebitda_pre_tt"] - tt
+            agg["ebit"] = agg["ebitda"] - agg["dep"]
             tax = 0.0
         else:
-            loss_cf = 0.0
-            tax = taxable * profit_tax
+            agg["turnover_tax"] = 0.0
+            taxable = agg["ebit"] - loss_cf
+            if taxable < 0:
+                loss_cf = -taxable
+                tax = 0.0
+            else:
+                loss_cf = 0.0
+                tax = taxable * profit_tax
         agg["tax"] = tax
         agg["net_income"] = agg["ebit"] - tax
         agg["maint_capex"] = agg["net"] * maint_capex_pct if y > 1 else 0.0
@@ -189,8 +203,7 @@ def run(a: dict, s: str = "base", concept: str | None = None, overrides: dict | 
     cum = -(capex + pre_opening)
     for r in rows:
         y = years[r["year"] - 1]
-        share = r["ebitda"] / y["ebitda"] if y["ebitda"] else 1 / 12
-        cash = r["ebitda"] - (y["tax"] + y["maint_capex"] + y["delta_wc"]) / 12
+        cash = r["ebitda"] - (y["turnover_tax"] + y["tax"] + y["maint_capex"] + y["delta_wc"]) / 12
         cum += cash
         r["cum_cash"] = cum
         if payback_month is None and cum >= 0:
@@ -203,7 +216,7 @@ def run(a: dict, s: str = "base", concept: str | None = None, overrides: dict | 
         residual += cx["by_class"].get("land", 0)
     flows_tv = flows[:-1] + [flows[-1] + residual]
     npv = sum(cf / (1 + disc) ** i for i, cf in enumerate(flows_tv))
-    nopat_y3 = years[2]["ebit"] * (1 - profit_tax)
+    nopat_y3 = years[2]["ebit"] - years[2]["tax"]
     result = dict(
         scenario=s, concept=concept, fx=fx, capex=capex, pre_opening=pre_opening, investment=invest,
         capex_items=cx["items"], capex_by_class=cx["by_class"],
@@ -216,46 +229,71 @@ def run(a: dict, s: str = "base", concept: str | None = None, overrides: dict | 
     return result
 
 
+def _after_tax_ebitda(a: dict, R: float, var_pct: float, F: float, regime: str) -> float:
+    """Annual EBITDA (after turnover tax if TT regime) for receipts R (revenue line), variable % of R and fixed costs F."""
+    E = var_pct * R + F
+    pre = R - E
+    if regime == "catering_tt":
+        rm_share = val(a, "repairs_maint_pct") * R
+        tt = max(val(a, "tt_rate") * R - val(a, "tt_deduction_rate") * (E - rm_share), val(a, "tt_min_rate") * R)
+        return pre - tt
+    return pre
+
+
+def _solve_R(a, target, var_pct, F, regime):
+    lo, hi = 0.0, 1e11
+    for _ in range(200):
+        mid = (lo + hi) / 2
+        if _after_tax_ebitda(a, mid, var_pct, F, regime) < target:
+            lo = mid
+        else:
+            hi = mid
+    return hi
+
+
 def breakeven(a: dict, s: str, concept: str, res: dict) -> dict:
     """Steady-state (Year-2 cost base) break-even in transactions/day and passing vehicles/day."""
-    vat = val(a, "vat_rate")
+    regime = val(a, "tax_regime") if "tax_regime" in a else "vat"
+    vat = val(a, "vat_rate") if regime == "vat" else 0.0
     y2 = res["years"][1]
-    var_pct_net = (y2["cogs"] + y2["card"] + y2["rm"] + y2["other_var"] + (y2["marketing"])) / y2["net"]
-    var_pct_net += val(a, "utilities_variable_pct")
-    fixed_y = y2["labour"] + y2["rent"] + y2["fixed"] + (y2["utilities"] - y2["net"] * val(a, "utilities_variable_pct"))
+    uv = val(a, "utilities_variable_pct")
+    var_pct = (y2["cogs"] + y2["card"] + y2["rm"] + y2["other_var"] + y2["marketing"]) / y2["net"] + uv
+    fixed_y = y2["labour"] + y2["rent"] + y2["fixed"] + (y2["utilities"] - y2["net"] * uv)
     ticket_net = y2["avg_ticket"] / (1 + vat)
-    contrib_per_tx = ticket_net * (1 - var_pct_net)
     days = val(a, "open_days_per_year")
-    tx_be = fixed_y / contrib_per_tx / days
-    # include depreciation for EBIT break-even
-    tx_be_ebit = (fixed_y + y2["dep"]) / contrib_per_tx / days
+    R_be = _solve_R(a, 0.0, var_pct, fixed_y, regime)
+    R_be_ebit = _solve_R(a, y2["dep"], var_pct, fixed_y, regime)
+    tx_be = R_be / ticket_net / days
+    tx_be_ebit = R_be_ebit / ticket_net / days
     access = scen(a, "accessible_share", s)
     cap = scen(a, "capture_rate", s) * (1 + scen(a, "capture_growth", s))
     other = scen(a, "other_transactions_day", s)
     veh_be = max(0.0, tx_be - other) / (access * cap)
-    # target: cash payback within 4 years -> required annual FCF ~ investment/4; approximate EBITDA target
-    target_ebitda = res["investment"] / 4 / (1 - 0.18 * 0.6)
-    tx_target = (fixed_y + target_ebitda) / contrib_per_tx / days
+    # 4-year simple cash payback: after-tax EBITDA (less profit tax in VAT regime, approx.) >= investment / 4
+    tax_adj = 1.0 if regime == "catering_tt" else (1 - val(a, "profit_tax_rate") * 0.6)
+    R_t = _solve_R(a, res["investment"] / 4 / tax_adj, var_pct, fixed_y, regime)
+    tx_target = R_t / ticket_net / days
     veh_target = max(0.0, tx_target - other) / (access * cap)
-    return dict(variable_cost_pct_of_net=var_pct_net, fixed_costs_year=fixed_y, contribution_per_tx=contrib_per_tx,
+    return dict(variable_cost_pct_of_net=var_pct, fixed_costs_year=fixed_y, contribution_per_tx=ticket_net * (1 - var_pct),
                 ticket_net=ticket_net, tx_per_day_ebitda_breakeven=tx_be, tx_per_day_ebit_breakeven=tx_be_ebit,
                 vehicles_per_day_breakeven=veh_be, tx_per_day_4yr_payback=tx_target, vehicles_per_day_4yr_payback=veh_target,
-                capture_used=cap, access_used=access)
+                capture_used=cap, access_used=access, revenue_breakeven=R_be, regime=regime)
 
 
 def required_traffic_grid(a: dict, s: str, concept: str, captures: list[float], tickets: list[float]) -> list[list[float]]:
-    """Two-way vehicles/day needed for EBITDA break-even for each (capture, ticket) pair."""
+    """Two-way vehicles/day needed for (after-tax) EBITDA break-even for each (capture, ticket) pair, Year-2 costs & prices."""
     base = run(a, s, concept)
     be = base["breakeven"]
+    regime = be["regime"]
+    vat = val(a, "vat_rate") if regime == "vat" else 0.0
+    R_be = be["revenue_breakeven"]
     grid = []
     for c in captures:
         row = []
         for t in tickets:
-            t_net = t * (1 + scen(a, "price_inflation", s)) / (1 + val(a, "vat_rate"))
-            contrib = t_net * (1 - be["variable_cost_pct_of_net"])
-            tx = be["fixed_costs_year"] / contrib / val(a, "open_days_per_year")
-            veh = max(0.0, tx - scen(a, "other_transactions_day", s)) / (be["access_used"] * c)
-            row.append(veh)
+            t_net = t * (1 + scen(a, "price_inflation", s)) / (1 + vat)
+            tx = R_be / t_net / val(a, "open_days_per_year")
+            row.append(max(0.0, tx - scen(a, "other_transactions_day", s)) / (be["access_used"] * c))
         grid.append(row)
     return grid
 

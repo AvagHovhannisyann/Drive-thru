@@ -549,8 +549,8 @@ def init_materials():
     M["counter"] = principled("quartz_counter", (0.85, 0.84, 0.82), rough=0.2)
     M["paint_white"] = principled("marking_white", (0.82, 0.82, 0.8), rough=0.6)
     M["paint_yellow"] = principled("marking_yellow", (0.85, 0.6, 0.05), rough=0.6)
-    M["paint_blue"] = principled("marking_blue", (0.05, 0.2, 0.6), rough=0.6)
-    M["paint_green"] = principled("marking_green", (0.05, 0.35, 0.15), rough=0.6)
+    M["paint_blue"] = principled("marking_blue", (0.03, 0.08, 0.22), rough=0.7)
+    M["paint_green"] = principled("marking_green", (0.04, 0.12, 0.07), rough=0.7)
     M["barrier"] = pbr("barrier_concrete", "brushed_concrete", size=2.0, bright=1.25)
     M["led_warm"] = principled("led_warm", (1, 0.85, 0.65), rough=0.4, emission=(1.0, 0.78, 0.52), estr=0.0)
     M["interior_glow"] = principled("interior_glow", (0.9, 0.85, 0.78), rough=0.6, emission=(1.0, 0.82, 0.6), estr=0.0)
@@ -575,9 +575,7 @@ def terrain_height(x, y):
     # flat zone around site and highway corridor
     d_site = max(0.0, max(abs(x - 37) - 60, 0) ** 2 + max(abs(y - 22) - 45, 0) ** 2) ** 0.5
     d_hwy = max(0.0, abs(y - hw_y) - 30)
-    d = min(d_site, d_hwy) if y < 60 else d_site
-    if y < hw_y:
-        d = d_hwy
+    d = min(d_site, d_hwy)
     t = min(1.0, d / 260.0)
     t = t * t * (3 - 2 * t)
     v = Vector((x / 420.0, y / 420.0, 0.0))
@@ -591,7 +589,7 @@ def terrain_height(x, y):
     if y < -400:
         r = min(1.0, (-400 - y) / 1600.0)
         south = (r ** 1.8) * (180 + 90 * noise.fractal(Vector((x / 700, y / 700, 7.7)), 0.55, 2.1, 5))
-    return t * max(0.0, hills) + ridge + south
+    return t * max(0.0, hills) * (0.35 if y < 0 else 1.0) + ridge
 
 
 def build_terrain(M):
@@ -613,6 +611,80 @@ def build_terrain(M):
             faces.append((a, a + 1, a + n + 2, a + n + 1))
     ob = mesh_obj("terrain", verts, faces, [M["steppe"]], "terrain", smooth_angle=60)
     return ob
+
+
+def mat_mountain_far(name="ararat_mat"):
+    """Snow/rock by altitude with strong aerial perspective (for 40-50 km distant peaks)."""
+    if name in MATS:
+        return MATS[name]
+    m = bpy.data.materials.new(name)
+    m.use_nodes = True
+    nt = m.node_tree
+    N, Lk = nt.nodes, nt.links
+    b = N["Principled BSDF"]
+    tc = N.new("ShaderNodeTexCoord")
+    sep = N.new("ShaderNodeSeparateXYZ"); Lk.new(tc.outputs["Object"], sep.inputs[0])
+    nz = N.new("ShaderNodeTexNoise"); nz.inputs["Scale"].default_value = 0.0012; nz.inputs["Detail"].default_value = 10
+    Lk.new(tc.outputs["Object"], nz.inputs[0])
+    add = N.new("ShaderNodeMath"); add.operation = "MULTIPLY_ADD"; add.inputs[1].default_value = 1400.0
+    Lk.new(nz.outputs["Fac"], add.inputs[0]); Lk.new(sep.outputs[2], add.inputs[2])
+    snow = N.new("ShaderNodeMapRange"); snow.inputs[1].default_value = 3300; snow.inputs[2].default_value = 3500
+    Lk.new(add.outputs[0], snow.inputs[0])
+    geo = N.new("ShaderNodeNewGeometry"); sn = N.new("ShaderNodeSeparateXYZ"); Lk.new(geo.outputs["Normal"], sn.inputs[0])
+    slope = N.new("ShaderNodeMapRange"); slope.inputs[1].default_value = 0.35; slope.inputs[2].default_value = 0.6
+    Lk.new(sn.outputs[2], slope.inputs[0])
+    mul = N.new("ShaderNodeMath"); mul.operation = "MULTIPLY"; Lk.new(snow.outputs[0], mul.inputs[0]); Lk.new(slope.outputs[0], mul.inputs[1])
+    mix = N.new("ShaderNodeMix"); mix.data_type = "RGBA"; Lk.new(mul.outputs[0], mix.inputs[0])
+    mix.inputs[6].default_value = (0.075, 0.068, 0.064, 1); mix.inputs[7].default_value = (0.9, 0.92, 0.95, 1)
+    cam = N.new("ShaderNodeCameraData")
+    hz = N.new("ShaderNodeMapRange"); hz.inputs[1].default_value = 15000; hz.inputs[2].default_value = 70000
+    hz.inputs[3].default_value = 0.16; hz.inputs[4].default_value = 0.5
+    Lk.new(cam.outputs["View Distance"], hz.inputs[0])
+    hm = N.new("ShaderNodeMix"); hm.data_type = "RGBA"; Lk.new(hz.outputs[0], hm.inputs[0])
+    Lk.new(mix.outputs[2], hm.inputs[6]); hm.inputs[7].default_value = (0.5, 0.6, 0.75, 1)
+    Lk.new(hm.outputs[2], b.inputs["Base Color"])
+    em = N.new("ShaderNodeMath"); em.operation = "MULTIPLY"; em.inputs[1].default_value = HAZE_EMIT[0] * 0.45
+    Lk.new(hz.outputs[0], em.inputs[0])
+    b.inputs["Emission Color"].default_value = (0.62, 0.72, 0.88, 1)
+    Lk.new(em.outputs[0], b.inputs["Emission Strength"])
+    b.inputs["Roughness"].default_value = 0.85
+    MATS[name] = m
+    return m
+
+
+def build_ararat(az_deg=200.0, dist=45000.0):
+    """Greater Ararat (5,137 m) and Little Ararat (3,896 m) on the Ararat plain (~850 m): heights relative to site ground."""
+    import random as _r
+    rnd = _r.Random(5)
+    mat = mat_mountain_far()
+    def peak(name, cx, cy, h, r_base, n_r=70, n_a=140, sharp=1.25, ridge=0.18):
+        verts, faces = [], []
+        verts.append((cx, cy, h))
+        for i in range(1, n_r + 1):
+            rr = r_base * (i / n_r) ** 1.0
+            for j in range(n_a):
+                a = 2 * math.pi * j / n_a
+                x, y = cx + rr * math.cos(a), cy + rr * math.sin(a)
+                t = i / n_r
+                prof = (1 - t) ** sharp
+                nzv = noise.fractal(Vector((x / 4200.0, y / 4200.0, 2.3)), 0.62, 2.1, 7)
+                rid = 1 + ridge * nzv * (0.3 + t)
+                z = h * prof * rid - 120 * t
+                verts.append((x, y, z))
+        for j in range(n_a):
+            faces.append((0, 1 + j, 1 + (j + 1) % n_a))
+        for i in range(n_r - 1):
+            for j in range(n_a):
+                a0 = 1 + i * n_a + j
+                a1 = 1 + i * n_a + (j + 1) % n_a
+                faces.append((a0, a0 + n_a, a1 + n_a, a1))
+        return mesh_obj(name, verts, faces, [mat], "terrain", smooth_angle=80)
+    azr = math.radians(az_deg)
+    gx, gy = 37 + dist * math.sin(azr), 22 + dist * math.cos(azr)
+    peak("ararat_greater", gx, gy, 4300.0, 16000.0, sharp=1.35, ridge=0.16)
+    # Little Ararat ~11 km to the south-east of Greater Ararat
+    lx, ly = gx + 9500.0, gy - 5500.0
+    peak("ararat_little", lx, ly, 3050.0, 7500.0, sharp=1.05, ridge=0.08)
 
 
 def build_highway(M):
@@ -900,10 +972,10 @@ def build_interior(M, b, night):
     box("bar_counter", 29.1, y1 - 1.05, f0, x1 - 0.4, y1 - 0.4, f0 + 0.9, M["counter"], "interior")
     box("bar_backsplash", 29.1, mid + 0.06, f0 + 0.9, 35.0, mid + 0.12, f0 + 2.2, M["tuff_dark"], "interior")
     mb = BRAND.get("textures", {}).get("menu_interior")
-    image_plane("int_menu_1", mb, 36.9, mid + 0.03, f0 + 2.35, 1.5, 0.85, "S", emit=2.5 if night else 1.0, cname="interior", offset=0.01)
-    image_plane("int_menu_2", mb, 38.6, mid + 0.03, f0 + 2.35, 1.5, 0.85, "S", emit=2.5 if night else 1.0, cname="interior", offset=0.01)
+    image_plane("int_menu_1", mb, 36.9, mid - 0.055, f0 + 2.35, 1.5, 0.85, "S", emit=2.5 if night else 1.0, cname="interior", offset=0.0)
+    image_plane("int_menu_2", mb, 38.6, mid - 0.055, f0 + 2.35, 1.5, 0.85, "S", emit=2.5 if night else 1.0, cname="interior", offset=0.0)
     lg = BRAND.get("textures", {}).get("logo_badge")
-    image_plane("int_logo", lg, 41.2, mid + 0.03, f0 + 2.45, 1.2, 1.2, "S", emit=2.0 if night else 0.3, cname="interior", offset=0.01)
+    image_plane("int_logo", lg, 41.3, mid - 0.055, f0 + 2.45, 1.1, 1.1, "S", emit=2.0 if night else 0.3, cname="interior", offset=0.0)
     # pendant lights over window bar (hang from sloping soffit)
     for i in range(5):
         px = 35.9 + i * 1.5
@@ -945,6 +1017,23 @@ def build_roof(M, b, night):
         faces.append((V(0, j + 1), V(0, j), V(0, j, 1), V(0, j + 1, 1))); idx.append(2)
         faces.append((V(nx, j), V(nx, j + 1), V(nx, j + 1, 1), V(nx, j, 1))); idx.append(2)
     mesh_obj("roof", verts, faces, [M["oak"], M["membrane"], M["bronze"]], "building", mat_idx=idx)
+    # rooftop photovoltaic array following the hypar surface (approx. 30 kWp)
+    pv = principled("pv_glass", (0.015, 0.02, 0.035), rough=0.08, metal=0.2, coat=1.0, spec=0.8)
+    frame = principled("pv_frame", (0.55, 0.56, 0.58), rough=0.4, metal=1.0)
+    PW, PH, GAP = 1.13, 2.28, 0.04
+    npv = 0
+    yy = y0 + 1.6
+    while yy + PW < y1 - 1.0:
+        xx = x0 + 1.2
+        while xx + PH < x1 - 1.6:
+            corners = [(xx, yy), (xx + PH, yy), (xx + PH, yy + PW), (xx, yy + PW)]
+            vb = [(cx_, cy_, roof_z(cx_, cy_) + t + 0.12) for cx_, cy_ in corners]
+            vt = [(cx_, cy_, z + 0.035) for cx_, cy_, z in vb]
+            mesh_obj(f"pv_{npv}", vb + vt, [(0, 3, 2, 1), (4, 5, 6, 7), (0, 1, 5, 4), (1, 2, 6, 5), (2, 3, 7, 6), (3, 0, 4, 7)],
+                     [frame, pv], "building", mat_idx=[0, 1, 0, 0, 0, 0])
+            npv += 1
+            xx += PH + GAP
+        yy += PW + GAP
     # LED reveal just inside the fascia
     e = 0.07
     segs = [((x0 + e, y0 + e), (x1 - e, y0 + e)), ((x1 - e, y0 + e), (x1 - e, y1 - e)),
@@ -987,10 +1076,10 @@ def build_tower(M, b, night):
     for fac in ("S", "E", "W", "N"):
         if fac in ("S", "N"):
             yy = cy - d / 2 if fac == "S" else cy + d / 2
-            image_plane(f"tower_logo_{fac}", logo, cx, yy, h - 1.15, 1.45, 1.45, fac, emit=7.0 if night else 0.0, offset=0.012, rough=0.3)
+            image_plane(f"tower_logo_{fac}", logo, cx, yy, h - 1.15, 1.45, 1.45, fac, emit=3.0 if night else 0.0, offset=0.012, rough=0.3)
         else:
             xx = cx + w / 2 if fac == "E" else cx - w / 2
-            image_plane(f"tower_logo_{fac}", logo, xx, cy, h - 1.15, 1.45, 1.45, fac, emit=7.0 if night else 0.0, offset=0.012, rough=0.3)
+            image_plane(f"tower_logo_{fac}", logo, xx, cy, h - 1.15, 1.45, 1.45, fac, emit=3.0 if night else 0.0, offset=0.012, rough=0.3)
     p = b["pylon"]
     box("pylon", p["x"] - p["w"] / 2, p["y"] - p["d"] / 2, 0.0, p["x"] + p["w"] / 2, p["y"] + p["d"] / 2, p["h"], M["tuff"], "signage")
     box("pylon_base", p["x"] - p["w"] / 2 - 0.2, p["y"] - p["d"] / 2 - 0.2, 0.0, p["x"] + p["w"] / 2 + 0.2, p["y"] + p["d"] / 2 + 0.2, 0.4, M["concrete"], "signage")
@@ -998,7 +1087,7 @@ def build_tower(M, b, night):
     pl = BRAND.get("textures", {}).get("pylon_face")
     for fac in ("S", "N"):
         yy = p["y"] - p["d"] / 2 if fac == "S" else p["y"] + p["d"] / 2
-        image_plane(f"pylon_face_{fac}", pl, p["x"], yy, p["h"] - 2.6, 1.9, 4.8, fac, emit=5.0 if night else 0.0, offset=0.012)
+        image_plane(f"pylon_face_{fac}", pl, p["x"], yy, p["h"] - 2.6, 1.9, 4.8, fac, emit=2.2 if night else 0.0, offset=0.012)
     fw = BRAND.get("textures", {}).get("wordmark_fascia")
     zN = roof_z(35.5, b["roof"]["y1"]) + b["roof"]["thickness"] / 2
     image_plane("fascia_word_N", fw, 35.5, b["roof"]["y1"], zN, 5.2, 0.3, "N", emit=5.0 if night else 0.0, offset=0.012)
@@ -1105,7 +1194,6 @@ def point_in_poly(x, y, poly):
 def build_vegetation(M, quality="final"):
     tA = template("island_tree_01", "island_tree_01_LOD1")
     tB = template("tree_small_02", "tree_small_02_LOD1")
-    tS = template("jacaranda_tree", "jacaranda_tree_LOD1")
     kinds = {"tree_a": (tA, 0.9), "tree_b": (tB, 1.15), "tree_small": (tB, 0.8)}
     for i, t in enumerate(L["trees"]):
         c, sc = kinds.get(t["kind"], (tA, 1.0))
@@ -1289,20 +1377,25 @@ def make_car(name, kind, color, x, y, heading, night=False, lights_on=False):
 
 
 def build_vehicles(night=False):
+    import cars as CARS
     rnd = random.Random(3)
+    lamp_mats = {"head": MM["head"], "tail": MM["tail"]}
+
+    def make_car(name, kind, color, x, y, heading, night=False, lights_on=False):
+        return CARS.make_car(name, kind, color, x, y, heading, lights_on=lights_on, link_fn=link, mats=lamp_mats, seed=hash(name) % 9973)
     for i, q in enumerate(L["cars"]["queue"]):
         make_car(f"q{i}", q["kind"], CAR_COLORS[i % len(CAR_COLORS)], q["x"], q["y"], q["heading"], night, lights_on=night)
     stalls = {s["id"]: s for s in L["parking"]["stalls"]}
     for i, (sid, kind) in enumerate(L["cars"]["parked"]):
         s = stalls[sid]
-        make_car(f"p{i}", "sedan" if kind == "ev" else kind, CAR_COLORS[(i * 3 + 2) % len(CAR_COLORS)], s["x"], s["y"],
+        make_car(f"p{i}", kind, CAR_COLORS[(i * 3 + 2) % len(CAR_COLORS)], s["x"], s["y"],
                  s["heading"] + rnd.choice([0, 180]) * 0, night)
     hw = L["highway"]
     # highway traffic: westbound (north carriageway) heading 180, eastbound heading 0
     nl1 = sum(hw["north"]["lane1"]) / 2; nl2 = sum(hw["north"]["lane2"]) / 2
     sl1 = sum(hw["south"]["lane1"]) / 2; sl2 = sum(hw["south"]["lane2"]) / 2
-    traffic = [(120, nl1, 180, "sedan"), (-35, nl1, 180, "suv"), (78, nl2, 180, "sedan"), (-120, nl2, 180, "hatch"),
-               (10, sl1, 0, "suv"), (95, sl1, 0, "sedan"), (-70, sl2, 0, "sedan"), (160, sl2, 0, "hatch"),
+    traffic = [(120, nl1, 180, "sedan"), (-35, nl1, 180, "suv"), (78, nl2, 180, "ev"), (-120, nl2, 180, "hatch"),
+               (10, sl1, 0, "van"), (95, sl1, 0, "sedan"), (-70, sl2, 0, "lada"), (160, sl2, 0, "suv"),
                (95.0, (L["aux"]["y_inner"] + L["aux"]["y_outer"]) / 2, 180, "sedan")]
     for i, (x, y, h, k) in enumerate(traffic):
         make_car(f"h{i}", k, CAR_COLORS[(i * 5 + 1) % len(CAR_COLORS)], x, y, h, night, lights_on=night)
@@ -1323,7 +1416,7 @@ def setup_world(mode):
     hd = {"day": "kloofendal_48d_partly_cloudy_puresky", "golden": "qwantani_late_afternoon_puresky",
           "dusk": "qwantani_dusk_2_puresky", "night": "qwantani_dusk_2_puresky", "clear": "kloofendal_43d_clear_puresky"}[mode]
     env.image = bpy.data.images.load(f"{A}/hdri/{hd}_4k.hdr", check_existing=True)
-    strength = {"day": 1.0, "golden": 1.1, "dusk": 0.22, "night": 0.05, "clear": 1.0}[mode]
+    strength = {"day": 1.0, "golden": 1.1, "dusk": 0.11, "night": 0.04, "clear": 1.0}[mode]
     bg.inputs["Strength"].default_value = strength
     mp.inputs["Rotation"].default_value = (0, 0, math.radians({"day": 210, "golden": 120, "dusk": 300, "night": 300, "clear": 200}[mode]))
     if mode in ("day", "golden", "clear"):
@@ -1344,7 +1437,7 @@ def add_camera(name, loc, target, lens=35, ortho=None, shift_y=0.0):
     cd = bpy.data.cameras.new(name)
     cd.lens = lens
     cd.sensor_width = 36
-    cd.clip_end = 8000
+    cd.clip_end = 120000
     cd.shift_y = shift_y
     if ortho:
         cd.type = "ORTHO"; cd.ortho_scale = ortho
@@ -1367,6 +1460,8 @@ def build_cameras():
     cams["approach"] = add_camera("cam_approach", (230.0, -10.4, 1.25), (55.0, 8.0, 5.0), lens=50)
     cams["plaza"] = add_camera("cam_plaza", (48.8, 10.6, 1.65), (37.5, 25.0, 3.6), lens=22)
     cams["cutaway"] = add_camera("cam_cutaway", (52.0, 8.0, 26.0), (33.5, 28.5, 0.5), lens=38)
+    cams["ararat"] = add_camera("cam_ararat", (62.0, 128.0, 42.0), (33.0, 8.0, 0.0), lens=32, shift_y=0.18)
+    cams["ararat_ground"] = add_camera("cam_ararat_ground", (46.0, 50.0, 1.7), (30.0, 8.0, 5.0), lens=26, shift_y=0.08)
     cams["interior"] = add_camera("cam_interior", (42.3, 24.6, 1.6), (33.0, 30.5, 1.6), lens=20)
     return cams
 
@@ -1420,13 +1515,20 @@ def set_light_mode(night):
 
 
 def build(mode="day", quality="final"):
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     reset()
     MATS.clear(); TEMPLATES.clear(); COLLS.clear()
     night = mode in ("dusk", "night")
     set_haze(night)
     M = init_materials()
     MM.clear(); MM.update(M)
-    build_terrain(M)
+    terr = build_terrain(M)
+    build_ararat()
+    try:
+        import terrain as TER
+        TER.build_landscape(link, terrain_height, terrain_obj=terr, haze_emit=HAZE_EMIT[0], quality=quality)
+    except Exception as ex:
+        print('landscape module failed:', ex)
     build_highway(M)
     build_site(M)
     build_markings(M)

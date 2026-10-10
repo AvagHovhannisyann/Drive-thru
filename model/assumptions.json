@@ -31,6 +31,38 @@
   "label": "Trading days per year",
   "basis": ""
  },
+ "tax_regime": {
+  "value": "catering_tt",
+  "unit": "",
+  "status": "VERIFIED",
+  "source": "C4 §1 #1/#4 — Tax Code Art. 254(6)-(7), 258: catering turnover tax, no revenue cap; replaces VAT and profit tax",
+  "label": "Tax regime (catering_tt or vat)",
+  "basis": ""
+ },
+ "tt_rate": {
+  "value": 0.12,
+  "unit": "of receipts",
+  "status": "VERIFIED",
+  "source": "C4 §1 #1 — Art. 258 (2026, outside Yerevan from 1 Jan 2026)",
+  "label": "Catering turnover tax rate",
+  "basis": ""
+ },
+ "tt_deduction_rate": {
+  "value": 0.09,
+  "unit": "of documented opex",
+  "status": "VERIFIED",
+  "source": "C4 §1 #1 — Art. 258; capex, depreciation, repairs excluded",
+  "label": "TT deduction rate",
+  "basis": ""
+ },
+ "tt_min_rate": {
+  "value": 0.035,
+  "unit": "of receipts",
+  "status": "VERIFIED",
+  "source": "C4 §1 #1 — Art. 258 floor",
+  "label": "TT minimum rate",
+  "basis": ""
+ },
  "vat_rate": {
   "value": 0.2,
   "unit": "",
