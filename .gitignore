@@ -1,0 +1,8 @@
+# downloaded CC0 assets (re-fetch with design/3d/fetch_assets.py)
+design/3d/assets/
+__pycache__/
+*.pyc
+*.blend1
+report/_map_test.svg
+model/verify_report.json
+node_modules/

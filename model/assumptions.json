@@ -1,0 +1,617 @@
+{
+ "concept": {
+  "value": "mid",
+  "unit": "",
+  "status": "ASSUMPTION",
+  "source": "Recommended concept",
+  "label": "Concept modelled",
+  "basis": ""
+ },
+ "fx_amd_per_usd": {
+  "value": 385.0,
+  "unit": "AMD/USD",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER — replace with CBA rate",
+  "label": "Exchange rate",
+  "basis": ""
+ },
+ "opening_month": {
+  "value": 5,
+  "unit": "month",
+  "status": "ASSUMPTION",
+  "source": "Open in May to catch first summer season",
+  "label": "Opening calendar month",
+  "basis": ""
+ },
+ "open_days_per_year": {
+  "value": 360,
+  "unit": "days",
+  "status": "ASSUMPTION",
+  "source": "Closed ~5 days (New Year 1 Jan, Christmas 6 Jan, severe weather)",
+  "label": "Trading days per year",
+  "basis": ""
+ },
+ "vat_rate": {
+  "value": 0.2,
+  "unit": "",
+  "status": "VERIFIED",
+  "source": "RA Tax Code art. 63",
+  "label": "VAT",
+  "basis": ""
+ },
+ "profit_tax_rate": {
+  "value": 0.18,
+  "unit": "",
+  "status": "VERIFIED",
+  "source": "RA Tax Code art. 115",
+  "label": "Profit tax",
+  "basis": ""
+ },
+ "discount_rate": {
+  "value": 0.18,
+  "unit": "",
+  "status": "ASSUMPTION",
+  "source": "AMD equity hurdle: CBA policy rate ~6.75% + SME/country/start-up premium",
+  "label": "Discount rate (AMD)",
+  "basis": ""
+ },
+ "traffic_aadt": {
+  "value": {
+   "conservative": 12000,
+   "base": 16000,
+   "optimistic": 20000
+  },
+  "unit": "veh/day two-way",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Passing traffic (AADT, two-way)",
+  "basis": ""
+ },
+ "traffic_growth": {
+  "value": {
+   "conservative": 0.01,
+   "base": 0.025,
+   "optimistic": 0.04
+  },
+  "unit": "/yr",
+  "status": "ASSUMPTION",
+  "source": "Motorisation trend",
+  "label": "Traffic growth",
+  "basis": ""
+ },
+ "accessible_share": {
+  "value": {
+   "conservative": 0.5,
+   "base": 0.55,
+   "optimistic": 0.6
+  },
+  "unit": "",
+  "status": "ASSUMPTION",
+  "source": "Right-in/right-out from one carriageway + some U-turn capture",
+  "label": "Share of traffic that can access",
+  "basis": ""
+ },
+ "capture_rate": {
+  "value": {
+   "conservative": 0.012,
+   "base": 0.018,
+   "optimistic": 0.025
+  },
+  "unit": "",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Capture rate of accessible vehicles (Y1 steady state)",
+  "basis": ""
+ },
+ "capture_growth": {
+  "value": {
+   "conservative": 0.03,
+   "base": 0.06,
+   "optimistic": 0.1
+  },
+  "unit": "/yr",
+  "status": "ASSUMPTION",
+  "source": "Brand awareness build Y2-Y5",
+  "label": "Capture growth",
+  "basis": ""
+ },
+ "seasonality_index": {
+  "value": [
+   0.66,
+   0.68,
+   0.8,
+   0.92,
+   1.02,
+   1.2,
+   1.42,
+   1.46,
+   1.14,
+   0.96,
+   0.82,
+   0.92
+  ],
+  "unit": "index",
+  "status": "ESTIMATE",
+  "source": "PLACEHOLDER",
+  "label": "Monthly traffic seasonality (mean = 1)",
+  "basis": ""
+ },
+ "ramp_curve": {
+  "value": {
+   "conservative": [
+    0.45,
+    0.55,
+    0.65,
+    0.72,
+    0.78,
+    0.83,
+    0.87,
+    0.9,
+    0.93,
+    0.95,
+    0.97,
+    0.98
+   ],
+   "base": [
+    0.55,
+    0.65,
+    0.74,
+    0.81,
+    0.86,
+    0.9,
+    0.93,
+    0.95,
+    0.97,
+    0.98,
+    0.99,
+    1.0
+   ],
+   "optimistic": [
+    0.65,
+    0.75,
+    0.83,
+    0.89,
+    0.93,
+    0.96,
+    0.98,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "unit": "",
+  "status": "ASSUMPTION",
+  "source": "Typical new-unit ramp",
+  "label": "Opening ramp (capture multiplier, months 1-12)",
+  "basis": ""
+ },
+ "avg_ticket_amd": {
+  "value": {
+   "conservative": 2200,
+   "base": 2600,
+   "optimistic": 3000
+  },
+  "unit": "AMD incl. VAT",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Average transaction value (per order)",
+  "basis": ""
+ },
+ "other_transactions_day": {
+  "value": {
+   "conservative": 10,
+   "base": 20,
+   "optimistic": 30
+  },
+  "unit": "tx/day",
+  "status": "ASSUMPTION",
+  "source": "Walk-in locals, staff of nearby businesses, pre-orders",
+  "label": "Non-highway transactions/day",
+  "basis": ""
+ },
+ "price_inflation": {
+  "value": {
+   "conservative": 0.03,
+   "base": 0.035,
+   "optimistic": 0.04
+  },
+  "unit": "/yr",
+  "status": "ASSUMPTION",
+  "source": "CBA inflation target 4% ±1.5",
+  "label": "Menu price growth",
+  "basis": ""
+ },
+ "cost_inflation": {
+  "value": {
+   "conservative": 0.045,
+   "base": 0.04,
+   "optimistic": 0.035
+  },
+  "unit": "/yr",
+  "status": "ASSUMPTION",
+  "source": "",
+  "label": "Non-labour cost inflation",
+  "basis": ""
+ },
+ "wage_growth": {
+  "value": {
+   "conservative": 0.08,
+   "base": 0.07,
+   "optimistic": 0.06
+  },
+  "unit": "/yr",
+  "status": "ASSUMPTION",
+  "source": "Nominal wage growth",
+  "label": "Wage growth",
+  "basis": ""
+ },
+ "cogs_pct": {
+  "value": {
+   "conservative": 0.33,
+   "base": 0.31,
+   "optimistic": 0.29
+  },
+  "unit": "of net sales",
+  "status": "ESTIMATE",
+  "source": "PLACEHOLDER",
+  "label": "Food, beverage & packaging cost",
+  "basis": ""
+ },
+ "waste_pct": {
+  "value": 0.02,
+  "unit": "of net sales",
+  "status": "ASSUMPTION",
+  "source": "Bakery shrink, spoilage",
+  "label": "Waste",
+  "basis": ""
+ },
+ "card_share": {
+  "value": 0.75,
+  "unit": "of gross",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Card/wallet share of payments",
+  "basis": ""
+ },
+ "card_fee_pct": {
+  "value": 0.018,
+  "unit": "",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Acquiring fee",
+  "basis": ""
+ },
+ "marketing_pct": {
+  "value": 0.03,
+  "unit": "of net sales",
+  "status": "ASSUMPTION",
+  "source": "",
+  "label": "Ongoing marketing",
+  "basis": ""
+ },
+ "launch_marketing_amd": {
+  "value": 12000000,
+  "unit": "AMD",
+  "status": "ASSUMPTION",
+  "source": "",
+  "label": "Launch marketing (months 1-3)",
+  "basis": ""
+ },
+ "repairs_maint_pct": {
+  "value": 0.015,
+  "unit": "of net sales",
+  "status": "ASSUMPTION",
+  "source": "",
+  "label": "Repairs & maintenance",
+  "basis": ""
+ },
+ "other_variable_pct": {
+  "value": 0.01,
+  "unit": "of net sales",
+  "status": "ASSUMPTION",
+  "source": "Cleaning chemicals, small wares, POS/app SaaS",
+  "label": "Other variable costs",
+  "basis": ""
+ },
+ "utilities_fixed_amd_month": {
+  "value": {
+   "lean": 300000,
+   "mid": 480000,
+   "flagship": 700000
+  },
+  "unit": "AMD/month",
+  "status": "ESTIMATE",
+  "source": "PLACEHOLDER",
+  "label": "Utilities (fixed part)",
+  "basis": ""
+ },
+ "utilities_variable_pct": {
+  "value": 0.012,
+  "unit": "of net sales",
+  "status": "ESTIMATE",
+  "source": "",
+  "label": "Utilities (variable part)",
+  "basis": ""
+ },
+ "fixed_other_amd_month": {
+  "value": 750000,
+  "unit": "AMD/month",
+  "status": "ASSUMPTION",
+  "source": "Insurance, accounting, security, waste, licences, IT, cleaning",
+  "label": "Other fixed costs",
+  "basis": ""
+ },
+ "land_mode": {
+  "value": "lease",
+  "unit": "",
+  "status": "ASSUMPTION",
+  "source": "Ground lease preferred for capital efficiency",
+  "label": "Land: lease or buy",
+  "basis": ""
+ },
+ "rent_amd_month": {
+  "value": {
+   "conservative": 1800000,
+   "base": 1500000,
+   "optimistic": 1300000
+  },
+  "unit": "AMD/month",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Ground lease",
+  "basis": ""
+ },
+ "land_property_tax_amd_year": {
+  "value": 600000,
+  "unit": "AMD/yr",
+  "status": "ESTIMATE",
+  "source": "PLACEHOLDER",
+  "label": "Land & property tax",
+  "basis": ""
+ },
+ "employer_oncost_pct": {
+  "value": 0.01,
+  "unit": "of gross wages",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Employer on-costs",
+  "basis": ""
+ },
+ "staff_meals_uniforms_amd_month": {
+  "value": 15000,
+  "unit": "AMD/FTE/month",
+  "status": "ASSUMPTION",
+  "source": "",
+  "label": "Staff meals & uniforms",
+  "basis": ""
+ },
+ "peak_season_threshold": {
+  "value": 1.15,
+  "unit": "index",
+  "status": "ASSUMPTION",
+  "source": "Add seasonal staff when seasonality ≥ threshold",
+  "label": "Peak staffing threshold",
+  "basis": ""
+ },
+ "staffing": {
+  "lean": {
+   "fte_base": 6,
+   "fte_peak_extra": 2,
+   "avg_gross_wage_amd": 250000,
+   "manager_gross_amd": 450000
+  },
+  "mid": {
+   "fte_base": 10,
+   "fte_peak_extra": 3,
+   "avg_gross_wage_amd": 260000,
+   "manager_gross_amd": 600000
+  },
+  "flagship": {
+   "fte_base": 14,
+   "fte_peak_extra": 4,
+   "avg_gross_wage_amd": 270000,
+   "manager_gross_amd": 700000
+  }
+ },
+ "depreciation_years": {
+  "value": {
+   "building": 20,
+   "site_works": 10,
+   "equipment": 5,
+   "technology": 3,
+   "signage": 5,
+   "soft": 5,
+   "land": 0
+  },
+  "unit": "years",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Depreciation lives",
+  "basis": ""
+ },
+ "maintenance_capex_pct": {
+  "value": 0.01,
+  "unit": "of net sales",
+  "status": "ASSUMPTION",
+  "source": "",
+  "label": "Maintenance capex (from Y2)",
+  "basis": ""
+ },
+ "working_capital_days": {
+  "value": 10,
+  "unit": "days of COGS",
+  "status": "ASSUMPTION",
+  "source": "Inventory net of supplier credit",
+  "label": "Working capital",
+  "basis": ""
+ },
+ "pre_opening_costs_amd": {
+  "value": {
+   "lean": 8000000,
+   "mid": 14000000,
+   "flagship": 20000000
+  },
+  "unit": "AMD",
+  "status": "ASSUMPTION",
+  "source": "PLACEHOLDER",
+  "label": "Pre-opening (recruitment, training, trial ops)",
+  "basis": ""
+ },
+ "capex": {
+  "lean": [
+   {
+    "name": "Modular building",
+    "amd": 40000000,
+    "dep_class": "building",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Site works",
+    "amd": 30000000,
+    "dep_class": "site_works",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Equipment",
+    "amd": 25000000,
+    "dep_class": "equipment",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Technology",
+    "amd": 4000000,
+    "dep_class": "technology",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Signage",
+    "amd": 6000000,
+    "dep_class": "signage",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Soft costs",
+    "amd": 8000000,
+    "dep_class": "soft",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Contingency",
+    "amd": 10000000,
+    "dep_class": "site_works",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   }
+  ],
+  "mid": [
+   {
+    "name": "Building",
+    "amd": 90000000,
+    "dep_class": "building",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Site works",
+    "amd": 55000000,
+    "dep_class": "site_works",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Equipment",
+    "amd": 40000000,
+    "dep_class": "equipment",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Technology",
+    "amd": 6000000,
+    "dep_class": "technology",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Signage",
+    "amd": 12000000,
+    "dep_class": "signage",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Soft costs",
+    "amd": 15000000,
+    "dep_class": "soft",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Contingency",
+    "amd": 20000000,
+    "dep_class": "site_works",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   }
+  ],
+  "flagship": [
+   {
+    "name": "Building",
+    "amd": 150000000,
+    "dep_class": "building",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Site works",
+    "amd": 75000000,
+    "dep_class": "site_works",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Equipment",
+    "amd": 55000000,
+    "dep_class": "equipment",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Technology",
+    "amd": 9000000,
+    "dep_class": "technology",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Signage",
+    "amd": 18000000,
+    "dep_class": "signage",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Soft costs",
+    "amd": 22000000,
+    "dep_class": "soft",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   },
+   {
+    "name": "Contingency",
+    "amd": 30000000,
+    "dep_class": "site_works",
+    "status": "ASSUMPTION",
+    "source": "PLACEHOLDER"
+   }
+  ]
+ }
+}
