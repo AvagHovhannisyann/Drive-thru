@@ -22,11 +22,11 @@
   "en": "Apricot",
   "en2": "honey latte",
   "hy": "Ծիրանի մեղրով լատտե",
-  "price": "1 900 ֏"
+  "price": "1 800 ֏"
  },
  "campaign": {
   "en": "Coffee in 3 minutes.",
-  "en2": "Sevan in 45.",
+  "en2": "Your road, open.",
   "hy": "Ճամփադ բաց։ Սուրճը՝ 3 րոպեում"
  },
  "menu": {
@@ -36,34 +36,34 @@
     "title_hy": "Սուրճ",
     "items": [
      {
+      "en": "Latte 250 / 350",
+      "hy": "Լատտե",
+      "price": "1100/1400"
+     },
+     {
       "en": "Cappuccino 350",
       "hy": "Կապուչինո",
-      "price": 1500
-     },
-     {
-      "en": "Latte 400",
-      "hy": "Լատտե",
-      "price": 1600
-     },
-     {
-      "en": "Americano 350",
-      "hy": "Ամերիկանո",
-      "price": 1100
+      "price": 1400
      },
      {
       "en": "Flat white",
       "hy": "Ֆլեթ ուայթ",
-      "price": 1500
+      "price": 1300
      },
      {
-      "en": "Armenian coffee",
-      "hy": "Հայկական սուրճ",
+      "en": "Americano 350",
+      "hy": "Ամերիկանո",
+      "price": 1000
+     },
+     {
+      "en": "Jezve coffee to go",
+      "hy": "Ջեզվեով սուրճ",
       "price": 800
      },
      {
       "en": "Espresso",
       "hy": "Էսպրեսո",
-      "price": 900
+      "price": 800
      }
     ]
    },
@@ -74,32 +74,32 @@
      {
       "en": "Iced latte 450",
       "hy": "Սառը լատտե",
-      "price": 1700
+      "price": 1500
      },
      {
       "en": "Apricot honey latte",
       "hy": "Ծիրան-մեղր լատտե",
-      "price": 1900
+      "price": 1800
      },
      {
       "en": "Cold brew 450",
       "hy": "Քոլդ բրյու",
-      "price": 1600
+      "price": 1400
      },
      {
       "en": "Tarragon lemonade",
       "hy": "Թարխունի լիմոնադ",
-      "price": 1300
+      "price": 1100
      },
      {
       "en": "Sea-buckthorn tea",
       "hy": "Չիչխանի թեյ",
-      "price": 1200
+      "price": 1000
      },
      {
-      "en": "Hot chocolate",
+      "en": "Hot chocolate 250",
       "hy": "Տաք շոկոլադ",
-      "price": 1500
+      "price": 1000
      }
     ]
    },
@@ -108,34 +108,34 @@
     "title_hy": "Թխվածք և նախաճաշ",
     "items": [
      {
+      "en": "Lavash breakfast wrap",
+      "hy": "Լավաշով նախաճաշ",
+      "price": 1500
+     },
+     {
       "en": "Butter croissant",
       "hy": "Կրուասան",
       "price": 900
      },
      {
-      "en": "Gata, Garni style",
-      "hy": "Գաթա",
-      "price": 800
-     },
-     {
-      "en": "Lavash breakfast wrap",
-      "hy": "Լավաշով նախաճաշ",
-      "price": 1900
-     },
-     {
       "en": "Cheese penovani",
       "hy": "Պենովանի",
-      "price": 1000
+      "price": 900
      },
      {
-      "en": "Turkey & cheese toast",
-      "hy": "Տոստ",
-      "price": 1700
+      "en": "Zhingyalov hats",
+      "hy": "Ժենգյալով հաց",
+      "price": 900
      },
      {
-      "en": "Road snack box",
+      "en": "Gata, Garni style",
+      "hy": "Գաթա",
+      "price": 600
+     },
+     {
+      "en": "Road Box: latte + wrap",
       "hy": "Ճամփի տուփ",
-      "price": 2400
+      "price": 2700
      }
     ]
    }

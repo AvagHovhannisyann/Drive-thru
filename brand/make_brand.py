@@ -82,6 +82,12 @@ def measure(s, kind, size, ls=0.0):
     return w + ls * (len(s) - 1)
 
 
+def fmt_price(v):
+    """1400 -> '1 400'; '1100/1400' -> '1 100 / 1 400'."""
+    parts = str(v).split("/")
+    return " / ".join(f"{int(x):,}".replace(",", " ") for x in parts)
+
+
 def write(name, content):
     p = OUT / name
     p.write_text(content)
@@ -218,23 +224,28 @@ def packaging():
 
 # ---- signage & screens -----------------------------------------------------------------------
 def menu_board(w, h, compact=False):
+    """Armenian leads (Law on Language Art. 4 / Law on Advertising Art. 5): Armenian names larger and first, English below."""
     P, A, L = C["primary"], C["accent"], C["light"]
     body = f'<rect width="{w}" height="{h}" fill="{P}"/>'
-    body += symbol(A, P, 60, 50, 0.9) + text(170, 140, NAME, 70, L, ls=4)
-    body += text(w - 60, 120, "Order · Պատվեր", 40, A, family=FONT_A, anchor="end", weight=700)
+    wA = measure(NAME_HY, "armenian", 70, 4)
+    wL = measure(NAME, "display", 40, 3)
+    body += symbol(A, P, 60, 50, 0.9) + text(170, 132, NAME_HY, 70, L, family=FONT_A, tl=wA)
+    body += text(170 + wA + 24, 132, NAME, 40, A, tl=wL)
+    body += text(w - 60, 112, "Պատվեր", 44, A, family=FONT_A, anchor="end", weight=800)
+    body += text(w - 60, 146, "Order here", 24, "#c9d6d3", family=FONT_B, anchor="end", weight=600)
     cols = MENU["sections"][: (2 if compact else 3)]
     cw = (w - 120) / len(cols)
     for i, sec in enumerate(cols):
         x = 60 + i * cw
-        body += text(x, 240, sec["title_en"].upper(), 34, A, ls=4, weight=800)
-        body += text(x, 280, sec["title_hy"], 28, L, family=FONT_A, weight=600)
+        body += text(x, 240, sec["title_hy"], 36, A, family=FONT_A, weight=800)
+        body += text(x, 276, sec["title_en"].upper(), 22, "#c9d6d3", ls=3, weight=700)
         for j, it in enumerate(sec["items"][: (4 if compact else 6)]):
             y = 350 + j * 78
-            body += text(x, y, it["en"], 34, L, family=FONT_B, weight=700)
-            body += text(x, y + 32, it["hy"], 24, "#c9d6d3", family=FONT_A, weight=500)
-            body += text(x + cw - 40, y, f'{it["price"]:,}'.replace(",", " "), 36, A, family=FONT_B, anchor="end", weight=800)
+            body += text(x, y, it["hy"], 34, L, family=FONT_A, weight=700)
+            body += text(x, y + 30, it["en"], 22, "#c9d6d3", family=FONT_B, weight=500)
+            body += text(x + cw - 40, y, fmt_price(it["price"]), 36, A, family=FONT_B, anchor="end", weight=800)
     body += f'<rect y="{h - 80}" width="{w}" height="80" fill="{A}"/>'
-    body += text(w / 2, h - 28, "Card · Apple Pay · Google Pay · Idram   |   Prices in AMD incl. VAT", 30, P, family=FONT_B, anchor="middle", weight=700)
+    body += text(w / 2, h - 28, "Քարտ · Apple Pay · Google Pay · Idram   |   Գները՝ ՀՀ դրամով · Prices in AMD", 30, P, family=FONT_A, anchor="middle", weight=700)
     return svg(w, h, body)
 
 
@@ -264,14 +275,14 @@ def signage():
                                     svg(240, 1440, text(0, 0, NAME, 170, L, ls=20, extra='transform="translate(170,60) rotate(90)"')), transparent=True)
     for wid, en, hy in (("W1", "PAY & CONFIRM", "ՎՃԱՐՈՒՄ"), ("W2", "PICK UP · CHAMPAD BATS!", "ՃԱՄՓԱԴ ԲԱՑ")):
         tex[f"window_{wid}"] = png(f"tex_window_{wid}.png", 1600, 90, svg(1600, 90, f'<rect width="1600" height="90" fill="{P}"/>'
-                                    + text(40, 62, f"{wid}", 50, A) + text(150, 62, en, 44, L, ls=4) + text(1560, 62, hy, 40, L, family=FONT_A, anchor="end", weight=700)))
+                                    + text(40, 62, f"{wid}", 50, A) + text(150, 62, hy, 46, L, family=FONT_A, weight=800) + text(1560, 60, en, 30, "#c9d6d3", anchor="end", ls=3)))
     tex["menu_board"] = png("tex_menu_board.png", 1920, 1100, menu_board(1920, 1100))
     tex["menu_interior"] = png("tex_menu_interior.png", 1920, 1080, menu_board(1920, 1080, compact=True))
     # preview board (promo)
     w, h = 1100, 1000
     body = f'<rect width="{w}" height="{h}" fill="{A}"/>' + symbol(P, A, 80, 90, 1.3)
-    body += text(80, 420, CFG["promo"]["en"], 92, P, ls=1) + text(80, 520, CFG["promo"]["en2"], 92, P, ls=1)
-    body += text(80, 620, CFG["promo"]["hy"], 52, P, family=FONT_A, weight=700)
+    body += text(80, 430, CFG["promo"]["hy"], 66, P, family=FONT_A, weight=800)
+    body += text(80, 530, CFG["promo"]["en"] + " " + CFG["promo"]["en2"], 50, P, ls=1)
     body += f'<rect x="80" y="720" width="{w - 160}" height="160" rx="80" fill="{P}"/>'
     body += text(w / 2, 825, CFG["promo"]["price"], 76, L, family=FONT_B, anchor="middle", weight=800)
     tex["preview_board"] = png("tex_preview_board.png", w, h, svg(w, h, body))
@@ -284,13 +295,15 @@ def roadside_and_app():
     w, h = 1800, 600
     body = f'<rect width="{w}" height="{h}" fill="{P}"/>' + symbol(A, P, 70, 90, 3.4)
     body += text(470, 220, NAME_HY, 130, L, family=FONT_A, weight=800, ls=6) + text(470, 330, NAME, 92, A, ls=6)
-    body += text(470, 470, "Drive-thru · coffee · WC", 60, A, family=FONT_B, weight=800)
+    body += text(470, 455, "Սուրճ · Թխվածք · WC", 60, A, family=FONT_A, weight=800)
+    body += text(470, 525, "Drive-thru coffee · bakery · WC", 38, "#c9d6d3", family=FONT_B, weight=700)
     body += f'<g transform="translate(1500,300)"><circle r="190" fill="{A}"/><text y="-10" text-anchor="middle" font-family="{FONT_B}" font-size="150" font-weight="800" fill="{P}">2</text><text y="90" text-anchor="middle" font-family="{FONT_B}" font-size="64" font-weight="800" fill="{P}">km →</text></g>'
     png("roadside_sign.png", w, h, svg(w, h, body))
     # billboard 3:1 (Yerevan city edge, where outdoor ads permitted)
     body = f'<rect width="{w}" height="{h}" fill="{A}"/>'
-    body += text(90, 230, CFG["campaign"]["en"], 96, P, ls=1) + text(90, 350, CFG["campaign"]["en2"], 96, P, ls=1)
-    body += text(90, 470, CFG["campaign"]["hy"], 52, P, family=FONT_A, weight=700)
+    body += text(90, 200, "Ճամփադ բաց։", 104, P, family=FONT_A, weight=800)
+    body += text(90, 320, "Սուրճը՝ 3 րոպեում", 84, P, family=FONT_A, weight=800)
+    body += text(90, 450, CFG["campaign"]["en"] + " " + CFG["campaign"]["en2"], 54, P, ls=1)
     body += symbol(P, A, 1430, 70, 2.5) + text(1555, 510, NAME, 70, P, anchor="middle", ls=4)
     png("billboard.png", w, h, svg(w, h, body))
     # app screen (390 x 844)
@@ -307,8 +320,8 @@ def roadside_and_app():
     for i, it in enumerate(MENU["sections"][0]["items"][:4]):
         y = 470 + i * 84
         body += f'<rect x="24" y="{y}" width="342" height="72" rx="14" fill="#ffffff"/>'
-        body += text(44, y + 32, it["en"], 17, P, family=FONT_B, weight=800) + text(44, y + 56, it["hy"], 13, "#6b6b6b", family=FONT_A, weight=500)
-        body += text(346, y + 44, f'{it["price"]:,} ֏'.replace(",", " "), 17, P, family=FONT_B, anchor="end", weight=800)
+        body += text(44, y + 32, it["hy"], 17, P, family=FONT_A, weight=800) + text(44, y + 56, it["en"], 13, "#6b6b6b", family=FONT_B, weight=500)
+        body += text(346, y + 44, fmt_price(it["price"]) + " ֏", 17, P, family=FONT_B, anchor="end", weight=800)
     body += f'<rect x="0" y="{h - 70}" width="{w}" height="70" fill="#ffffff"/>'
     png("app_screen.png", w * 2, h * 2, svg(w, h, body).replace(f'width="{w}" height="{h}"', f'width="{w * 2}" height="{h * 2}"', 1))
 

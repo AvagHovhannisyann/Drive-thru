@@ -28,7 +28,7 @@ The challenge's point is accepted: Concept 4 scores well only as a *capex-light 
 
 **Investment logic.** Stage-gated. The challenge showed that even the best configuration loses money at the C6 base of ≈110 transactions/day. So no build capex is committed until Phase 0 field evidence shows a site that can sustain ≥150 tx/day (see the financial and decision chapters).
 
-## 3. Price list (AMD, incl. VAT)
+## 3. Price list (AMD, final consumer price; under the catering turnover-tax regime no VAT is charged on sales)
 
 | Item | Price | Anchor (A2/A4) |
 |---|---|---|
@@ -56,7 +56,7 @@ Food is capped at 5 SKUs plus one combo and is sold all day. The kitchen is not 
 
 ## 4. Average ticket (ATV)
 
-- **Base ≈1,850 AMD per order incl. VAT; range 1,700–2,050** (ESTIMATE: 1.0–1.05 drinks × 1,400–1,522 average drink + 30–35% food attach × ≈975 average food item).
+- **Base ≈1,850 AMD per order (final price); range 1,700–2,050** (ESTIMATE: 1.0–1.05 drinks × 1,400–1,522 average drink + 30–35% food attach × ≈975 average food item).
 - 2,400–2,650 is used only as a June–August leisure upside, not as the base.
 - Evidence anchors: A2 puts drinks at 1,300–1,500 per order, "not 1,800+"; A4 puts 1,540–1,860 per order including food; Coffee Like ≈1,672 per check.
 - The lenses' 2,050 / 2,400 / 2,650 were rejected as above the anchors.

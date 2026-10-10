@@ -47,8 +47,8 @@ def brand_figs(img) -> dict:
                        '<p style="font-family:var(--font-body);font-size:16px;margin:10px 0 0">Manrope for body text, menus and the app. One family per script, three weights, '
                        'Armenian set at the same cap height as Latin so bilingual signs read as one line. All three are open-licence (SIL OFL) Google Fonts, so there are no font licence fees.</p></div>')
     apps = [("roadside_sign.png", "Roadside approach sign, 2 km out: bilingual, with services (WC) listed"),
-            ("billboard.png", "Launch billboard (campaign line to be localised to the chosen site)"),
-            ("tex_menu_board.png", "Drive-thru menu board: Armenian first, prices incl. VAT"),
+            ("billboard.png", "Launch billboard: Armenian line leads, English secondary"),
+            ("tex_menu_board.png", "Drive-thru menu board: Armenian names first, final prices in AMD"),
             ("app_screen.png", "Order-ahead and loyalty app: \"road kilometres\" stamp card"),
             ("uniforms.png", "Crew uniforms: apron, tee, cap and hi-vis runner vest"),
             ("tex_pylon_face.png", "Pylon face: brand, services and opening hours")]
