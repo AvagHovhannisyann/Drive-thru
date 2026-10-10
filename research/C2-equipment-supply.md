@@ -106,7 +106,7 @@
 | New-generation HDM device price | ≈AMD 60k–125k (e.g., Newland N950 AMD 85–95k) | undated listings | REPORTED (snippets) | [S33] |
 | Poster POS | USD 26 / 44 / 62 per month (Mini/Business/Pro, annual billing); +USD 19 per extra register | accessed Oct 2026 | REPORTED | [S34] |
 | iiko POS (RU tariffs) | From RUB 1,295 / 4,000 / 7,400 / 9,200 per month (≈AMD 5.5k / 17.1k / 31.6k / 39.3k) | undated | REPORTED | [S35] |
-| Imported/mass-market 1 kg coffee beans, Yerevan retail | AMD 8,910–20,280 (Lavazza Crema e Gusto 16,450) | accessed 10 Oct 2026 | REPORTED | [S36] |
+| Imported/mass-market 1 kg coffee beans, Yerevan retail | AMD 8,910–21,380 (Lavazza Crema e Gusto 16,450; Tonino Lamborghini red 21,380) | accessed 10 Oct 2026 | REPORTED | [S36]. *Fact-check correction: was 8,910–20,280* |
 | Local specialty roaster, 1 kg retail (Caffeine, Dilijan) | AMD 22,000–23,600 | accessed 10 Oct 2026 | REPORTED | [S37] |
 | Wholesale espresso blend (model input) | AMD 12,000/kg (range 9,000–16,000) | — | ASSUMPTION | §3.3.1 |
 | Marianna milk 3.2% | AMD 610 / 950 ml; 790 / 1 L UHT | accessed 10 Oct 2026 | REPORTED | [S40] |
@@ -117,8 +117,8 @@
 | Clear PET cold cup 500 ml; clear lid 95 mm | AMD 20–25; AMD 8–10 | accessed 10 Oct 2026 | REPORTED | [S43] |
 | Frozen butter croissant (Russian producers, ex-works) | RUB 23–60 (≈AMD 100–255) per 65–80 g piece | undated | REPORTED | [S45] |
 | Yerevan menu prices: cappuccino / latte / iced latte / croissant | AMD 1,000–1,600 / 1,000–1,900 / ~2,100 / 750–900 | 2025–2026 (some stale) | REPORTED | [S46] |
-| Blended beverage COGS | ≈32% of net-of-VAT price (≈27% of VAT-inclusive) | Oct 2026 inputs | ESTIMATE | §3.4 |
-| Total blended COGS (75/25 bev/food) | ≈35% of net revenue | Oct 2026 inputs | ESTIMATE | §3.4 |
+| Blended beverage COGS | ≈26.6% of revenue (VAT payer recovering input VAT, or turnover-tax regime) | Oct 2026 inputs | ESTIMATE | §3.4. *Fact-check correction: was "≈32% of net-of-VAT price", a method error that divided VAT-inclusive costs by VAT-exclusive prices* |
+| Total blended COGS | ≈29.5% of revenue at 75/25 bev/food; ≈31.3% at 60/40 (C6/A4 recommend 55–70% beverage) | Oct 2026 inputs | ESTIMATE | §3.4. *Fact-check correction: was "≈35% of net revenue" (same method error); the mix also conflicts with C6/A4* |
 
 ---
 
@@ -168,10 +168,10 @@ All prices are published retail or list prices from foreign dealers (REPORTED). 
 
 | Model | Published price | AMD equiv. | Landed AMD (ESTIMATE) | Fit for drive-thru (ASSUMPTION) |
 |---|---|---|---|---|
-| Nuova Simonelli Appia Compact 2gr S | UAH 95,875 (Kyiv) [S13] | 772,676 | ~1.00m | Budget only. Lower thermal stability and throughput |
-| Nuova Simonelli Appia Life 2gr V | UAH 150,800 (Kyiv) [S13] | 1,215,327 | ~1.58m | Lean option. Reliable workhorse with a local dealer |
+| Nuova Simonelli Appia Compact 2gr S | UAH 95,875 (Kyiv) [S13] | 772,676 | ~1.00m | Budget only. Lower thermal stability and throughput. *Fact-check note: same Kyiv source as the Appia Life below. The same stale-rate and Ukrainian-VAT problem very likely applies; not re-checked, do not use without a quote* |
+| Nuova Simonelli Appia Life 2gr V | USD 8,505–8,990 (US list) [S13b] | 3.08–3.25m | 3.99–4.22m | Lean option. Reliable workhorse with a local dealer. *Fact-check correction: was UAH 150,800 (Kyiv) [S13] → AMD 1.22m, landed ~1.58m. That UAH price is stale: Kofemarket's own USD display of 5,291.23 implies ≈28.5 UAH/USD against ≈44.9 today. It also includes 20% Ukrainian VAT, which the 1.296 factor then stacked under Armenian VAT. Black Rabbit lists USD 9,450. Replace with an EU/dealer quote* |
 | Nuova Simonelli Aurelia Wave 2gr volumetric | USD 12,015–12,700 (US) [S12] | 4.35–4.60m | 5.64–5.96m | Mid option, ergonomic, high-volume |
-| La Marzocco Linea PB AV 2gr | USD 19,710 (US) [S9]; GBP 11,748 ex-VAT (UK) [S10] | 5.62–7.13m | 7.29–9.25m | Mid/flagship. Strong resale value. Dutch Bros is *reported* by a consumer blog to use La Marzocco [S23] (weak source) |
+| La Marzocco Linea PB AV 2gr | USD 19,710–25,690 (US) [S9]; GBP 11,748 ex-VAT (UK) [S10] | 5.62–9.30m | 7.29–12.05m | Mid/flagship. Strong resale value. Dutch Bros is *reported* by a consumer blog to use La Marzocco [S23] (weak source). *Fact-check correction: the USD 19,710 listing (Coffee Machine Depot) now returns 404; EspressoParts lists the AV with scales at USD 25,690. The UK GBP 11,748 ex-VAT price is real (sitegems.etailsystems.com), but S10 had cited AU/CA URLs (both 403). A WestWon lease case shows a capital cost of GBP 9,106, so quotes vary widely* |
 | Victoria Arduino Eagle One 2gr | USD 18,450–22,550 (US) [S11] | 6.68–8.16m | 8.65–10.58m | Mid/flagship, energy-efficient |
 | Franke A600 / A800 (super-auto) | USD 14,032 / 13,052–13,889 (US) [S15]; UK GBP 9,999.99 / 12,999.99 incl. VAT | 4.72–5.08m | 6.12–6.58m | Consistency with low-skill staff. Local link via The Horeca |
 | Eversys Cameo C'2 (super-auto) | USD 19,350–23,470 (US) [S14] | 7.00–8.49m | 9.08–11.01m | High consistency. **No local service found** |
@@ -185,12 +185,12 @@ Prices for La Marzocco KB90 and Victoria Arduino Black Eagle (Maverick), WMF 500
 
 | Item | Published price | Duty | Landed AMD (ESTIMATE) | Notes |
 |---|---|---|---|---|
-| Mahlkönig E80 Supreme (now E80T) | USD 2,609–2,899 (US) [S16]; RUB 322,050–368,350 (RU) [S17] | 0% (ASSUMPTION: 8509/8438 classification to confirm) | 1.22–1.36m (US basis); 1.78–2.04m (RU basis) | Workhorse for high-volume espresso. Local authorised dealer |
-| Mahlkönig EK43 | RUB 362,425–366,240 (RU) [S17] | as above | ~2.0m | Batch brew, cold brew and retail grinding |
-| Mahlkönig E65S GbW | RUB 255,000–320,150 (RU) [S17] | as above | ~1.41–1.77m | Alternative to the E80 |
+| Mahlkönig E80 Supreme (now E80T) | USD 3,049–3,199 (US, 10 Oct 2026) [S16]; RUB 322,050–368,350 (RU, incl. 22% RU VAT) [S17] | 0% (ASSUMPTION: 8509/8438 classification to confirm) | 1.43–1.50m (US basis); 1.46–1.67m (RU basis, ex-RU-VAT) | Workhorse for high-volume espresso. Local authorised dealer. *Fact-check correction: US price was USD 2,609–2,899 (landed 1.22–1.36m). The RU-basis landed figure was 1.78–2.04m, because Russian 22% VAT was left in and Armenian VAT added on top. EAEU exports are zero-rated* |
+| Mahlkönig EK43 | RUB 362,425–366,240 (RU, incl. 22% RU VAT) [S17] | as above | ~1.65m (ex-RU-VAT) | Batch brew, cold brew and retail grinding. *Fact-check correction: was ~2.0m, with Russian VAT double-counted. The EK43 page could not be re-opened on 10 Oct 2026* |
+| Mahlkönig E65S GbW | RUB 255,000–338,921 (RU, incl. 22% RU VAT) [S17] | as above | ~1.16–1.54m (ex-RU-VAT) | Alternative to the E80. *Fact-check correction: Entero now lists RUB 338,921, above the stated 255,000–320,150; landed was ~1.41–1.77m with Russian VAT left in* |
 | Bunn ICB Twin / ICB TF Twin | USD 1,915–2,830 (US) [S22] | 0% | 0.90–1.33m | Check 50 Hz availability. Bravilor (Dutch, linked by The Horeca) is the likely local alternative; price not obtained |
-| Merrychef eikon e2s | USD 9,918 (US) [S18]; GBP 5,353 ex-VAT (UK) [S18] | 0% or 10% (classification risk) | 3.32–4.65m (0%); 3.65–5.12m (10%) | **No local service partner found** |
-| TurboChef Sota single mag / Bullet | USD 13,039 (US) / GBP 9,888 ex-VAT (UK) [S19] | 0% or 10% | ~6.1m (0%); ~6.7m (10%) | Webstaurant shows a 3% manufacturer increase from 1 Aug 2026 |
+| Merrychef eikon e2s | USD 10,305 (US) [S18]; GBP 5,353 ex-VAT (UK, unverified) [S18] | 0% or 10% (classification risk) | 3.32–4.83m (0%); 3.65–5.32m (10%) | **No local service partner found.** *Fact-check correction: USD 9,918 was the price of the suggested replacement (Merrychef conneX 12). The e2s is USD 10,305 and flagged "View Replacement Item", which suggests it is being superseded, so plan service and spares for the model change. Landed was 3.32–4.65m / 3.65–5.12m. The UK h2products page returned 403* |
+| TurboChef Sota single mag / Bullet | USD 13,430 (US) / GBP 9,888 ex-VAT (UK) [S19] | 0% or 10% | ~6.3m (0%); ~6.9m (10%) | *Fact-check correction: the 3% manufacturer increase of 1 Aug 2026 has already taken effect. Webstaurant now lists USD 13,430 (was 13,039; landed was ~6.1m / ~6.7m)* |
 | Hoshizaki cubers with bin (US KM series) | USD 4,200–6,360 [S20] | 10% | 2.17–3.28m | US units are 115 V/60 Hz. Use EU models (e.g., IM series via The Horeca); EU price not obtained |
 | Vitamix The Quiet One | USD 1,492.95 [S21] | 5% | ~0.74m | — |
 | Blendtec Stealth 885 | AUD 2,495 incl. GST (AU) [S21] | 5% | ~0.86m | — |
@@ -199,7 +199,7 @@ Prices for La Marzocco KB90 and Victoria Arduino Black Eagle (Maverick), WMF 500
 | Undercounter dishwasher/glasswasher | Not obtained | 0% | ASSUMPTION | Gap |
 | Water filtration/softening/RO (BWT, Everpure etc.) | Not obtained | 0% | ASSUMPTION | Important: hard water causes scale damage to espresso boilers. Get a water analysis for the site (Veolia Jur or a well) |
 
-**Sanity check on sourcing route.** Russian retail prices for Mahlkönig grinders are about 30–50% above US retail once converted (E80 Supreme ≈ USD 3,800–4,340 vs USD 2,600–2,900). Buying through Russia is not cheaper than EU-direct despite the EAEU duty-free status. The price advantage of an EU-direct order (via The Horeca or direct import) should be tested with quotes.
+**Sanity check on sourcing route.** Russian retail prices include 22% Russian VAT, which an EAEU export would not carry. Ex-RU-VAT, the E80 Supreme in Russia is ≈ USD 3,113–3,560, against USD 3,049–3,199 US retail: a premium of about 0–17%. Buying through Russia is therefore roughly at parity with US list, with a modest premium at the top of the range. It is not clearly cheaper than EU-direct despite the EAEU duty-free status. The price advantage of an EU-direct order (via The Horeca or direct import) should be tested with quotes. *Fact-check correction: this paragraph said Russian prices were 30–50% above US (≈USD 3,800–4,340 vs 2,600–2,900). That compared VAT-inclusive Russian prices with stale US prices.*
 
 #### 3.1.5 Utilities and installation implications (ASSUMPTION, confirm with workstream on utilities and with ENA)
 

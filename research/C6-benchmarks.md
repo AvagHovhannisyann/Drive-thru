@@ -282,11 +282,13 @@ Definitions differ, so compare with care:
 | Two order lanes merging to one window + runners + escape lane | ~40–50 s at the window | 70–90 | Dutch Bros current format [1] |
 | Multi-lane with outside delivery (QSR food) | — | >100 | Chick-fil-A [27] |
 
-**Stacking needed is driven by service rate (ESTIMATE, M/M/1 queue, places needed to hold the queue 95% of the time).**
+**Stacking needed is driven by service rate (ESTIMATE, M/M/1 queue, places needed to hold the queue 95% of the time; minutes in brackets are mean time in system, i.e. queue wait plus service, W = 1/(μ − λ)).**
+
+*Fact-check note: the bracketed values were labelled "mean wait"; they are mean time in system. Queue wait alone is lower, e.g. at 45/h arrivals and a 60/h window Wq = 3.0 min vs W = 4.0 min. All cells reproduce.*
 
 | Arrival rate (cars/h) | Window capacity 50/h | 60/h | 80/h |
 |---|---|---|---|
-| 30 | 5 cars (mean wait 3.0 min) | 4 (2.0 min) | 3 (1.2 min) |
+| 30 | 5 cars (time in system 3.0 min) | 4 (2.0 min) | 3 (1.2 min) |
 | 40 | 13 (6.0 min) | 7 (3.0 min) | 4 (1.5 min) |
 | 45 | **28 (12 min)** | **10 (4.0 min)** | 5 (1.7 min) |
 | 50 | n/a (ρ≥1) | 16 (6.0 min) | 6 (2.0 min) |
@@ -306,7 +308,7 @@ Definitions differ, so compare with care:
 |---|---|---|
 | Building | Dutch Bros 800–1,000 sq ft (74–93 m²); Scooter's kiosk 664 sq ft (62 m²); Dunkin' free-standing 1,200–2,500 sq ft (111–232 m²); Chick-fil-A elevated kitchen 2× standard | VERIFIED / REPORTED |
 | Lot | Dutch Bros ≥25,000 sq ft (2,323 m²); Scooter's ≥½ acre (2,023 m²) | VERIFIED / REPORTED |
-| Queue/stack | Palm Beach County: 7 spaces (≥4 before menu board) + 1 after the window, bypass lane if >5 spaces. Scooter's ≥10 cars. Dutch Bros "ample car stacking", escape lane | VERIFIED / REPORTED |
+| Queue/stack | Palm Beach County: 7 spaces (≥4 before menu board) + 1 after the window; bypass lane required for drive-through restaurants (Table 6.B.3.A; the ">5 spaces" trigger is the general rule for other uses). Scooter's ≥10 cars. Dutch Bros "ample car stacking", escape lane | VERIFIED / REPORTED |
 | Queue space size | 10 ft × 20 ft (3.05 × 6.1 m); window position 9 × 20 ft | VERIFIED [21] |
 | Bypass lane | ≥10 ft (3.05 m) | VERIFIED [21] |
 | Access/driveway | One-way ≥15 ft (4.6 m), two-way ≥25 ft (7.6 m); right-turn radius 25–30 ft (7.6–9.1 m) | VERIFIED [21] |
@@ -329,7 +331,7 @@ Definitions differ, so compare with care:
 
 ### 3.6 Trip generation, pass-by and a defensible capture-rate range
 
-**ITE inputs (12th edition rates, reproduced in Palm Beach County's May 2026 table [20]; VERIFIED).**
+**ITE inputs (12th edition rates, reproduced in Palm Beach County's May 2026 table [20]; VERIFIED as the county's adopted rates, REPORTED (ITE via county) as ITE data. The 938 daily rate of 179 is the same in the 2022 and 2026 tables, so it may not be a 12th-edition update).**
 
 | ITE land use | Unit | Daily trips | AM peak hour | PM peak hour | Pass-by applied by Palm Beach County | AM peak share of daily (ESTIMATE) |
 |---|---|---|---|---|---|---|
@@ -347,7 +349,7 @@ Notes:
 **Step 1 — US capture benchmark (ESTIMATE).**
 - A 2,000 sq ft land-use 937 shop generates 600.5 × 2 = 1,201 trips/day, i.e. **~600 customer vehicles/day**.
 - US coffee drive-thrus are typically sited on arterials. Assume AADT 20,000–40,000 (**ASSUMPTION**; no chain publishes an AADT threshold among the sources opened).
-- Pass-by visits at 49–89% pass-by = 294–534 vehicles → **0.7–2.7% of two-way AADT**; central case (30k, ~70% pass-by) ≈ **1.4–1.5%**.
+- Pass-by visits at 49–89% pass-by = 294–534 vehicles → **0.7–2.7% of two-way AADT**; central case (30k, ~70% pass-by) ≈ **1.4–1.5%**. Only the 49% is sourced (Palm Beach County). The **89% upper value and the ~70% central value are ASSUMPTIONS**. Secondary traffic studies disagree: a Warwick, RI memo says ITE gives no pass-by rate for LU 937 and borrows LU 934's 50% (AM); a Kimley-Horn Starbucks study used 49% (AM); a Knoxville TIA cites Handbook 3rd ed. "exceeding 80-percent". **Treat this US band as indicative only.** *Fact-check correction: the 89% upper pass-by had no source; this section itself says the ITE Handbook could not be opened.*
 - Including diverted and destination trips: **1.5–3.0% of two-way AADT**.
 - Cross-check: Dutch Bros at ≈680–830 transactions/day on an assumed 25–45k AADT site is ≈1.5–3.3%. So the leaders sit at the top of the ITE band (ESTIMATE).
 
@@ -356,32 +358,38 @@ Notes:
 | Factor | Range | Why |
 |---|---|---|
 | Category maturity / habit | 0.5–0.8 | The US drive-thru habit is mature: 85% of Dutch Bros business is drive-thru, and loyalty apps drive 63–74% of transactions. Armenia has strong *to-go* coffee (Coffee House 57 branches, A2) but only one known drive-thru (A3), whose peak queues show demand exists. |
-| Income-to-price | 0.7–0.9 | A premium cup is ≈1 hour of average food-service pay in Armenia vs minutes in the US (A2/C3). Offset: Armenian to-go coffee prices are low (800–1,200 AMD). |
+| Income-to-price | 0.7–0.9 (low end favoured) | A premium 1,950 AMD cup is **≈2 hours** of average food-service pay in Armenia (C3: AMD 160,253/month gross, Jan–Aug 2026 ≈ AMD 954/hour at 168 h), and a 1,000 AMD mass to-go cup ≈1 hour, vs minutes in the US. Offset: Armenian to-go coffee prices are low (800–1,200 AMD). *Fact-check correction: the earlier "≈1 hour" for a premium cup mixed in A2's national-wage figure (≈1.1 h at AMD 314k); on food-service pay it is ≈2 h, which widens the gap and supports the low end of the factor.* |
 | Speed / access | Highway 0.6–0.9; urban 0.9–1.0 | Scooter's rejects roads >45 mph. The M4 is a 90 km/h divided road with a guard-rail median and right-in/right-out access (B1). Urban edges are 60 km/h, often signalised. |
 | Leisure uplift (Sevan-bound weekends) | Highway 1.0–1.3 | Discretionary trips have a higher stop propensity than commuter trips (ASSUMPTION, B1/B4). |
 
-- Result, M4 highway: 1.5% × (0.21 to 0.84) = **0.3–1.3%** of same-side light vehicles; geometric mean ≈ **0.63%**.
-- Result, urban-edge arterial: 1.5% × (0.32 to 0.72) = **0.5–1.1%**; geometric mean ≈ **0.71%**.
+- Result, M4 highway: 1.5% × (0.21 to 0.84) = **0.3–1.3%** of same-side light vehicles; geometric mean ≈ **0.63%**. **This is the M4 base** (model basis ≈0.47%).
+- Result, urban-edge arterial: 1.5% × (0.32 to 0.72) = **0.5–1.1%**; geometric mean ≈ **0.71%**. **This is the urban-edge base** (model basis ≈0.53%).
+- *Fact-check correction: the executive summary previously gave bases of ≈0.7% (M4) and ≈0.75–0.8% (urban), and §4.1 used 0.8% of same-side light vehicles. None matched these computed means, and no uplift was stated. All sections now use 0.63% / 0.71%.*
 
 **Step 3 — regional reality checks.**
 
 | Anchor | Value | Status |
 |---|---|---|
-| WOG fuel-station coffee (Ukraine), captive stop | ≈117 cups/station/day (2014–20 average) | ESTIMATE from REPORTED [28] |
-| Coffee Like car-oriented pavilion (Russia) | ≈103 checks/day (franchisor "from" claim) | REPORTED (A2) |
-| Coffee House average branch | ≈40–70 cups/day | ESTIMATE (A2) |
+| WOG fuel-station coffee (Ukraine), captive stop | **≈140 cups/station/day** (Oct 2020 run-rate: >70,000/day ÷ ~500 stations); ≈181 per WOG CAFE outlet (÷ 386); 2013–20 average incl. ramp-up ≈117 | ESTIMATE from REPORTED [28]. *Fact-check correction: previously ≈117 (7-year average), which understates the mature run-rate.* |
+| Coffee Like car-oriented pavilion (Russia) | ≈103 checks/day (franchisor "from" claim) | REPORTED (A2). **Low confidence**: the revenue period is not stated and was assumed monthly |
+| Coffee House average branch | ≈40–70 cups/day | ESTIMATE (A2). **Low confidence**: A2's fact-check marks it UNVERIFIABLE and likely understated (it rests on a stale "5M+" counter) |
 | B4: capture needed for 120 tx/day | 0.49–0.57% (urban edges); 0.75% (M-1 exit) | ESTIMATE (B4) |
 
-The Step-2 ranges reproduce these anchors. At the B1 base of ~11,000 same-side light vehicles/day between Abovyan and Charentsavan, the outcomes are:
+*Fact-check correction: this paragraph previously said the Step-2 ranges "reproduce" these anchors. The Coffee House and Coffee Like anchors are weak and biased low, so they cannot validate the low capture range. The WOG run-rate (≈140/day at a captive fuel stop) is the firmest regional point. Field counts at the Coffee House M4 drive-thru are the only valid Armenian calibration.*
+
+At the B1 base of ~11,000 same-side light vehicles/day between Abovyan and Charentsavan (27,000 × 0.5 × 0.82 = 11,070), the outcomes are:
 
 | Same-side light-vehicle capture | Transactions/day |
 |---|---|
 | 0.4% | 44 |
+| 0.63% (recommended M4 base = model 0.47%) | 70 |
 | 0.75% | 83 |
 | 1.2% | 133 |
-| 1.8% | 199 |
+| 2.4% (= current model 1.8% input) | ≈267 |
 
-These exclude walk-ins (ESTIMATE). The middle of that range matches the regional anchors (≈80–150), and 1.8% does not.
+*Fact-check correction: the last row previously read "1.8% → 199". That was 1.8% on the same-side basis, not the model's 1.8% input, which equals ≈2.4% of same-side light vehicles and gives ≈267/day (≈287 with 20 walk-ins).*
+
+These exclude walk-ins (ESTIMATE). The 0.63–1.2% rows (≈70–133/day) sit around the WOG run-rate and A2's 80–150 range. The current model input (≈267/day, ≈287 with walk-ins) is far above every anchor.
 
 **Step 4 — mapping to the model.**
 - The model applies capture to AADT × 0.55 (accessible share), with no light-vehicle factor. The current base of **1.8%** is ≈**2.4% of same-side light vehicles** (1.8% × 0.55 ÷ (0.5 × 0.82)). **That is above the US-mature central benchmark.**
