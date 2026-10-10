@@ -210,15 +210,15 @@ Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] 
 
   Uncertainty is therefore wide. Bavra crossings (M-1 north end) were 954,974 in 2025 (+18.5 %) but only +0.8 % in Jan–Aug 2026 [6].
 - **Catchment.** 3 km / 5 km: Ashtarak-highway point in Davtashen 114k / 278k; Yerevan exit at Homplex 27k / 94k; Ashtarak town 17.5k / 26k. Davtashen (52.7k, +1.3 %/yr) and Ajapnyak (123.6k) feed the city end. Ashtarak is a commuter town (ADB: "commuter settlement", 18,000 in 2016 [3]).
-- **Income.** The Yerevan end has Yerevan incomes. Aragatsotn's employer wage is low (170,768 AMD), but it has the lowest poverty in Armenia (7.6 %).
-- **Competition.** **0 cafés and 0 fast-food outlets within 1 km** of the Davtashen and Homplex points. Coffee House is at Homplex Mall (1.1 km from the exit point). 29 fuel stations sit within 200 m between the Yerevan edge and the M-3 junction.
-- **Seasonality.** M-1 July = 1.197× AADT [4]; Bavra summer factor 1.54× (long-distance flows).
-- **Verdict.** A good second-tier exit corridor with white space and strong 2018–21 growth, but weaker counted volume than the M-5 or M-2 and older data.
+- **Income.** The Yerevan end has Yerevan incomes. Aragatsotn's employer wage is low (170,768 AMD), but it has the second-lowest poverty in Armenia (7.6 %, after Syunik at 6.2 %). *Fact-check correction: the text said "lowest". The marz intervals are wide (Aragatsotn 95 % CI 4.0–11.3 %), so small gaps between marzes should not drive site scores.*
+- **Competition.** OSM shows **0 cafés and 0 fast-food outlets within 1 km** of the Davtashen and Homplex points. But **KFC and Coffee House both trade at Homplex Hyper Mall**, ≈1.1 km from the exit point (C03). 29 fuel stations sit within 200 m between the Yerevan edge and the M-3 junction. *Fact-check correction: the KFC at Homplex was not counted. The white space is thinner than a score of 5 suggests, and the White-space score is cut to 4 (§3.9).*
+- **Seasonality.** M-1 July = 1.197× AADT (≈2005–09 counter data) [4]; Bavra summer factor 1.54× (long-distance flows).
+- **Verdict.** A good second-tier exit corridor with some white space and strong reported 2018–21 growth. But its counted volume is weaker than the M-5 or M-2, its data are older, and the counter is not at the exit itself.
 
 #### (3) M-2: Yerevan – Artashat – Ararat (south)
 
 - **Road.** Arshakunyats Ave runs into the Artashat highway (2+2, 60 km/h), then the Yerevan–Meghri highway: dual carriageway for ≈21 km to Artashat (2–3 lanes, 90–100 km/h) and ≈17 km of dual onward to Ararat [19].
-- **Traffic.** Counter at km 9.38: 37,831 in 2018, the highest measured interurban figure in the country. ADB forecast 49,600 for 2025; my base is 51.5k. Volume halves beyond the Masis junction: km 16 was 44 % of km 9.38 in 2009. ADB forecast ≈23k for 2025 on km 13–29 [3].
+- **Traffic.** Counter at km 9.38: 37,831 in 2018, the highest measured interurban figure in the country. ADB forecast 49,600 for 2025; my base is **49.1k** (37,831 × 1.038^7; range 46.5–51.5k). On a same-side basis (≈22,600 light vehicles) the M-2 is level with Isakov AB and Arshakunyats, not above them. *Fact-check correction: the base was 51.5k at 4.5 %/yr. ADB reports 3.8 %/yr for 2014–18, and the table CAGR is 3.35 %.* Volume halves beyond the Masis junction: km 16 was 44 % of km 9.38 in 2009. ADB forecast ≈23k for 2025 on km 13–29 [3].
 - **Mix.** 92 % light vehicles in 2018, so ≈3,000 trucks/day.
 - **Catchment.** 3 km / 5 km: M-2 edge 61k / 181k; Arshakunyats south 114k / 303k; Masis junction 22k / 52k.
 - **Settlements.** Masis 23.7k (+1.7 %), Artashat 22.8k, Ararat 17.8k, and Ararat marz 271.7k (+1.0 %). Ararat marz wage is 234,735 AMD (second only to Yerevan among the marzes covered here) and poverty is 15.7 %, which makes the commuter base relatively affluent.

@@ -404,21 +404,25 @@ Cost inputs (all ASSUMPTION, aligned with C1/C2):
 | Ramp-up | Year 1 75%, year 2 90%, years 3–5 100% |
 | Discount rate | 14% (AMD) |
 
-**Steady-state year (AMD million):**
+**Steady-state year (AMD million).** The rent 6 columns are the original runs. The rent 18 columns use the model-wide rent assumption (fact-check rebuild).
 
-| | Case A: G = 150 (≈ USD 0.41M) | Case B: G = 300 (≈ USD 0.83M) |
-|---|---|---|
-| **VAT regime:** net VAT paid | 14.5 (9.7% of G) | 29.5 (9.8%) |
-| VAT regime: profit tax | 1.1 | 10.7 |
-| VAT regime: post-tax operating cash | 18.0 | 61.6 |
-| **TT regime:** documented expenses ÷ G | 75% | 64% |
-| TT paid | **7.9 (5.2% of G)** | **18.7 (6.25%)** |
-| TT regime: post-tax operating cash | 25.7 | 83.1 |
-| **Annual cash advantage of TT** | **+7.7** | **+21.5** |
-| Economic tax burden at fixed menu prices: VAT regime | output VAT 25.0 + profit tax 1.1 = 17.4% of G | 50.0 + 10.7 = 20.2% |
-| Economic tax burden: TT regime (incl. unrecoverable supplier VAT) | 7.9 + 10.5 = 12.3% of G | 18.7 + 20.5 = 13.1% |
-| Capex VAT recoverable only under VAT | 36.0 | 36.0 |
-| Years for TT savings to repay the forgone capex VAT | 4.7 | 1.7 |
+| | Case A: G = 150 (≈ USD 0.41M), rent 6 | Case A, rent 18 | Case B: G = 300 (≈ USD 0.83M), rent 6 | Case B, rent 18 |
+|---|---|---|---|---|
+| **VAT regime:** net VAT paid | 14.5 (9.7% of G) | 14.5 | 29.5 (9.8%) | 29.5 |
+| VAT regime: profit tax | 1.1 | 0.0 (tax loss) | 10.7 | 8.5 |
+| VAT regime: post-tax operating cash | 18.0 | 7.2 | 61.6 | 51.8 |
+| **TT regime:** documented expenses ÷ G | 75% | 83% | 64% | 68% |
+| TT paid | **7.9 (5.2% of G)** | **6.8 (4.5%)** | **18.7 (6.25%)** | **17.7 (5.9%)** |
+| TT regime: post-tax operating cash | 25.7 | 14.8 | 83.1 | 72.2 |
+| **Annual cash advantage of TT** | **+7.7** | **+7.7** | **+21.5** | **+20.4** |
+| Economic tax burden at fixed menu prices: VAT regime | output VAT 25.0 + profit tax 1.1 = 17.4% of G | 25.0 + 0 = 16.7% | 50.0 + 10.7 = 20.2% | 50.0 + 8.5 = 19.5% |
+| Economic tax burden: TT regime (incl. unrecoverable supplier VAT) | 7.9 + 10.5 = 12.3% of G | 6.8 + 10.5 = 11.5% | 18.7 + 20.5 = 13.1% | 17.7 + 20.5 = 12.7% |
+| Capex VAT recoverable only under VAT | 36.0 | 36.0 | 36.0 | 36.0 |
+| Years for TT savings to repay the forgone capex VAT (undiscounted) | 4.7 | 4.7 | 1.7 | 1.8 |
+
+*Fact-check correction: the post-tax cash lines at AMD 6M rent are overstated by about AMD 11–12M a year against the model-wide rent. The TT advantage hardly changes at G = 150, because VAT-regime profit tax falls to zero, and falls from 21.5 to 20.4 at G = 300.*
+
+**At the study's base revenue (C6: G = 140, payroll 35.2):** TT advantage is AMD 6.9M a year at rent 6 and 7.4M at rent 18, so repaying 36M of capex VAT takes 5.2 / 4.9 years. At G = 100 it is 5.3 / 6.1M (6.8 / 5.9 years) (ESTIMATE).
 
 **5- and 10-year view: NPV at 14% (undiscounted in brackets) of TT minus VAT, AMD million, by capex scenario** (ESTIMATE):
 

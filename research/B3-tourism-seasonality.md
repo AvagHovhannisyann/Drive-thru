@@ -120,13 +120,13 @@ Visitor counts for specific sites (Sevan beaches, Sevanavank, Tsaghkadzor, Dilij
 | 9 | Average number of tourists present in the country on a given day | ≈180,000 (65.7 m nights ÷ 365) | 2025 | ESTIMATE | [1] |
 | 10 | Travel credits (tourist spending in BoP) | US$1,528 m / 2,419 m / 3,116 m / 2,727 m / **2,911 m** (personal 2,465 m; business 446 m) | 2019 / 2022 / 2023 / 2024 / 2025 | VERIFIED | [10] |
 | 11 | Travel credits by quarter | 501 / 698 / 997 / 714 (2025); 619 / 815 (2026 Q1–Q2, H1 +19.6 % y/y) | 2025–H1 2026 | VERIFIED | [10] |
-| 12 | Spending per tourist-night; per tourist | ≈US$44 per night (≈AMD 17,200 at AMD 387/USD); ≈US$1,290 per tourist | 2025 | ESTIMATE | [10][1] |
+| 12 | Spending per tourist-night; per tourist | ≈US$44 per night (≈AMD 17,150 at the 2025 average of AMD 387.01/USD; do not restate at today's 361.93); ≈US$1,290 per tourist. The survey-based daily spend is higher: US$50.8 (row 41) | 2025 | ESTIMATE | [10][1] |
 | 13 | Border entries, all persons | 1.63 m / 3.39 m / 4.76 m / 4.75 m / **5.20 m** | 2021 / 2022 / 2023 / 2024 / 2025 | VERIFIED | [11] |
 | 14 | Border entries by mode | Air 2,780,847; road 2,394,523 (Armenian citizens 1.28 m, foreigners 1.12 m); rail 26,377 | 2025 | VERIFIED | [11] |
 | 15 | Road entries by quarter | 436,712 / 575,153 / 799,321 / 583,337 | 2025 | VERIFIED | [11] |
 | 16 | Entries by checkpoint | Zvartnots 2,708,063; **Bagratashen 1,404,774**; Bavra 473,846; Meghri 404,644; Gogavan 111,127; Gyumri 70,288; Ayrum (rail) 26,377 | 2025 | VERIFIED | [3] |
 | 17 | Bagratashen monthly entries (index, mean = 100) | Jan 72, Feb 55, Mar 79, Apr 79, May 97, Jun 108, **Jul 149, Aug 164**, Sep 109, Oct 103, Nov 88, Dec 98 | 2025 | ESTIMATE from VERIFIED | [3] |
-| 18 | Checkpoint entries, Jan–Aug 2026 vs 2025 | Zvartnots +7.1 %; Bagratashen −1.3 %; Bavra +0.5 %; Gogavan −7.1 %; **Meghri −32.4 %**; total +0.6 %. August 2026 figures look incomplete | Jan–Aug 2026 | VERIFIED (data) / ESTIMATE (change) | [3] |
+| 18 | Checkpoint entries, 2026 vs 2025 | **Trend basis, Jan–Jul:** Zvartnots +11.6 % (1,647,307 vs 1,476,012); **Bagratashen +3.1 %** (770,658 vs 747,465); **Meghri −31.2 %**. **Jan–Aug, which includes the suspect August:** Zvartnots +7.1 %; Bagratashen −1.3 %; Bavra +0.5 %; Gogavan −7.1 %; Meghri −32.4 %; total +0.6 %. *Fact-check correction: Jan–Jul is now the trend figure. Implied August is Zvartnots −14.9 % and Bagratashen −18.3 %.* | Jan–Jul / Jan–Aug 2026 | VERIFIED (data) / ESTIMATE (change) | [3] |
 | 19 | Air passengers (arrivals + departures) | 5,755.7k (+6.7 %); peak Aug 679.4k, trough Feb 294.4k | 2025 | VERIFIED | [5] |
 | 20 | Air passengers, 2026 YTD | 4,243.4k (+12.1 %); Aug 775.2k (+14.1 %) | Jan–Aug 2026 | VERIFIED | [5] |
 | 21 | Accommodation & food services turnover, monthly (index) | Jan 78, Feb 73, Mar 91, Apr 99, May 101, Jun 106, **Jul 117, Aug 118**, Sep 106, Oct 106, Nov 99, Dec 105 | 2025 | ESTIMATE from VERIFIED | [4] |
@@ -142,7 +142,7 @@ Visitor counts for specific sites (Sevan beaches, Sevanavank, Tsaghkadzor, Dilij
 | 31 | Climate elsewhere on the corridor | Abovyan (1,411 m): Jan −2.6 °C, ~23 snow days. Hrazdan (1,758 m): Jan −6.3 °C, ~39 snow days. Tunnel approach (2,115 m): Jan −8.3 °C, ~20 days ≤−15 °C | 2016–2025 | ESTIMATE | [14] |
 | 32 | Yerevan→Tbilisi travel time by route (free-flow, OSM) | Fastest 276.9 km / 4 h 33 min via Aparan–Vanadzor–Stepanavan–Gogavan; via M-4 Sevan–Dilijan–Ijevan–Bagratashen 298.8 km / 5 h 14 min; via Aparan–Vanadzor–Alaverdi–Bagratashen 287.4 km / 5 h 15 min | Oct 2026 | ESTIMATE (OSRM) | [13] |
 | 33 | Yerevan→Bagratashen travel time by route | Via M-4 Sevan–Dilijan–Ijevan 212.2 km / 3 h 26 min; via Aparan–Vanadzor–Alaverdi 204.6 km / 3 h 33 min | Oct 2026 | ESTIMATE (OSRM) | [13] |
-| 34 | Bagratashen's role in trade; May 2024 floods | "Handles 80 % of Armenia's imports and exports"; floods damaged M-6 and M-4 links to the crossing | 2024 (page updated Oct 2024) | REPORTED (ADB) | [12] |
+| 34 | Bagratashen's role in trade; May 2024 floods | "Handles 80 % of Armenia's imports and exports"; floods damaged M-6 and M-4 links to the crossing. ADB does not say whether the 80 % is by value or volume, or which modes it covers. *Fact-check: applying it to road tonnes (§3.6) is an ASSUMPTION.* | 2024 (page updated Oct 2024) | REPORTED (ADB) | [12] |
 | 35 | Road freight | 13,513 kt total; imported 4,632 kt (+7.6 %); exported 826 kt (−11.1 %); domestic 8,055 kt | 2025 | VERIFIED | [5] |
 | 36 | Ropeway passengers, all of Armenia | 0.3 m (0.6 m in 2019); network length 13.9 km | 2024 | VERIFIED | [7] |
 | 37 | Lake Sevan public beaches | ~100k visitors in summer 2011 (2 beaches); ~200k in 2014 (11 beaches) | 2011, 2014 | REPORTED (Wikipedia citing RFE/RL, ArmeniaNow, 1tv; low reliability, outdated) | [15] |

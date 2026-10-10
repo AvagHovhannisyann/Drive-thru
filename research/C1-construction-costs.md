@@ -555,24 +555,28 @@ The successor document was not located. Private projects are not bound by these 
 | 32 | Utilities | Wastewater: bio-treatment station (~3 m3/d) installed | 1 | ls | 3,000,000 | 3,000,000 | 8,287 | ESTIMATE | scaled from Eurolos list prices |
 | 33 | Utilities | Telecom/fibre connection | 1 | ls | 500,000 | 500,000 | 1,381 | ASSUMPTION |  |
 | 34 | Soft costs | Topographic & geotechnical survey | 1 | ls | - | 1,200,000 | 3,315 | ASSUMPTION | see 3.8 |
-| 35 | Soft costs | Architecture & engineering design (7% of hard cost) | 1 | ls | - | 10,603,881 | 29,292 | ASSUMPTION | see 3.8 |
-| 36 | Soft costs | State design expertise/review | 1 | ls | - | 800,000 | 2,210 | ASSUMPTION | see 3.8 |
-| 37 | Soft costs | Technical supervision (1.5% of hard cost) | 1 | ls | - | 2,272,260 | 6,277 | ESTIMATE | see 3.8 |
-| 38 | Soft costs | Author (designer) supervision (0.6%) | 1 | ls | - | 908,904 | 2,511 | ESTIMATE | see 3.8 |
+| 35 | Soft costs | Architecture & engineering design (7% of hard cost) | 1 | ls | - | 11,403,914 | 31,503 | ASSUMPTION | see 3.8 |
+| 36 | Soft costs | State design expertise/review (optional for risk category II: designer's guarantee letter suffices) | 1 | ls | - | 800,000 | 2,210 | ASSUMPTION | see 3.8; *fact-check: optional, not statutory* |
+| 37 | Soft costs | Technical supervision (1.5% of hard cost; optional for risk category II: contractor's guarantee suffices) | 1 | ls | - | 2,443,696 | 6,751 | ESTIMATE | see 3.8; *fact-check: optional, not statutory* |
+| 38 | Soft costs | Author (designer) supervision (0.6%) | 1 | ls | - | 977,478 | 2,700 | ESTIMATE | see 3.8 |
 | 39 | Soft costs | Permits, technical conditions, final act/operating permit, cadastre | 1 | ls | - | 800,000 | 2,210 | REPORTED/ASSUMPTION | see 3.8 |
-| 40 | Contingency | Contingency 10% of hard cost | 1 | ls | - | 15,148,402 | 41,846 | ASSUMPTION | see 3.10 |
+| 39a | Soft costs | EIA Category B state duty (1,500 m2 paved > 1,000 m2 trigger); EIA report not priced | 1 | ls | - | 315,000 | 870 | REPORTED | sibling C5 (VERIFIED there); *fact-check addition* |
+| 40 | Contingency | Contingency 10% of hard cost | 1 | ls | - | 16,291,306 | 45,004 | ASSUMPTION | see 3.10 |
 
 | Subtotal | AMD | USD | Share of total |
 |---|---|---|---|
-| Site works | 67,294,090 | 185,895 | 37% |
-| Building | 38,840,300 | 107,294 | 21% |
-| Drive-thru & tech | 30,600,000 | 84,530 | 17% |
-| Utilities | 14,749,626 | 40,745 | 8% |
-| **Hard cost** | **151,484,016** | **418,464** | 83% |
-| Soft costs | 16,585,045 | 45,815 | 9% |
-| Contingency | 15,148,402 | 41,846 | 8% |
-| **TOTAL (excl. land, coffee/kitchen equipment)** | **183,217,463** | **506,126** | 100% |
-| Total excl. recoverable VAT (if VAT-registered: /1.2) | 152,681,219 | 421,771 | |
+| Site works | 78,723,130 | 217,467 | 40% |
+| Building | 38,840,300 | 107,294 | 20% |
+| Drive-thru & tech | 30,600,000 | 84,530 | 16% |
+| Utilities | 14,749,626 | 40,745 | 7% |
+| **Hard cost** | **162,913,056** | **450,036** | 83% |
+| Soft costs | 17,940,088 | 49,558 | 9% |
+| Contingency | 16,291,306 | 45,004 | 8% |
+| **TOTAL (excl. land, coffee/kitchen equipment)** | **197,144,450** | **544,598** | 100% |
+| Range for access-lane length (AMD 27.1–35.6M) | 194.6M–204.8M | 537.5k–565.6k | |
+| Sensitivity only, VAT regime (÷1.2; not the base case, see §4 item 8) | 164,287,042 | 453,832 | |
+
+*Fact-check correction: the mid total was previously AMD 183,217,463 ($506,126), with 700 m² of access lanes. The "Total excl. recoverable VAT" row is relabelled as a sensitivity (catering TT cannot recover capex VAT; C4).*
 
 #### Scenario 3 - FLAGSHIP (180 m2 architect-designed, ~3,500 m2 plot, 2 lanes)
 
