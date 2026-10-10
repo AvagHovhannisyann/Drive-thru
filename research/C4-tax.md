@@ -578,8 +578,6 @@ Advances    = from year 2: each quarter MIN(20% × ProfitTax_(y−1), 2% × Reve
 | 9 | Receipt lottery / cashback programme in 2026 under Art. 18.1 | Marketing and compliance only | src.am news; Government decisions referencing Art. 18.1 |
 | 10 | Sectors and dates in the **e-HDM mandate** from 1 Jan 2027 (Government decision under HO-309-N) | POS architecture | e-draft.am (Ministry of Finance / SRC drafts); arlis.am after adoption |
 | 11 | Stamp duty is now resolved as REPORTED: AMD 1,000 / 15,000 a month (PwC [24], C3). Still open: whether the **draft employer UHI levy** (AMD 4,400 per employee ≤ AMD 200k, from Dec 2026) is adopted, and the 2027 UHI rule for earners above AMD 200k | Payroll cost (employer side) | e-draft.am project 10624; arlis.am after adoption; C3-labor.md |
-| 19 | **Future of turnover tax.** Timing of the stated plan to abolish TT (June 2024) and any draft that would amend Arts 253–265 | Regime choice; 10-year NPVs | e-draft.am (Ministry of Finance drafts); Government tax-policy programme; Big-4 tax alerts |
-| 20 | **VAT refund speed for a new, pre-revenue company** (is it "risky" under Art. 74(5)? how long does a desk or field review take?) | Capex-VAT timing (t=0 vs t=1–2 moves the mid breakeven between ≈171M and ≈203M) | SRC risk criteria (Government decision under Art. 74); tax adviser experience |
 | 12 | Customs duty exemptions for investment projects (EEC lists of technological equipment) | Up to 10% of refrigeration cost | SRC Customs Department; Ministry of Economy investment-incentive desk |
 | 13 | Customs classification of speed ovens and automated beverage systems (0% vs 10% duty; 5-year vs 3-year depreciation) | Capex and depreciation | Preliminary classification decision from SRC customs (EAEU Customs Code procedure) |
 | 14 | Trademark examination timeline and the IP office's current practice (aipa.am was unreachable from this session) | Brand launch timing | Intellectual Property Office (aipa.am) or a local IP attorney; typical timelines not verified |
@@ -587,6 +585,8 @@ Advances    = from year 2: each quarter MIN(20% × ProfitTax_(y−1), 2% × Reve
 | 16 | Treaty WHT rates if the investor or HoldCo is foreign | Distribution planning | Armenia's tax treaties on arlis.am / Ministry of Finance; the investor's residence |
 | 17 | Capital-gains treatment of selling LLC shares (resident and non-resident sellers) | Exit modelling | Tax Code Art. 125(4)(4) (non-residents: 18% on gains on shares) indicates taxation; confirm resident-individual treatment |
 | 18 | Abovyan 2025 rates are a **draft**; adoption and any 2026 changes not checked | Local duties | Abovyan council decision on arlis.am or abovyan.am |
+| 19 | **Future of turnover tax.** Timing of the stated plan to abolish TT (June 2024) and any draft that would amend Arts 253–265 | Regime choice; 10-year NPVs | e-draft.am (Ministry of Finance drafts); Government tax-policy programme; Big-4 tax alerts |
+| 20 | **VAT refund speed for a new, pre-revenue company** (is it "risky" under Art. 74(5)? how long does a desk or field review take?) | Capex-VAT timing (t=0 vs t=1–2 moves the mid breakeven between ≈171M and ≈203M) | SRC risk criteria (Government decision under Art. 74); tax adviser experience |
 
 **Reproducibility.** The regime-comparison script (Python, assumptions as in §3.11) was kept in the analyst scratchpad. The formulas in §3.12 are sufficient to rebuild it in the model workbook.
 

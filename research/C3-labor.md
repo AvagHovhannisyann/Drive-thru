@@ -37,14 +37,14 @@
 3. **Advertised pay, Sep–Oct 2026, 30 ads cited in §3.3 (Yerevan and Kotayk):**
    - baristas and cashiers: **AMD 140–210k/month**, or **7,000–12,000 per shift** plus tips and % of sales;
    - cooks: **235–350k/month**, or 12–15k per day;
-   - cleaners: **135–300k**;
+   - cleaners: **135–220k/month**, or 5,000–10,000 per shift; *Fact-check correction: the earlier "135–300k" rested on P21, whose "from AMD 300,000" header is AMD 10,000 per 12.5-hour shift × 30 shifts (see §3.3).*
    - supervisors and managers: **200–450k**.
 
    The chains closest to the concept (Coffee House, Cofix, Gotcha, FEIN) **do not publish salaries**. Only 44% of job.am and 17% of staff.am hospitality ads show any pay (REPORTED [S24][S26]).
 4. **Whether an advertised figure is gross or net is the largest single uncertainty in the labour budget.**
    - Almost no ad says which it is.
    - Across all 1,197 job.am ads, the five explicit statements split **2 net (blue-collar) to 3 gross**.
-   - Budgeting ads as net, the base case here, makes payroll **about 27% higher** than reading them as gross. That is a swing of AMD 0.9–1.8m/month depending on the format.
+   - Budgeting ads as net, the base case here, makes payroll **about 37% higher** than reading them as gross (put the other way, the gross reading is about 27% lower). That is a swing of AMD 0.9–1.8m/month depending on the format. *Fact-check correction: this line previously said "27% higher". The net/gross payroll ratio is 1.373 for Lean, Mid and Flagship (e.g. Lean 3.31m vs 2.41m), so the net base is ≈37% above the gross reading; ≈27% is the size of the cut when moving from net to gross, as §3.9 states.*
 5. **Payroll mechanics in 2026 (VERIFIED / REPORTED [S5][S6]).**
    - Deducted from the employee: personal income tax **20%**; funded-pension social payment **5%** of gross up to AMD 500k (for people born 1974 or later; above that, 10% minus AMD 25,000, capped at AMD 87,500); stamp duty **AMD 1,000**; universal health-insurance (UHI) premium **AMD 4,800** (gross AMD 200–500k) or **10,800** (above AMD 500k).
    - **The employer pays no mandatory contribution in 2026, so employer cost equals gross salary.**
@@ -75,10 +75,10 @@
    | Mid | 07:00–22:00, 4 per shift | ≈13.4 | **4.1m** (3.4–4.8m) | **$11.4k** |
    | Flagship | 06:00–23:00, 6 per shift + cleaner | ≈23 | **6.7m** (5.6–7.8m) | **$18.5k** |
 
-   The financial model's current lean input (8 FTE, AMD 2.45m/month) is **about 26% too low** unless the roster is shaped to demand (about 21% fewer paid hours).
+   The financial model's current labour inputs are **about 37% (Lean), 17% (Mid) and 28% (Flagship) too low** on an annual-average basis. The engine pays the base FTE (6 / 10 / 14) in 9 months of 12 and adds the peak FTE only in Jun–Aug, so its average monthly payroll is about AMD 2.10m / 3.43m / 4.80m (incl. its 1% on-cost), against this study's base of 3.31m / 4.12m / 6.69m. In the 9 off-peak months it is 41% / 22% / 32% too low. For Lean the shortfall is about AMD 1.2m/month, roughly $40k a year. Even a demand-shaped Lean roster (about 21% fewer paid hours, ≈AMD 2.74m/month, ESTIMATE) is about 23% above the model's average. *Fact-check correction: this line previously said the Lean input (8 FTE, AMD 2.45m) was "about 26% too low" (Mid 3%, Flagship 17%). Those figures compared against the model's peak-month (Jun–Aug) staffing only; `model/engine.py` adds `fte_peak_extra` only where seasonality ≥ 1.15. See §3.9.*
 9. **A highway site depends on a thin local labour pool.**
    - On 10 Oct 2026, job.am listed **1,039 Yerevan jobs, against 34 in Abovyan, 4 in Yeghvard, 3 in Nor Hachn, 2 in Sevan, 1 in Hrazdan and 0 in Charentsavan** (VERIFIED snapshot [S24]).
-   - Employers near Abovyan already advertise AMD 200–300k and **provide their own staff transport**. One M4-side restaurant cleaner job at Verin Ptghni pays "from AMD 300,000".
+   - Employers near Abovyan already advertise AMD 180–300k for factory, logistics and waiter jobs and **provide their own staff transport**. The M4-side PRIME MEAT restaurant at Verin Ptghni pays a cleaner AMD 10,000 per 12.5-hour shift **plus a taxi**. *Fact-check correction: this line previously cited that ad as a cleaner job paying "from AMD 300,000". The ad text says "AMD 10,000 + taxi", hours 10:30–23:00, and one of its two sites is in Yerevan (Mamikonyants 40). That is ≈AMD 150–260k/month (15–26 shifts), about AMD 800/hour, so it is evidence that employers pay for taxis, not of a AMD 300k cleaner wage.*
    - Shift changes at about 05:30 and 23:30 make staff transport a real cost: **AMD 0.3–0.6m/month (ASSUMPTION)**.
 10. **There are no official figures on staff turnover.** The proxy is high:
     - In 2025 the accommodation and food sector created **8.9k jobs and eliminated 8.9k**, against about 47k payroll employees (VERIFIED [S21][S19]).
