@@ -176,16 +176,16 @@ Items that a web search would normally have found are listed as gaps in §5. The
 
 Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] (M-2 20,965; M-4 21,505; M-5 21,471). By 2018–21 the M-2 (37.8k, +80 %) and M-5 (34.8k, +62 %) series had grown by 62–80 %. The M-5 figure compares two different counters (km 9.4 in 2008, km 12 in 2021), so it is only indicative. *Fact-check correction: the growth range was stated as 60–75 %.* That supports B1's M-4 edge base of 42k. It also shows that **the M-4 edge has no traffic advantage over the M-2 or M-5 edges**.
 
-**Directional splits matter for a coffee concept.** On Isakov, inbound (to the centre) is **57 %** of two-way traffic (22,718 vs 17,334, May 2020) [1]. ADB found "no obvious explanation" and flagged it for checking. Arshakunyats is balanced (49/51). Morning coffee demand sits on the inbound carriageway (ASSUMPTION, as in B1).
+**Directional splits matter for a coffee concept.** On Isakov section AB (east of Monte Melkonian), inbound (to the centre) is **57 %** of two-way traffic (22,718 vs 17,334, May 2020) [1]. ADB found "no obvious explanation" and flagged it for checking. *Fact-check correction: the split west of the Monte Melkonian junction, where the recommended site is, is unmeasured. Do not carry the 57 % there.* Arshakunyats is balanced (49/51). Morning coffee demand sits on the inbound carriageway (ASSUMPTION, as in B1).
 
-**Daily profile.** On the western arterial, 70 % of traffic falls between 08:00 and 19:00, the peak hour is only 6 % of daily traffic, and the weakest day is 93 % of the weekly mean [1]. Urban corridors therefore load a drive-thru steadily through the day and week. Leisure highways concentrate demand on weekends (B1).
+**Daily profile.** On the western arterial (2014 counts, slightly west of the M-1/M-2 intersection), 70 % of traffic falls between 08:00 and 19:00, the peak hour is only 6 % of daily traffic, and the weakest day is 93 % of the weekly mean [1]. Urban corridors therefore load a drive-thru steadily through the day and week. Leisure highways concentrate demand on weekends (B1).
 
 ### 3.3 Corridor-by-corridor assessment
 
 #### (1) M-5: Yerevan – Zvartnots airport – Ejmiatsin – Armavir
 
 - **Road.** Inside Yerevan it is Admiral Isakov Ave: 3+3 lanes, 60 km/h, dual carriageway, with 9 link roads within 600 m of the Malatia point (grade-separated junctions). West of the city boundary it becomes the Yerevan–Armavir highway: dual carriageway for 11.9 km to Ejmiatsin and 23 km to Armavir, 2+2 lanes, 90 km/h (OSM [19]).
-- **Traffic.** 34,805 two-way at km 12 in 2021, ≈43k in 2025 (ESTIMATE). Isakov ≈46.8k (2025). This is the corridor of commuters from Ejmiatsin, Armavir marz, Parakar and Malatia. ADB's 2014 origin–destination survey showed Armavir marz, the airport and Malatia-Sebastia as the main origins of inbound trips [1].
+- **Traffic.** 34,805 two-way at km 12 in 2021, ≈43k in 2025 (ESTIMATE). Isakov section AB (east of Monte Melkonian) ≈46.8k (2025). *Fact-check correction: the recommended site between Monte Melkonian and the city boundary (U05) has no count. The km-12 series (≈21,000 same-side light vehicles) is the documented floor; the rest is a gap (§5).* This is the corridor of commuters from Ejmiatsin, Armavir marz, Parakar and Malatia. ADB's 2014 origin–destination survey showed Armavir marz, the airport and Malatia-Sebastia as the main origins of inbound trips [1].
 - **Airport.** 5.62 M passengers in 2025 (REPORTED [7]); +12.1 % air passengers in Jan–Aug 2026 (VERIFIED [5]). The airport road carries an estimated **12,300–17,300 vehicle movements/day** (ESTIMATE: 15,386 pax/day × 80–90 % by car/taxi ÷ 1.6–2.0 pax/vehicle × 2 movements). Summer person-crossings run 1.47× the Jan–May level (ESTIMATE [6]). A $500 M terminal expansion and concession extension to 2067 are reported [7].
 - **Catchment.** Kontur 3 km / 5 km: Isakov mid (Malatia) 154k / 401k; Isakov west at the boundary 75k / 209k; airport junction 27k / 140k; Ejmiatsin east entrance 36k / 54k.
 - **Income.** Malatia-Sebastia is Yerevan's most populous district (151.2k). The Yerevan average wage is 357,583 AMD. Armavir marz is weaker (195,606 AMD; poverty 27.0 %).
@@ -195,14 +195,15 @@ Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] 
 - **Land.** Inside the city the frontage is built up, and land is the binding constraint. Parakar (Armavir marz) on the city-boundary side looks more available, but this needs field verification (gap).
 - **Access.** Right-in/right-out only, because the median separates the carriageways. Pick the **inbound side** for commuters, or a junction with a U-turn/overpass.
 - **Risk.**
-  - The ADB link project will reroute Kentron-bound traffic off Isakov east of Monte Melkonian after ~2028 (−36 % on that section). Sites to the west are unaffected [1].
-  - The inbound/outbound asymmetry needs re-counting.
+  - The ADB link project will reroute Kentron-bound traffic off Isakov east of Monte Melkonian after ~2028 (−36 % on that section). Sites to the west are unaffected [1]. The civil works contract was signed on 1 May 2026 and the loan closes on 31 Mar 2028 [22]. Expect construction disruption near the junction during 2026–28 and a possible slip past 2028.
+  - The inbound/outbound asymmetry needs re-counting. It was measured only east of Monte Melkonian.
+  - A non-food Onex Drive Thru was announced in 2026 at a Flash station at Admiral Isakov 7/7 [23]. Check whether Flash pads on Isakov are still free before assuming a fuel-station hybrid here.
 - **Seasonality.** Low for commuters, moderate for the airport component (≈1.3–1.5× summer).
 
 #### (2) M-1: Yerevan – Ashtarak – Gyumri
 
 - **Road.** In the city: Ashtarak highway (2–3 lanes per carriageway, 60 km/h). Beyond the edge it is a dual carriageway at 80–100 km/h almost to Gyumri (most of the Yerevan–Gyumri highway is mapped as one-way carriageways in OSM). The interchanges at Ashtarak (km 16.3), Kasakh bridge (km 17.1) and the M-3 junction (km 18.8) are grade-separated [3][19].
-- **Traffic.** The counter at km 20.7 read 18,635 in 2017. ADB then reports +12 %/yr in 2018–21. My 2025 estimate is ≈33k (25.5–35.7k) (ESTIMATE).
+- **Traffic.** The counter at km 20.7 lies between the M-3 junction (km 18.8) and km 23.2, beyond Ashtarak. It does not measure the Davtashen/Homplex city exit, which probably carries more because it also has Ashtarak and M-3 traffic. The counter read 18,635 in 2017. ADB then reports +12 %/yr in 2018–21 for "M1 just north of the city", possibly from a different counter. My 2025 range is **25.2–33.1k**, weighted equally. The low end is ADB's own 2025 re-evaluation forecast for km 11.8–23.2 (ESTIMATE; a proxy for the exit). *Fact-check correction: the base was ≈33k (25.5–35.7k), 31 % above ADB's forecast.*
 - **The corridor's own record shows two risks.**
   - ADB's 2020 completion report found growth "stalled" in 2013–17 (0.7× GDP).
   - It also found that "traffic has not diverted to Bavra and Gyumri's economy has not developed as hoped", and cut its M-1 forecasts sharply [3].

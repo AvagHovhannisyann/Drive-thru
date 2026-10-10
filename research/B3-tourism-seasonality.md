@@ -82,24 +82,24 @@ Visitor counts for specific sites (Sevan beaches, Sevanavank, Tsaghkadzor, Dilij
    | Days per year at or below −15 °C at the tunnel approach | ~20 |
 7. **The Georgia link is a real but secondary contributor to M-4 traffic.**
    - Bagratashen, the main Georgia road crossing, recorded **1.40 m entries and 1.39 m exits in 2025** (≈7,650 persons/day two-way; VERIFIED [3]).
-   - ADB says the crossing handles **80 % of Armenia's imports and exports** (REPORTED [12]).
+   - ADB says the crossing handles **80 % of Armenia's imports and exports** (REPORTED [12]). ADB does not say whether this is by value or volume, or which modes it covers.
    - OSRM puts Yerevan→Bagratashen via **M-4 Sevan–Dilijan–Ijevan at 3 h 26 min**, against 3 h 33 min via Aparan–Vanadzor–Alaverdi, a near tie (ESTIMATE [13]). Georgia traffic therefore splits between the M-4 and the M-3/M-6 route.
-   - Base estimate: **~1,200–2,100 Georgia-related vehicles/day two-way on the Sevan–Dilijan link**, including ~400–700 trucks (ESTIMATE, wide range).
+   - **Upper bound: ~1,200–2,100 Georgia-related vehicles/day two-way on the Sevan–Dilijan link.** Of these, ~400–700 are trucks, itself an upper-range figure (ESTIMATE, wide range). *Fact-check correction: previously a "base estimate". The 35–60 % M-4 share was applied to all Bagratashen crossers as if all were Yerevan-bound. But 58 % of 2025 entries (813,588 of 1,404,774) were on Armenian documents, and many are Tavush/Lori residents who never reach the Dilijan tunnel. The truck figure rests on applying ADB's unqualified 80 % to road tonnes (ASSUMPTION). See §3.6.*
 8. **Commuters, not tourists, are the stable base close to Yerevan.**
    - The M-4 corridor towns had **167,262 residents on 1 Jan 2025**: Abovyan 50.6k, Hrazdan 49.5k, Charentsavan 24.1k, Sevan 19.7k, Byureghavan 11.8k, Nor Hachn 10.5k, Tsaghkadzor 1.1k (VERIFIED [9]).
    - Base estimate: **12–20k daily commuters to Yerevan**, or **≈3–8k car trips per direction per weekday** (ESTIMATE).
    - These commuters drive into Yerevan in the morning, on the Yerevan-bound carriageway.
 9. **Domestic leisure is the swing segment, and its bottom-up size undercuts high corridor AADTs.**
-   - Yerevan has ~142k car-owning households (ESTIMATE). If 50–75 % of them make 2–5 basin trips a year, they generate **~0.15–0.75 m car round trips/yr**, including other regions.
-   - On the Hrazdan–Sevan segment that is **~6–24 % of B1's base AADT of 17,000**, not the 30–40 % that a "leisure highway" story implies.
+   - Yerevan has ~142k car-owning households (ESTIMATE; the 41.2 % national household car-ownership rate is applied to Yerevan and household size is assumed at 3.3). If 50–75 % of them make 2–5 basin trips a year, they generate **0.14–0.53 m car round trips/yr**. An uplift of ×1.05–1.40 for other regions' households and taxis (ASSUMPTION) gives **~0.15–0.75 m**.
+   - On the Hrazdan–Sevan segment that is **~5–24 % of B1's base AADT of 17,000**, not the 30–40 % that a "leisure highway" story implies. *Fact-check correction: previously "6–24 %": 0.15 m × 2 ÷ 365 = 822 passes/day = 4.8 %. The uplift for other regions and taxis is now shown explicitly, and the household count is labelled as using national car ownership.*
    - Either B1's AADT for that segment is high, or the corridor is more regional/business than leisure. Counts must settle this.
 10. **2026 risk signals.**
-    - Meghri (Iran) road crossings fell **32 % y/y in Jan–Aug 2026** (VERIFIED [3]).
+    - Meghri (Iran) road crossings fell **31 % y/y in Jan–Jul 2026** (−32 % Jan–Aug; VERIFIED [3]). Over the same Jan–Jul period, Bagratashen was **+3.1 %** and Zvartnots **+11.6 %**. *Fact-check correction: the trend now uses Jan–Jul, which excludes the suspect August data. On a Jan–Aug basis, Bagratashen shows −1.3 %, so the sign flips.*
     - Russia supplies 40 % of tourists and is the main tourism exposure.
     - The August 2026 border figures look incomplete: entries fell 15–18 % y/y at Zvartnots and Bagratashen while air passengers rose 14 %. **Treat August 2026 as preliminary.**
 11. **Bottom line for the concept.**
-    - A Sevan-side site would earn about a third of its year in June–August and run at about 60–70 % of average volume from December to March.
-    - It would depend on ~10–14 summer weekends and on long-stay diaspora and Russian visitors.
+    - A Sevan-side site would earn about a third of its year in June–August. From December to March it would run at **about 62–91 % of average volume, roughly three-quarters on average** (B base 76 %, C base 73 %).
+    - It would depend on **~8–12 summer weekends (~16–24 weekend days)** and on long-stay diaspora and Russian visitors. *Fact-check correction: previously "60–70 % of average from December to March" and "~10–14 summer weekends". Both are now aligned with this file's own index (§3.7) and with the peak definition in §1.6.*
     - A Yerevan-edge site has a flatter (~1.5×) profile, anchored by commuters, with leisure on top.
     - **Tourism alone does not justify a highway drive-thru. It is an upside layer on a commuter/regional base.**
 

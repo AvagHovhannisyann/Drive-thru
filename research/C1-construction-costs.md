@@ -493,24 +493,29 @@ The successor document was not located. Private projects are not bound by these 
 | 30 | Utilities | Wastewater: compact bio-treatment station (~2 m3/d) installed | 1 | ls | 2,000,000 | 2,000,000 | 5,525 | ESTIMATE | Eurolos BIO-8 200,600 RUB + 46,000 RUB install x 4.27 AMD/RUB, scaled + freight/duty |
 | 31 | Utilities | Telecom/fibre connection | 1 | ls | 300,000 | 300,000 | 829 | ASSUMPTION |  |
 | 32 | Soft costs | Topographic & geotechnical survey | 1 | ls | - | 800,000 | 2,210 | ASSUMPTION | see 3.8 |
-| 33 | Soft costs | Architecture & engineering design (5% of hard cost) | 1 | ls | - | 3,831,225 | 10,583 | ASSUMPTION | see 3.8 |
-| 34 | Soft costs | State design expertise/review | 1 | ls | - | 500,000 | 1,381 | ASSUMPTION | see 3.8 |
-| 35 | Soft costs | Technical supervision (1.8% of hard cost) | 1 | ls | - | 1,379,241 | 3,810 | ESTIMATE | see 3.8 |
-| 36 | Soft costs | Author (designer) supervision (0.6%) | 1 | ls | - | 459,747 | 1,270 | ESTIMATE | see 3.8 |
-| 37 | Soft costs | Permits, technical conditions, final act/operating permit, cadastre | 1 | ls | - | 600,000 | 1,657 | REPORTED/ASSUMPTION | see 3.8 |
-| 38 | Contingency | Contingency 10% of hard cost | 1 | ls | - | 7,662,451 | 21,167 | ASSUMPTION | see 3.10 |
+| 33 | Soft costs | Architecture & engineering design (5% of hard cost) | 1 | ls | - | 4,941,992 | 13,652 | ASSUMPTION | see 3.8 |
+| 34 | Soft costs | State design expertise/review (optional for risk category II: designer's guarantee letter suffices) | 1 | ls | - | 500,000 | 1,381 | ASSUMPTION | see 3.8; *fact-check: optional, not statutory* |
+| 35 | Soft costs | Technical supervision (1.8% of hard cost; optional for risk category II: contractor's guarantee suffices) | 1 | ls | - | 1,779,117 | 4,915 | ESTIMATE | see 3.8; *fact-check: optional, not statutory* |
+| 36 | Soft costs | Author (designer) supervision (0.6%) | 1 | ls | - | 593,039 | 1,638 | ESTIMATE | see 3.8 |
+| 37 | Soft costs | Permits, technical conditions, final act/operating permit, cadastre | 1 | ls | - | 600,000 | 1,657 | REPORTED/ASSUMPTION | see 3.8 (final act + operating permit 50,000 + 25,000 for < 100 m²) |
+| 37a | Soft costs | EIA Category B state duty (1,100 m2 paved > 1,000 m2 trigger); EIA report not priced | 1 | ls | - | 315,000 | 870 | REPORTED | sibling C5 (VERIFIED there); *fact-check addition* |
+| 38 | Contingency | Contingency 10% of hard cost | 1 | ls | - | 9,883,985 | 27,304 | ASSUMPTION | see 3.10 |
 
 | Subtotal | AMD | USD | Share of total |
 |---|---|---|---|
-| Site works | 33,384,880 | 92,223 | 36% |
-| Building | 25,050,000 | 69,199 | 27% |
-| Drive-thru & tech | 10,600,000 | 29,282 | 12% |
-| Utilities | 7,589,626 | 20,966 | 8% |
-| **Hard cost** | **76,624,506** | **211,670** | 83% |
-| Soft costs | 7,570,213 | 20,912 | 8% |
-| Contingency | 7,662,451 | 21,167 | 8% |
-| **TOTAL (excl. land, coffee/kitchen equipment)** | **91,857,170** | **253,749** | 100% |
-| Total excl. recoverable VAT (if VAT-registered: /1.2) | 76,547,642 | 211,458 | |
+| Site works | 55,600,220 | 153,592 | 47% |
+| Building | 25,050,000 | 69,199 | 21% |
+| Drive-thru & tech | 10,600,000 | 29,282 | 9% |
+| Utilities | 7,589,626 | 20,966 | 6% |
+| **Hard cost** | **98,839,846** | **273,038** | 84% |
+| Soft costs | 9,529,148 | 26,324 | 8% |
+| Contingency | 9,883,985 | 27,304 | 8% |
+| **TOTAL (excl. land, coffee/kitchen equipment)** | **118,252,979** | **326,666** | 100% |
+| Range for access-lane length (AMD 27.1–35.6M) | 115.7M–125.8M | 319.7k–347.4k | |
+| Variant: existing permitted access (original AMD 7M access line) | ≈ 92,172,170 | ≈ 254,619 | |
+| Sensitivity only, VAT regime (÷1.2; not the base case, see §4 item 8) | 98,544,149 | 272,221 | |
+
+*Fact-check correction: the lean total was previously AMD 91,857,170 ($253,749), with a non-compliant 300 m² access taper. The "Total excl. recoverable VAT" row is relabelled as a sensitivity, because the recommended catering turnover-tax regime cannot recover capex VAT (C4).*
 
 #### Scenario 2 - MID-RANGE (140 m2 steel-frame building, ~2,500 m2 plot, 1 lane + bypass)
 
@@ -526,7 +531,7 @@ The successor document was not located. Private projects are not bound by these 
 | 8 | Site works | LED site lighting poles (installed) | 12 | pcs | 450,000 | 5,400,000 | 14,917 | ASSUMPTION |  |
 | 9 | Site works | Fencing (welded mesh) | 200 | m | 15,000 | 3,000,000 | 8,287 | ASSUMPTION |  |
 | 10 | Site works | Landscaping with drip irrigation | 700 | m2 | 6,500 | 4,550,000 | 12,569 | ASSUMPTION |  |
-| 11 | Site works | M4 decel/accel lanes (2 x 100 m x 3.5 m, heavy-duty) + signs | 700 | m2 | 25,409 | 17,786,300 | 49,133 | ESTIMATE | HD pavement (Veolia rates) + 3.5M AMD markings/signs/design; qty ASSUMPTION |
+| 11 | Site works | M4 decel/accel lanes per ՀՀՇՆ 32-01-2022 Table 31 ((180 + 100 + 80) m x 3.5 m, heavy-duty) + signs/markings/design | 1,260 | m2 | ≈ 23,187 | 29,215,340 | 80,705 | ESTIMATE | 1,260 m2 x HD 20,409 (Veolia rates) + 3.5M AMD markings/signs/design; range 27.1-35.6M. *Fact-check correction: previously 2 x 100 m x 3.5 m = 700 m2, AMD 17,786,300, below the norm.* |
 | 12 | Building | Substructure: RC slab + grade beams (~45 m3) incl. excavation | 1 | ls | 4,900,000 | 4,900,000 | 13,536 | ESTIMATE | 45 m3 x ~92,130 AMD/m3 (Veolia RC) x VAT + excavation |
 | 13 | Building | Structural steel frame (~35 kg/m2, 4.9 t) fabricated & erected | 4.9 | t | 1,000,000 | 4,900,000 | 13,536 | ASSUMPTION | rebar raw 320k AMD/t (mikmetal); fabrication/erection uplift assumed |
 | 14 | Building | Sandwich panels 100 mm walls+roof (341 m2) incl. install | 341 | m2 | 18,300 | 6,240,300 | 17,238 | ESTIMATE | RMS Group list 14,000-14,600 AMD/m2 + 4,000 install (assumption) |

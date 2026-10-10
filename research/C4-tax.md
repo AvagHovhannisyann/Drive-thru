@@ -382,6 +382,9 @@ Mid-range site (140 m² building, 2,500 m² plot, per C1). The cadastral values 
 - Menu prices are the same under both regimes; G = gross receipts paid by customers.
 - Under the VAT regime the company keeps G/1.2, recovers input VAT, and pays 18% profit tax with Art. 121 depreciation and 5-year losses.
 - Under TT it keeps G, pays supplier VAT as a cost, and pays catering TT on documented expenses as in §3.5.
+- **Capex-VAT timing.** Under the VAT regime, capex VAT is credited during construction and refunded within 1–3 months if the company is not "risky" (§3.3, Art. 74). **The base NPV therefore books the refund at t=0.** Delays of 12 and 24 months (t=1, t=2) are run as risky-taxpayer scenarios under Art. 74(5).
+  - *Fact-check correction: the original NPV table discounted the refund by a full year (t=1) without saying so, which moved results toward TT by about AMD 2–9M of NPV.*
+- For G between the two cases, the NPV runs use payroll = 24 + 0.08 × G (straight line between Case A and Case B) and marketing at 4% of G. This rebuild reproduces the original t=1 table to within ±1 per cell; the flagship breakevens differ by 3–13M between rebuilds.
 
 Cost inputs (all ASSUMPTION, aligned with C1/C2):
 
@@ -393,9 +396,9 @@ Cost inputs (all ASSUMPTION, aligned with C1/C2):
 | Repairs (VAT-able; not TT-deductible) | 1.5% of G |
 | Other admin | 2% of G, half VAT-able |
 | Card acquiring (no VAT) | 1.4% of G |
-| Land lease from an individual (no VAT) | AMD 6M a year |
+| Land lease from an individual (no VAT) | **Model-wide assumption: AMD 18M a year** (C6 base AMD 1.5M a month; B4 placeholder AMD 1.3–1.8M a month = 15.6–21.6M a year). The original runs used AMD 6M; the tables below show both. The tenant withholds 10% PIT on rent paid to an individual (Art. 150(7)), so agree the rent gross. *Fact-check correction: 6M contradicted C6/B4 and overstated the §3.11 cash lines by ≈AMD 11–12M a year.* |
 | Payroll (gross) | AMD 36M (Case A) / 48M (Case B) |
-| Local duties and property tax | AMD 1M a year |
+| Local duties and property tax | AMD 1M a year (land leased; ≈AMD 1.4–2.5M if the plot is owned, §3.8) |
 | Capex (mid-range) | AMD 180M ex-VAT: 150M building and site, 27M equipment, 3M IT; **VAT 36M** |
 | Tax depreciation | 15.9M in year 1, 12.9M from year 2 |
 | Ramp-up | Year 1 75%, year 2 90%, years 3–5 100% |
