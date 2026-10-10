@@ -539,3 +539,33 @@ All accessed 2026-10-10 unless stated.
 27. [S27] Internal workstream B2, M4 points of interest with OSM chainage (OpenStreetMap via Overpass, data timestamp 2026-10-10): /home/user/Drive-thru/research/B2-m4-pois.csv
 
 *Calculation scripts (gross-up and staffing model) are in the session scratchpad (`c3calc/payroll.py`, `payroll2.py`, `staffing.py`, `sens.py`). They can be re-run with different net wages, hours or regimes.*
+
+---
+
+## 7. Fact-check log
+
+An adversarial fact-check on 10 Oct 2026 reopened every primary source directly, with no web search. The result: primary data confirmed, four presentation and interpretation errors corrected, one legal point downgraded. Corrections are marked inline as *Fact-check correction*.
+
+| # | Claim (location) | Result | Correction / evidence |
+|---|---|---|---|
+| 1 | Reading ads as net makes payroll "about 27% higher" than reading them as gross (§1 item 4; §4 item 1; §5 "±27%") | **Wrong**, fixed | The net base is **≈37% higher** (ratio 1.373 for every format). The gross reading is 27% lower, as §3.9 already said. Lean 3,311,361 vs 2,412,609; Mid 4,115,539 vs 2,996,915; Flagship 6,691,692 vs 4,873,340. The AMD 0.9–1.8m/month swing was correct. §5 now reads −27% / +37% |
+| 2 | Model lean input (8 FTE, AMD 2.45m) "about 26% too low"; Mid 3%; Flagship 17% (§1 item 8; §3.9 comparison table) | **Corrected** | `model/engine.py` adds `fte_peak_extra` only where seasonality ≥ 1.15 (Jun 1.20, Jul 1.42, Aug 1.46). Annual-average model payroll with the 1% on-cost is Lean 2.10m, Mid 3.43m, Flagship 4.80m, so the model is **37% / 17% / 28%** too low (off-peak 41% / 22% / 32%). For Lean that is ≈AMD 1.2m/month, ≈$40k/year. Table rebuilt; recommendation added to set `fte_peak_extra` to 0 or keep it summer-only |
+| 3 | Lean "AMD 6,800 on labour for every operating hour"; "6.8 orders an hour per AMD 1,000 AOV" (§4 item 2) | **Corrected** | AMD 2,270 per position-hour is right, but 6,800 is per staffed hour (16 h). Per trading hour (15 h) it is **≈AMD 7,260** (39.74m / 5,475). With 20% VAT in AOV, revenue equals payroll at **≈8.7 orders/h per AMD 1,000 AOV** (7,258 / 833). To cover payroll from gross margin at 31% COGS needs **≈12.6** |
+| 4 | P21: M4 roadside restaurant cleaner "from AMD 300,000"; "roadside restaurant already pays AMD 200–300k" (§1 items 3 and 9; §3.3 P21; §3.7; §4 item 6) | **Corrected** | Ad text: "Salary: AMD 10,000 + taxi", hours 10:30–23:00 at Verin Ptghni 1/1 or 10:30–01:00 at Mamikonyants 40 (Yerevan). The header's 300k = 30 shifts. That is ≈AMD 260k at 26 shifts and ≈150k on 2/2, about AMD 800/hour. Removed as wage-pressure evidence and kept as evidence that employers pay for taxis. Cleaner range in §1 is now 135–220k/month (https://job.am/en/job/maqruhi-78959, opened 10 Oct 2026) |
+| 5 | "The minimum is gross, before tax" (LC Art. 179; Min-Wage Law Art. 4) (§3.1) | **Downgraded** to interpretation | The statutory text says taxes and social or mandatory payments "are not included in" the minimum, which can be read as a net floor. Practice and PwC treat AMD 75,000 as the gross headline. If it is a net floor, gross ≈ AMD 101,333 and the hourly floor ≈ AMD 600. Negligible for full-time staff; affects the part-timer floor only. Gap row added to §5 (IRTEK tid=171278 Art. 4; HO-501-N; LC aid=150003 Art. 179(1)) |
+| 6 | Minimum wage AMD 75,000; hourly 450 / 750 / 500; last changed by HO-501-N, effective 01.01.2023 | Confirmed | IRTEK tid=171278, version "01.01.2023 –" |
+| 7 | 35-hour draft (e-draft 8114): 40 → 35 h; 450 → 515; "under discussion"; +14% tail risk | Confirmed | e-draft.am/projects/8114; 40/35 = 1.143 |
+| 8 | Armstat wages: national 312,486 (Jan–Aug 2026); NACE I 160,253 (+7.8%); annual series; sector ranking | Confirmed | Armstat 99571893.xlsx. S and P figures are also verifiable in Armstat, not only in ARKA |
+| 9 | Kotayk 208,210; Yerevan 357,583; Gegharkunik 158,949; micro firms 145,114; NACE I by sex; 47,156 employees | Confirmed | Armstat sv_08_26r_142 (XLSX sheets 8, 11, 14; PDF p.60) |
+| 10 | LFS unemployment 13.0%, participation 59.9%, long-term 55.5%; 3,656 vacancies, 9 per vacancy; Kotayk 173 | Confirmed | Armstat sv_08_26r_141.pdf |
+| 11 | NACE I jobs created / eliminated 8.9k / 8.9k (2025); ≈19% gross job destruction | Confirmed | Armstat 99571938.xlsx; the caveat about different survey bases is correct |
+| 12 | 2026 payroll deductions (PIT 20%; pension 5% / 10% − 25k; stamp duty 1,000 / 15,000; UHI 0 / 4,800 / 10,800; no employer contributions) | Confirmed | Tax Code Art. 150 (IRTEK aid=150068); PwC (reviewed 30 Jun 2026); Armstat methodology |
+| 13 | Draft employer UHI levy (e-draft 10624): employer 4,400 + employee 2,000 + state 4,400 from Dec-2026 payroll | Confirmed | e-draft.am/projects/10624 transitional clause. ARKA dates it "in 2027"; the point (3) ambiguity supports the 2027 sensitivity |
+| 14 | Labour Code hours, overtime, night, rest, leave, premiums, wage timing, probation, notice, digital contracts from 1 Jul 2027 | Confirmed | IRTEK aid=150003 (10.07.2026–01.01.2027) and tid=202530 |
+| 15 | 13 non-working public holidays incl. 27 Jan; ≈3.6% holiday premium | Confirmed | IRTEK tid=202402 (24.07.2026, HO-345-N) |
+| 16 | Gross-ups, role gross, FTE factors, premium uplift, Lean / Mid / Flagship payroll, bands, 2027 sensitivity, notch, OT, recruitment cost | Confirmed | Independently recomputed; all match. Minor: the Flagship low/high bands hold the cleaner at base pay (varying it gives 5.60 / 7.79m) |
+| 17 | job.am feed and location counts, prices, key ads P3, P7, P8, P18, P20, P24, P30; ≈5 explicit gross/net statements | Confirmed | Feed refetched (1,202 items, live drift; Yerevan 1,043). Pricing 21,900 / 59,900 |
+| 18 | Consistency with sibling C4-tax.md on payroll withholdings | **Corrected** (in C4) | C4 §3.7 omits the UHI employee premium and uses the pre-Dec-2025 stamp-duty scale ("AMD 1,500–15,000"). C3's figures match PwC; C4 should be aligned to them. Note added in §3.5. No change to 2026 employer cost |
+| 19 | FX USD 1 = AMD 361.93 (CBA, 9 Oct 2026) | Confirmed | CBA SOAP ExchangeRatesByDate(2026-10-09); all USD conversions recomputed |
+
+**Residual caution for investors.** The base case reads ads as net. That assumption is clearly labelled and cost-conservative, but it rests on thin evidence: 2 explicit net statements against 3 gross in the whole feed. It puts crew gross pay at about 1.55× the NACE I average. Operator interviews (§5) are needed before the labour line is treated as final.
