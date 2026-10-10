@@ -248,7 +248,7 @@ Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] 
 | Arno Babajanyan St (EVN-1) | 2–3 per side | none | 130k / 288k | 5 / 4; 12 fuel within 1 km | 0.4 km | Coffee House Malatia adjacent |
 | Halabyan St (Ajapnyak) | 3+3 | none (33–44k est.) | **206k / 490k** | 7 / 14 (117 cafés within 3 km) | 0.8 km | Largest catchment; saturated café market |
 | Davtashen bridge (north end) | 3+3; 18 link roads within 600 m | none | 175k / 446k | 5 / 2 | 1.0 km | Complex interchange; Jazzve 0.3 km |
-| Ashtarak hwy (Davtashen; M-1) | 2–3 per side | ≈ M-1 (≈33k) | 114k / 278k | 0 / 0 | 2.5 km | White space; growing district |
+| Ashtarak hwy (Davtashen; M-1) | 2–3 per side | ≈ M-1 (25–33k; proxy from the counter beyond the M-3 jn) | 114k / 278k | 0 / 0 | 2.5 km | White space; growing district. KFC and Coffee House at Homplex ≈1.1 km from the exit point |
 | Tbilisian hwy (Kanaker-Zeytun → Avan/Arinj) | 2+2, 60 km/h | none (22–29k est.) | 183k / 427k (south); 121k / 302k (north) | 8 / 2 (south); 0 / 1 (north) | 1.2 / 2.9 km | Feeds Arinj, Abovyan and the M-4 inside the city; no seasonality |
 | Gai Ave / Tevosyan (Nor Nork; H-3 start) | 2+2 | none | 160k / 350k | 6 / 8; 12 fuel within 1 km | ≈0.4–1.0 km (Megamall) | Large district (137.8k) |
 
@@ -281,7 +281,7 @@ Sources: [8][12][13][18][19][10]. "Δ" means 1 Jul 2025 → 1 Jul 2026.
   - the ADB western-ring-road OD survey (2014) [1];
   - the ADB description of Ashtarak as a commuter settlement [3];
   - B1's commuter logic for Abovyan → Yerevan;
-  - Kotayk's housing boom (4.4×, mostly self-built houses) [11].
+  - Kotayk's housing boom: 5.4× from 2020 to 2024, still ≈84 % household-built in 2024 but with developer building rising [11]. *Fact-check correction: the text read "4.4×, mostly self-built houses" (2019–23).*
 - Suburban growth is **diffuse**: low-density houses spread over Kotayk villages. It does not create a dense new catchment around one point.
 - **For a first drive-thru, the better play is to sit on the radial road where these commuters converge inside the city edge** (Tbilisian highway for Arinj/Abovyan/Nor Hachn; Artashat highway for Masis; Isakov/M-5 for Ejmiatsin/Parakar; Ashtarak highway for Ashtarak). That beats a site in a satellite town itself (ESTIMATE/ASSUMPTION).
 
@@ -289,7 +289,7 @@ Sources: [8][12][13][18][19][10]. "Δ" means 1 Jul 2025 → 1 Jul 2026.
 
 | City | Pop. 2026 (k) | Δ y/y | Marz wage (AMD) | Poverty | Kontur 3 km | Competition in centre | Traffic evidence |
 |---|---|---|---|---|---|---|---|
-| Gyumri | 114.0 | −0.3 % | 169,392 (Shirak) | **43.0 %** | 76k | Coffee House ×2 (0.2 km), KFC, Tashir; 25 cafés within 1 km | No count. ADB 2020: M-1 Gyumri traffic and economy below expectations [3]. Shirak airport crossings 138,522 in 2025 [6] |
+| Gyumri | 114.0 | −0.3 % | 169,392 (Shirak) | **43.0 %** | 76k | Coffee House ×2 (0.2 km), Tashir; 25 cafés within 1 km. KFC appears in OSM only and is likely closed (not on KFC's official list, per A3). *Fact-check correction* | No count. ADB 2020: M-1 Gyumri traffic and economy below expectations [3]. Shirak airport crossings 138,522 in 2025 [6] |
 | Vanadzor | 77.7 | −0.4 % | 177,340 (Lori) | 20.4 % | 41k | Coffee House ×2, KFC, Tashir; 16 cafés / 25 fast food within 1 km | M-6 4,000 cars/day (2023) [B1]; M-3 Vanadzor 4,799 (2008) [4] |
 
 Both cities have shrinking populations, weak incomes, low through-traffic and incumbents already present. They suit later, small-format (walk-up or kiosk) units at most. They are not suitable for a first drive-thru.

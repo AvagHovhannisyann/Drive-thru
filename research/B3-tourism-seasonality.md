@@ -232,8 +232,12 @@ All rows are ESTIMATE, computed by me from VERIFIED monthly values [3][4][5]. Mo
 | Per tourist | 2,910.7 m ÷ 2,263,642 = **US$1,286** | ESTIMATE |
 | Seasonality of spending | Q3 = 34.3 % of 2025 travel credits; Q1 = 17.2 % | ESTIMATE from VERIFIED [10] |
 | Spending growth in 2026 | H1 travel credits +19.6 % y/y against tourists +14.8 %, so spending per tourist is rising | ESTIMATE |
+| Survey daily spend, all visitors | **US$50.8/day** | REPORTED (IVS 2023 [18]) |
+| By purpose | Leisure **US$61.8/day** (≈1.2× the average); visiting friends and relatives US$42.1/day (leisure ≈1.5× this) | REPORTED (IVS 2023 [18]) |
+| By travel mode | Package tour **US$193/day** (≈3.8× the average) but only **5.4 % of visitors**; independent travellers US$48.1/day | REPORTED (IVS 2023 [18]) |
+| By market | Russia US$46.7/day; Georgia US$35.0/day | REPORTED (IVS 2023 [18]) |
 
-**Caveat.** The per-night figure is diluted by long-stay visitors: diaspora relatives staying with family and relocants living in rented flats. A short-stay sightseeing tourist almost certainly spends several times more per day, but **no post-2013 visitor survey was accessible to quantify this** (GAP). For drive-thru purposes, a long-stay visitor behaves like a semi-resident.
+**Caveat.** The per-night figure is diluted by long-stay visitors: diaspora relatives staying with family and relocants living in rented flats. The 2023 International Visitor Survey (IVS) quantifies the gap [18]. The Tourism Committee, Armstat and the CBA ran it with the World Bank LEID project, and the CBA used it to revise travel credits for 2022–2024 (Meth.notes sheet of [10]). **Leisure visitors spend about 1.2–1.5× the average per day, not several times more.** Only package tourists, 5.4 % of arrivals, spend about 4× the average. For drive-thru purposes, a long-stay visitor behaves like a semi-resident. Use the IVS per-day spend by market and purpose to calibrate the tourist average ticket. *Fact-check correction: this paragraph previously said a short-stay sightseer "almost certainly spends several times more per day" and that "no post-2013 visitor survey was accessible". The 2023 IVS is public (cited by [10]) and contradicts both statements.*
 
 ### 3.4 Domestic tourism
 
