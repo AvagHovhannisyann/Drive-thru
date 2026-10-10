@@ -35,6 +35,30 @@ for c in list(bpy.data.collections):
     if c.name not in [x.name for x in bpy.context.scene.collection.children_recursive]:
         bpy.data.collections.remove(c)
 bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True)
+# drop everything far from the site (landscape module: fields, villages, poplars; distant mountains)
+from mathutils import Vector as _V
+far_objs = []
+for ob in bpy.data.objects:
+    if ob.type not in ("MESH", "EMPTY", "CURVE"):
+        continue
+    if ob.name.startswith(("hwy_", "median", "verge", "edge_", "inner_", "lanes_", "aux_")):
+        continue
+    if ob.parent is not None:
+        continue
+    if ob.type == "MESH" and len(ob.data.vertices):
+        c = sum((ob.matrix_world @ _V(b) for b in ob.bound_box), _V()) / 8.0
+        ext = max((ob.matrix_world @ _V(b) - c).length for b in ob.bound_box)
+    else:
+        c, ext = ob.matrix_world.translation, 0.0
+    if (abs(c.x - 37) > 150 or abs(c.y - 22) > 110) or ext > 400:
+        far_objs.append(ob)
+kill_far = set()
+for ob in far_objs:
+    kill_far.add(ob.name); kill_far.update(ch.name for ch in ob.children_recursive)
+for n in kill_far:
+    if n in bpy.data.objects:
+        bpy.data.objects.remove(bpy.data.objects[n], do_unlink=True)
+bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True)
 # trim highway to +-140 m
 for ob in bpy.data.objects:
     if ob.type == "MESH" and ob.name.startswith(("hwy_", "median", "verge", "edge_", "inner_", "lanes_", "aux_")):
@@ -100,9 +124,25 @@ for i, t in enumerate(B.L["trees"]):
     o.scale = (1, 1, 0.8)
     o.data.materials.append(leaf)
 
+# lighten car meshes for the web
+heavy = [ob for ob in bpy.data.objects if ob.type == "MESH" and len(ob.data.vertices) > 2500 and not ob.name.startswith(("inner", "edge", "lanes", "aux", "hwy"))]
+for ob in heavy:
+    ob.data = ob.data.copy()
+    m = ob.modifiers.new("dec", "DECIMATE"); m.ratio = 0.2
+dg = bpy.context.evaluated_depsgraph_get()
+for ob in heavy:
+    me = bpy.data.meshes.new_from_object(ob.evaluated_get(dg))
+    ob.modifiers.clear()
+    ob.data = me
 bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True)
 # Blender Z-up -> glTF Y-up handled by exporter; centre the scene near the building
 bpy.ops.export_scene.gltf(filepath=out, export_format="GLB", export_apply=True, export_yup=True,
                           export_texcoords=True, export_normals=True, export_materials="EXPORT", export_cameras=False,
                           export_lights=False, use_selection=False, export_image_format="AUTO")
 print("GLB", out, os.path.getsize(out) / 1e6, "MB")
+import collections as _c
+tot = _c.Counter()
+for o in bpy.data.objects:
+    if o.type == "MESH":
+        tot[o.name.split("_")[0]] += len(o.data.vertices)
+print("BYPREFIX", tot.most_common(15))

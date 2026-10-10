@@ -268,9 +268,9 @@ All rows are ESTIMATE, computed by me from VERIFIED monthly values [3][4][5]. Mo
 **Tour buses and organised tours.** No counts were found. The standard Yerevan day-tour "Sevan + Dilijan (Sevanavank, Haghartsin, Goshavank)" uses the M-4 through the tunnel, and its schedule is the stock product of Yerevan agencies (ASSUMPTION; verify via agency catalogues).
 
 Sizing (ESTIMATE):
-- **Visitors.** 2.26 m tourists × 25–45 % who visit Sevan at least once (ASSUMPTION) = **0.57–1.02 m visitor-trips per year**.
-- **Vehicles.** Assume 25–40 % travel by coach or minibus at ~18 pax per vehicle, and 60–75 % by taxi, private car or rental at ~2.8 pax per vehicle (ASSUMPTIONS). That gives **≈135k–290k vehicle round trips per year**, or **≈370–790 per day on average** (≈560–1,200 per day in July–August).
-- **Share of traffic.** On segment B, international traffic is **≈4–9 % of passes** at B1's base AADT of 17,000.
+- **Visitors.** 2.26 m tourists × **35.8 %** who visited Gegharkunik in the 2023 IVS (REPORTED [18], Table 8; Russia 38.1 %, Georgia 17.3 %, Iran 28.4 %, USA 40.9 %; Kotayk 31.8 %) = **≈0.81 m visitor-trips per year** (point estimate). Keep a sensitivity range of 25–45 %, i.e. **0.57–1.02 m**. The IVS notes that regional trips are mostly same-day excursions. *Fact-check correction: the 25–45 % was previously an ASSUMPTION; it is now REPORTED (IVS 2023), with 35.8 % as the point estimate.*
+- **Vehicles.** Assume 25–40 % travel by coach or minibus at ~18 pax per vehicle, and 60–75 % by taxi, private car or rental at ~2.8 pax per vehicle (ASSUMPTIONS). That gives **≈135k–290k vehicle round trips per year**, or **≈370–790 per day on average** (≈560–1,200 per day in July–August). At the 0.81 m point estimate it is **≈190–230k** (≈525–625 per day). *Fact-check note: the IVS package-tour share is only 5.4 % of visitors. Test the 25–40 % coach share against agency data (§5). Agency day tours sold to independent travellers are not package tours, so the two figures are not directly comparable.*
+- **Share of traffic.** On segment B, international traffic is **≈4–9 % of passes** at B1's base AADT of 17,000 (≈6–7 % at the point estimate).
 - **Drive-thru relevance.** Coaches cannot use a drive-thru lane. Coach groups stop at sit-down or monastery cafés, so only the car, taxi and rental part matters for a drive-thru.
 
 **Yerevan–Tbilisi and Georgia traffic.**
@@ -290,12 +290,13 @@ Sizing (ESTIMATE):
 - **Sizing (ESTIMATE).**
   - Bagratashen two-way person crossings were 2.79 m in 2025, or ≈7,650 per day.
   - At ~2.2 persons per vehicle (ASSUMPTION; covers cars, minibuses with many passengers, and single-occupant trucks), that is ≈3,500 vehicle crossings per day.
-  - With an M-4 share of 35–60 % (ASSUMPTION), **≈1,200–2,100 vehicles per day two-way on Sevan–Dilijan** are Georgia-linked, ×1.65 in August.
-  - That is a large share (≈22–38 %) of B1's base AADT of 5,500 for the tunnel segment. It also implies that segment C has a stronger August peak than B1 assumed.
-- **Freight (ESTIMATE).**
+  - With an M-4 share of 35–60 % (ASSUMPTION), **up to ≈1,200–2,100 vehicles per day two-way on Sevan–Dilijan** are Georgia-linked, ×1.65 in August. **Treat this as an upper bound.**
+  - That would be ≈22–38 % of B1's base AADT of 5,500 for the tunnel segment, and would imply that segment C has a stronger August peak than B1 assumed.
+  - *Fact-check correction (upper bound).* The M-4 share should apply only to the Yerevan-bound part of the flow, but it was applied to all crossers. In 2025, 58 % of Bagratashen entries (813,588 of 1,404,774) were on Armenian documents, and many of these are Tavush/Lori residents whose trips never reach the Dilijan tunnel. The Yerevan-bound share is unknown (GAP, §5), so the true figure is lower by an unquantified amount. Excluding the ~400–700 trucks, which belong in C5, the passenger part is **≤≈800–1,400 vehicles/day** (≤15–25 % of 5,500).
+- **Freight (ESTIMATE; upper range).**
   - International road freight in 2025 was 5.46 Mt (imports 4.63 + exports 0.83) [5]. At ~20 t per loaded truck (ASSUMPTION) that is ≈750 loaded truck movements per day nationally.
-  - ADB attributes ~80 % of trade to Bagratashen [12], giving ≈600 loaded trucks per day there plus empty returns.
-  - With a 35–60 % M-4 share, that is **≈400–700 truck passes per day** on Sevan–Dilijan–Hrazdan–Yerevan.
+  - ADB attributes ~80 % of trade to Bagratashen [12], giving ≈600 loaded trucks per day there plus empty returns. Applying that 80 % to road tonnes is an **ASSUMPTION**: ADB does not say whether it is by value or volume, or which modes it covers. Road tonnage also includes the Meghri (Iran) and Bavra flows.
+  - With a 35–60 % M-4 share, that is **≈400–700 truck passes per day** on Sevan–Dilijan–Hrazdan–Yerevan. **Treat this as an upper-range estimate until SRC customs vehicle data are obtained.** *Fact-check correction: downgraded from a base estimate.*
   - Road freight is mildly seasonal (Jan–Feb ≈0.65 of average, Sep–Oct ≈1.2).
 
 ### 3.7 Corridor seasonality index (model input)
@@ -308,7 +309,7 @@ Sizing (ESTIMATE):
 | C2a Leisure, Sevan/Dilijan-bound | 47 | 41 | 52 | 72 | 98 | 134 | 207 | 222 | 129 | 88 | 52 | 57 | ASSUMPTION: beach-season shape; peak above Gogavan's 189 because water is ≥20 °C only in Jul–Aug |
 | C2b Leisure including Tsaghkadzor ski | 110 | 95 | 70 | 65 | 85 | 110 | 160 | 170 | 105 | 80 | 60 | 90 | ASSUMPTION: adds the Dec–Mar ski season and New Year week |
 | C3 International tourists | 80 | 63 | 78 | 80 | 91 | 105 | 152 | 151 | 127 | 102 | 81 | 90 | ESTIMATE from VERIFIED [1][3] |
-| C4 Georgia / long-distance | 78 | 60 | 80 | 80 | 90 | 103 | 148 | 166 | 111 | 104 | 87 | 94 | ESTIMATE: Bagratashen, average of 2024–25 [3] |
+| C4 Georgia / long-distance (passenger vehicles only; trucks are in C5) | 78 | 60 | 80 | 80 | 90 | 103 | 148 | 166 | 111 | 104 | 87 | 94 | ESTIMATE: Bagratashen, average of 2024–25 [3] |
 | C5 Freight / professional | 63 | 72 | 85 | 92 | 104 | 107 | 109 | 113 | 119 | 119 | 111 | 106 | ESTIMATE: Armstat road freight tonnes, 2024–25 [5] |
 
 **Segment weights (share of annual vehicle passes; ASSUMPTION).** They are informed by the bottom-up sizing in §3.8 and by B1's vehicle mix (≈7 % minibuses, ≈10 % trucks).
@@ -318,6 +319,8 @@ Sizing (ESTIMATE):
 | A. Yerevan edge–Abovyan–Charentsavan (official km 9–31) | 55 % | — | 20 % | 5 % | 7 % | 13 % |
 | B. Hrazdan–Sevan (km 40–60) | 35 % | 30 % | — | 8 % | 10 % | 17 % |
 | C. Sevan–Tsovagyugh–Dilijan (km 60–96) | 20 % | 30 % | — | 10 % | 22 % | 18 % |
+
+*Fact-check correction (segment C truck overlap).* C4 previously described Georgia traffic "including ~400–700 trucks", while C5 (freight, 18 %) also counts those trucks. C4 is now defined as passenger vehicles only. Against the passenger-only upper bound of ≤≈800–1,400 vehicles/day (≤15–25 % of 5,500; §3.6), C4's 22 % weight is at the upper end. Sensitivity (ESTIMATE, recomputed): moving 7 points of weight from C4 to C1 (C4 15 %, C1 27 %) gives C base Jan 68 / Feb 64 / Jul 147 / **Aug 155**, peak/trough 2.42 and Jun–Aug 34.6 %. That sits between C low and C base, so the table below is unchanged, but C base should be read as the upper-middle case.
 
 **Result (mean = 100)** — this is the recommended model input:
 
@@ -334,7 +337,7 @@ Sizing (ESTIMATE):
 | C high | 63 | 57 | 71 | 81 | 97 | 116 | 160 | 170 | 121 | 101 | 79 | 84 | 2.99 | 37.2 % |
 
 **Validation.**
-- Segment A base gives July = 122. The only measured Armenian interurban monthly factor is the M-1 automatic counter at **+19.7 % in July** (≈120; VERIFIED in B1, ADB 2010 data), so the two agree.
+- Segment A base gives July = 122. The only measured Armenian interurban monthly factor is the M-1 automatic counter at **+19.7 % in July** (≈120; VERIFIED in B1). It comes from Roads Department monthly data quoted in an ADB report; the period is not stated, and B1 infers ~2005–09. The two figures agree, but this is only a **loose plausibility check (2005–09, M-1)**: the data are 17–21 years old and from a different corridor with no Sevan or Tsaghkadzor leisure overlay. The actual validation will be the 7-day July and February classified counts (§5; B1 §5). *Fact-check correction: previously described as a validation.*
 - Segment B base (Jan 69, Aug 151) is within 3–5 points of the model placeholder (0.66 … 1.46).
 - **Recommendation.**
   - Keep the placeholder for a Sevan-side site.
@@ -359,10 +362,10 @@ Sizing (ESTIMATE):
 |---|---|---|---|---|---|---|
 | **Daily commuters** (Abovyan, Byureghavan, Nor Hachn, Charentsavan, Hrazdan, Sevan → Yerevan) | Weekdays 07:00–09:30, Yerevan-bound; return 17:00–20:00 | Corridor towns 167k people (VERIFIED [9]). × 38–42 % employed (ASSUMPTION; LFS participation 59.9 %, unemployment 13 %, per C3) × 10–45 % commuting to Yerevan (falls with distance) = **12–20k commuters**. × 35–55 % by car ÷ 1.3 occupancy = **≈3.3–8.3k car trips per direction per weekday** | 40–55 % / 15–25 % / <10 % (within C1) | Flat (85–111) | **Best repeat base.** Morning coffee on the Yerevan-bound side; loyalty and app ordering | ESTIMATE |
 | **Regional and business trips** (Gegharkunik/Tavush ↔ Yerevan: officials, traders, visiting relatives) | All week, both directions | Gegharkunik plus Tavush towns: Sevan, Gavar, Martuni, Vardenis, Chambarak, Dilijan, Ijevan ≈ 105k people (VERIFIED [9]) plus rural areas. Volume not quantified | 5–10 % / 15–20 % / 15–20 % (within C1) | Flat | Medium: mid-trip coffee and snack | ASSUMPTION |
-| **Domestic leisure trippers** (Sevan beach, Sevanavank, Dilijan, Tsaghkadzor; cottage owners) | Sat–Sun mornings outbound, afternoons/evenings return; Jun–Aug peak; New Year/ski on A | Yerevan car-owning households ≈142k (1,141k residents ÷ ~3.3 per household × 41.2 % car ownership; ILCS 2024 via A1) × 50–75 % participation × 2–5 trips, plus other regions and taxis = **≈0.15–0.75 m car round trips/yr** (≈400–2,000 per day on average; ≈1,000–4,500 per day in Aug) | 20 % / 30 % / 30 % | Strong (Aug ≈2.2×, Feb ≈0.4×) | **High ticket, low frequency.** Families, groups, outbound morning on the Sevan-bound side; weather-sensitive | ESTIMATE |
-| **International tourists, self-drive / taxi / rental** | Day tours from Yerevan; Georgia–Armenia road trippers | ≈0.4–0.75 m visitor-trips/yr by car or taxi (60–75 % of 0.57–1.02 m) ÷ 2.8 pax = **≈140–270k vehicle round trips/yr** | 3 % / 5 % / 6 % | Strong (Jul–Aug ≈1.5×) | Medium-high: novelty value of a US-style brand; card payment; English menu | ESTIMATE |
-| **International tourists, coach/minibus** | Organised Sevan–Dilijan tours | ≈0.14–0.4 m visitor-trips/yr ÷ ~18 pax = **≈8–22k coach trips/yr** (≈20–60 per day) | 1–2 % / 2–3 % / 3–4 % | Strong | **Low for the lane**; possible walk-up or group pre-order | ESTIMATE |
-| **Long-distance Georgia / Russia travellers** (Yerevan ↔ Tbilisi, Upper Lars) | All week, peaks Fri/Sun and Jul–Aug | ≈1,200–2,100 Georgia-linked vehicles/day two-way on Sevan–Dilijan, including ~400–700 trucks; thinner toward Yerevan as a share of traffic | 7 % / 10 % / 22 % | Strong (Aug ≈1.65×) | Medium: long-trip "coffee + food to go"; good fit at a fuel-station hybrid | ESTIMATE |
+| **Domestic leisure trippers** (Sevan beach, Sevanavank, Dilijan, Tsaghkadzor; cottage owners) | Sat–Sun mornings outbound, afternoons/evenings return; Jun–Aug peak; New Year/ski on A | Yerevan car-owning households ≈142k (ESTIMATE: 1,141k residents ÷ ~3.3 per household (ASSUMPTION, untested) × 41.2 % car ownership, which is the **national** ILCS 2024 rate via A1, not a Yerevan figure). × 50–75 % participation × 2–5 trips = **0.14–0.53 m** (Yerevan only). × 1.05–1.40 uplift for other regions' households and taxis (ASSUMPTION) = **≈0.15–0.75 m car round trips/yr** (≈400–2,000 per day on average; ≈900–4,500 per day in Aug) = **≈5–24 % of segment-B passes** at 17,000 AADT. *Fact-check correction: the uplift is now explicit, the share is restated from 6–24 %, and the car-ownership basis is labelled.* | 20 % / 30 % / 30 % | Strong (Aug ≈2.2×, Feb ≈0.4×) | **High ticket, low frequency.** Families, groups, outbound morning on the Sevan-bound side; weather-sensitive | ESTIMATE |
+| **International tourists, self-drive / taxi / rental** | Day tours from Yerevan; Georgia–Armenia road trippers | ≈0.34–0.77 m visitor-trips/yr by car or taxi (60–75 % of 0.57–1.02 m) ÷ 2.8 pax = **≈120–275k vehicle round trips/yr**. At the IVS point estimate (0.81 m × 60–75 %) it is ≈0.49–0.61 m → **≈175–215k**. *Fact-check correction: previously "≈0.4–0.75 m → ≈140–270k"; the low end was ~16 % too high.* | 3 % / 5 % / 6 % | Strong (Jul–Aug ≈1.5×) | Medium-high: novelty value of a US-style brand; card payment; English menu | ESTIMATE |
+| **International tourists, coach/minibus** | Organised Sevan–Dilijan tours | ≈0.14–0.4 m visitor-trips/yr ÷ ~18 pax = **≈8–22k coach trips/yr** (≈20–60 per day); ≈11–18k at the IVS point estimate. The 25–40 % coach share is untested; IVS package tourists are only 5.4 % of visitors (§3.6) | 1–2 % / 2–3 % / 3–4 % | Strong | **Low for the lane**; possible walk-up or group pre-order | ESTIMATE |
+| **Long-distance Georgia / Russia travellers** (Yerevan ↔ Tbilisi, Upper Lars) | All week, peaks Fri/Sun and Jul–Aug | **Upper bound:** ≤≈1,200–2,100 Georgia-linked vehicles/day two-way on Sevan–Dilijan, of which ~400–700 trucks (upper range; counted in C5, not here). The passenger part is ≤≈800–1,400. Thinner toward Yerevan as a share of traffic. *Fact-check correction: downgraded to an upper bound (§3.6).* | 7 % / 10 % / 22 % (C4, upper end for C) | Strong (Aug ≈1.65×) | Medium: long-trip "coffee + food to go"; good fit at a fuel-station hybrid | ESTIMATE |
 | **Professional drivers: trucks** | 24 h, cement and energy (Hrazdan) plus Georgia freight | ≈10 % of vehicles at an M-2 comparator (2009, B1) | 13 % / 17 % / 18 % (C5) | Mild | **Low for the lane** (height and turning); truck-bay walk-up coffee only | REPORTED (B1) / ASSUMPTION |
 | **Professional drivers: marshrutka and taxi** | Scheduled minibuses Yerevan–Abovyan/Hrazdan/Sevan/Dilijan; intercity taxis (Yandex Go, Tbilisi shared taxis) | Minibuses ≈6.7 % of vehicles at the M-2 comparator (2009, B1); taxi share unknown | Part of C1 / C4 | Mild | Low-medium: price-sensitive, quick-stop habits; taxis may be frequent repeat buyers | REPORTED (B1) / GAP |
 | **Families** (cross-cutting) | Summer school holidays (Jun–Aug), weekends, New Year | ILCS average household ≈3.3 persons (ASSUMPTION); most leisure trips are family trips (ASSUMPTION) | Within C2 | Strong | **High**: kids' items, food bundles, restrooms; drives ticket size | ASSUMPTION |
@@ -379,12 +382,12 @@ Sizing (ESTIMATE):
 
 1. **Tourism is not a sufficient base for a highway unit.**
    - The headline 2.26 m tourists include ~0.32 m diaspora Armenians and ~0.92 m Russians with month-long stays.
-   - The classic short-stay sightseeing market is ~0.37 m a year, and many of them travel by coach, which cannot use a drive-thru lane.
+   - The classic short-stay sightseeing market is ~0.37 m a year, and many of them travel by coach, which cannot use a drive-thru lane. The coach share is untested: IVS 2023 package tourists are only 5.4 % of visitors [18]. About 0.81 m international visitor-trips a year reach Gegharkunik (IVS 35.8 %), mostly long-stay and diaspora visitors.
    - Gegharkunik's whole hotel economy is AMD 1.4 bn a year (1.8 % of national hotel revenue). Sevan is a day-trip lake, and day-trippers mostly carry their own food or eat at lakeside khorovats places (ASSUMPTION).
 2. **A Sevan-side site will have a 2.0–3.0× peak-to-trough year.**
    - About 34–37 % of its annual traffic falls in June–August.
    - From December to March it runs at about 62–91 % of the annual average (B/C base).
-   - Within the peak, demand is concentrated on ~10–14 summer weekend days a year (ASSUMPTION).
+   - Within the peak, demand is concentrated on **~8–12 summer weekends (~16–24 weekend days)** a year (ASSUMPTION). *Fact-check correction: previously "~10–14 summer weekend days", which is half the count implied by §1.6.*
    - Fixed costs (rent, core staff, equipment lease) must be covered in about 7–8 weak months. Weekend-peak throughput needs a lane capacity of about 2.4× AADT-day.
 3. **A Yerevan-edge or Abovyan-side site is structurally safer.** Its seasonality is ~1.5×, it has a winter Tsaghkadzor boost, and its weekday commuter base is ~3–8k car trips per direction. Leisure traffic adds summer upside. This supports B4's verdict ("Yerevan exit-corridor drive-thru").
 4. **Choose a side, because direction matters.**
@@ -397,13 +400,13 @@ Sizing (ESTIMATE):
    - Expect drive-thru-lane icing, canopy and snow-load design costs, and weekend demand that swings with weather.
    - Lake water is ≥20 °C only in July–August. A cool or rainy summer cuts the peak directly.
 6. **The Georgia transit flow is a hidden plus for the Sevan–Dilijan segment, with risks attached.**
-   - About 1.2–2.1k Georgia-linked vehicles a day pass, peaking in August, and they include long-distance drivers who want food to go.
+   - **Up to** about 1.2–2.1k Georgia-linked vehicles a day pass (an upper bound; ≤0.8–1.4k excluding trucks), peaking in August. They include long-distance drivers who want food to go. *Fact-check correction: downgraded to an upper bound; see §3.6.*
    - They are vulnerable to the Dilijan tunnel works proposed under ADB RIRSIP II, to route shifts back to the M-6 after flood repairs, and to Upper Lars or political disruption.
    - A fuel-station hybrid captures this segment better than a standalone drive-thru (ASSUMPTION).
 7. **Concentration risk on Russia.**
    - 41 % of tourists and the fastest 2026 growth (+23 % in H1) are Russian.
    - A1 notes worsening Armenia–Russia relations in 2026, which threatens both the tourist and the relocant base.
-   - The Iran flow is already down 32 % (Meghri, Jan–Aug 2026).
+   - The Iran flow is already down 31 % (Meghri, Jan–Jul 2026; −32 % Jan–Aug). *Fact-check correction: Jan–Jul is used to exclude the suspect August data.*
    - European and Chinese growth (+40 % or more) is encouraging but small in absolute terms.
 8. **Positive signals.**
    - Spending is rising: travel credits +19.6 % in H1 2026, accommodation & food turnover +20 % in August 2026.
@@ -416,6 +419,7 @@ Sizing (ESTIMATE):
    - Stress-test with B-high and C-high.
    - Add a weekend-peak capacity check.
    - Do **not** add a separate "tourist uplift" on top of AADT. Tourist vehicles are already inside the counts.
+   - Calibrate any tourist average ticket on the IVS 2023 per-day spend by market and purpose (row 41; [18]). Leisure visitors spend only ≈1.2× the all-visitor average, so a large tourist ticket premium is not supported. *Fact-check addition.*
 
 ---
 
@@ -430,9 +434,9 @@ Sizing (ESTIMATE):
 | Hotel guests and nights by marz, quarterly | Overnight demand at Sevan, Tsaghkadzor and Dilijan | Armstat ("tourists registered in hotel facilities", quarterly form, per quality declaration 20.3): formal data request to the Balance of Payments and Foreign Trade Statistics Division (foreign_trade@armstat.am) |
 | Domestic trip counts | Size of the domestic leisure segment | Armstat ILCS microdata (trip or holiday spending modules, if present); a commissioned intercept and online survey (n≈600) of Yerevan car owners on trip frequency to Sevan, Dilijan and Tsaghkadzor |
 | Tour-bus volumes on Yerevan–Sevan–Dilijan | Coach share of international visitors | Survey of the top 15 Yerevan inbound agencies (departures per week by season); Sevanavank parking counts; Armstat travel-agency quarterly form (20.2) on request |
-| Bagratashen traffic by vehicle class, and the M-4 vs M-6 route split | Segment C long-distance volume; truck share | State Revenue Committee (customs) vehicle-crossing data by type; NSS border-guard vehicle counts. **Fieldwork:** ANPR matching between the Dilijan tunnel north portal and Ijevan, and between Vanadzor and Alaverdi, on the same days |
+| Bagratashen traffic by vehicle class, the Yerevan-bound share of crossers, and the M-4 vs M-6 route split | Segment C long-distance volume; truck share. The 1,200–2,100/day and 400–700 trucks/day figures are upper bounds until this gap is closed | State Revenue Committee (customs) vehicle-crossing data by type; NSS border-guard vehicle counts. **Fieldwork:** ANPR matching between the Dilijan tunnel north portal and Ijevan, and between Vanadzor and Alaverdi, on the same days |
 | Weekend/weekday and hourly profiles on the M-4 | Peak capacity, staffing | Roads Department counters (data request, B1); Road Police camera counts; a 7-day video count in July and February at 3 stations |
-| Visitor spending per day by segment (short-stay vs long-stay) | Average ticket for tourists | Tourism Committee or Armstat international visitor survey (latest is 2013; ask whether a newer one exists); CBA foreign-card POS data by MCC (restaurants/cafés) and by region on request |
+| Visitor spending per day by segment (short-stay vs long-stay) | Average ticket for tourists | **Partly closed.** The 2023 International Visitor Survey [18] gives per-day spend by purpose, travel mode and market (row 41) and regions visited (row 42). Still open: food-and-beverage-specific and roadside spend, and post-2023 updates (Tourism Committee). CBA foreign-card POS data by MCC (restaurants/cafés) and by region on request. *Fact-check correction: this row previously said "latest is 2013".* |
 | Winter closure log, M-4 Yerevan–Dilijan | Operating days, weather risk | Ministry of Emergency Situations daily road bulletins archive; Roads Department |
 | Current holiday law (non-working days list) | Peak-day calendar | arlis.am, the Law "On Holidays and Memorial Days" with amendments (2021–2025) |
 
@@ -499,3 +503,48 @@ All accessed 2026-10-10 unless noted.
     - https://armstat.am/file/Qualitydec/eng/20.1.pdf
     - https://armstat.am/file/Qualitydec/eng/20.3.pdf
     - Index page: https://armstat.am/en/?nid=174
+18. Tourism Committee of RA / Statistical Committee / Central Bank of Armenia, with the World Bank LEID project, *International Visitor Survey 2023* (64 pp.). It is cited in the Meth.notes sheet of [10] as the basis for revising travel credits for 2022–2024. Opened during the 10 Oct 2026 fact-check (Tables 8 and 10–13).
+    - https://mineconomy.am/media/32499/International%20Visitor%20Survey%202023.pdf
+    - Mirror: https://mineconomy.am/media/32441/International%20Visitor%20Survey%202023.pdf
+
+---
+
+## 7. Fact-check log
+
+Adversarial fact-check of 10 Oct 2026; FX reference CBA AMD 361.93/USD (9 Oct 2026). "Confirmed" means the source was re-opened and the figure matched. "Corrected", "downgraded" and "wrong" items are fixed inline, where they are marked *Fact-check correction*.
+
+| # | Claim | Result | Correction / evidence |
+|---|---|---|---|
+| 1 | Inbound tourists 2019–2025, 2025 quarters, H1 2026 +14.8 % (Q1 +17.2 %, Q2 +13.1 %), Q3 share 36.5 % (§1.1, §2 rows 1–4, §3.1–3.2) | Confirmed | Armstat 99571403.xls (saved 8 Sep 2026) matches exactly; ratios recomputed; outbound H1 2026 686,277 matches. VERIFIED tag correct |
+| 2 | 2025 tourists by citizenship; 65.7 m nights; average stay 29 nights (per-country stays) (§1.2, §2 rows 5, 7) | Confirmed | 99571408.xlsx Sheet1/Sheet2 match (65,696,525 nights). H1 2026 by citizenship matches sv_06_26r_421.pdf |
+| 3 | ~16 % (~367k) of tourists from nationalities with stay ≤18 nights (§1.2, §2 row 8) | Confirmed | Join of counts to stays gives 367,440 = 16.2 %; a ≤17-night cut gives 15.6 % |
+| 4 | Travel credits US$2,910.7 m 2025; H1 2026 +19.6 %; Q3 = 34.3 % (§1.1, §2 rows 10–11, §3.3) | Confirmed | CBA BOP_eng_for_site_BPM6_rev.xls (saved 30 Sep 2026): 2,910.69 (personal 2,465.24 / business 445.45); quarterly and 2019–2024 series match |
+| 5 | ≈US$44.3 per tourist-night (≈AMD 17,150 at 387.01) and ≈US$1,286 per tourist (§2 row 12, §3.3) | Confirmed | Recomputed. Using the 2025 average rate is correct; at today's 361.93 it would be ≈AMD 16,030, so do not mix the two. Row 12 wording aligned to AMD 17,150 |
+| 6 | "No post-2013 visitor survey was accessible"; a short-stay sightseer "spends several times more per day" (§3.3, §5) | **Wrong** | The 2023 IVS [18] is public and cited in [10]'s Meth.notes. It gives US$50.8/day average and US$61.8 for leisure (≈1.2× average, 1.5× VFR US$42.1); package tour US$193 (5.4 % of visitors); independent US$48.1; Russia US$46.7; Georgia US$35.0. **Fixed:** §3.3 table and caveat, §5 gap row, new §2 rows 41–42, §1.2 bullet, §4.9, source [18] |
+| 7 | 25–45 % of tourists visit Sevan (ASSUMPTION) → 0.57–1.02 m visitor-trips (§3.6) | Corrected | Arithmetic right. IVS Table 8: 35.8 % visited Gegharkunik (Kotayk 31.8 %). **Fixed:** retagged REPORTED (IVS 2023), point estimate 0.81 m, range kept as sensitivity; vehicles ≈190–230k at the point estimate. Coach share of 25–40 % flagged for testing (IVS package share 5.4 %) |
+| 8 | Exec summary: Sevan-passing tour segment "a few hundred thousand people a year, not 2.3 million" (§1.2) | Corrected | Contradicted §3.6 (0.57–1.02 m) and the IVS (0.81 m). **Fixed:** "≈0.6–1.0 m international visitor-trips pass Sevan, mostly long-stay/diaspora; the short-stay sightseeing pool is ~0.37 m" |
+| 9 | Bagratashen 2025: 1,404,774 entries / 1,390,004 exits, ≈7,650 persons/day (§1.7, §2 row 16, §3.6) | Confirmed | sv_12_25r_510.pdf; (1,404,774 + 1,390,004)/365 = 7,657 |
+| 10 | Bagratashen 2025 monthly index (Jan 72 … Aug 164; 3.0×) (§1.4, §2 row 17, §3.2) | Confirmed | All twelve sv_MM_25r_510.pdf current-year tables differenced; reconciles exactly to the annual total |
+| 11 | Checkpoint entries Jan–Aug 2026: Bagratashen −1.3 %, Zvartnots +7.1 %, Meghri −32.4 %, etc. (§1.10, §2 row 18) | Corrected | Arithmetic right, but it includes the August data the file flags as incomplete. Jan–Jul: Bagratashen **+3.1 %** (770,658 vs 747,465), Zvartnots **+11.6 %**, Meghri −31.2 %. **Fixed:** §1.10, §2 row 18 and §4.7 now use Jan–Jul for the trend |
+| 12 | Hotels by marz 2025 (count / revenue), shares 78 / 7.6 / 5.1 / 1.8 %, Gegharkunik 39→118 (§1.3, §2 rows 24–25, §3.4) | Confirmed | ArmStatBank TT-tu-1-2025.px (2025 preliminary). Multiples ×1.93 / ×1.88 / ×2.67 |
+| 13 | Accommodation & food turnover by marz 2024: Yerevan 81.2 %, Gegharkunik 1.2 % (§1.3, §2 row 26) | Confirmed | Marz in figures 2025. Newer sv_12_25r_126.pdf puts Yerevan at 83.7 % for 2025, which reinforces the conclusion |
+| 14 | Accommodation & food Jan–Aug 2026 AMD 281.5 bn (+13.9 %), Aug AMD 45.5 bn (+20.4 %) (§2 row 22, §4.8) | Confirmed | sv_08_26r_126.pdf; nominal figures |
+| 15 | Corridor towns 167,262 residents (1 Jan 2025) (§1.8, §2 row 27) | Confirmed | Kotayk/Gegharkunik/Tavush Marz in figures. Regional-town total recomputes to 104,585 (≈105k) |
+| 16 | Lake Sevan water 21.2 °C Jul/Aug 2026; 15.4 / 14.0 °C Oct 2025; ≥20 °C only Jul–Aug (§1.6, §2 row 28) | Confirmed | sv_07_26r_550, sv_08_26r_550, sv_10_25r_550. Sep 2025 was 18.9 / 18.5 °C (sv_09_25r_580). June not checked |
+| 17 | ADB "80 % of imports and exports" → ≈600 loaded trucks/day → 400–700 truck passes/day on M-4 (§1.7, §2 row 34, §3.6) | Downgraded | Quote verbatim on the ADB page; arithmetic checks (748 × 0.8 = 598; 420–720). But ADB gives no basis (value vs volume, modes), and road tonnage includes Meghri/Bavra. **Fixed:** the 80 %-of-road-tonnes step is tagged ASSUMPTION, and 400–700 is presented as an upper-range estimate pending SRC customs data |
+| 18 | Georgia-linked ≈1,200–2,100 vehicles/day on Sevan–Dilijan (22–38 % of 5,500 AADT) (§1.7, §3.6, §3.8) | Downgraded | Arithmetic right (3,480 × 0.35–0.60). But 58 % of entries are on Armenian documents (813,588), many of them Tavush/Lori trips that never reach the tunnel, and C4 and C5 both counted trucks. **Fixed:** restated as an upper bound everywhere; C4 redefined as passenger-only (≤≈800–1,400/day); sensitivity C4 15 % → C base Aug 155 (index table left unchanged, C base read as upper-middle case) |
+| 19 | OSRM Yerevan→Bagratashen via M-4 3 h 26 min vs 3 h 33 min via Vanadzor–Alaverdi (§1.7, §2 rows 32–33, §3.6) | Confirmed | Re-query: 214.3 km / 211 min vs 206.5 km / 215 min; near-tie holds. ESTIMATE tag correct |
+| 20 | Corridor seasonality index A/B/C (base, low, high) (§1.5, §2 row 40, §3.7) | Confirmed (arithmetic only) | All nine rows reproduce to ±1 point. Inputs are mostly ASSUMPTION shapes and weights. The model placeholder [0.66 … 1.46] differs from B base by 6–7 points in Apr and Jun |
+| 21 | Exec summary: Sevan-side site at "about 60–70 % of average Dec–Mar", "~10–14 summer weekends" (§1.11 vs §1.6, §3.7, §4.2) | Corrected | Own index gives Dec–Mar B 91/69/66/78 (avg 76 %) and C 88/67/62/76 (avg 73 %). Weekend counts were inconsistent across §1.6 / §1.11 / §4.2. **Fixed:** "62–91 %, roughly three-quarters on average"; "~8–12 summer weekends (~16–24 weekend days)" used throughout |
+| 22 | Segment A "validated" against the M-1 counter's +19.7 % in July (§1.5, §3.7) | Downgraded | ~2005–09 Roads Department data (period inferred in B1) for the M-1, a different corridor with no leisure overlay. **Fixed:** reworded as a "loose plausibility check (2005–09, M-1)"; the 7-day summer/February counts are the real validation |
+| 23 | International self-drive/taxi: ≈0.4–0.75 m visitor-trips → ≈140–270k vehicles/yr (§3.8) | Corrected | 0.60 × 0.565 m = 0.34 m; 0.75 × 1.02 m = 0.77 m → ÷ 2.8 = 121–273k. **Fixed:** ≈0.34–0.77 m → ≈120–275k; at the IVS point estimate (0.81 m × 60–75 %) ≈0.49–0.61 m → ≈175–215k. The fact-check's parenthetical "≈0.29 m and ≈104k" could not be reproduced (it appears to apply 35.8 % twice) and was not used |
+| 24 | Domestic leisure: ≈142k Yerevan car-owning households → 0.15–0.75 m round trips, 6–24 % of 17,000 AADT (§1.9, §3.8) | Downgraded | 41.2 % is national (ILCS 2024), not Yerevan; household size 3.3 untested. Core is 0.14–0.53 m; the step to 0.75 m had no formula; 0.15 m = 4.8 % of AADT. **Fixed:** household count labelled ESTIMATE using national ownership; uplift ×1.05–1.40 shown explicitly; share stated as ≈5–24 % |
+| 25 | Air passengers 2025 / Jan–Aug 2026; road freight 2025 (§2 rows 19–20, 35) | Confirmed | sv_12_25r_124.pdf and sv_08_26r_124.pdf match (figures include foreign carriers) |
+| 26 | MIA border entries 2021–2025, by mode and quarter (§2 rows 13–15) | Confirmed | migration.mia.gov.am workbook matches exactly |
+| 27 | Sevan climate (ERA5 via Open-Meteo): Jan −6.1 °C, ~160 frost days, ~58 ice days, ~32 snow days, ~20 days ≤−15 °C (§1.6, §2 rows 30–31, §4.5) | Unverifiable | Open-Meteo re-query returned HTTP 429 (daily limit). Status is ESTIMATE (not VERIFIED), so no inline flag was added. Snowfall underestimation is already caveated |
+| 28 | Lake Sevan public beaches ~100k (2011) / ~200k (2014) (§2 row 37, §3.5) | Confirmed | Wikipedia text matches; REPORTED and flagged as stale. Do not use for sizing |
+
+**Net effect.** The primary data transcriptions hold. The corrections change the interpretation, not B3's bottom line: tourism is an upside layer, and a Yerevan-edge site has a flatter ~1.5× profile. Before the investor report quotes these figures:
+- Use ≈73–76 % (62–91 % by month) for Sevan-side Dec–Mar volume.
+- Base any tourist ticket on the IVS per-day spend; leisure is only ≈1.2× the average.
+- Treat the Georgia-transit and truck figures as upper bounds.

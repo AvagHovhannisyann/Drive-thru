@@ -174,7 +174,7 @@ Items that a web search would normally have found are listed as gaps in §5. The
 | **Halabyan / Sebastia / Davtashen bridge** (3+3 lanes) | **no count found** | — | — | 33k–44k | ESTIMATE: 6 lanes × same per-lane yield |
 | **M-6 Vanadzor–Bagratashen** | 4,000 cars/day | 2023 | 2,800 in 2014 | ≈4.2–4.5k | B1 [14 there] |
 
-Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] (M-2 20,965; M-4 21,505; M-5 21,471). By 2018–21 the M-2 (37.8k, +80 %) and M-5 (34.8k, +62 %) series had grown by 62–80 %. The M-5 figure compares two different counters (km 9.4 in 2008, km 12 in 2021), so it is only indicative. *Fact-check correction: the growth range was stated as 60–75 %.* That supports B1's M-4 edge base of 42k. It also shows that **the M-4 edge has no traffic advantage over the M-2 or M-5 edges**.
+Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] (M-2 20,965; M-4 21,505; M-5 21,471). By 2018–21 the M-2 (37.8k, +80 %) and M-5 (34.8k, +62 %) series had grown by 62–80 %. The M-5 figure compares two different counters (km 9.4 in 2008, km 12 in 2021), so it is only indicative. That supports B1's M-4 edge base of 42k. It also shows that **the M-4 edge has no traffic advantage over the M-2 or M-5 edges**. *Fact-check correction: the growth range was stated as 60–75 %.*
 
 **Directional splits matter for a coffee concept.** On Isakov section AB (east of Monte Melkonian), inbound (to the centre) is **57 %** of two-way traffic (22,718 vs 17,334, May 2020) [1]. ADB found "no obvious explanation" and flagged it for checking. *Fact-check correction: the split west of the Monte Melkonian junction, where the recommended site is, is unmeasured. Do not carry the 57 % there.* Arshakunyats is balanced (49/51). Morning coffee demand sits on the inbound carriageway (ASSUMPTION, as in B1).
 
@@ -297,12 +297,15 @@ Both cities have shrinking populations, weak incomes, low through-traffic and in
 ### 3.4 Competitor landscape (alternatives vs M-4)
 
 - **Drive-thru.**
-  - The only identified drive-thru is Coffee House's on the M-4 at Ptghni/Balahovit, 08:30–24:00 (A2; VERIFIED [10]). It sits 0.0 km from my "M-4a" point.
-  - OSM has no food drive-through tags (a tag of `no` appears on KFC Moskovyan and Burger King Dalma). KFC's 13 and Burger King's 4 mapped outlets are all in malls or the centre (Yerevan Mall on Arshakunyats, Dalma on Tsitsernakaberd highway, Northern Ave, Komitas) [19].
-  - **No evidence was found of a drive-thru on the M-5, M-2, M-1 or Tbilisian corridors.** This should be confirmed in the field and on Yandex/Google Maps, since web search was unavailable (gap).
-- **Coffee House** has 51 geocoded branches. Their distance from candidate points:
+  - The only identified food drive-thru is Coffee House's on the M-4 at Ptghni/Balahovit, open 08:30–00:00 on the company site (A2; VERIFIED [10]); Yandex shows "until 23:00" (A2). It sits 0.0 km from my "M-4a" point.
+  - OSM has no food drive-through tags (a tag of `no` appears on KFC Moskovyan and Burger King Dalma). KFC's 13 and Burger King's 4 mapped outlets are all in malls or the centre (Yerevan Mall on Arshakunyats, Dalma on Tsitsernakaberd highway, Northern Ave, Komitas) [19]. KFC's official list is 12 Yerevan + Homplex Hyper Mall + Vanadzor. The OSM Gyumri unit is likely closed (A3).
+  - **No evidence was found of a *food* drive-thru on the M-5, M-2, M-1 or Tbilisian corridors.** The fact-check ran an English search and a Russian-language news search, and neither found one. This should still be confirmed in the field and on Yandex/Google Maps.
+  - **A non-food drive-thru exists on the M-5 inside the city.** "Onex Drive Thru" (parcel pickup, with optional refuelling) was announced in 2026 at Admiral Isakov 7/7, next to a Flash station, after Flash approved the partnership "in June" (REPORTED [23]; search-result snippet only, as news.am returned HTTP 403, so the date and exact site are unconfirmed). A Flash forecourt on Isakov already has a drive-thru partner.
+
+  *Fact-check correction: the text read "no evidence was found of a drive-thru" on these corridors and gave the hours as 08:30–24:00 without the Yandex discrepancy.*
+- **Coffee House** lists 52 branches, 51 of them with coordinates (Victory Park has none); 42 are in the Yerevan region, including the airport (VERIFIED [10]; was "51 geocoded branches"). Their distance from candidate points:
   - 0.2–0.5 km in Ejmiatsin, Abovyan, Gyumri and Vanadzor centres;
-  - 1.1 km at the airport junction and at Homplex (M-1 exit);
+  - 1.1 km at the airport junction and at Homplex (M-1 exit; KFC is also at Homplex);
   - 1.2–1.9 km on the Arshakunyats, Isakov and Tbilisian south points;
   - **4.6 km at the M-2 edge, 8 km at Ashtarak and 10 km at Masis** [10].
 - **Mall food clusters.** Yerevan Mall (Arshakunyats) and Dalma Garden Mall (Tsitsernakaberd) concentrate international QSR. They prove demand for fast food and coffee, but they are walk-in and mall-dwell formats.
@@ -342,8 +345,8 @@ ESTIMATE. Method: sum of Kontur H3 cell populations whose centroids fall within 
 | Dzoraghbyur (Kotayk) | 1,166 m² | $99,000 | 85 | 30 Sep 2026 | [16] |
 | Hrazdan | 600 m² | $54,000 | 90 | 28 Sep 2026 | [16] |
 | Ptghni (next to M-4 drive-thru area) | 525 m² | $60,000 | 114 | 30 Apr 2026 | [16] |
-| Arinj, Duryan St (front line, 20 m frontage) | 800 m² | $120,000 | 150 | 7 Oct 2026 | [16] |
-| Avan, Duryan district (Yerevan) | 6,000 m² | $960,000 | 160 | edited 6 Oct 2026 | [17] |
+| Arinj, Duryan St (front line, 20 m frontage; residential) | 800 m² | $120,000 | 150 | 7 Oct 2026 | [16] |
+| Avan, Duryan district (Yerevan) | 6,000 m² | $960,000 | 160 | added 26 Mar 2026, edited 6 Oct 2026 | [17] |
 | Ajapnyak G-1 district | 1,000 m² | $245,000 | 245 | 10 Sep 2026 | [16] |
 | Avan, N. Safaryan St | 1,015 m² | $252,000 | 248 | edited 25 Sep 2026 | [17] |
 | Nork-Marash | 1,000 m² | $285,000 | 285 | 28 Sep 2026 | [16] |
@@ -356,19 +359,26 @@ All REPORTED as asking prices. The sample is small (12 listings) and residential
 - Yerevan periphery: ≈$0.24–0.88 M
 - inner city: >$1.5 M
 
+*Fact-check correction (downgraded to indicative only):*
+- *Dates: the listings span 26 Mar–7 Oct 2026, not just Sep–Oct.*
+- *Location: none of the 12 listings is on the four top-ranked corridors (Shengavit/Arshakunyats, Noragavit–Ayntap, Malatia/Parakar, Davtashen), and most are residential plots, not commercial road frontage.*
+- *Use: land cost for the shortlisted sites is unevidenced, so these figures should not be used as site land costs in the model.*
+
+*The individual listings checked out against the live pages, and the pad arithmetic is correct.*
+
 **No commercial ground-lease listings were obtained** (list.am returned 403; gap). The model's ground-lease placeholder (AMD 1.3–1.8 M/month) is untested.
 
 ### 3.7 Exposure and required capture (comparable across sites)
 
-Accessible same-side light vehicles = AADT 2025 × directional share × light-vehicle share. Required capture = 120 ÷ accessible vehicles. The 120 transactions/day figure is A2's mid-point for a well-sited unit.
+Accessible same-side light vehicles = AADT 2025 × directional share × light-vehicle share. Required capture = 120 ÷ accessible vehicles. The 120 transactions/day figure is a round target inside A2's 80–150 range for a well-sited unit (an ASSUMPTION in A2, whose mid-point is 115).
 
 | Site | AADT 2025 | Dir. share | Light share | Accessible light veh/day | Capture needed for 120 tx/day | Tx/day @0.5 % | Tx/day @1.0 % |
 |---|---|---|---|---|---|---|---|
-| M-5 Isakov Ave, inbound (Malatia) | 46,786 | 0.567 | 0.927 | 24,591 | **0.49 %** | 123 | 246 |
-| M-2 Artashat hwy, Yerevan edge | 51,483 | 0.5 | 0.921 | 23,708 | **0.51 %** | 119 | 237 |
+| Isakov AB, east of Monte Melkonian (avoid: −36 % after the link opens) | 46,786 | 0.567 | 0.951 (inbound cars+taxis) | 25,228 | 0.48 % | 126 | 252 |
+| M-2 Artashat hwy, Yerevan edge | 49,117 | 0.5 | 0.921 | 22,618 | **0.53 %** | 113 | 226 |
 | Arshakunyats Ave | 47,210 | 0.5 | 0.951 | 22,448 | **0.53 %** | 112 | 224 |
-| M-5 west of airport jn (km 12) | 43,117 | 0.5 | 0.977 | 21,063 | **0.57 %** | 105 | 211 |
-| M-1 Ashtarak hwy / Yerevan exit | 33,096 | 0.5 | 0.967 | 16,002 | 0.75 % | 80 | 160 |
+| M-5 west of airport jn (km 12); documented floor for the recommended Isakov-west/Parakar site (U05) | 43,117 | 0.5 | 0.977 | 21,063 | **0.57 %** | 105 | 211 |
+| M-1 Ashtarak hwy / Yerevan exit (proxy; range, equal weight) | 25,200–33,096 | 0.5 | 0.967 | 12,184–16,002 | 0.75–0.98 % | 61–80 | 122–160 |
 | Tbilisian hwy (no count; mid-estimate) | 25,800 | 0.5 | 0.93 | 11,997 | 1.00 % | 60 | 120 |
 | H-3 Yerevan–Garni (ASSUMPTION) | 5,000 | 0.5 | 0.85 | 2,125 | 5.65 % | 11 | 21 |
 | M-4 Yerevan edge (B1 base) | 42,000 | 0.5 | 0.82 | 17,220 | 0.70 % | 86 | 172 |
@@ -377,7 +387,14 @@ Accessible same-side light vehicles = AADT 2025 × directional share × light-ve
 | Model placeholder (16k × 0.55 access) | 16,000 | 0.55 | 1.0 | 8,800 | 1.36 % | 44 | 88 |
 
 ESTIMATE. Light shares come from the counts cited in §2; the M-4 share is from B1. Read this as **exposure**, not forecast revenue.
-- Urban commuters have more alternatives and shorter dwell, so their conversion per passing car could be lower than a weekend driver's on the way to Sevan. If urban capture were only half of highway capture, the urban edges would still match or beat the M-4 Abovyan–Charentsavan segment and clearly beat Hrazdan–Sevan.
+
+*Fact-check corrections to this table:*
+- *Isakov row. It was labelled "M-5 Isakov Ave, inbound (Malatia)", with 24,591 vehicles and 0.49 %. The count and the 57 % inbound split come from section AB, east of Monte Melkonian, not from the recommended site. The row is relabelled, and the light share is set to the inbound cars+taxis share (95.1 %, not the two-way 92.7 %).*
+- *M-2 row. It was 51,483 (23,708; 0.51 %) and is now 49,117 at 3.8 %/yr.*
+- *M-1 row. It was 33,096 only and is now a 25.2–33.1k range.*
+- *Light-share definitions. Isakov and Arshakunyats use cars+taxis only. The M-5, M-2 and M-1 shares are Roads Department "light vehicles", which include minibuses and buses (≈3–8 % of traffic in ADB's classified counts), so the interurban rows are slightly flattered.*
+- *Ranking. None of this changes the ordering between rows other than Isakov.*
+- Urban commuters have more alternatives and shorter dwell, so their conversion per passing car could be lower than a weekend driver's on the way to Sevan. If urban capture were only half of highway capture, the urban edges (M-2, Arshakunyats, M-5) would still match or beat the M-4 Abovyan–Charentsavan segment and clearly beat Hrazdan–Sevan. The M-1 at its 25.2k low end (0.98 % × 2 ≈ 1.97 %) would not beat Hrazdan–Sevan.
 - Drive-thru lane capacity, not exposure, caps peak throughput (≈40–60 cars/hour for a single lane; ASSUMPTION to be checked by the operations workstream).
 
 ### 3.8 Seasonality: urban vs tourist highway, quantified
@@ -386,7 +403,7 @@ ESTIMATE. Light shares come from the counts cited in §2; the M-4 share is from 
 |---|---|---|---|---|
 | Accommodation & food-service turnover, Armenia (mostly Yerevan) | Aug 1.18 | Feb 0.73 (peak/trough 1.62; CV 0.13) | 28.4 % | ESTIMATE from VERIFIED [9] |
 | Western arterial, daily variation | — | weakest day 93 % of weekly mean | — | VERIFIED [1] |
-| M-1 interurban counter | July +19.7 % vs AADT | — | — | VERIFIED [4] |
+| M-1 interurban counter (≈2005–09 data) | July +19.7 % vs AADT | — | — | VERIFIED [4] |
 | Zvartnots person crossings | Jun–Aug 1.47× the Jan–May average | — | — | ESTIMATE from VERIFIED [6] |
 | Bavra (M-1 north end) / Bagratashen | 1.54× / 1.69× | — | — | ESTIMATE from VERIFIED [6] |
 | Meghri (M-2 south end) | 1.07× | — | — | ESTIMATE from VERIFIED [6] |
@@ -401,7 +418,7 @@ The M-4 Sevan-type index should stay near the current placeholder until counts e
 
 **Why this matters.**
 - At an equal annual total, the M-4 profile puts 34 % of the year's volume into three months, against ≈28 % for urban.
-- Peak staffing (the model's threshold is 1.15) would be triggered for 3 months on the M-4 placeholder (Jun–Aug) and at most 1 month (Aug) on the proposed urban index.
+- Peak staffing (the model's threshold is 1.15) would be triggered for 3 months on the M-4 placeholder (Jun–Aug) and at most 1 month (Aug) on the proposed urban index. The code tests `seasonality >= 1.15` (engine.py line 147), so Aug = 1.15 counts as a peak month; the comment on line 146 says "> 1.15", which would give 0 months. This urban-demand index is nominal, includes accommodation and is 83.7 % Yerevan. It is a proxy for urban demand, not a traffic index.
 - A highway unit also faces weather closures and weekend concentration (B1), which an urban unit does not.
 
 ### 3.9 Scoring and ranked shortlist
@@ -419,10 +436,10 @@ Each criterion is scored 1–5 by the analyst from the evidence above (ASSUMPTIO
 
 | Rank | Candidate | Traffic | Stability | Catchment | Income | White space | Access / land | Data | **Weighted** |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | **M-5 western approach**: Isakov west of Monte Melkonian → boundary → Zvartnots jn, inbound side (fuel-hybrid preferred) | 5 | 4 | 3 | 4 | 4 | 3 | 5 | **4.05** |
-| 2 | **Arshakunyats Ave** (Shengavit, north of future link jn) | 5 | 5 | 4 | 4 | 2 | 2 | 5 | **4.00** |
-| 3 | **M-2 Artashat highway, south edge** (Noragavit–Ayntap, km 9–13) | 5 | 3 | 2 | 4 | 5 | 4 | 4 | **3.90** |
-| 4 | **M-1 Ashtarak highway / Davtashen–Homplex exit** | 4 | 4 | 3 | 4 | 5 | 4 | 3 | **3.85** |
+| 1 | **Arshakunyats Ave** (Shengavit, north of future link jn) | 5 | 5 | 4 | 4 | 2 | 2 | 5 | **4.00** |
+| 2 | **M-2 Artashat highway, south edge** (Noragavit–Ayntap, km 9–13) | 5 | 3 | 2 | 4 | 5 | 4 | 4 | **3.90** |
+| 3 | **M-5 western approach**: Isakov west of Monte Melkonian → boundary → Zvartnots jn, inbound side (fuel-hybrid preferred) | 5 | 4 | 3 | 4 | 4 | 3 | **3** (was 5) | **3.85** (was 4.05) |
+| 4 | **M-1 Ashtarak highway / Davtashen–Homplex exit** | 4 | 4 | 3 | 4 | **4** (was 5) | 4 | 3 | **3.75** (was 3.85) |
 | 5 | **Tbilisian highway** (Kanaker-Zeytun → Avan/Arinj) | 3 | 5 | 5 | 4 | 3 | 3 | 2 | **3.60** |
 | reserve | M-2 at Masis interchange | 4 | 3 | 2 | 4 | 4 | 4 | 3 | 3.45 |
 | reserve | Gai Ave / Nor Nork (H-3 start) | 3 | 5 | 4 | 3 | 3 | 3 | 2 | 3.35 |
@@ -436,29 +453,34 @@ Each criterion is scored 1–5 by the analyst from the evidence above (ASSUMPTIO
 | comparator | **M-4 Hrazdan–Sevan (tourist segment)** | 2 | 1 | 1 | 2 | 3 | 3 | 1 | **1.85** |
 | — | H-3 Yerevan–Garni | 1 | 1 | 1 | 3 | 3 | 2 | 1 | 1.55 |
 
+*Fact-check corrections to this table:*
+- *M-5 western approach, Data 5 → 3. Its counts (40,052; ADB 44,100; the 57 % inbound split) were taken on Isakov section AB, east of Monte Melkonian. The recommended site is ≈2.1 km west and uncounted, so it falls from #1 (4.05) to #3 (3.85).*
+- *M-1, White space 5 → 4. KFC and Coffee House both trade at Homplex Hyper Mall, ≈1.1 km from the exit point, so it falls to 3.75.*
+- *M-1 traffic. Its Traffic score of 4 is also generous at ADB's 25.2k forecast (≈12,200 same-side light vehicles, similar to the Tbilisian highway's score of 3). With Traffic 3 it would score 3.50.*
+
 **Sensitivity.**
-- Arshakunyats (#2) ranks high on counted volume and stability, but scores 2 on access and land. If a ≥1,500 m² plot with safe stacking cannot be found along it, **M-2 south edge moves to #2**.
-- If data confidence is dropped and its 10 points are moved to white space, the order becomes M-1 exit (4.05), M-2 edge (4.00), M-5 west (3.95), Arshakunyats (3.70). The top group is robust; the order within it is not.
+- Arshakunyats (#1) ranks high on counted volume and stability, but scores 2 on access and land. If a ≥1,500 m² plot with safe stacking cannot be found along it, **M-2 south edge moves to #1**. Link-road construction near its junction (2026–28) is a further near-term risk.
+- If data confidence is dropped and its 10 points are moved to white space, the order becomes M-2 edge (4.00), M-5 west (3.95), M-1 exit (3.85), Arshakunyats (3.70). The top group is robust; the order within it is not. **Treat the order of the top four as undetermined until site-specific counts exist.**
 - Even with stability weighted at zero, the M-4 tourist segment stays in the bottom two (with the Garni road). Its problem is volume, not just seasonality.
 
 ### 3.10 Critical comparison: the M-4 concept vs the best alternatives
 
-| Dimension | M-4 tourist highway (Hrazdan–Sevan) | M-4 Yerevan edge (Ptghni) | Best alternatives (M-5 west, M-2 edge, Arshakunyats, M-1 exit) |
+| Dimension | M-4 tourist highway (Hrazdan–Sevan) | M-4 Yerevan edge (Ptghni) | Best alternatives (Arshakunyats, M-2 edge, M-5 west, M-1 exit) |
 |---|---|---|---|
-| Traffic evidence | None after 2008; base 17k (ESTIMATE) | 2008 count; base 42k (ESTIMATE) | Counts from 2017–2021 (VERIFIED); 33–52k (2025 ESTIMATE) |
-| Same-side light vehicles/day | ≈7,000 | ≈17,200 | ≈16,000–24,600 |
-| Capture needed for 120 tx/day | 1.72 % | 0.70 % | 0.49–0.75 % |
+| Traffic evidence | None after 2008; base 17k (ESTIMATE) | 2008 count; base 42k (ESTIMATE) | Counts from 2017–2021 (VERIFIED), none at the M-5-west or M-1-exit sites themselves; 25–49k (2025 ESTIMATE) |
+| Same-side light vehicles/day | ≈7,000 | ≈17,200 | ≈12,200–22,600 |
+| Capture needed for 120 tx/day | 1.72 % | 0.70 % | 0.53–0.98 % |
 | Seasonality | Strong: placeholder 0.66–1.46; B1 0.6–1.6; 10–14 peak weekends | Moderate: commuter-dominated, plus leisure weekends | Low: urban index ≈0.77–1.15; weakest day 93 % of weekly mean |
 | Catchment within 3 km | 13–17k | 24k | 27k (edge points) to 172k (Arshakunyats) |
-| Incumbent drive-thru | No (but fuel and lakeside cafés) | **Coffee House Drive-Thru, 4.9★** | None known |
-| Land | Cheap (Kotayk $66–150/m²) but needs 90 km/h deceleration lanes | Cheap–moderate | Edge $150–380/m²; inner city scarce and ≥$1,000/m² |
+| Incumbent drive-thru | No (but fuel and lakeside cafés) | **Coffee House Drive-Thru, 4.9★** | No food drive-thru known. A non-food Onex parcel Drive Thru was announced in 2026 at a Flash station on Admiral Isakov [23] |
+| Land | Cheap (Kotayk $66–150/m²) but needs 90 km/h deceleration lanes | Cheap–moderate | Periphery $160–350/m² (Erebuni frontage $380/m²); inner city scarce and ≥$1,000/m². No listing on a shortlisted corridor; indicative only. *Fact-check correction: was "Edge $150–380/m²", inconsistent with §1* |
 | Brand / marketing value | High in summer (Sevan, Dilijan, Tsaghkadzor trips) | Medium | High year-round visibility to Yerevan residents (the repeat base) |
-| Key risk | Volume and seasonality; winter closures; tunnel works | Head-to-head with Coffee House at about half our price | Permitting curb cuts; land; queue spill-back onto arterials; lower per-car capture |
+| Key risk | Volume and seasonality; winter closures; tunnel works | Head-to-head with Coffee House at about half our price | Permitting curb cuts; land; queue spill-back onto arterials; lower per-car capture; link-road construction on Isakov/Arshakunyats 2026–28 |
 
 **Bottom line (critical).**
-- The founder's intuition that the M-4 is the "high-traffic" road is **not supported**: the M-2 and M-5 exits measured as much traffic or more, and with newer data.
+- The founder's intuition that the M-4 is the "high-traffic" road is **not supported**: the M-2 and M-5 exits measured as much traffic or more, and with newer data. In 2008 the M-2, M-4 and M-5 exit counters all read ≈21k, and the M-2 grew 80 % by 2018.
 - The M-4's distinctive asset is the **summer leisure peak**. That is attractive for brand visibility, but as a first unit it is a worse risk: lower base volume, higher seasonality and an incumbent at the city end.
-- The M-4 idea is best reframed as **"Yerevan exit-corridor drive-thru"**. The first unit goes where commuters converge year-round (M-5 west or M-2 south edge, with Arshakunyats if a plot exists). The M-4/Sevan opportunity is tested later with a modular or seasonal unit or a fuel-station kiosk once the format is proven.
+- The M-4 idea is best reframed as **"Yerevan exit-corridor drive-thru"**. The first unit goes where commuters converge year-round: Arshakunyats if a plot exists, the M-2 south edge, or the M-5 west. Their order is undetermined until site-specific counts exist. The M-4/Sevan opportunity is tested later with a modular or seasonal unit or a fuel-station kiosk once the format is proven.
 
 ---
 
@@ -466,7 +488,7 @@ Each criterion is scored 1–5 by the analyst from the evidence above (ASSUMPTIO
 
 1. **Change the model's base-case traffic input, or run it for two site archetypes.**
    - The model's placeholder (16k AADT × 0.55 access × 1.8 % capture ≈ 158 transactions/day) resembles neither archetype.
-   - Urban/edge archetype: 43–52k AADT, 0.5 directional share, 0.92–0.98 light share, and a flatter seasonality index (§3.8).
+   - Urban/edge archetype: 43–49k AADT, 0.5 directional share, 0.92–0.98 light share, and a flatter seasonality index (§3.8). The M-1 exit is lower, at 25–33k. *Fact-check correction: the range was "43–52k", before the M-2 base was cut to 49.1k.*
    - Highway leisure archetype: B1's 17–27k with the current seasonality.
    - Do not import the M-4's 1.8 % capture rate into urban sites without field evidence. Run 0.4–1.0 % as the urban sensitivity range (ASSUMPTION).
 2. **Year-round demand beats peak demand for a first unit.** The urban profile keeps the summer share near 28 % (vs 34 %) and avoids a 2.2× peak-to-trough swing. That lowers cash-flow risk in year 1, when the ramp curve is also depressing volume. It also means the opening month (the model assumes May, to "catch the first summer") matters much less for an urban site.
@@ -475,19 +497,26 @@ Each criterion is scored 1–5 by the analyst from the evidence above (ASSUMPTIO
    - shares the curb cut, permits and utilities;
    - cuts the land bill (C1 excludes land);
    - mitigates the arterial-access permitting risk.
-5. **Avoid the Isakov section east of Monte Melkonian.** ADB's link project is forecast to take 36 % of its traffic. Arshakunyats north of the new junction gains 15 %. Check the 2026 construction status before any lease.
+
+   Caveat: a Flash forecourt on Admiral Isakov (7/7) has already partnered with Onex for a non-food parcel Drive Thru (announced 2026; REPORTED [23], search snippet only). Confirm which forecourt pads on Isakov are still free before assuming a fuel-station hybrid there.
+5. **Avoid the Isakov section east of Monte Melkonian.** ADB's link project is forecast to take 36 % of its traffic. Arshakunyats north of the new junction gains 15 %.
+   - Status: the civil works contract was signed on 1 May 2026, the supervision contract on 8 May 2026, and the loan closes on 31 Mar 2028 [22].
+   - Plan for construction disruption on Isakov and Arshakunyats near the junctions during 2026–28, and for a possible slip past 2028.
+   - Every Isakov count is from this east section. A site west of Monte Melkonian needs its own count before any lease.
+
+   *Fact-check correction: the text read "Check the 2026 construction status before any lease"; the status is now confirmed.*
 6. **Do not open first in a satellite town, Gyumri or Vanadzor.**
    - Satellite towns: growth is real (+1.4–1.7 %/yr) but thin, and incomes are lower. Sit on the radial road where their commuters converge.
-   - Gyumri and Vanadzor: shrinking, poorer (Shirak poverty 43 %) and already served by Coffee House and KFC.
+   - Gyumri and Vanadzor: shrinking, poorer (Shirak poverty 43 %) and already served by Coffee House (both cities) and KFC (Vanadzor; the Gyumri KFC is likely closed).
 7. **Garni/Geghard (H-3) is not a drive-thru corridor.** It is low-volume, tourist-seasonal and dominated by sit-down restaurants.
 8. **Disconfirming evidence to keep in view.**
    - Urban drive-thru demand is unproven in Armenia; there is no urban drive-thru, and 41 % of households own a car (A1).
    - Congestion can make a queue a liability.
    - Inner-city plots are scarce and expensive.
-   - Coffee House can react quickly; it already runs 51 branches and one drive-thru.
+   - Coffee House can react quickly. It lists 52 branches (claims 57) and runs one drive-thru. *Fact-check correction: the text read "runs 51 branches".*
    - The M-2's long-distance flows are volatile (Meghri −32 % in 2026).
-   - The M-1's growth has disappointed before (ADB 2020).
-   - Every 2025 volume here is an extrapolation of 2017–2021 counts, not a measurement.
+   - The M-1's growth has disappointed before (ADB 2020). Its counter sits beyond the M-3 junction, not at the city exit.
+   - Every 2025 volume here is an extrapolation of 2017–2021 counts, not a measurement. The recommended M-5 site west of Monte Melkonian has no count at all.
 
 ---
 
@@ -496,11 +525,12 @@ Each criterion is scored 1–5 by the analyst from the evidence above (ASSUMPTIO
 | Gap | Why it matters | How to close it (agency / document / method) |
 |---|---|---|
 | **2022–2026 counter data for M-1 km 20.7, M-2 km 9.38, M-5 km 12 (and M-4 km 10.3)** | Replaces 2017–21 extrapolations with current AADT, monthly and day-of-week profiles | Formal request to the Roads Department / MTAI (the "Roads Department annual reports" ADB cites [1]). Ask for monthly and hourly ATC data by direction and vehicle class |
-| **Road Police 24-h counts for Yerevan arterials** (Tbilisian, Halabyan, Sebastia, Babajanyan, Davtashen bridge, Gai, Artashat hwy) | Only Isakov, Arshakunyats and Monte Melkonian (2020) are published | Request through Yerevan Municipality (the 2020 counts came from a "letter from the head of road police to the first deputy mayor" [1]); Yerevan Traffic Management Centre camera counts |
-| **Isakov–Arshakunyats link status** | ±15–36 % traffic shift from 2028 | ADB project page 54172-002 (progress reports); Yerevan Municipality capital programme |
+| **Directional count on Admiral Isakov west of Monte Melkonian (Malatia → city boundary, site U05)**, and on the Ashtarak hwy at the Davtashen/Homplex exit | Neither recommended site has a count. The Isakov counts are from section AB, and the M-1 counter is beyond the M-3 junction. *Fact-check addition* | Field 16-hour classified count by direction (Feb + Jul); Road Police / Traffic Management Centre request |
+| **Road Police 24-h counts for Yerevan arterials** (Tbilisian, Halabyan, Sebastia, Babajanyan, Davtashen bridge, Gai, Artashat hwy) | Only Isakov (section AB), Arshakunyats and Monte Melkonian (2020) are published | Request through Yerevan Municipality (the 2020 counts came from a "letter from the head of road police to the first deputy mayor" [1]); Yerevan Traffic Management Centre camera counts |
+| ~~Isakov–Arshakunyats link status~~ **Closed by fact-check** | ±15–36 % traffic shift from 2028 | ADB project data sheet (updated 30 Jul 2026): civil works contract signed 1 May 2026, supervision 8 May 2026, loan closing 31 Mar 2028 [22]. Residual task: obtain the construction programme and traffic-management plan for the junctions from Yerevan Municipality |
 | **Field classified counts and stop-rate observation** | Capture rate is the most uncertain driver | 2-season (Feb + Jul) 16-hour classified counts by direction at the top-5 sites. Stop-rate counts at comparable outlets: Coffee House M-4 drive-thru and the airport branch, plus fuel-station shops on the M-5 and M-2 (B1 protocol). Budget ≈ US$12–20k for 5 sites (ASSUMPTION) |
-| **Existing drive-thrus (KFC, Burger King, local chains) in Yerevan** | Confirms white space | Yandex/Google Maps scan for "drive", "драйв", "դրայվ"; a field drive of the top-5 corridors; chain HQ inquiry |
-| **Commercial plots and ground-lease rates on the edges** | Land is the binding constraint; the model rent is a placeholder | Broker survey (estate.am, myrealty, list.am agents); e-cadastre.am parcel ownership and land-use category; Yerevan Municipality land auctions; CPS/Flash/Max Oil pad-lease quotes |
+| **Existing drive-thrus (KFC, Burger King, local chains) in Yerevan** | Confirms white space. The fact-check searches found no food drive-thru, but did find a non-food Onex Drive Thru at a Flash station on Admiral Isakov 7/7 (2026; snippet only) [23] | Yandex/Google Maps scan for "drive", "драйв", "դրայվ"; a field drive of the top-5 corridors; chain HQ inquiry; confirm the Onex/Flash site and date, and which Flash pads on Isakov are still free |
+| **Commercial plots and ground-lease rates on the edges** | Land is the binding constraint; the model rent is a placeholder. None of the 12 listings in §3.6 is on a shortlisted corridor | Broker survey (estate.am, myrealty, list.am agents); e-cadastre.am parcel ownership and land-use category; Yerevan Municipality land auctions; CPS/Flash/Max Oil pad-lease quotes |
 | **Curb-cut, access and zoning rules on Yerevan primary arterials and M-roads** | Permitting may rule out arterial sites | Yerevan Municipality urban-development department; MTAI and Road Police access standards; planning lawyer opinion |
 | **Commuter origin–destination flows (Kotayk, Ararat, Armavir → Yerevan)** | Choosing the side of the road and the corridor | MTAI Transport Master Plan 2020–2030 (draft) [2]; Yerevan bus-network study OD data (ADB/CDIA); mobile-operator origin–destination data purchase |
 | **Garni/Geghard visitor counts 2023–2025 by month** | H-3 seasonality | Ministry of Education, Science, Culture and Sport / Historical-Cultural Reserve-Museums Agency ticket data; Tourism Committee |
@@ -521,8 +551,8 @@ Each criterion is scored 1–5 by the analyst from the evidence above (ASSUMPTIO
 7. Wikipedia. "Zvartnots International Airport": statistics table (2023 and 2024 cite Hetq, 11 Jan 2025; 2025 cites Alphanews, 22 Jan 2026); expansion and concession items. Secondary source. https://en.wikipedia.org/wiki/Zvartnots_International_Airport
 8. Armstat. *Permanent population of RA as of 1 July 2026* (https://armstat.am/file/article/population_01_07_26.pdf) and *as of 1 July 2025* (https://armstat.am/file/article/population_01_07_25.pdf). Marz, town and Yerevan district tables.
 9. Armstat. *Socio-Economic Situation of RA*, section 1.2.6 Services, monthly issues Jan–Dec 2025 (e.g. https://armstat.am/file/article/sv_12_25r_126.pdf; months 01–11 at the same pattern, sv_MM_25r_126.pdf) and Jan–Aug 2026 (https://armstat.am/file/article/sv_08_26r_126.pdf). NACE I "accommodation and food service" monthly turnover.
-10. Coffee House Company. Branches page: 51 branches with `data-coords`, hours and regions. https://coffeehouse.am/en/branches
-11. Armstat. *Marz Kotayk of RA in Figures, 2024* (statistical handbook, data 2019–2023), construction chapter: dwellings put in operation by source of financing. Copy held by the study team in the shared scratchpad; Armstat regional-statistics publication series at https://armstat.am/en/?nid=82 (exact file URL not recorded; re-locate on Armstat before citing externally).
+10. Coffee House Company. Branches page: 52 branches listed, 51 with `data-coords` (Victory Park has none), hours and regions. https://coffeehouse.am/en/branches
+11. Armstat. *Kotayk Marz of RA in Figures, 2025* (statistical handbook, data 2020–2024), construction table: dwellings put in operation, by source of financing. Its national totals match the Yearbook [14] exactly. A copy is held in the shared scratchpad (`dl/m1015.pdf`). The regional-statistics series is at https://armstat.am/en/?nid=82, but the exact file URL was not located; re-locate it on Armstat before citing externally. The earlier citation was the 2024 edition (data 2019–2023), and its 2019 figure (35,112 m²) is unverified. *Fact-check correction.*
 12. Armstat. Wage database: *Average monthly nominal wages by marz*, quarterly 2018–Q2 2026 and annual 2008–2025. https://www.armstat.am/file/doc/99571903.xlsx (database page: https://www.armstat.am/en/?nid=964)
 13. Armstat. *Social Snapshot and Poverty in Armenia, 2025* (ILCS 2024), Ch. 2, Table 2.1: poverty by region. https://armstat.am/file/article/poverty_2025_en_2.pdf
 14. Armstat. *Statistical Yearbook of Armenia 2025*, ch. 14 Construction, Tables 14.7–14.8: dwellings put in operation, apartments. https://armstat.am/file/doc/99563703.pdf
@@ -532,6 +562,8 @@ Each criterion is scored 1–5 by the analyst from the evidence above (ASSUMPTIO
 18. Kontur. *Kontur Population: Armenia*, H3 hexagons (release 2023-11-01), CC BY 4.0. https://geodata-eu-central-1-kontur-public.s3.amazonaws.com/kontur_datasets/kontur_population_AM_20231101.gpkg.gz (HDX: https://data.humdata.org/dataset/kontur-population-armenia)
 19. OpenStreetMap contributors, via the Overpass API (maps.mail.ru and overpass.private.coffee mirrors). POIs (amenity fuel/cafe/fast_food/restaurant, shop convenience/supermarket/bakery/mall, drive_through) and motorway/trunk/primary/secondary roads with lanes, maxspeed, oneway and link roads. Base timestamps 2026-06-01 (Vanadzor), 2026-07-15 (M-1 north) and 2026-10-10 (other areas). ODbL. https://www.openstreetmap.org
 20. Wikipedia. "Temple of Garni": visitor numbers 2013 (cites Hetq) and 2019. Secondary source. https://en.wikipedia.org/wiki/Temple_of_Garni
-21. Internal workstreams: `research/B1-m4-traffic.md` (M-4 AADT estimates, M-6 2023 figure, fuel-station counts); `research/A1-macro-consumer.md` (car ownership, registered vehicles); `research/A2-coffee-market.md` (Coffee House Drive-Thru, 80–150 transactions/day benchmark); `model/assumptions.json` (placeholders).
+21. Internal workstreams: `research/B1-m4-traffic.md` (M-4 AADT estimates, M-6 2023 figure, fuel-station counts); `research/A1-macro-consumer.md` (car ownership, registered vehicles); `research/A2-coffee-market.md` (Coffee House Drive-Thru, 80–150 transactions/day ASSUMPTION, mid-point 115); `research/A3-qsr-fuel-convenience.md` (KFC official outlet list); `model/assumptions.json` (placeholders).
+22. ADB. *Project 54172-002: Yerevan Urban Development Investment Program*, project data sheet (last updated 30 Jul 2026). Civil works contract for the Isakov–Arshakunyats Road Link and Komitas Park signed 1 May 2026; supervision consultant contract signed 8 May 2026; closing 31 Mar 2028. https://www.adb.org/projects/54172-002/main (added by the fact-check)
+23. News.am, article 908844 (Armenian), on the Onex Drive Thru at Admiral Isakov 7/7, next to a Flash station. Known only from a search-result snippet: a direct fetch returned HTTP 403, so the date and exact site are unconfirmed. REPORTED. https://news.am/hy/news/908844 (added by the fact-check)
 
 *Derived dataset produced for this workstream: `research/data/B4-candidate-sites.csv`. It holds coordinates, Kontur 1/3/5/10 km population, OSM POI counts, nearest Coffee House and adjacent-road attributes for 35 candidate and comparator points.*

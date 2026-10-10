@@ -166,6 +166,9 @@ def build(extra_figs=None):
         shutil.rmtree(SITE)
     ASSETS.mkdir(parents=True)
     a, res, src = load_results()
+    glb = ROOT / "design/3d/out/drive_thru.glb"
+    if glb.exists():
+        shutil.copy(glb, ASSETS / "drive_thru.glb")
     F = figures(a, res)
     F.update(figs_design.brand_figs(img))
     F.update(figs_design.arch_figs(img, copy_asset, json.loads((ROOT / "design/layout.json").read_text())))

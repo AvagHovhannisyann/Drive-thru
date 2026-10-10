@@ -114,7 +114,7 @@ def arch_figs(img, copy_asset, layout: dict) -> dict:
                         '<div class="views"><button data-view="aerial">Aerial</button><button data-view="hero">Entry</button>'
                         '<button data-view="drive">Lane</button><button data-view="plan">Plan</button></div>'
                         '<div class="hint">Loading 3D model…</div></div>'
-                        '<figcaption style="color:var(--ink-3);font-size:13.5px;margin-top:8px">Interactive model exported from the same parametric source as the drawings and renders (glTF, ≈3 MB). '
+                        '<figcaption style="color:var(--ink-3);font-size:13.5px;margin-top:8px">Interactive model exported from the same parametric source as the drawings and renders (glTF, ≈5 MB). '
                         'Simplified materials; furniture and vegetation omitted.</figcaption></figure>')
     # dimensions table from layout
     site = layout.get("site", {})
