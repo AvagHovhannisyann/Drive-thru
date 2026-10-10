@@ -1,0 +1,61 @@
+<section class="ch" id="architecture"><div class="eyebrow">Phase 5 · Architecture &amp; 3D</div><h2>Architecture and 3D prototype</h2>
+<p class="lede">The prototype is a 171 m² tuff-clad pavilion on a 3,256 m² plot. Two order lanes merge into one pickup lane that wraps the back of the building, giving about 12–13 cars of stacking before the queue reaches the entry throat. Drawings, renders and the interactive model all come from one parametric source, so dimensions agree across every view. The design is a prototype: the access geometry, plot shape and service connections must be redrawn for the chosen site.</p>
+<!--FIG:arch-hero-->
+
+<h3>Design concept</h3>
+<ul>
+<li><b>Traffic first.</b> The highway queue is the biggest safety and permitting risk. The lane runs <i>away</i> from the road: entry from a deceleration lane at the south-east, stacking up the east side, pickup along the north façade, exit down the west side to an acceleration lane. A spill-back onto the carriageway would need more than 12 cars waiting at once.</li>
+<li><b>A roof that reads at 90 km/h.</b> A hyperbolic-paraboloid roof (lowest corner 4.15 m, highest 7.30 m) sweeps up towards the approach, with an oak-batten soffit and a clerestory. An 11 m tuff tower carries the lit symbol; the 8 m pylon stands at the entry.</li>
+<li><b>Armenian materials, modern detailing.</b> Sawn volcanic tuff (apricot/rose blend, open joints), dark-bronze aluminium frames, low-iron solar-control glazing, basalt pavers on the plaza.</li>
+<li><b>Hybrid by design.</b> The same building serves the drive-thru lane, walk-up customers, a 12-seat café, a 62 m² terrace and two accessible unisex restrooms with baby change. Restrooms are deliberate: on intercity roads the fuel stations own the stop because they offer toilets and parking <sup>[A3 §4]</sup>.</li>
+</ul>
+
+<h3>Site plan and circulation</h3>
+<p>Site coverage is 5.3%. Most of the plot is lane, parking and landscape, which is typical of drive-thru pads.</p>
+<!--FIG:arch-dims-->
+<div class="tscroll"><table><thead><tr><th>Stacking segment</th><th class="num">Cars</th></tr></thead><tbody>
+<tr><td>Pickup lane (window to merge)</td><td class="num">3.8</td></tr>
+<tr><td>Merge curve</td><td class="num">2.2</td></tr>
+<tr><td>Dual order lanes (both lanes)</td><td class="num">4.8</td></tr>
+<tr><td>Entry throat</td><td class="num">1.7</td></tr>
+<tr><td><b>Total from pickup window</b></td><td class="num"><b>12.5</b></td></tr>
+</tbody></table></div>
+<p>Measured on the parametric layout at 6.0 m per car <span class="tag ESTIMATE">ESTIMATE</span>. The access lanes are indicative: an 86 m deceleration lane (40 m taper plus 46 m parallel) and a 121 m acceleration lane (71 m parallel plus 50 m taper) for a 90 km/h road. Final lengths follow Armenian road norms and the Roads Department's consent <span class="tag ASSUMPTION">ASSUMPTION</span> <sup>[C5]</sup>.</p>
+<div class="callout"><strong>Both-direction service is a site decision, not a design feature.</strong> On a divided road, a right-in/right-out pad only serves one carriageway. Serving both directions needs a grade-separated interchange, a signalised junction or a legal U-turn nearby. That is why the location study (Chapter 3) scores access geometry separately.</div>
+
+<h3>Building programme</h3>
+<div class="tscroll"><table><thead><tr><th>Room</th><th class="num">m²</th><th>Purpose</th></tr></thead><tbody>
+<tr><td>R1 Drive-thru bar and beverage line</td><td class="num">70</td><td>14 m linear line: cold bar · 2 espresso stations · pay window W1 · food finish · pickup window W2</td></tr>
+<tr><td>R2 Back of house</td><td class="num">25</td><td>Dry store and 2.4 × 2.0 m walk-in cooler</td></tr>
+<tr><td>R3 Café and order counter</td><td class="num">32</td><td>12 seats, pastry display, pickup plane</td></tr>
+<tr><td>R4 Guest restrooms</td><td class="num">22</td><td>2 accessible unisex WCs and baby change</td></tr>
+<tr><td>R5 Staff room and office</td><td class="num">12</td><td>Lockers, office</td></tr>
+<tr><td>R6 Staff WC and plant</td><td class="num">10</td><td>Mop sink, plant and IT</td></tr>
+</tbody></table></div>
+<p>Key equipment: a 3-group espresso machine on the lane and a 2-group in the café (one backs up the other), two grinders, two high-speed ovens for bake-off and warm food, blender station and cold-brew taps, ice machine, batch brewer, four under-counter milk fridges, reach-in freezer, undercounter dishwasher, and order-confirm screens with POS at W1. Equipment pricing and suppliers are in Chapter 6.</p>
+<!--FIG:arch-cutaway-->
+
+<h3>Renders</h3>
+<!--FIG:arch-gallery-day-->
+<!--FIG:arch-gallery-dusk-->
+
+<h3>Interactive 3D model</h3>
+<!--FIG:arch-viewer-->
+
+<h3>Scaled drawings</h3>
+<!--FIG:arch-drawings-->
+
+<h3>Options and adaptation</h3>
+<ul>
+<li><b>Rooftop PV.</b> The upper roof planes can take about 99 modules (≈40 kWp at 400 W per module) <span class="tag ESTIMATE">ESTIMATE</span>. Armenian net metering is available up to 150 kW per connection <span class="tag REPORTED">REPORTED</span> <sup>[C1]</sup>. Shown in the renders, not included in base capex.</li>
+<li><b>Compact variant.</b> For a 2,000–2,500 m² urban or fuel-station plot: drop the café seating and terrace, keep restrooms if the host site lacks them, single order point with order-ahead lane. This cuts building area and site works, the two biggest capex lines.</li>
+<li><b>Climate.</b> Winter operation needs snow storage on the plot edges, heated window sills and air curtains at the windows; summer needs shade on the stacking lanes. Both are cheaper to plan now than to retrofit.</li>
+</ul>
+<h4>Sources</h4>
+<ol>
+<li>Parametric layout: <code>design/site_layout.py</code> → <code>design/layout.json</code>; drawings <code>design/drawings/</code>; Blender scene <code>design/3d/</code>.</li>
+<li><code>research/A3-qsr-fuel-convenience.md</code> §4 (who owns the roadside stop).</li>
+<li><code>research/C1-construction-costs.md</code> (tariff and solar, net metering).</li>
+<li><code>research/C5-regulations.md</code> (highway access consent and permits).</li>
+</ol>
+</section>

@@ -58,11 +58,28 @@ def esc(t):
     return str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def text(x, y, s, size, fill, family=None, weight=800, anchor="start", ls=0, extra=""):
+def text(x, y, s, size, fill, family=None, weight=800, anchor="start", ls=0, extra="", tl=None):
     family = family or FONT_D
     s = esc(s)
+    if tl:  # lock the rendered width so the lock-up is identical whatever font the viewer resolves
+        return (f'<text x="{x}" y="{y}" font-family="{family}" font-size="{size}" font-weight="{weight}" fill="{fill}" '
+                f'text-anchor="{anchor}" textLength="{tl:.1f}" lengthAdjust="spacingAndGlyphs" {extra}>{s}</text>')
     return (f'<text x="{x}" y="{y}" font-family="{family}" font-size="{size}" font-weight="{weight}" fill="{fill}" '
             f'text-anchor="{anchor}" letter-spacing="{ls}" {extra}>{s}</text>')
+
+
+FONT_FILES = {"display": "/root/.fonts/Unbounded-800.ttf", "armenian": "/root/.fonts/NotoSansArmenian-800.ttf"}
+
+
+def measure(s, kind, size, ls=0.0):
+    """Advance width in px of string s set in the brand font (fontTools), plus letter-spacing between glyphs."""
+    try:
+        from fontTools.ttLib import TTFont
+        t = TTFont(FONT_FILES[kind]); cmap = t.getBestCmap(); hm = t["hmtx"]; upm = t["head"].unitsPerEm
+        w = sum(hm[cmap[ord(c)]][0] for c in s) / upm * size
+    except Exception:
+        w = len(s) * size * (0.66 if kind == "display" else 0.48)
+    return w + ls * (len(s) - 1)
 
 
 def write(name, content):
@@ -76,18 +93,24 @@ def logos():
     files = {}
     files["symbol"] = write("logo_symbol.svg", svg(100, 120, symbol(C["accent"], C["light"])))
     files["symbol_dark"] = write("logo_symbol_on_dark.svg", svg(140, 160, symbol(C["accent"], C["primary"], 20, 20), bg=C["primary"]))
-    files["horizontal"] = write("logo_horizontal.svg", svg(760, 160,
-        symbol(C["accent"], C["light"], 10, 20) + text(140, 116, NAME, 92, C["primary"], ls=4)))
-    files["horizontal_rev"] = write("logo_horizontal_reverse.svg", svg(800, 200,
-        symbol(C["accent"], C["primary"], 30, 40) + text(160, 136, NAME, 92, C["light"], ls=4), bg=C["primary"]))
-    files["stacked"] = write("logo_stacked.svg", svg(420, 420,
-        symbol(C["accent"], C["light"], 150, 40) + text(210, 290, NAME, 74, C["primary"], anchor="middle", ls=4)
-        + text(210, 345, NAME_HY, 46, C["primary"], family=FONT_A, anchor="middle", weight=700, ls=6)))
-    files["bilingual"] = write("logo_bilingual.svg", svg(1060, 200,
-        symbol(C["accent"], C["light"], 20, 30) + text(150, 132, NAME_HY, 96, C["primary"], family=FONT_A, weight=800, ls=6)
-        + f'<rect x="530" y="58" width="3" height="84" fill="{C["accent"]}"/>'
-        + text(560, 130, NAME, 88, C["primary"], ls=4)))
-    files["wordmark"] = write("wordmark.svg", svg(640, 140, text(10, 112, NAME, 100, C["primary"], ls=5)))
+    wH = measure(NAME, "display", 92, 4)
+    files["horizontal"] = write("logo_horizontal.svg", svg(int(140 + wH + 24), 160,
+        symbol(C["accent"], C["light"], 10, 20) + text(140, 116, NAME, 92, C["primary"], tl=wH)))
+    files["horizontal_rev"] = write("logo_horizontal_reverse.svg", svg(int(160 + wH + 40), 200,
+        symbol(C["accent"], C["primary"], 30, 40) + text(160, 136, NAME, 92, C["light"], tl=wH), bg=C["primary"]))
+    wS, wSa = measure(NAME, "display", 64, 4), measure(NAME_HY, "armenian", 44, 6)
+    W = int(max(wS, wSa) + 70)
+    files["stacked"] = write("logo_stacked.svg", svg(W, 400,
+        symbol(C["accent"], C["light"], W / 2 - 50, 36) + text(W / 2, 262, NAME, 64, C["primary"], anchor="middle", tl=wS)
+        + text(W / 2, 330, NAME_HY, 44, C["primary"], family=FONT_A, anchor="middle", weight=700, tl=wSa)))
+    wA, wL = measure(NAME_HY, "armenian", 92, 6), measure(NAME, "display", 84, 4)
+    xr = 150 + wA + 30
+    files["bilingual"] = write("logo_bilingual.svg", svg(int(xr + 32 + wL + 30), 200,
+        symbol(C["accent"], C["light"], 20, 30) + text(150, 132, NAME_HY, 92, C["primary"], family=FONT_A, weight=800, tl=wA)
+        + f'<rect x="{xr:.0f}" y="58" width="3" height="84" fill="{C["accent"]}"/>'
+        + text(xr + 32, 129, NAME, 84, C["primary"], tl=wL)))
+    wW = measure(NAME, "display", 100, 5)
+    files["wordmark"] = write("wordmark.svg", svg(int(wW + 30), 140, text(10, 112, NAME, 100, C["primary"], tl=wW)))
     return files
 
 

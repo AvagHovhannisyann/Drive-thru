@@ -22,6 +22,7 @@ import charts as C  # noqa: E402
 import engine  # noqa: E402
 import frame  # noqa: E402
 from make_maps import corridor_svg  # noqa: E402
+import figs_design  # noqa: E402
 
 SITE = ROOT / "report/site"
 ASSETS = SITE / "assets"
@@ -134,6 +135,24 @@ def figures(a, res):
     return F
 
 
+def map_figs():
+    F = {}
+    ch_dt = {"lat": 40.2593, "lon": 44.5976, "label": "Coffee House drive-thru"}
+    F["map-competitors"] = ('<figure style="margin:22px 0">' + corridor_svg(competitors=[ch_dt], title="M-4 Yerevan–Sevan corridor") +
+                            '<figcaption style="color:var(--ink-3);font-size:13.5px;margin-top:8px">M-4 corridor from the Yerevan edge to Sevan. '
+                            'Orange: fuel stations; blue: cafés, fast food and restaurants within 200 m of the road (OSM extract, B2); '
+                            'red triangle: the existing Coffee House drive-thru at Ptghni (A2).</figcaption></figure>')
+    sites_file = ROOT / "strategy/sites.json"
+    if sites_file.exists():
+        sites = json.loads(sites_file.read_text())
+        F["map-sites"] = ('<figure style="margin:22px 0">' + corridor_svg(sites=sites, competitors=[ch_dt], bbox=[39.95, 44.2, 40.62, 45.05],
+                                                                       roads_file="region.json", places_file="region.json", pois=False,
+                                                                       title="Candidate sites around Yerevan") +
+                          '<figcaption style="color:var(--ink-3);font-size:13.5px;margin-top:8px">Scored candidate sites (numbers match the scoring table). '
+                          'Filled marker: recommended first site. Road network © OpenStreetMap contributors.</figcaption></figure>')
+    return F
+
+
 def fragment(cid):
     p = FRAG / f"{cid}.html"
     if p.exists():
@@ -148,9 +167,14 @@ def build(extra_figs=None):
     ASSETS.mkdir(parents=True)
     a, res, src = load_results()
     F = figures(a, res)
+    F.update(figs_design.brand_figs(img))
+    F.update(figs_design.arch_figs(img, copy_asset, json.loads((ROOT / "design/layout.json").read_text())))
+    F.update(map_figs())
     F.update(extra_figs or {})
     body = []
-    hero = ROOT / "design/renders/hero_dusk.png"
+    hero = ROOT / "design/renders/final/hero_dusk.png"
+    if not hero.exists():
+        hero = ROOT / "design/renders/hero_dusk.png"
     if not hero.exists():
         hero = next(iter(sorted((ROOT / "design/renders").glob("*.png"))), None)
     hero_src = copy_asset(hero, "hero.png") if hero else ""

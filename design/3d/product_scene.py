@@ -226,27 +226,27 @@ for p in floor.data.polygons:
     p.use_smooth = True
 floor.data.materials.append(mat("sweep", tuple(c * 0.9 for c in CREAM), rough=0.9))
 
-tuff_m = mat("tuff_block", TUFF, rough=0.9)
+tuff_m = mat("tuff_block", tuple(c * 0.82 for c in TUFF), rough=0.9)
 for (x0, x1, h) in ((-0.33, -0.05, 0.06), (-0.05, 0.36, 0.11)):
     blk = uv_box(f"plinth_{x0}", x0, -0.16, 0.0, x1, 0.16, h, tuff_m)
 # products
-hot_cup("cup_L", 0.06, 0.02, h=0.150, rt=0.047, rb=0.032)
+hot_cup("cup_L", 0.095, -0.005, h=0.150, rt=0.047, rb=0.032)
 for o in bpy.data.objects:
     if o.name.startswith("cup_L") and o.type == "EMPTY":
         o.location.z = 0.11
-hot_cup("cup_S", 0.205, -0.045, h=0.112, rt=0.042, rb=0.029, sleeve=False)
+hot_cup("cup_S", -0.005, -0.075, h=0.112, rt=0.042, rb=0.029, sleeve=False)
 bpy.data.objects["cup_S"].location.z = 0.11
-iced_cup("iced", -0.115, -0.02)
+iced_cup("iced", -0.115, -0.085)
 bpy.data.objects["iced"].location.z = 0.06
 # bag (fold-top)
-bag = uv_box("bag", 0.12, 0.05, 0.11, 0.30, 0.15, 0.40, kraft, bag_front)
+bag = uv_box("bag", 0.15, 0.04, 0.11, 0.33, 0.14, 0.40, kraft, bag_front)
 bag.rotation_euler = (0, 0, math.radians(-12))
 # pastry box
-box = uv_box("pbox", -0.32, -0.12, 0.06, -0.12, 0.08, 0.13, box_white, box_white, box_top)
+box = uv_box("pbox", -0.33, -0.02, 0.06, -0.13, 0.15, 0.13, box_white, box_white, box_top)
 box.location.z += 0.0
 box.rotation_euler = (0, 0, math.radians(8))
 # retail beans bag
-beans = uv_box("beans", 0.25, -0.10, 0.11, 0.34, -0.04, 0.33, beans_side, beans_front)
+beans = uv_box("beans", 0.255, -0.135, 0.11, 0.345, -0.075, 0.33, beans_side, beans_front)
 beans.rotation_euler = (0, 0, math.radians(-25))
 
 # lighting: key softbox, rim, fill; HDRI for reflections
@@ -262,9 +262,9 @@ for (nm, loc, energy, size, col) in (("key", (-0.9, -1.0, 1.2), 55, 1.0, (1.0, 0
     d = Vector((0, 0, 0.15)) - lo.location; lo.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
 cd = bpy.data.cameras.new("cam"); cd.lens = 58; cd.dof.use_dof = True; cd.dof.aperture_fstop = 8.0
 co = bpy.data.objects.new("cam", cd); sc.collection.objects.link(co); sc.camera = co
-co.location = (0.12, -2.05, 0.72)
-d = Vector((0.0, 0.0, 0.16)) - co.location; co.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
-cd.dof.focus_distance = (Vector((0.05, 0.0, 0.18)) - co.location).length
+co.location = (0.03, -1.52, 0.56)
+d = Vector((0.015, 0.0, 0.175)) - co.location; co.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
+cd.dof.focus_distance = (Vector((0.05, -0.04, 0.18)) - co.location).length
 
 sc.render.engine = "CYCLES"; sc.cycles.device = "CPU"
 sc.cycles.samples = int(arg("--samples", "64")); sc.cycles.use_denoising = True
@@ -273,7 +273,7 @@ sc.render.resolution_x, sc.render.resolution_y = 1920, 1080
 sc.render.resolution_percentage = int(arg("--pct", "50"))
 sc.view_settings.view_transform = "AgX"
 try:
-    sc.view_settings.look = "AgX - Medium High Contrast"
+    sc.view_settings.look = "AgX - Punchy"
 except Exception:
     pass
 sc.render.filepath = arg("--out", f"{ROOT}/design/renders/packaging.png")

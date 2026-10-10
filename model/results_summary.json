@@ -1,0 +1,1202 @@
+{
+ "assumptions_file": "assumptions.json",
+ "fx_amd_per_usd": 385.0,
+ "concept_modelled": "mid",
+ "tax_regime": "catering_tt",
+ "note": "AMD nominal. Revenue = gross receipts incl. VAT-equivalent (catering turnover-tax regime: no VAT on sales). EBITDA is after turnover tax.",
+ "capex_by_concept": {
+  "lean": {
+   "capex_amd": 123000000,
+   "pre_opening_amd": 8000000,
+   "investment_amd": 131000000,
+   "investment_usd": 340260.0,
+   "by_class_amd": {
+    "building": 40000000,
+    "site_works": 40000000,
+    "equipment": 25000000,
+    "technology": 4000000,
+    "signage": 6000000,
+    "soft": 8000000
+   },
+   "items": [
+    {
+     "name": "Modular building",
+     "amd": 40000000,
+     "dep_class": "building",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Site works",
+     "amd": 30000000,
+     "dep_class": "site_works",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Equipment",
+     "amd": 25000000,
+     "dep_class": "equipment",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Technology",
+     "amd": 4000000,
+     "dep_class": "technology",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Signage",
+     "amd": 6000000,
+     "dep_class": "signage",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Soft costs",
+     "amd": 8000000,
+     "dep_class": "soft",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Contingency",
+     "amd": 10000000,
+     "dep_class": "site_works",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    }
+   ]
+  },
+  "mid": {
+   "capex_amd": 238000000,
+   "pre_opening_amd": 14000000,
+   "investment_amd": 252000000,
+   "investment_usd": 654545.0,
+   "by_class_amd": {
+    "building": 90000000,
+    "site_works": 75000000,
+    "equipment": 40000000,
+    "technology": 6000000,
+    "signage": 12000000,
+    "soft": 15000000
+   },
+   "items": [
+    {
+     "name": "Building",
+     "amd": 90000000,
+     "dep_class": "building",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Site works",
+     "amd": 55000000,
+     "dep_class": "site_works",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Equipment",
+     "amd": 40000000,
+     "dep_class": "equipment",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Technology",
+     "amd": 6000000,
+     "dep_class": "technology",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Signage",
+     "amd": 12000000,
+     "dep_class": "signage",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Soft costs",
+     "amd": 15000000,
+     "dep_class": "soft",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Contingency",
+     "amd": 20000000,
+     "dep_class": "site_works",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    }
+   ]
+  },
+  "flagship": {
+   "capex_amd": 359000000,
+   "pre_opening_amd": 20000000,
+   "investment_amd": 379000000,
+   "investment_usd": 984416.0,
+   "by_class_amd": {
+    "building": 150000000,
+    "site_works": 105000000,
+    "equipment": 55000000,
+    "technology": 9000000,
+    "signage": 18000000,
+    "soft": 22000000
+   },
+   "items": [
+    {
+     "name": "Building",
+     "amd": 150000000,
+     "dep_class": "building",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Site works",
+     "amd": 75000000,
+     "dep_class": "site_works",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Equipment",
+     "amd": 55000000,
+     "dep_class": "equipment",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Technology",
+     "amd": 9000000,
+     "dep_class": "technology",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Signage",
+     "amd": 18000000,
+     "dep_class": "signage",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Soft costs",
+     "amd": 22000000,
+     "dep_class": "soft",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    },
+    {
+     "name": "Contingency",
+     "amd": 30000000,
+     "dep_class": "site_works",
+     "status": "ASSUMPTION",
+     "source": "PLACEHOLDER"
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "conservative": {
+   "investment_amd": 252000000,
+   "investment_usd": 654545.0,
+   "years": [
+    {
+     "net": 50353836.0,
+     "turnover_tax": 1762384.0,
+     "cogs": 17623843.0,
+     "labour": 43082400.0,
+     "rent": 21600000.0,
+     "opex": 113719726.0,
+     "ebitda": -65128275.0,
+     "ebitda_margin": -1.293,
+     "dep": 27400000.0,
+     "ebit": -92528275.0,
+     "tax": 0.0,
+     "net_income": -92528275.0,
+     "ocf": -65611120.0,
+     "fcf": -65611120.0,
+     "transactions": 22888.0,
+     "tx_per_day": 63.6,
+     "avg_ticket": 2200.0
+    },
+    {
+     "net": 69406643.0,
+     "turnover_tax": 2429233.0,
+     "cogs": 24292325.0,
+     "labour": 46374192.0,
+     "rent": 22572000.0,
+     "opex": 114849952.0,
+     "ebitda": -47872541.0,
+     "ebitda_margin": -0.69,
+     "dep": 27400000.0,
+     "ebit": -75272541.0,
+     "tax": 0.0,
+     "net_income": -75272541.0,
+     "ocf": -48055239.0,
+     "fcf": -48749306.0,
+     "transactions": 30630.0,
+     "tx_per_day": 85.1,
+     "avg_ticket": 2266.0
+    },
+    {
+     "net": 74031229.0,
+     "turnover_tax": 2591093.0,
+     "cogs": 25910930.0,
+     "labour": 49929327.0,
+     "rent": 23587740.0,
+     "opex": 122105800.0,
+     "ebitda": -50665665.0,
+     "ebitda_margin": -0.684,
+     "dep": 27400000.0,
+     "ebit": -78065665.0,
+     "tax": 0.0,
+     "net_income": -78065665.0,
+     "ocf": -50710010.0,
+     "fcf": -51450322.0,
+     "transactions": 31719.0,
+     "tx_per_day": 88.1,
+     "avg_ticket": 2334.0
+    },
+    {
+     "net": 78976356.0,
+     "turnover_tax": 2764172.0,
+     "cogs": 27641724.0,
+     "labour": 53768874.0,
+     "rent": 24649188.0,
+     "opex": 129860995.0,
+     "ebitda": -53648812.0,
+     "ebitda_margin": -0.679,
+     "dep": 25400000.0,
+     "ebit": -79048812.0,
+     "tax": 0.0,
+     "net_income": -79048812.0,
+     "ocf": -53696231.0,
+     "fcf": -54485994.0,
+     "transactions": 32852.0,
+     "tx_per_day": 91.3,
+     "avg_ticket": 2404.0
+    },
+    {
+     "net": 84264641.0,
+     "turnover_tax": 2949262.0,
+     "cogs": 29492624.0,
+     "labour": 57915583.0,
+     "rent": 25758402.0,
+     "opex": 138151487.0,
+     "ebitda": -56836109.0,
+     "ebitda_margin": -0.674,
+     "dep": 25400000.0,
+     "ebit": -82236109.0,
+     "tax": 0.0,
+     "net_income": -82236109.0,
+     "ocf": -56886819.0,
+     "fcf": -57729465.0,
+     "transactions": 34031.0,
+     "tx_per_day": 94.5,
+     "avg_ticket": 2476.0
+    }
+   ],
+   "payback_month": null,
+   "irr_5y_with_residual": -0.5473,
+   "irr_5y_no_residual": null,
+   "npv_amd": -381368774.0,
+   "residual_amd": 105000000.0,
+   "roic_y3": -0.3098,
+   "cum_cash_m60_amd": -530026208.0,
+   "breakeven": {
+    "variable_cost_pct_of_net": 0.43,
+    "fixed_costs_year": 84970392.0,
+    "contribution_per_tx": 1290.49,
+    "ticket_net": 2266.0,
+    "tx_per_day_ebitda_breakeven": 194.88,
+    "tx_per_day_ebit_breakeven": 263.66,
+    "vehicles_per_day_breakeven": 29915.15,
+    "tx_per_day_4yr_payback": 353.29,
+    "vehicles_per_day_4yr_payback": 55548.54,
+    "capture_used": 0.01,
+    "access_used": 0.5,
+    "revenue_breakeven": 158971734.33,
+    "regime": "catering_tt"
+   },
+   "peak_month_tx_day": 133.1,
+   "low_month_tx_day_y2": 59.4
+  },
+  "base": {
+   "investment_amd": 252000000,
+   "investment_usd": 654545.0,
+   "years": [
+    {
+     "net": 140739332.0,
+     "turnover_tax": 4925877.0,
+     "cogs": 46443980.0,
+     "labour": 43082400.0,
+     "rent": 18000000.0,
+     "opex": 146215896.0,
+     "ebitda": -10402440.0,
+     "ebitda_margin": -0.074,
+     "dep": 27400000.0,
+     "ebit": -37802440.0,
+     "tax": 0.0,
+     "net_income": -37802440.0,
+     "ocf": -11674878.0,
+     "fcf": -11674878.0,
+     "transactions": 54131.0,
+     "tx_per_day": 150.4,
+     "avg_ticket": 2600.0
+    },
+    {
+     "net": 186502313.0,
+     "turnover_tax": 7478158.0,
+     "cogs": 61545763.0,
+     "labour": 45962718.0,
+     "rent": 18720000.0,
+     "opex": 157192318.0,
+     "ebitda": 21831838.0,
+     "ebitda_margin": 0.117,
+     "dep": 27400000.0,
+     "ebit": -5568162.0,
+     "tax": 0.0,
+     "net_income": -5568162.0,
+     "ocf": 21418090.0,
+     "fcf": 19553067.0,
+     "transactions": 69306.0,
+     "tx_per_day": 192.5,
+     "avg_ticket": 2691.0
+    },
+    {
+     "net": 207992367.0,
+     "turnover_tax": 9898587.0,
+     "cogs": 68637481.0,
+     "labour": 49044658.0,
+     "rent": 19468800.0,
+     "opex": 170458741.0,
+     "ebitda": 27635039.0,
+     "ebitda_margin": 0.133,
+     "dep": 27400000.0,
+     "ebit": 235039.0,
+     "tax": 0.0,
+     "net_income": 235039.0,
+     "ocf": 27440745.0,
+     "fcf": 25360822.0,
+     "transactions": 74678.0,
+     "tx_per_day": 207.4,
+     "avg_ticket": 2785.0
+    },
+    {
+     "net": 232097812.0,
+     "turnover_tax": 11508857.0,
+     "cogs": 76592278.0,
+     "labour": 52342334.0,
+     "rent": 20247552.0,
+     "opex": 185069031.0,
+     "ebitda": 35519924.0,
+     "ebitda_margin": 0.153,
+     "dep": 25400000.0,
+     "ebit": 10119924.0,
+     "tax": 0.0,
+     "net_income": 10119924.0,
+     "ocf": 35301985.0,
+     "fcf": 32981007.0,
+     "transactions": 80515.0,
+     "tx_per_day": 223.7,
+     "avg_ticket": 2883.0
+    },
+    {
+     "net": 259142211.0,
+     "turnover_tax": 13341311.0,
+     "cogs": 85516930.0,
+     "labour": 55870848.0,
+     "rent": 21057454.0,
+     "opex": 201173292.0,
+     "ebitda": 44627608.0,
+     "ebitda_margin": 0.172,
+     "dep": 25400000.0,
+     "ebit": 19227608.0,
+     "tax": 0.0,
+     "net_income": 19227608.0,
+     "ocf": 44383097.0,
+     "fcf": 41791675.0,
+     "transactions": 86857.0,
+     "tx_per_day": 241.3,
+     "avg_ticket": 2984.0
+    }
+   ],
+   "payback_month": null,
+   "irr_5y_with_residual": -0.0362,
+   "irr_5y_no_residual": -0.1843,
+   "npv_amd": -151240646.0,
+   "residual_amd": 105000000.0,
+   "roic_y3": 0.0009,
+   "cum_cash_m60_amd": -143988307.0,
+   "breakeven": {
+    "variable_cost_pct_of_net": 0.41,
+    "fixed_costs_year": 80633118.0,
+    "contribution_per_tx": 1586.34,
+    "ticket_net": 2691.0,
+    "tx_per_day_ebitda_breakeven": 150.11,
+    "tx_per_day_ebit_breakeven": 205.95,
+    "vehicles_per_day_breakeven": 12398.05,
+    "tx_per_day_4yr_payback": 278.71,
+    "vehicles_per_day_4yr_payback": 24652.93,
+    "capture_used": 0.02,
+    "access_used": 0.55,
+    "revenue_breakeven": 145415902.61,
+    "regime": "catering_tt"
+   },
+   "peak_month_tx_day": 342.3,
+   "low_month_tx_day_y2": 133.6
+  },
+  "optimistic": {
+   "investment_amd": 252000000,
+   "investment_usd": 654545.0,
+   "years": [
+    {
+     "net": 321938472.0,
+     "turnover_tax": 20008890.0,
+     "cogs": 99800926.0,
+     "labour": 43082400.0,
+     "rent": 15600000.0,
+     "opex": 211759373.0,
+     "ebitda": 90170209.0,
+     "ebitda_margin": 0.28,
+     "dep": 27400000.0,
+     "ebit": 62770209.0,
+     "tax": 0.0,
+     "net_income": 62770209.0,
+     "ocf": 87435937.0,
+     "fcf": 87435937.0,
+     "transactions": 107313.0,
+     "tx_per_day": 298.1,
+     "avg_ticket": 3000.0
+    },
+    {
+     "net": 420107622.0,
+     "turnover_tax": 29233732.0,
+     "cogs": 130233363.0,
+     "labour": 45551244.0,
+     "rent": 16146000.0,
+     "opex": 241625870.0,
+     "ebitda": 149248020.0,
+     "ebitda_margin": 0.355,
+     "dep": 27400000.0,
+     "ebit": 121848020.0,
+     "tax": 0.0,
+     "net_income": 121848020.0,
+     "ocf": 148414255.0,
+     "fcf": 144213178.0,
+     "transactions": 134650.0,
+     "tx_per_day": 374.0,
+     "avg_ticket": 3120.0
+    },
+    {
+     "net": 494780931.0,
+     "turnover_tax": 35336435.0,
+     "cogs": 153382089.0,
+     "labour": 48168219.0,
+     "rent": 16711110.0,
+     "opex": 274502563.0,
+     "ebitda": 184941933.0,
+     "ebitda_margin": 0.374,
+     "dep": 27400000.0,
+     "ebit": 157541933.0,
+     "tax": 0.0,
+     "net_income": 157541933.0,
+     "ocf": 184307721.0,
+     "fcf": 179359912.0,
+     "transactions": 152484.0,
+     "tx_per_day": 423.6,
+     "avg_ticket": 3245.0
+    },
+    {
+     "net": 583422395.0,
+     "turnover_tax": 42625668.0,
+     "cogs": 180860943.0,
+     "labour": 50942212.0,
+     "rent": 17295999.0,
+     "opex": 313029332.0,
+     "ebitda": 227767396.0,
+     "ebitda_margin": 0.39,
+     "dep": 25400000.0,
+     "ebit": 202367396.0,
+     "tax": 0.0,
+     "net_income": 202367396.0,
+     "ocf": 227014550.0,
+     "fcf": 221180326.0,
+     "transactions": 172887.0,
+     "tx_per_day": 480.2,
+     "avg_ticket": 3375.0
+    },
+    {
+     "net": 688674537.0,
+     "turnover_tax": 51328259.0,
+     "cogs": 213489106.0,
+     "labour": 53882644.0,
+     "rent": 17901359.0,
+     "opex": 358248849.0,
+     "ebitda": 279097429.0,
+     "ebitda_margin": 0.405,
+     "dep": 25400000.0,
+     "ebit": 253697429.0,
+     "tax": 0.0,
+     "net_income": 253697429.0,
+     "ocf": 278203507.0,
+     "fcf": 271316761.0,
+     "transactions": 196227.0,
+     "tx_per_day": 545.1,
+     "avg_ticket": 3510.0
+    }
+   ],
+   "payback_month": 26,
+   "irr_5y_with_residual": 0.5345,
+   "irr_5y_no_residual": 0.5064,
+   "npv_amd": 313407767.0,
+   "residual_amd": 105000000.0,
+   "roic_y3": 0.6252,
+   "cum_cash_m60_amd": 651506114.0,
+   "breakeven": {
+    "variable_cost_pct_of_net": 0.39,
+    "fixed_costs_year": 77573844.0,
+    "contribution_per_tx": 1901.64,
+    "ticket_net": 3120.0,
+    "tx_per_day_ebitda_breakeven": 120.22,
+    "tx_per_day_ebit_breakeven": 166.72,
+    "vehicles_per_day_breakeven": 5467.74,
+    "tx_per_day_4yr_payback": 227.29,
+    "vehicles_per_day_4yr_payback": 11956.88,
+    "capture_used": 0.03,
+    "access_used": 0.6,
+    "revenue_breakeven": 135028449.09,
+    "regime": "catering_tt"
+   },
+   "peak_month_tx_day": 780.2,
+   "low_month_tx_day_y2": 256.5
+  }
+ },
+ "required_vehicles_grid": {
+  "captures": [
+   0.004,
+   0.006,
+   0.008,
+   0.01,
+   0.012,
+   0.015,
+   0.02
+  ],
+  "tickets_amd": [
+   1600,
+   2000,
+   2400,
+   2800,
+   3200,
+   3600
+  ],
+  "vehicles_per_day": [
+   [
+    101782.0,
+    79608.0,
+    64825.0,
+    54265.0,
+    46346.0,
+    40186.0
+   ],
+   [
+    67855.0,
+    53072.0,
+    43216.0,
+    36177.0,
+    30897.0,
+    26791.0
+   ],
+   [
+    50891.0,
+    39804.0,
+    32412.0,
+    27133.0,
+    23173.0,
+    20093.0
+   ],
+   [
+    40713.0,
+    31843.0,
+    25930.0,
+    21706.0,
+    18538.0,
+    16074.0
+   ],
+   [
+    33927.0,
+    26536.0,
+    21608.0,
+    18088.0,
+    15449.0,
+    13395.0
+   ],
+   [
+    27142.0,
+    21229.0,
+    17287.0,
+    14471.0,
+    12359.0,
+    10716.0
+   ],
+   [
+    20356.0,
+    15922.0,
+    12965.0,
+    10853.0,
+    9269.0,
+    8037.0
+   ]
+  ]
+ },
+ "tornado_y3_ebitda": [
+  {
+   "label": "Capture rate ±30%",
+   "low": -1009765.0,
+   "high": 56113159.0,
+   "base": 27635039.0
+  },
+  {
+   "label": "Passing traffic ±20%",
+   "low": 9411454.0,
+   "high": 46620452.0,
+   "base": 27635039.0
+  },
+  {
+   "label": "Accessible share ±20%",
+   "low": 9411454.0,
+   "high": 46620452.0,
+   "base": 27635039.0
+  },
+  {
+   "label": "Average ticket ±15%",
+   "low": 12954128.0,
+   "high": 43393425.0,
+   "base": 27635039.0
+  },
+  {
+   "label": "Labour cost ±20%",
+   "low": 36208997.0,
+   "high": 19643657.0,
+   "base": 27635039.0
+  },
+  {
+   "label": "COGS ±3 pp",
+   "low": 33313231.0,
+   "high": 21956847.0,
+   "base": 27635039.0
+  },
+  {
+   "label": "Rent ±30%",
+   "low": 32950021.0,
+   "high": 22360920.0,
+   "base": 27635039.0
+  },
+  {
+   "label": "Seasonality amplitude ±30%",
+   "low": 28428271.0,
+   "high": 26841807.0,
+   "base": 27635039.0
+  }
+ ],
+ "assumptions": {
+  "concept": {
+   "label": "Concept modelled",
+   "value": "mid",
+   "unit": "",
+   "status": "ASSUMPTION",
+   "source": "Recommended concept",
+   "basis": ""
+  },
+  "fx_amd_per_usd": {
+   "label": "Exchange rate",
+   "value": 385.0,
+   "unit": "AMD/USD",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER — replace with CBA rate",
+   "basis": ""
+  },
+  "opening_month": {
+   "label": "Opening calendar month",
+   "value": 5,
+   "unit": "month",
+   "status": "ASSUMPTION",
+   "source": "Open in May to catch first summer season",
+   "basis": ""
+  },
+  "open_days_per_year": {
+   "label": "Trading days per year",
+   "value": 360,
+   "unit": "days",
+   "status": "ASSUMPTION",
+   "source": "Closed ~5 days (New Year 1 Jan, Christmas 6 Jan, severe weather)",
+   "basis": ""
+  },
+  "tax_regime": {
+   "label": "Tax regime (catering_tt or vat)",
+   "value": "catering_tt",
+   "unit": "",
+   "status": "VERIFIED",
+   "source": "C4 §1 #1/#4 — Tax Code Art. 254(6)-(7), 258: catering turnover tax, no revenue cap; replaces VAT and profit tax",
+   "basis": ""
+  },
+  "tt_rate": {
+   "label": "Catering turnover tax rate",
+   "value": 0.12,
+   "unit": "of receipts",
+   "status": "VERIFIED",
+   "source": "C4 §1 #1 — Art. 258 (2026, outside Yerevan from 1 Jan 2026)",
+   "basis": ""
+  },
+  "tt_deduction_rate": {
+   "label": "TT deduction rate",
+   "value": 0.09,
+   "unit": "of documented opex",
+   "status": "VERIFIED",
+   "source": "C4 §1 #1 — Art. 258; capex, depreciation, repairs excluded",
+   "basis": ""
+  },
+  "tt_min_rate": {
+   "label": "TT minimum rate",
+   "value": 0.035,
+   "unit": "of receipts",
+   "status": "VERIFIED",
+   "source": "C4 §1 #1 — Art. 258 floor",
+   "basis": ""
+  },
+  "vat_rate": {
+   "label": "VAT",
+   "value": 0.2,
+   "unit": "",
+   "status": "VERIFIED",
+   "source": "RA Tax Code art. 63",
+   "basis": ""
+  },
+  "profit_tax_rate": {
+   "label": "Profit tax",
+   "value": 0.18,
+   "unit": "",
+   "status": "VERIFIED",
+   "source": "RA Tax Code art. 115",
+   "basis": ""
+  },
+  "discount_rate": {
+   "label": "Discount rate (AMD)",
+   "value": 0.18,
+   "unit": "",
+   "status": "ASSUMPTION",
+   "source": "AMD equity hurdle: CBA policy rate ~6.75% + SME/country/start-up premium",
+   "basis": ""
+  },
+  "traffic_aadt": {
+   "label": "Passing traffic (AADT, two-way)",
+   "value": {
+    "conservative": 12000,
+    "base": 16000,
+    "optimistic": 20000
+   },
+   "unit": "veh/day two-way",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "traffic_growth": {
+   "label": "Traffic growth",
+   "value": {
+    "conservative": 0.01,
+    "base": 0.025,
+    "optimistic": 0.04
+   },
+   "unit": "/yr",
+   "status": "ASSUMPTION",
+   "source": "Motorisation trend",
+   "basis": ""
+  },
+  "accessible_share": {
+   "label": "Share of traffic that can access",
+   "value": {
+    "conservative": 0.5,
+    "base": 0.55,
+    "optimistic": 0.6
+   },
+   "unit": "",
+   "status": "ASSUMPTION",
+   "source": "Right-in/right-out from one carriageway + some U-turn capture",
+   "basis": ""
+  },
+  "capture_rate": {
+   "label": "Capture rate of accessible vehicles (Y1 steady state)",
+   "value": {
+    "conservative": 0.012,
+    "base": 0.018,
+    "optimistic": 0.025
+   },
+   "unit": "",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "capture_growth": {
+   "label": "Capture growth",
+   "value": {
+    "conservative": 0.03,
+    "base": 0.06,
+    "optimistic": 0.1
+   },
+   "unit": "/yr",
+   "status": "ASSUMPTION",
+   "source": "Brand awareness build Y2-Y5",
+   "basis": ""
+  },
+  "seasonality_index": {
+   "label": "Monthly traffic seasonality (mean = 1)",
+   "value": [
+    0.66,
+    0.68,
+    0.8,
+    0.92,
+    1.02,
+    1.2,
+    1.42,
+    1.46,
+    1.14,
+    0.96,
+    0.82,
+    0.92
+   ],
+   "unit": "index",
+   "status": "ESTIMATE",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "ramp_curve": {
+   "label": "Opening ramp (capture multiplier, months 1-12)",
+   "value": {
+    "conservative": [
+     0.45,
+     0.55,
+     0.65,
+     0.72,
+     0.78,
+     0.83,
+     0.87,
+     0.9,
+     0.93,
+     0.95,
+     0.97,
+     0.98
+    ],
+    "base": [
+     0.55,
+     0.65,
+     0.74,
+     0.81,
+     0.86,
+     0.9,
+     0.93,
+     0.95,
+     0.97,
+     0.98,
+     0.99,
+     1.0
+    ],
+    "optimistic": [
+     0.65,
+     0.75,
+     0.83,
+     0.89,
+     0.93,
+     0.96,
+     0.98,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "unit": "",
+   "status": "ASSUMPTION",
+   "source": "Typical new-unit ramp",
+   "basis": ""
+  },
+  "avg_ticket_amd": {
+   "label": "Average transaction value (per order)",
+   "value": {
+    "conservative": 2200,
+    "base": 2600,
+    "optimistic": 3000
+   },
+   "unit": "AMD incl. VAT",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "other_transactions_day": {
+   "label": "Non-highway transactions/day",
+   "value": {
+    "conservative": 10,
+    "base": 20,
+    "optimistic": 30
+   },
+   "unit": "tx/day",
+   "status": "ASSUMPTION",
+   "source": "Walk-in locals, staff of nearby businesses, pre-orders",
+   "basis": ""
+  },
+  "price_inflation": {
+   "label": "Menu price growth",
+   "value": {
+    "conservative": 0.03,
+    "base": 0.035,
+    "optimistic": 0.04
+   },
+   "unit": "/yr",
+   "status": "ASSUMPTION",
+   "source": "CBA inflation target 4% ±1.5",
+   "basis": ""
+  },
+  "cost_inflation": {
+   "label": "Non-labour cost inflation",
+   "value": {
+    "conservative": 0.045,
+    "base": 0.04,
+    "optimistic": 0.035
+   },
+   "unit": "/yr",
+   "status": "ASSUMPTION",
+   "source": "",
+   "basis": ""
+  },
+  "wage_growth": {
+   "label": "Wage growth",
+   "value": {
+    "conservative": 0.08,
+    "base": 0.07,
+    "optimistic": 0.06
+   },
+   "unit": "/yr",
+   "status": "ASSUMPTION",
+   "source": "Nominal wage growth",
+   "basis": ""
+  },
+  "cogs_pct": {
+   "label": "Food, beverage & packaging cost",
+   "value": {
+    "conservative": 0.33,
+    "base": 0.31,
+    "optimistic": 0.29
+   },
+   "unit": "of net sales",
+   "status": "ESTIMATE",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "waste_pct": {
+   "label": "Waste",
+   "value": 0.02,
+   "unit": "of net sales",
+   "status": "ASSUMPTION",
+   "source": "Bakery shrink, spoilage",
+   "basis": ""
+  },
+  "card_share": {
+   "label": "Card/wallet share of payments",
+   "value": 0.75,
+   "unit": "of gross",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "card_fee_pct": {
+   "label": "Acquiring fee",
+   "value": 0.018,
+   "unit": "",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "marketing_pct": {
+   "label": "Ongoing marketing",
+   "value": 0.03,
+   "unit": "of net sales",
+   "status": "ASSUMPTION",
+   "source": "",
+   "basis": ""
+  },
+  "launch_marketing_amd": {
+   "label": "Launch marketing (months 1-3)",
+   "value": 12000000,
+   "unit": "AMD",
+   "status": "ASSUMPTION",
+   "source": "",
+   "basis": ""
+  },
+  "repairs_maint_pct": {
+   "label": "Repairs & maintenance",
+   "value": 0.015,
+   "unit": "of net sales",
+   "status": "ASSUMPTION",
+   "source": "",
+   "basis": ""
+  },
+  "other_variable_pct": {
+   "label": "Other variable costs",
+   "value": 0.01,
+   "unit": "of net sales",
+   "status": "ASSUMPTION",
+   "source": "Cleaning chemicals, small wares, POS/app SaaS",
+   "basis": ""
+  },
+  "utilities_fixed_amd_month": {
+   "label": "Utilities (fixed part)",
+   "value": {
+    "lean": 300000,
+    "mid": 480000,
+    "flagship": 700000
+   },
+   "unit": "AMD/month",
+   "status": "ESTIMATE",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "utilities_variable_pct": {
+   "label": "Utilities (variable part)",
+   "value": 0.012,
+   "unit": "of net sales",
+   "status": "ESTIMATE",
+   "source": "",
+   "basis": ""
+  },
+  "fixed_other_amd_month": {
+   "label": "Other fixed costs",
+   "value": 750000,
+   "unit": "AMD/month",
+   "status": "ASSUMPTION",
+   "source": "Insurance, accounting, security, waste, licences, IT, cleaning",
+   "basis": ""
+  },
+  "land_mode": {
+   "label": "Land: lease or buy",
+   "value": "lease",
+   "unit": "",
+   "status": "ASSUMPTION",
+   "source": "Ground lease preferred for capital efficiency",
+   "basis": ""
+  },
+  "rent_amd_month": {
+   "label": "Ground lease",
+   "value": {
+    "conservative": 1800000,
+    "base": 1500000,
+    "optimistic": 1300000
+   },
+   "unit": "AMD/month",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "land_property_tax_amd_year": {
+   "label": "Land & property tax",
+   "value": 600000,
+   "unit": "AMD/yr",
+   "status": "ESTIMATE",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "employer_oncost_pct": {
+   "label": "Employer on-costs",
+   "value": 0.01,
+   "unit": "of gross wages",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "staff_meals_uniforms_amd_month": {
+   "label": "Staff meals & uniforms",
+   "value": 15000,
+   "unit": "AMD/FTE/month",
+   "status": "ASSUMPTION",
+   "source": "",
+   "basis": ""
+  },
+  "peak_season_threshold": {
+   "label": "Peak staffing threshold",
+   "value": 1.15,
+   "unit": "index",
+   "status": "ASSUMPTION",
+   "source": "Add seasonal staff when seasonality ≥ threshold",
+   "basis": ""
+  },
+  "depreciation_years": {
+   "label": "Depreciation lives",
+   "value": {
+    "building": 20,
+    "site_works": 10,
+    "equipment": 5,
+    "technology": 3,
+    "signage": 5,
+    "soft": 5,
+    "land": 0
+   },
+   "unit": "years",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  },
+  "maintenance_capex_pct": {
+   "label": "Maintenance capex (from Y2)",
+   "value": 0.01,
+   "unit": "of net sales",
+   "status": "ASSUMPTION",
+   "source": "",
+   "basis": ""
+  },
+  "working_capital_days": {
+   "label": "Working capital",
+   "value": 10,
+   "unit": "days of COGS",
+   "status": "ASSUMPTION",
+   "source": "Inventory net of supplier credit",
+   "basis": ""
+  },
+  "pre_opening_costs_amd": {
+   "label": "Pre-opening (recruitment, training, trial ops)",
+   "value": {
+    "lean": 8000000,
+    "mid": 14000000,
+    "flagship": 20000000
+   },
+   "unit": "AMD",
+   "status": "ASSUMPTION",
+   "source": "PLACEHOLDER",
+   "basis": ""
+  }
+ },
+ "staffing": {
+  "lean": {
+   "fte_base": 6,
+   "fte_peak_extra": 2,
+   "avg_gross_wage_amd": 250000,
+   "manager_gross_amd": 450000
+  },
+  "mid": {
+   "fte_base": 10,
+   "fte_peak_extra": 3,
+   "avg_gross_wage_amd": 260000,
+   "manager_gross_amd": 600000
+  },
+  "flagship": {
+   "fte_base": 14,
+   "fte_peak_extra": 4,
+   "avg_gross_wage_amd": 270000,
+   "manager_gross_amd": 700000
+  }
+ }
+}
