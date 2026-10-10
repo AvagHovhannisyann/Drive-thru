@@ -100,7 +100,7 @@
 | FastBank POS standard rate | 1.2% (ArCa-member banks' cards), 2.2% (foreign/non-member cards); AMD 8,000/month if turnover target unmet (from 10 Sep 2026) | page updated 27 Apr 2026 | VERIFIED | [S26] |
 | Ameriabank POS | Rates case by case; minimum monthly fee AMD 4,600 (Yerevan); AMD 50,000 fee if terminated within 1 year | effective 3 Apr 2026 | VERIFIED | [S27] |
 | Ameriabank internet acquiring | 1.5% ArCa; 2.7% Visa/MC (VAT incl.); Apple Pay supported | effective 27 Apr 2026 | VERIFIED | [S28] |
-| Idram QR network | >22,000 points of sale; merchant fee not published | 2024–2025 | REPORTED | [S31] |
+| Idram QR network | >22,000 points of sale; merchant fee not published | 24 Sep 2024 (two years old) | REPORTED | [S31] |
 | Apple Pay in Armenia | Live since 18 Jan 2022 (Acba, Ardshinbank, Ameriabank, Converse, Inecobank, Unibank) | 2022 | REPORTED | [S30] |
 | e-HDM legal change | Law HO-309-N (adopted 3 Jul 2026) sets the e-HDM regime from 1 Jan 2027; Government defines mandatory sectors; AMD 500,000 fine for trading without e-HDM where required; Decision 1257-N amendment from 1 Jan 2027 | 2026 | REPORTED [S32]; VERIFIED in C4 (arlis.am) | [S32]; C4. *Fact-check correction: no longer "draft"; aligned with C4* |
 | New-generation HDM device price | ≈AMD 60k–125k (e.g., Newland N950 AMD 85–95k) | undated listings | REPORTED (snippets) | [S33] |
@@ -213,8 +213,8 @@ Landed, excluding installation, building, HVAC, POS/tech, signage, furniture and
 
 | Item | Status | USD | AMD m |
 |---|---|---|---|
-| Espresso: NS Appia Life 2gr V (UA retail reference) | ESTIMATE | 4,352 | 1.58 |
-| Grinders: 2 × Mahlkönig E80 Supreme (USD 2,750 avg, US reference) | ESTIMATE | 7,128 | 2.58 |
+| Espresso: NS Appia Life 2gr V (US list USD 8,505–8,990) | ESTIMATE | 11,022–11,651 | 3.99–4.22 |
+| Grinders: 2 × Mahlkönig E80 Supreme (USD 3,049–3,199, US reference) | ESTIMATE | 7,903–8,292 | 2.86–3.00 |
 | Ice machine with bin (US reference low, 10% duty) | ESTIMATE | 5,988 | 2.17 |
 | Speed oven: Merrychef e2s (UK ex-VAT reference) | ESTIMATE | 9,174 | 3.32 |
 | Blender: Vitamix Quiet One | ESTIMATE | 2,032 | 0.74 |
@@ -223,24 +223,28 @@ Landed, excluding installation, building, HVAC, POS/tech, signage, furniture and
 | Water filtration/softening | ASSUMPTION | 800–1,500 | 0.29–0.54 |
 | Cold-brew kit | ASSUMPTION | 300–800 | 0.11–0.29 |
 | Smallwares (pitchers, scales, tampers, knock boxes) | ASSUMPTION | 1,500–2,500 | 0.54–0.90 |
-| **Total** | | **37,800–43,500** | **13.7–15.7** |
+| **Total** | | **45,200–51,900** | **16.4–18.8** |
+
+*Fact-check correction: the lean total was USD 37,800–43,500 (AMD 13.7–15.7m), about 20% too low. The espresso line used a stale, VAT-inclusive Kyiv price (UAH 150,800 → USD 4,352 landed). The grinder line used stale US E80 prices (USD 2,750 avg → 7,128). The speed-oven line still rests on the UK GBP 5,353 ex-VAT reference, which could not be re-opened on 10 Oct 2026 (403).*
 
 **Mid-range** (single lane with high-throughput bar, about 400–600 drinks a day: ASSUMPTION)
 
 | Item | Status | USD | AMD m |
 |---|---|---|---|
 | Espresso: La Marzocco Linea PB AV 2gr (UK reference) | ESTIMATE | 20,136 | 7.29 |
-| Grinders: 2 × E80 Supreme + 1 × EK43 (RU reference) | ESTIMATE | 12,667 | 4.58 |
+| Grinders: 2 × E80 Supreme (US reference) + 1 × EK43 (RU reference, ex-RU-VAT) | ESTIMATE | 12,443–12,832 | 4.50–4.64 |
 | Batch brewer: Bunn ICB TF Twin | ESTIMATE | 3,668 | 1.33 |
 | Ice machine with bin (US reference high, 10% duty) | ESTIMATE | 9,067 | 3.28 |
-| Speed oven: Merrychef e2s (US reference) | ESTIMATE | 12,854 | 4.65 |
+| Speed oven: Merrychef e2s (US reference, USD 10,305) | ESTIMATE | 13,355 | 4.83 |
 | Blenders: 2 × Vitamix Quiet One | ESTIMATE | 4,063 | 1.47 |
 | Refrigeration | ASSUMPTION | 6,000–10,000 | 2.17–3.62 |
 | Warewashing | ASSUMPTION | 4,000–7,000 | 1.45–2.53 |
 | Water treatment | ASSUMPTION | 1,500–3,000 | 0.54–1.09 |
 | Cold-brew system | ASSUMPTION | 800–1,500 | 0.29–0.54 |
 | Smallwares | ASSUMPTION | 2,500–4,000 | 0.90–1.45 |
-| **Total** | | **77,300–88,000** | **28.0–31.8** |
+| **Total** | | **77,500–88,600** | **28.1–32.1** |
+
+*Fact-check correction: the mid-range total was USD 77,300–88,000 (AMD 28.0–31.8m). The grinder line was labelled "(RU reference)" but actually used 2 × E80 on a US basis (2 × 2,750) plus the EK43 on a Russian basis with Russian VAT left in (12,667). It now uses E80 at USD 3,049–3,199 and the EK43 ex-RU-VAT (≈USD 4,540 landed instead of 5,539). The Merrychef line moves from USD 9,918 (the conneX 12 replacement's price) to the e2s's own USD 10,305 (+≈USD 500). Net change is under 1%.*
 
 **Flagship** (dual lane, >120 drinks/hour peak: ASSUMPTION)
 
@@ -248,26 +252,29 @@ Landed, excluding installation, building, HVAC, POS/tech, signage, furniture and
 |---|---|---|---|
 | Super-automatic: Eversys Enigma E'4 (US reference mid, USD 40k) | ESTIMATE | 51,840 | 18.76 |
 | Traditional machine for backup and signature drinks: LM Linea PB 2gr | ESTIMATE | 20,136 | 7.29 |
-| Grinders: 2 × E80 Supreme + EK43 | ESTIMATE | 12,667 | 4.58 |
+| Grinders: 2 × E80 Supreme + EK43 | ESTIMATE | 12,443–12,832 | 4.50–4.64 |
 | Batch brewer | ESTIMATE | 3,668 | 1.33 |
 | Ice machines: 2 × with bin (10% duty) | ESTIMATE | 18,134 | 6.56 |
-| Speed ovens: TurboChef Sota + Merrychef e2s | ESTIMATE | 29,752 | 10.77 |
+| Speed ovens: TurboChef Sota (USD 13,430) + Merrychef e2s (USD 10,305) | ESTIMATE | 30,761 | 11.13 |
 | Blenders: 3 × Vitamix | ESTIMATE | 6,095 | 2.21 |
 | Refrigeration (dual-lane line) | ASSUMPTION | 10,000–15,000 | 3.62–5.43 |
 | Warewashing | ASSUMPTION | 6,000–9,000 | 2.17–3.26 |
 | Water treatment (2 lines) | ASSUMPTION | 3,000–5,000 | 1.09–1.81 |
 | Cold-brew/nitro | ASSUMPTION | 1,500–3,000 | 0.54–1.09 |
 | Smallwares | ASSUMPTION | 4,000–6,000 | 1.45–2.17 |
-| **Total** | | **166,800–180,300** | **60.4–65.3** |
+| **Total** | | **167,600–181,500** | **60.7–65.7** |
 
-About one-sixth of each total is import VAT (lean ≈ USD 6.3–7.2k, mid ≈ 12.9–14.7k, flagship ≈ 27.8–30.0k). It is recoverable only by a VAT payer. Add installation and commissioning (ASSUMPTION 5–10%), a critical-spares kit (5–8%) and, if no local service exists, a service contract.
+*Fact-check correction: the flagship total was USD 166,800–180,300 (AMD 60.4–65.3m). The speed-oven line was 29,752. It used the pre-1 Aug 2026 Sota price (USD 13,039, now 13,430 → landed 17,405) and the conneX 12 price for the Merrychef (USD 9,918, e2s now 10,305 → landed 13,355). The grinder line is corrected as in the mid-range package.*
+
+About one-sixth of each total is import VAT (lean ≈ USD 7.5–8.7k, mid ≈ 12.9–14.8k, flagship ≈ 27.9–30.2k). It is recoverable only by a VAT payer. *Fact-check correction: recomputed on the corrected totals; lean was ≈ USD 6.3–7.2k. The share of each total resting on published list prices is lean 72–80%, mid 71–81% and flagship 79–85%. The original text claimed 75–85% for all packages, but its own figures gave 66–85%.* Add installation and commissioning (ASSUMPTION 5–10%), a critical-spares kit (5–8%) and, if no local service exists, a service contract.
 
 ### 3.2 Technology
 
 #### 3.2.1 Fiscal compliance (HDM / e-HDM)
 
-- Armenia requires sales to be fiscalised through cash registers (HDMs). Law **HO-309-N of 3 July 2026** extends the HDM receipt rules to **electronic HDMs**. A draft amendment to Government Decision 1257-N would apply from **1 January 2027**: the e-receipt number must appear on related tax invoices and invoice-receipts, and adjustments must propagate (REPORTED, iravaban.net, 26 Aug 2026) [S32].
-- On 20 May 2026 a Tax Code draft passed the parliamentary economic committee in first reading. It would make the e-HDM an alternative to a physical HDM and make its use mandatory for organisations and individual entrepreneurs in cases and deadlines to be specified (REPORTED, ARKA) [S32b]. Final adoption status was not verified.
+- Armenia requires sales to be fiscalised through cash registers (HDMs). Law **HO-309-N, adopted 3 July 2026**, extends the HDM receipt rules to **electronic HDMs** and sets the e-HDM regime from **1 January 2027**. An amendment to Annex 1 of Government Decision 1257-N (5 Oct 2017) applies from **1 January 2027**: the e-receipt number must appear on related tax invoices and invoice-receipts, and adjustments must propagate (REPORTED, iravaban.net, 26 Aug 2026) [S32].
+- Under HO-309-N the Government defines the sectors where e-HDM is mandatory. Trading without one where it is required is fined **AMD 500,000**. Every payment point (window, kiosk, app) needs its own registered HDM or e-HDM (VERIFIED in C4 on arlis.am, Arts 8 and 12; Tax Code Art. 380.1). The ARKA report of 20 May 2026 on a Tax Code draft in first reading [S32b] is background only.
+- *Fact-check correction: this bullet said the e-HDM mandate was a Tax Code draft with "final adoption status not verified". Sibling C4 verified that HO-309-N is adopted law setting the e-HDM regime from 1 Jan 2027. Only the sector list is pending, in a Government decision.*
 - An SRC API exists. Third-party developer tools show this: a PHP package for the Armenian e-HDM API (updated Dec 2025) and a WooCommerce plugin that issues receipts "through the tax service API" (REPORTED) [S32c].
 - **Implication.** The POS must either drive a certified new-generation HDM device or issue e-HDM receipts through the SRC interface. Confirm that the chosen POS vendor has a working Armenian fiscal integration. Neither Poster's pricing page nor the iiko tariff page mentions Armenia [S34][S35].
 - **Hardware.** New-generation HDM devices with an integrated card terminal (e.g., Newland N950, Android) sell for about **AMD 85,000–95,000 new**. Listings range from AMD 30,000 (used) to 125,000 (REPORTED, snippets; listings not opened) [S33]. In 2019 the SRC set the regulated sale price at AMD 60,000, with AMD 160,000 kept for some categories (REPORTED, 2019) [S33]. Banks can enable card acceptance directly on a new-generation HDM: FastBank says so explicitly [S26], and Ameriabank prices "POS service via the merchant's cash register" [S27].
@@ -276,7 +283,7 @@ About one-sixth of each total is import VAT (lean ≈ USD 6.3–7.2k, mid ≈ 12
 
 | System | Published price | Armenian presence and fiscal integration | Status |
 |---|---|---|---|
-| Poster (joinposter.com) | Mini USD 26, Business USD 44 (includes KDS, modifiers, promotions, delivery), Pro USD 62 per month (annual billing; monthly billing about 10% higher); +USD 19 per extra register; Poster Site (ordering website) USD 19/month; QR USD 7/month; loyalty included | Pricing page does not mention Armenia or fiscalisation [S34] | REPORTED |
+| Poster (joinposter.com) | Mini USD 26, Business USD 44 (includes KDS, modifiers, promotions, delivery), Pro USD 62 per month (annual billing; monthly billing USD 29/49/69, about 11% higher); +USD 19 per extra register; Poster Site (ordering website) USD 19/month; QR USD 7/month; loyalty included | Pricing page does not mention Armenia or fiscalisation [S34] | REPORTED |
 | iiko | From RUB 1,295 (Mini) / 4,000 (Start) / 7,400 (Pro, open API) / 9,200 (Enterprise) per month ≈ AMD 5.5k / 17.1k / 31.6k / 39.3k [S35] | Russian dealer price list. Armenian partner and HDM integration **not verified** (search budget exhausted) | REPORTED (RU) |
 | R-Keeper | Not obtained | Not verified | Gap |
 | Local Armenian POS | Not obtained | Not verified | Gap |
@@ -288,23 +295,23 @@ ASSUMPTION for modelling: software at USD 50–150 per month per site plus USD 8
 - **Headset systems (HME EOS HD / NEXEO, 3M/Clear-Com).** No Armenian dealer or price was found before the search budget ran out. Radio-frequency approval of imported wireless headsets in Armenia should also be checked. ASSUMPTION placeholder: USD 4,000–8,000 per lane.
 - **Order-confirmation board and outdoor digital menu boards** (high-brightness, 2,500+ nit, weatherproof). Not priced. ASSUMPTION placeholder: USD 5,000–20,000 per lane, depending on the number of screens and the content management system.
 - **Mobile ordering and loyalty.** POS-native options are the cheapest route: Poster Site at USD 19/month with loyalty included [S34]; iiko loyalty in Start/Pro tiers [S35]. A custom white-label app was not priced. ASSUMPTION: USD 15,000–60,000 build plus 15–20% a year maintenance. Get quotes from Armenian studios.
-- **Online payments for the app.** Ameriabank internet acquiring charges **1.5% (ArCa) and 2.7% (Visa/Mastercard), VAT included**, and supports Apple Pay in-app (effective 27 Apr 2026) (VERIFIED) [S28].
+- **Online payments for the app.** Ameriabank internet acquiring charges **1.5% (ArCa) and 2.7% (Visa/Mastercard), VAT included**, and supports Apple Pay in-app (effective 27 Apr 2026) (VERIFIED) [S28]. *Fact-check note: the 2.7% applies to all Visa/MC cards, including those issued by Armenian ArCa-member banks. Most domestic app payments would therefore pay 2.7%, not 1.5%.*
 
 #### 3.2.4 Card acquiring and wallet payments
 
 | Item | Finding | Status |
 |---|---|---|
-| CBA fee cap (Decision 27-N, 9 Feb 2026) | Maximum 0.5% (ArCa) and 0.9% (two largest international schemes). Monthly maximum AMD 4,600 (Yerevan) / 3,000 (regional towns) / 1,000 (villages) when monthly POS turnover is ≤ AMD 50,000. Interchange capped at 0.2%. **Applies only to merchants with annual turnover ≤ AMD 150m whose MCC is on Appendix 1.** Appendix 1 lists retail MCCs (4812, 5013–5999, 8043) but **no eating places or fast-food codes (5812/5814)** [S24]. ArmInfo commentary on the decision [S25] | VERIFIED |
+| CBA fee cap (Decision 27-N, 9 Feb 2026) | Maximum 0.5% (ArCa) and 0.9% (two largest international schemes). Monthly maximum AMD 4,600 (Yerevan) / 3,000 (regional towns) / 1,000 (villages) when monthly POS turnover is ≤ AMD 50,000. Interchange capped at 0.2%. **Applies only to merchants with prior-year turnover ≤ AMD 150m whose MCC is on Appendix 1.** Appendix 1 lists retail MCCs (4812, a subset of 5013–5999, 8043) but **no eating places or fast-food codes (5811–5814)** [S24]. ArmInfo commentary on the decision [S25]. *Fact-check correction: Appendix 1 does include MCC 5462 (Bakeries, «Հացաբուլկեղենի խանութներ») and 5499 (Misc. food stores). Clause 7 extends the caps to newly created entities with a listed MCC, with no prior-year turnover test. If the acquirer assigns 5462 to a coffee & bakery unit, the 0.5%/0.9% cap could apply from year 1. Under 5814 it does not* | VERIFIED |
 | FastBank standard package | 1.2% for ArCa/Visa/MC from ArCa-member banks; 2.2% for international/non-member cards. AMD 4,600/month fee if POS turnover ≤ AMD 50,000. From 10 Sep 2026, AMD 8,000/month (terminal) or 5,000 (HDM-POS) if the turnover requirement is not met. Free installation within 3 business days. AMD 50,000 fee for termination within 1 year [S26] | VERIFIED (page updated 27 Apr 2026) |
-| Ameriabank | POS rates case by case. AMD 5,000/month service fee if POS turnover < AMD 1m/month. Minimum monthly fee AMD 4,600 (Yerevan). AMD 50,000 activation fee clawback if terminated within 1 year [S27] | VERIFIED (effective 3 Apr 2026) |
+| Ameriabank | POS rates case by case. AMD 5,000/month service fee if POS turnover < AMD 1m/month. Minimum monthly fee AMD 4,600 (Yerevan). AMD 50,000 activation fee clawback if terminated within 1 year [S27]. *Fact-check note: the minimum fee applies to POS service via a merchant-owned cash register: AMD 4,600 in Yerevan, 2,950 in other towns and 1,000 in rural areas. An M4 site outside Yerevan would pay 2,950 or 1,000* | VERIFIED (effective 3 Apr 2026) |
 | Evocabank | The 0.2% "via POS terminal" line on its tariff page is a **cardholder cash-withdrawal fee**, not a merchant rate. No merchant acquiring rates are published [S29] | VERIFIED |
 | ACBA, Ardshinbank, Inecobank merchant rates | Not published or not found | Gap |
 | Apple Pay | Live in Armenia since 18 Jan 2022 with six banks (Acba, Ardshinbank, Ameriabank, Converse, Inecobank, Unibank) [S30]. Works at any contactless terminal | REPORTED |
 | Google Pay | Not verified in this pass | Gap |
-| Idram QR | Unified QR infrastructure; QR codes at >22,000 points of sale; same-day settlement; Idram says it charges "the lowest possible commission", the same regardless of funding source. **Rate not published** [S31] | REPORTED |
+| Idram QR | Unified QR infrastructure; QR codes at >22,000 points of sale (figure dated 24 Sep 2024); same-day settlement; Idram says it charges "the lowest possible commission", the same regardless of funding source. **Rate not published** [S31] | REPORTED |
 | Telcell QR/wallet | Not researched (search budget) | Gap |
 
-ESTIMATE for the model: blended card cost = 0.85 × 1.2% + 0.15 × 2.2% = **1.35% of card sales**. Use 1.3–1.6% as the range. A tourist-heavy Sevan corridor raises the foreign-card share in summer.
+ESTIMATE for the model: blended card cost = 0.85 × 1.2% + 0.15 × 2.2% = **1.35% of card sales**. Use 1.3–1.6% as the range. A tourist-heavy Sevan corridor raises the foreign-card share in summer. Upside case to test with acquirers: under MCC 5462 (bakery) a new entity could fall under the CBA cap (0.5% ArCa / 0.9% Visa-MC) in year 1 (see row above).
 
 ### 3.3 Supply chain
 
@@ -315,16 +322,18 @@ ESTIMATE for the model: blended card cost = 0.85 × 1.2% + 0.15 × 2.2% = **1.35
 | Yerevan City (supermarket chain, online) [S36] | Lavazza Crema e Gusto Classico 1 kg | AMD 16,450 | REPORTED (retail, 10 Oct 2026) |
 | | Lavazza Crema e Aroma 1 kg / Qualità Oro 1 kg | AMD 18,640 / 20,280 | REPORTED |
 | | Mövenpick Caffè Crema/Espresso 1 kg | AMD 14,750 | REPORTED |
-| | Melitta BellaCrema Espresso 1 kg | AMD 11,090 | REPORTED |
+| | Melitta BellaCrema Espresso 1 kg | AMD 14,790 regular (11,090 on a −25% promotion) | REPORTED. *Fact-check correction: 11,090 was the promotional price* |
 | | Ararat Oro (medium roast) 1 kg / Ararat Opera (dark) 1 kg | AMD 12,090 / 8,910 | REPORTED |
-| | Italcaffè Excelso 1 kg | AMD 8,990 | REPORTED |
+| | Italcaffè Excelso 1 kg | AMD 8,990 regular (−50% promotion to 4,495 on 10 Oct 2026) | REPORTED |
+| | Tonino Lamborghini Espresso (red) 1 kg | AMD 21,380 | REPORTED (added by fact-check; top of the imported range) |
 | Caffeine (specialty roastery, Dilijan) [S37] | Single origins (Ethiopia Yirgacheffe G2, Peru organic, Guatemala decaf), 1 kg | AMD 22,000–23,600 (250 g: 6,400–6,800) | REPORTED (Shopify catalogue, 10 Oct 2026) |
 | jur.am (snippet) | Hayk Coffee N30, 1 kg beans | AMD 12,200 (special price) | REPORTED (snippet, undated) |
 | Local roasters with wholesale offers | **AfroLab Roastery** (Pushkin St., "Order for your business", wholesale registration form; part of Collective Group) [S38]; **FEIN** (Coffee House group's roastery café); **Lumen Coffee** (Giesen roaster); **Nero Bean**; **Royal Armenia** (mass-market roaster) [S39] | **No wholesale price lists published** | Gap: request quotes |
 
 **Model input (ASSUMPTION): AMD 12,000/kg** for a quality local-roasted espresso blend at wholesale. Range AMD 9,000 (commodity blend) to 16,000 (specialty-grade blend). Basis:
 - Wholesale normally sits well below the roaster's own retail bag price (AMD 22–23.6k/kg for single origins).
-- It should sit near or below supermarket prices for imported Italian blends (AMD 11–20k), which carry the 8% (minimum €0.16/kg) roasted-coffee duty plus 20% VAT.
+- It should sit near or below supermarket prices for imported Italian blends (AMD 9–21k regular prices), which carry the 8% (minimum €0.16/kg) roasted-coffee duty plus 20% VAT.
+- No wholesale quote supports the AMD 12,000/kg figure yet (fact-check, 10 Oct 2026). It remains an ASSUMPTION.
 
 Supply: a weekly delivery from Yerevan is sufficient. Roasted coffee keeps 2–6 weeks in valve bags.
 
@@ -389,7 +398,7 @@ Cross-checks: Complex.am retails double-wall 400 ml cups at AMD 56–60 each in 
 |---|---|---|
 | SAS Sweet classic croissant (fresh, in-store bakery) | AMD 750 retail; filled variants 710–1,290 | REPORTED [S40] |
 | PAUL café, Yerevan, croissant / almond croissant | AMD 900 / 1,400 (menu) | REPORTED, Feb 2026 [S46] |
-| Frozen butter croissants, Russian producers (EAEU, duty-free) | Rus Bakery 65 g: RUB 1,850 per 80 pcs = RUB 23 (≈AMD 99); GFC "Allegro Foods" 80 g: RUB 2,225 per 70 pcs = RUB 32 (≈AMD 136); Gourmand 65 g: RUB 4,797 per 80 = RUB 60 (≈AMD 256) | REPORTED (undated) [S45] |
+| Frozen butter croissants, Russian producers (EAEU, duty-free) | Rus Bakery 65 g: RUB 1,850 per 80 pcs = RUB 23 (≈AMD 99); GFC "Allegro Foods" 80 g: RUB 2,225 per 70 pcs = RUB 32 (≈AMD 136); Gourmand 65 g: RUB 4,797 per 80 = RUB 60 (≈AMD 256) | REPORTED (undated) [S45]. *Fact-check note: the GFC "Allegro Foods" price is confirmed. GFC's country filter lists Belgium, so "Gourmand S.A." is probably Belgian, not Russian-made. It may be in EAEU free circulation. The Rus Bakery page timed out and is unverifiable* |
 | Armenian distributor of frozen viennoiserie (Bridor, Délifrance, Lantmännen Unibake, Vandemoortele) | **None identified** | Gap |
 | Gata: SAS Sweet round 300 g / Zeituni 175 g / curd mini gata | AMD 1,030 (3,433/kg) / 430 (2,457/kg) / 350 | REPORTED [S40] |
 | Lavash: tandoor 550 g / single tandoor sheet | AMD 820 (1,491/kg) / 197 | REPORTED [S40] |
@@ -425,38 +434,43 @@ The approximate distance from Yerevan to Sevan (≈60–65 km) is an ASSUMPTION 
 - Monin-type syrup AMD 6,500/L [ASSUMPTION from REPORTED retail]; hot chocolate powder AMD 12,000/kg [ASSUMPTION from REPORTED retail]; sugar AMD 450/kg [REPORTED]; lemons AMD 1,570/kg [REPORTED].
 - Own ice AMD 5 per drink [ASSUMPTION]; packaging per §3.3.4 [REPORTED unit prices].
 - Doses [ASSUMPTION, standard specialty practice]: 9 g single shot, 18 g double for all milk drinks and americano, 22 g for a 450 ml cold brew (about 150 ml concentrate plus water and ice).
-- Menu prices are **target prices including 20% VAT** [ASSUMPTION, positioned against REPORTED Yerevan benchmarks]. COGS% is shown on both the gross (VAT-inclusive) and net-of-VAT price. **Use the net figure if the company is a VAT payer.**
+- Menu prices are **target prices including 20% VAT** [ASSUMPTION, positioned against REPORTED Yerevan benchmarks]. Input prices (SAS, Yerevan City, Oval Pack) are also VAT-inclusive. **Use the "COGS % of price" column.** It equals ex-VAT COGS ÷ ex-VAT price for a VAT payer that recovers input VAT, and COGS ÷ gross receipts under the turnover-tax regime (turnover tax modelled separately, C4).
+- *Fact-check correction (method error): this bullet said "use the net figure if the company is a VAT payer". The net column divides VAT-inclusive costs by VAT-exclusive prices, which overstates COGS by about 6 pp (e.g. latte 35.0% vs the correct 29.2%). It is kept below for traceability. It is valid only if output VAT is paid and no input VAT is recoverable.*
 
-| Item | Recipe basis | Ingredients AMD | Packaging AMD | **COGS AMD** | COGS USD | Target price AMD | COGS % gross | **COGS % net of VAT** |
+| Item | Recipe basis | Ingredients AMD | Packaging AMD | **COGS AMD** | COGS USD | Target price AMD | **COGS % of price (use this)** | COGS % on net-of-VAT price, VAT-inclusive inputs (method error, see note) |
 |---|---|---|---|---|---|---|---|---|
-| Espresso 30 ml | 9 g coffee | 113 | 19 | **132** | 0.37 | 1,000 | 13.2% | **15.9%** |
-| Americano 350 ml | 18 g coffee, hot water | 229 | 38 | **267** | 0.74 | 1,300 | 20.5% | **24.6%** |
-| Cappuccino 300 ml | 18 g + 200 ml milk | 381 | 35 | **416** | 1.15 | 1,500 | 27.7% | **33.3%** |
-| Latte 400 ml | 18 g + 300 ml milk | 458 | 38 | **496** | 1.37 | 1,700 | 29.2% | **35.0%** |
-| Iced latte 450 ml | 18 g + 230 ml milk + ice | 401 | 41 | **442** | 1.22 | 2,000 | 22.1% | **26.5%** |
-| Cold brew 450 ml | 22 g coffee (steeped), ice | 284 | 41 | **325** | 0.90 | 1,900 | 17.1% | **20.5%** |
-| Signature flavoured latte 400 ml | Latte (280 ml milk) + 25 ml syrup + AMD 60 topping (ASSUMPTION) | 665 | 38 | **703** | 1.94 | 2,100 | 33.5% | **40.2%** |
-| Hot chocolate 350 ml | 30 g powder + 280 ml milk | 576 | 38 | **614** | 1.70 | 1,600 | 38.4% | **46.0%** |
-| Lemonade 450 ml | 130 g lemons, 30 g sugar, 15 ml fruit syrup, soda, mint (AMD 20), ice | 350 | 41 | **391** | 1.08 | 1,500 | 26.1% | **31.3%** |
-| Butter croissant (bake-off) | Frozen 80 g, landed (§3.3.5) | 355 | 15 | **370** | 1.02 | 950 | 38.9% | **46.7%** |
-| Breakfast wrap (full) | Lavash 80 g, 2 eggs, cheese 40 g, ham 40 g, veg 40 g, sauce 15 g, butter 5 g, 5% waste | 1,017 | 30 | **1,047** | 2.89 | 2,200 | 47.6% | **57.1%** |
-| Breakfast wrap (cost-engineered) | Lavash 80 g, 1 egg, cheese 40 g, veg 30 g, sauce, butter, 5% waste | 598 | 30 | **628** | 1.73 | 1,800 | 34.9% | **41.8%** |
-| Gata (bought in, 100–120 g) | Local bakery | 300 | 15 | **315** | 0.87 | 650 | 48.5% | **58.2%** |
+| Espresso 30 ml | 9 g coffee | 113 | 19 | **132** | 0.37 | 1,000 | **13.2%** | 15.9% |
+| Americano 350 ml | 18 g coffee, hot water | 229 | 38 | **267** | 0.74 | 1,300 | **20.5%** | 24.6% |
+| Cappuccino 300 ml | 18 g + 200 ml milk | 381 | 35 | **416** | 1.15 | 1,500 | **27.7%** | 33.3% |
+| Latte 400 ml | 18 g + 300 ml milk | 458 | 38 | **496** | 1.37 | 1,700 | **29.2%** | 35.0% |
+| Iced latte 450 ml | 18 g + 230 ml milk + ice | 401 | 41 | **442** | 1.22 | 2,000 | **22.1%** | 26.5% |
+| Cold brew 450 ml | 22 g coffee (steeped), ice | 284 | 41 | **325** | 0.90 | 1,900 | **17.1%** | 20.5% |
+| Signature flavoured latte 400 ml | Latte (280 ml milk) + 25 ml syrup + AMD 60 topping (ASSUMPTION) | 665 | 38 | **703** | 1.94 | 2,100 | **33.5%** | 40.2% |
+| Hot chocolate 350 ml | 30 g powder + 280 ml milk | 576 | 38 | **614** | 1.70 | 1,600 | **38.4%** | 46.0% |
+| Lemonade 450 ml | 130 g lemons, 30 g sugar, 15 ml fruit syrup, soda, mint (AMD 20), ice | 350 | 41 | **391** | 1.08 | 1,500 | **26.1%** | 31.3% |
+| Butter croissant (bake-off) | Frozen 80 g, landed (§3.3.5) | 355 | 15 | **370** | 1.02 | 950 | **38.9%** | 46.7% |
+| Breakfast wrap (full) | Lavash 80 g, 2 eggs, cheese 40 g, ham 40 g, veg 40 g, sauce 15 g, butter 5 g, 5% waste | 1,017 | 30 | **1,047** | 2.89 | 2,200 | **47.6%** | 57.1% |
+| Breakfast wrap (cost-engineered) | Lavash 80 g, 1 egg, cheese 40 g, veg 30 g, sauce, butter, 5% waste | 598 | 30 | **628** | 1.73 | 1,800 | **34.9%** | 41.8% |
+| Gata (bought in, 100–120 g) | Local bakery | 300 | 15 | **315** | 0.87 | 650 | **48.5%** | 58.2% |
 
 *Food COGS excludes labour and oven energy beyond the AMD 5 bake allowance. Wrap veg is priced at AMD 1,500/kg and sauce at AMD 3,000/kg (ASSUMPTION).*
 
-**Sensitivity: latte 400 ml COGS % of net price at AMD 1,700**
+**Sensitivity: latte 400 ml COGS % of price at AMD 1,700 (old net-basis figure in brackets)**
 
 | Coffee AMD/kg → / Milk AMD/L ↓ | 9,000 | 12,000 | 16,000 |
 |---|---|---|---|
-| 600 | 28.7% | 32.7% | 38.0% |
-| 700 | 31.0% | **35.0%** | 40.3% |
-| 850 | 34.5% | 38.5% | 43.8% |
+| 600 | 23.9% (28.7%) | 27.2% (32.7%) | 31.7% (38.0%) |
+| 700 | 25.8% (31.0%) | **29.2% (35.0%)** | 33.6% (40.3%) |
+| 850 | 28.7% (34.5%) | 32.1% (38.5%) | 36.5% (43.8%) |
+
+*Fact-check correction: the grid was shown only on the net-of-VAT basis (method error, see above). Recomputed as COGS ÷ VAT-inclusive price, with the same inputs.*
 
 **Blended margins (ESTIMATE).**
-- Beverage mix (ASSUMPTION, typical drive-thru skew to milk and iced drinks): espresso 4%, americano 15%, cappuccino 13%, latte 18%, iced latte 16%, cold brew 6%, flavoured latte 16%, hot chocolate 5%, lemonade 7%. Result: average ticket per drink AMD 1,691; average COGS AMD 449; **COGS 26.6% of gross / 31.9% of net-of-VAT revenue.** Packaging averages AMD 38 per drink (8.4% of beverage COGS).
-- Food mix (ASSUMPTION): croissant 45%, cost-engineered wrap 30%, gata 25%. Average price AMD 1,130; COGS AMD 434; **38.4% gross / 46.0% net.**
-- **Total blended COGS: 29.5% gross / 35.4% net at a 75/25 beverage/food revenue split.** It is 34.7% net at 80/20 and 36.1% at 70/30.
+- Beverage mix (ASSUMPTION, typical drive-thru skew to milk and iced drinks): espresso 4%, americano 15%, cappuccino 13%, latte 18%, iced latte 16%, cold brew 6%, flavoured latte 16%, hot chocolate 5%, lemonade 7%. Result: average ticket per drink AMD 1,691; average COGS AMD 449; **COGS 26.6% of revenue** (31.9% on the invalid net basis). Packaging averages AMD 38 per drink (8.4% of beverage COGS).
+- Food mix (ASSUMPTION): croissant 45%, cost-engineered wrap 30%, gata 25%. Average price AMD 1,130; COGS AMD 434; **38.4% of revenue** (46.0% net basis).
+- **Total blended COGS: 29.5% of revenue at a 75/25 beverage/food revenue split.** It is 28.9% at 80/20, 30.1% at 70/30 and **31.3% at 60/40**. On the invalid net basis the same splits give 35.4%, 34.7%, 36.1% and 37.6%.
+- *Fact-check correction (method): the headline was "35.4% net". Inputs are VAT-inclusive, so the correct figure for a VAT payer that recovers input VAT, or under the turnover-tax regime C4 recommends, is 29.5% (75/25).*
+- *Fact-check correction (mix): C6 and A4 plan an Armenian coffee & food unit at 55–70% beverage / 30–45% food, and C6 sets blended COGS at 31–36%. The 75/25 base split is outside that range. At 60/40 these unit costs give ≈31.3% (55/45: ≈31.9%). The model's base mix should follow C6/A4, or the reason for a 25% food share should be stated.*
 
 **Yerevan market price benchmarks (REPORTED, many listings undated or stale)** [S46]:
 
@@ -467,6 +481,7 @@ The approximate distance from Yerevan to Sevan (≈60–65 km) is an ASSUMPTION 
 | Cappuccino | 1,000–1,200; 1,200; 1,500; 1,600; 1,500–2,200 | Jeffrey's; The Green Bean (2025 listing); FEIN; Surf Coffee; The Coffee |
 | Latte | 1,000 / 1,400 (two sizes); 1,500 / 1,800; 1,900 | Coffee House Cafe; FEIN; Ground Zero (older review) |
 | Iced latte | 2,100; (Coffee House 900, stale listing) | Surf Coffee; Coffee House (Yandex) |
+| Coffee House chain incl. its **M4 Drive-Thru (Ptghni/Balahovit)**: americano / cappuccino / latte / iced latte | 800 / 1,000 / 1,000 / 1,000 | Glovo, Oct 2026 (A2 [S11]). *Added by fact-check: the incumbent drive-thru on the same corridor* |
 | Flavoured latte | Raspberry Latte 2,200; Spanish latte 1,000 / 1,400 (Coffee House), 1,800–2,200 (FEIN) | Surf; Coffee House; FEIN |
 | Specialty espresso/filter (guide range) | 1,000–1,800 | Armenia Spirit guide, 2026 |
 | Croissant | 900 (almond 1,400) | PAUL (restonews.am, Feb 2026) |
@@ -495,8 +510,9 @@ The approximate distance from Yerevan to Sevan (≈60–65 km) is an ASSUMPTION 
 ## 4. Implications for the drive-thru concept (critical)
 
 1. **Gross margin is healthy on drinks and thin on food.**
-   - Drinks run about 68% gross margin on net revenue: blended beverage COGS ≈ 32% of net, before card fees (~1.35%) and waste.
-   - Food at 42–58% net COGS dilutes the total. The full breakfast wrap and bought-in gata are the weakest items.
+   - Drinks run about 73% gross margin: blended beverage COGS ≈ 27% of revenue, before card fees (~1.35%), waste and (if chosen) turnover tax.
+   - Food at 35–49% COGS dilutes the total. The full breakfast wrap and bought-in gata are the weakest items.
+   - *Fact-check correction: was "68% gross margin on net revenue, COGS ≈32% of net" and "food 42–58% net COGS". Those figures came from the net-of-VAT method error (§3.4).*
    - Food should be priced and engineered as an attach item: cost-engineered recipes, bake-off pastry and limited SKUs. Do not build a broad hot-food menu, which also slows the window.
 2. **Flavoured and iced drinks are the profit engine.** Iced latte (27% net COGS) and cold brew (21%) earn more per cup than hot chocolate (46%) or the flavoured latte (40%) at the assumed prices.
    - Syrup cost (Monin carries 12% duty) is the swing factor on flavoured drinks. Price the syrup add-on explicitly (≥ AMD 200–300), or test an EAEU-origin syrup.
