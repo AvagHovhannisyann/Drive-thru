@@ -25,7 +25,7 @@
 1. **Mature US coffee drive-thrus run at 25–31% shop-level margin on US$1.0–2.2 M per unit, which is roughly 3–10× an Armenian unit's likely sales.**
    - **Dutch Bros:** systemwide AUV **US$2.115 M** (FY2025) and **US$2.193 M** (trailing twelve months, TTM, to Q2 2026). Company-operated shop contribution **28.9%** (FY2025) and **30.6%** (Q2 2026) (VERIFIED, 10-K / earnings release).
    - **Black Rock Coffee Bar:** AUV **US$1.286 M**; store-level margin **29.2%** (FY2025) (VERIFIED).
-   - **Scooter's Coffee:** franchised kiosks average **US$998,869** in sales and **US$134,457 EBITDA (13.5%)** after a 6% royalty and 2% marketing fee (FY2025, Item 19 summary; REPORTED).
+   - **Scooter's Coffee:** franchised kiosks average **US$998,869** in sales and **US$134,457 EBITDA** (FY2025, Item 19 summary; REPORTED). That is **≈13.5% of sales** (ESTIMATE: EBITDA ÷ sales). The franchisor reports an average net profit margin of 14.6%. *Fact-check correction: 13.5% is my ratio of the two averages, not a reported margin. The pages opened do not say whether EBITDA is stated after the 6% royalty and 2% marketing fee, so that premise is an ASSUMPTION until the FDD Item 19 is read.*
    - At A2's 80–150 transactions/day and a 2,600 AMD ticket, an Armenian unit turns over roughly **US$0.2–0.4 M a year** (ESTIMATE). Fixed-cost leverage, and therefore margin, will be lower than in the US.
 2. **The US cost structure of a beverage-led drive-thru is consistent across chains (all VERIFIED):**
 
@@ -33,7 +33,7 @@
    |---|---|---|
    | Beverage, food & packaging | 25.9% (26.1% in Q2 2026) | 28.1% |
    | Labor | 26.9% | 21.0% |
-   | Occupancy | 16.6% (incl. "other") | 8.0% rent + 13.6% other store opex |
+   | Occupancy | 16.6% (incl. "other") | 8.0% occupancy (rent + CAM + real-estate taxes) + 13.6% other store opex |
    | Advertising | 1.3–2.4% of sales (both chains) | |
 
    **Food raises cost of goods sold (COGS).** Dutch Bros says its new 2026 food program "typically carr[ies] a higher cost margin than beverages", which added to an 80 bp rise in COGS (VERIFIED, Q2 2026 10-Q).
@@ -47,10 +47,10 @@
    - Satisfaction falls to **84.9% once a visit passes 10 minutes**. It is **42.9% when the lane "felt frustrating"**.
    - The Armenian M4 incumbent's 20–60-minute waits (A3) are therefore a measurable weakness that a challenger can attack.
 5. **The design stack is 10–12 cars, and the service rate matters more than lane length.**
-   - Palm Beach County code requires **7 queue spaces (≥4 before the menu board) + 1 after the window**, at 10×20 ft each, with a ≥10 ft bypass lane (VERIFIED). Scooter's requires ≥10 cars.
+   - Palm Beach County code requires **7 queue spaces (≥4 before the menu board) + 1 after the window**, at 10×20 ft each, with a ≥10 ft bypass lane, which Table 6.B.3.A requires for every drive-through restaurant (VERIFIED). Scooter's requires ≥10 cars.
    - Queueing maths (M/M/1 model; ESTIMATE): at 45 cars/h arriving, a 60 cars/h window needs **10 places** to hold the queue 95% of the time. A 50 cars/h window needs **28**.
    - **Design for ≥60 cars/h (≤60 s per car at the window) and 10–12 stacked cars.** Do not try to fix slow service with asphalt.
-6. **ITE trip rates (12th edition, via Palm Beach County, May 2026; VERIFIED).**
+6. **ITE trip rates (12th edition, via Palm Beach County, May 2026; VERIFIED as the county's adopted table, REPORTED as ITE data).**
    - **Land use 937 (coffee/donut shop with drive-through):** **600.5 trips/day per 1,000 sq ft**; AM peak 85.41, PM 39.00.
    - **Land use 938 (drive-through only, no seating):** **179 trips/day per drive-through lane**; AM peak 39.81.
    - **14% (937) to 22% (938) of daily trips fall in the single AM peak hour** (ESTIMATE). Coffee demand is far more peaked than traffic (≈6% peak-hour share on Yerevan arterials, B4).

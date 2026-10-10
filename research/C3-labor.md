@@ -207,6 +207,7 @@ All figures are advertised (REPORTED). The "Gross/net" column records what the a
 - **P9**: 9,000 × 15 shifts = **AMD 135k**.
 - **P15/P16** cooks: 12–15k × 26 = **AMD 312–390k**; × 15 = AMD 180–225k.
 - **P17**: 1,000/h × 8 h × 26 = **AMD 208k**.
+- **P21**: 10,000 per 12.5-hour shift ≈ AMD 800/hour. × 26 shifts ≈ **AMD 260k**; on a lawful 2/2 pattern (about 15 shifts) ≈ **AMD 150k**. The "from AMD 300,000" header equals 30 shifts.
 
 **Gross or net?**
 - The salary field never says. Across the whole 1,197-ad feed, only five ads say so in the text:
@@ -233,7 +234,7 @@ All figures are advertised (REPORTED). The "Gross/net" column records what the a
 | Shift supervisor | 220k | **260k** | 300k | P4, P24, P26 |
 | Store manager | 320k | **400k** | 480k | P25, mall director |
 | Cook / food prep (if hot food) | 200k | **240k** | 280k | P13, P14, P15–17 |
-| Cleaner (full time) | 120k | **140k** | 160k | P20, P22 (P21 is an outlier) |
+| Cleaner (full time) | 120k | **140k** | 160k | P20, P22; P21 (AMD 10k per 12.5-hour shift + taxi, ≈150k on 2/2) is consistent once converted |
 
 ### 3.4 Payroll tax mechanics in 2026, and what changes in 2027
 
@@ -265,6 +266,8 @@ Legal basis for UHI:
 Net = Gross × (1 − 0.20 − 0.05) − 1,000 (stamp duty) − 4,800 (UHI)
 
 so Gross = (Net + 5,800) / 0.75. In 2026 the employer cost equals the gross. ESTIMATE, using the 2026 rules in §3.4; the calculation script is in the scratchpad.
+
+*Fact-check correction (cross-file consistency): sibling workstream C4-tax.md §3.7 uses net pay = gross × (1 − 20% − 5%) − stamp duty. It omits the 2026 UHI employee premium (AMD 4,800 for gross AMD 200–500k; 10,800 above 500k) and quotes stamp duty as "roughly AMD 1,500–15,000 by wage band", which is the pre-December-2025 scale. The figures here (stamp duty AMD 1,000 up to AMD 1m; UHI 4,800 / 10,800) match PwC (reviewed 30 Jun 2026) and are the ones to use. C4 should be aligned to them. Neither file changes 2026 employer cost (cost = gross); the gross-ups differ only because this file includes the AMD 5,800 fixed withholding.*
 
 | Target net (AMD) | Gross (AMD) | Income tax 20% | Pension | Stamp | UHI (employee) | **Employer cost (AMD)** | **Cost per AMD 1 net** | Employer cost (USD) |
 |---|---|---|---|---|---|---|---|---|
@@ -344,7 +347,7 @@ The government may declare additional non-working days (Art. 39). Other listed d
 
 **Local wage competition (REPORTED, Abovyan-located ads):**
 - industrial and logistics jobs: AMD 180–300k (Arzni poultry farm sorting worker AMD 180–240k; machine operators AMD 230–250k; delivery driver from AMD 250k);
-- the M4-side PRIME MEAT restaurant at Verin Ptghni: **cleaner from AMD 300k**;
+- the M4-side PRIME MEAT restaurant at Verin Ptghni: cleaner/dishwasher at **AMD 10,000 per 12.5-hour shift plus taxi** (≈AMD 150–260k/month at 15–26 shifts; one of its two sites is in Yerevan). *Fact-check correction: previously "cleaner from AMD 300k". That header figure assumes 30 shifts a month, so it is not evidence of AMD 300k local wage pressure; it does show that employers pay for staff taxis.*
 - Vega World: waiter from AMD 250k.
 
 A drive-thru near Abovyan therefore competes with factory pay, **not with the Kotayk average of about AMD 208k gross**.
@@ -406,7 +409,7 @@ Base-case gross wages, which equal employer cost in 2026:
 | **Flagship** | B, 6 per shift + 1 full-time cleaner | 23.0 | 5.63 / **6.69** / 7.75m | AMD 283,818 | 552,571 (+ cleaner 188,000) |
 
 **Sensitivities** (ESTIMATE):
-- **Ads read as gross** instead of net: Lean 2.41m, Mid 3.00m, Flagship 4.87m AMD/month. That is **27% lower** in each case.
+- **Ads read as gross** instead of net: Lean 2.41m, Mid 3.00m, Flagship 4.87m AMD/month. That is **27% lower** in each case. Put the other way, the net base case is **37% higher** than the gross reading (ratio 1.373); the gap is AMD 0.90m (Lean) to 1.82m (Flagship) a month.
 - **2027 health-insurance rules.** With the full AMD 10,800 premium above AMD 200k and the employer keeping net pay unchanged: +2.3% (Lean, 3.39m), +2.5% (Mid, 4.22m), +2.8% (Flagship, 6.88m). If instead crew are paid at or below AMD 200k gross, the draft employer levy adds AMD 4,400 per such employee.
 - **Demand-shaped roster.** Example for Lean: 2 core staff all day plus 1 peak helper for 6 hours (07–10 and 17–20) uses 38 instead of 48 position-hours a day, **−21% paid hours**. Lean shift FTE falls from 9.3 to about 7.4 (Mid 12.4 → about 9.8; Flagship 21.0 → about 16.6). It needs part-timers and good demand data.
 - **Wage growth.** The sector grew +7.8% y/y in 2026 (§3.2). Model 7% base and 8% conservative.
@@ -422,14 +425,18 @@ Base-case gross wages, which equal employer cost in 2026:
 
 **Comparison with current model inputs** (`model/assumptions.json`):
 
-| Format | Model | This study (base) | Gap |
-|---|---|---|---|
-| Lean | 6 + 2 FTE at AMD 250k gross average + manager AMD 450k = **AMD 2.45m/month** | AMD 3.31m (10.3 FTE) | Model **26% lower** |
-| Mid | AMD 3.98m | AMD 4.12m | 3% |
-| Flagship | AMD 5.56m | AMD 6.69m | Model **17% lower** |
+The model engine (`model/engine.py`) pays `fte_base` all year and adds `fte_peak_extra` only in months with seasonality ≥ 1.15, which is Jun–Aug only. Model payroll below includes its 1% employer on-cost; meals and uniforms are excluded on both sides.
+
+| Format | Model staffing (`assumptions.json`) | Model, off-peak (9 months) | Model, peak (Jun–Aug) | **Model, annual average** | This study (base) | **Gap, annual average** | Gap, off-peak |
+|---|---|---|---|---|---|---|---|
+| Lean | 6 (+2 peak) FTE at AMD 250k + manager AMD 450k | AMD 1.97m | AMD 2.47m | **AMD 2.10m** | AMD 3.31m (10.3 FTE) | Model **37% lower** | 41% lower |
+| Mid | 10 (+3) FTE at AMD 260k + manager 600k | AMD 3.23m | AMD 4.02m | **AMD 3.43m** | AMD 4.12m | Model **17% lower** | 22% lower |
+| Flagship | 14 (+4) FTE at AMD 270k + manager 700k | AMD 4.52m | AMD 5.62m | **AMD 4.80m** | AMD 6.69m | Model **28% lower** | 32% lower |
+
+*Fact-check correction: this table previously compared only the model's peak-month staffing (Lean 8 FTE = AMD 2.45m, Mid 3.98m, Flagship 5.56m, before on-cost) and reported gaps of 26% / 3% / 17%. Those peak figures apply in only 3 months of 12. The annual-average gaps are 37% / 17% / 28%. For Lean this is about AMD 1.2m/month, or roughly $40k a year (ESTIMATE: (3.31m − 2.10m) × 12 / 361.93). A demand-shaped Lean roster (−21% paid hours, ≈AMD 2.74m/month) would still be about 23% above the model's average.*
 
 Reasons:
-- The model's lean FTE count does not cover 2 shifts × 3 people × 7 days with leave.
+- The model's base FTE count (6 for Lean) applies in 9 months of 12 and does not cover 2 shifts × 3 people × 7 days with leave. Even its peak count (8) falls short of the 10.3 FTE needed.
 - Supervisor and manager pay needs to rise if ads are net.
 
 Recommended inputs:
@@ -437,6 +444,7 @@ Recommended inputs:
 - Mid: 12.4 at about AMD 287k.
 - Flagship: 21 at about AMD 284k plus a cleaner.
 - Manager gross AMD 435–555k.
+- These are year-round figures. Set `fte_peak_extra` to 0, or use it only for genuine summer additions on top of them.
 - Keep a "gross interpretation" toggle for the −27% case.
 
 ---
@@ -446,7 +454,7 @@ Recommended inputs:
 1. **Labour will be the largest controllable operating cost, and its size depends on decisions not yet made.** Three choices move monthly payroll by 25–100%:
    - operating hours (06–23 costs about 13% more than 07–22 at the same crew size);
    - crew per shift (each extra person per shift adds about AMD 0.8–0.9m/month);
-   - whether market pay is net or gross (27%).
+   - whether market pay is net or gross (the net base is ≈37% above the gross reading; the gross reading is ≈27% below the net base). *Fact-check correction: previously "(27%)" without direction. The ratio is 1.373.*
 
    **The investment case should not be presented with a single labour number.** Show Lean, Mid and Flagship with the low/base/high band.
 2. **Throughput per labour hour is the key operating metric.** At the base case (ESTIMATE):
@@ -455,7 +463,7 @@ Recommended inputs:
    - the Lean blend of 2 crew and 1 supervisor about **AMD 1,890**;
    - including the manager, about **AMD 2,270** (3.31m × 12 / 17,520 position-hours a year).
 
-   So a Lean unit spends about **AMD 6,800 on labour for every operating hour** (3 × 2,270). For each AMD 1,000 of average order value, it needs about 6.8 orders an hour, every hour, just to cover payroll. The 5-year model should test its hourly-demand assumptions, especially off-peak, against this threshold. Demand-shaped rostering with part-time peak helpers is the main lever (−21% paid hours).
+   So a Lean unit spends about AMD 6,800 on labour for every **staffed** hour (3 × 2,270; 16 staffed hours a day, 06:30–22:30). Per **trading** hour (07:00–22:00, 15 hours) that is about **AMD 7,260** (3.31m × 12 / (15 × 365)). If average order value (AOV) includes 20% VAT, revenue only equals payroll at about **8.7 orders per trading hour for each AMD 1,000 of VAT-inclusive AOV** (7,258 / 833). To cover payroll from gross margin (at the model's 31% base COGS), it needs about **12.6**, every hour. The 5-year model should test its hourly-demand assumptions, especially off-peak, against these thresholds. *Fact-check correction: previously "AMD 6,800 for every operating hour" and "about 6.8 orders an hour for each AMD 1,000 of AOV". That used staffed rather than trading hours and ignored VAT.* Demand-shaped rostering with part-time peak helpers is the main lever (−21% paid hours).
 3. **Rosters must be compliant from day one.**
    - Common local practices are 12-hour "every other day" shifts and day-rate pay. They are lawful only with summarised working-time accounting, a 12-hour daily cap including breaks, 11 hours between shifts and correct night and holiday premiums.
    - A premium brand seeking investors should not carry shift-pattern or envelope-wage risk. The Health and Labour Inspection Body enforces these rules.
@@ -464,7 +472,7 @@ Recommended inputs:
 5. **Under-18 staff are effectively excluded.** They cannot work after 22:00, cannot do overtime and cannot sell energy drinks. Recruit students aged 18 and over from Yerevan and Abovyan universities and colleges as peak part-timers.
 6. **The highway location is a labour risk, not only a traffic opportunity.**
    - The formal hiring market outside Yerevan is very thin (Hrazdan: 1 live job.am ad; Sevan: 2).
-   - Nearby factories and the roadside restaurant already pay AMD 200–300k and bus their staff in.
+   - Nearby factories and logistics firms already advertise AMD 180–300k and bus their staff in; the M4 roadside restaurant pays a taxi on top of AMD 10,000 per shift. *Fact-check correction: previously "factories and the roadside restaurant already pay AMD 200–300k". The restaurant's "from AMD 300,000" is a 30-shift per-shift rate (P21), so it is removed as wage evidence.*
    - A site near Abovyan (≈km 16) can draw on Abovyan (51.5k people) and north-east Yerevan with a short shuttle. A site near Hrazdan or Sevan (km 40–74) depends on small towns, long commutes and very early starts.
    - **Location scoring should include a labour-access criterion:** travel time from Abovyan and north-east Yerevan, and the availability of shuttle routes.
 7. **Turnover will be costly.** At 60–100% turnover, Lean recruits 6–10 crew a year, Flagship 14–23. Budget training time, a structured onboarding programme and retention pay: a speed or throughput bonus paid per shift, as local cafés already do with % of sales; meals; transport.
@@ -481,7 +489,7 @@ Recommended inputs:
 
 | Gap | Why it matters | How to verify |
 |---|---|---|
-| Gross vs net convention for hospitality ads | ±27% on payroll | Call 5 employers from §3.3 (FEIN/Coffee House, SAS Food Court, Queen Burger, Little Bali, Vega World) and ask "is AMD X on-hand or registered?". Ask Talentus HR or other recruiters for their hospitality salary-survey practice |
+| Gross vs net convention for hospitality ads | −27% / +37% on payroll (the gross reading is 27% below the net base; the net base is 37% above the gross reading). *Fact-check correction: previously "±27%".* | Call 5 employers from §3.3 (FEIN/Coffee House, SAS Food Court, Queen Burger, Little Bali, Vega World) and ask "is AMD X on-hand or registered?". Ask Talentus HR or other recruiters for their hospitality salary-survey practice |
 | Pay for café managers and shift supervisors at chains (Coffee House, Cofix, Gotcha, FEIN) | Manager line ≈ 15% of payroll | Confidential recruiter benchmark (Talentus HR, staff.am employer services). Candidate interviews during hiring. Mystery-shop the ads (P27, P28) |
 | Funded-pension law text and current rates (5% / 10% − 25,000 / cap) | Gross-up accuracy | Read the Law "On Funded Pensions" Art. 7 on arlis.am (timed out); SRC tax calculator; or a tax adviser memo |
 | Stamp-duty law amendment (AMD 1,000 from Dec 2025) | Small (AMD 0–4,500/month per employee) | Law "On Stamp Duty" on arlis.am; SRC clarification |
