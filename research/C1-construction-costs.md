@@ -593,7 +593,7 @@ The successor document was not located. Private projects are not bound by these 
 | 9 | Site works | LED site lighting poles (architectural) | 18 | pcs | 600,000 | 10,800,000 | 29,834 | ASSUMPTION |  |
 | 10 | Site works | Decorative fencing | 240 | m | 35,000 | 8,400,000 | 23,204 | ASSUMPTION |  |
 | 11 | Site works | Landscaping with irrigation | 1,100 | m2 | 6,500 | 7,150,000 | 19,751 | ASSUMPTION |  |
-| 12 | Site works | M4 decel/accel lanes (2 x 150 m x 3.75 m) + signs/design | 1,125 | m2 | 24,853 | 27,959,625 | 77,237 | ESTIMATE | HD pavement + 5M AMD markings/signs/design; qty ASSUMPTION |
+| 12 | Site works | M4 decel/accel lanes per ՀՀՇՆ 32-01-2022 Table 31 ((180 + 100 + 80) m x 3.75 m, heavy-duty) + signs/markings/design | 1,350 | m2 | ≈ 24,113 | 32,552,150 | 89,923 | ESTIMATE | 1,350 m2 x HD 20,409 + 5M AMD markings/signs/design; range 30.3-35.6M. *Fact-check correction: previously 2 x 150 m x 3.75 m = 1,125 m2, AMD 27,959,625 (exact formula gives 27,960,125).* |
 | 13 | Building | Architect-designed building 180 m2: substructure | 1 | ls | 10,000,000 | 10,000,000 | 27,624 | ASSUMPTION |  |
 | 14 | Building | Structure (steel/RC frame, seismic design) | 1 | ls | 16,000,000 | 16,000,000 | 44,199 | ASSUMPTION |  |
 | 15 | Building | Envelope: curtain-wall glazing, ventilated facade, roof | 1 | ls | 26,000,000 | 26,000,000 | 71,823 | ASSUMPTION |  |

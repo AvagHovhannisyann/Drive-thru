@@ -231,7 +231,7 @@ Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] 
 #### (4) Yerevan – Garni – Geghard (H-3)
 
 - **Road.** Single carriageway 1+1 at 60 km/h for ≈17 km beyond Jrvezh [19]. Both directions are accessible from one site, which is the corridor's main advantage.
-- **Traffic.** **No count found** (gap). Garni had ≈390k visitors in 2019 (REPORTED [20]). That is ≈1,070/day on average, or roughly 350–450 vehicles/day at 2.5–3.5 persons per vehicle including coaches (ESTIMATE). Add local traffic: Kontur counts only ≈12k people within 10 km of Garni and 35k within 3 km of Jrvezh. My order of magnitude is 3–8k AADT (ASSUMPTION).
+- **Traffic.** **No count found** (gap). Garni had ≈390k visitors in 2019 (REPORTED [20]). That is ≈1,070/day on average, or roughly 300–430 vehicles/day at 2.5–3.5 persons per vehicle including coaches (ESTIMATE). *Fact-check correction: the range was stated as 350–450; 1,068 ÷ 3.5 = 305 and ÷ 2.5 = 427. The conclusion is unchanged.* Add local traffic: Kontur counts only ≈12k people within 10 km of Garni and 35k within 3 km of Jrvezh. My order of magnitude is 3–8k AADT (ASSUMPTION).
 - **Competition.** 19 restaurants within 1 km of Jrvezh and 18 within 200 m of the road. Tourist meals here are sit-down (khorovats and village restaurants).
 - **Seasonality.** Strongly tourist-driven; likely at least as seasonal as the Sevan segments (ASSUMPTION; no monthly visitor data).
 - **Verdict.** Not a first-site candidate: ≈5.6 % capture would be needed for 120 transactions/day.
@@ -240,8 +240,8 @@ Cross-check: in 2008 the M-2, M-4 and M-5 exit counters all read 21–21.5k [4] 
 
 | Arterial (OSM point) | Cross-section | Count / estimate | 3 km / 5 km pop. (Kontur) | Cafés / fast food within 1 km (OSM) | Nearest Coffee House | Notes |
 |---|---|---|---|---|---|---|
-| Admiral Isakov Ave (Malatia, M-5) | 3+3, 60 km/h, grade-separated | 40,052 (2020); ≈46.8k (2025) | 154k / 401k | 1 / 1; 15 fuel within 1 km | 1.8 km | Best counted urban corridor; sit west of Monte Melkonian (link-road risk) |
-| Isakov west / city boundary | 3+3 | ≈ M-5 + airport | 75k / 209k | 0 / 3 | 1.9 km (airport) | Transition to Parakar; more land likely |
+| Admiral Isakov Ave (Malatia, M-5; point U05, west of Monte Melkonian) | 3+3, 60 km/h, grade-separated | No count at this point. 40,052 (2020) and ≈46.8k (2025) are for section AB, ≈2.1 km east, between Monte Melkonian and Victory Bridge; documented floor = km-12 series ≈43k | 154k / 401k | 1 / 1; 15 fuel within 1 km | 1.8 km | Sit west of Monte Melkonian (link-road risk), but the volume there is unmeasured. *Fact-check correction: was "best counted urban corridor"* |
+| Isakov west / city boundary | 3+3 | ≈ M-5 + airport (uncounted) | 75k / 209k | 0 / 3 | 1.9 km (airport) | Transition to Parakar; more land likely |
 | Arshakunyats Ave (Shengavit, Yerevan Mall) | 4+4, 50–60 km/h | 40,430 (2020); ≈47.2k (2025); +15 % after 2028 | 172k / 416k | 12 / 26 | 1.2 km | Proven food demand (BK, KFC, Black Star, Cofix in mall cluster); dense competition; scarce plots |
 | Artashat hwy south end | 2+2 | ≈ M-2 edge | 114k / 303k | 0 / 0 | 2.3 km | Transitional; check land |
 | Sebastia St (M-1 in city, Malatia) | 3+3 | none (33–44k est.) | 153k / 415k | 5 / 6 | 1.6 km | Retail strip; Tashir 1 km |

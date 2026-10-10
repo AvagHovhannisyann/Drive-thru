@@ -149,6 +149,8 @@ Visitor counts for specific sites (Sevan beaches, Sevanavank, Tsaghkadzor, Dilij
 | 38 | Tsaghkadzor ski season and lifts | Mid-December to March, upper slopes often into April; lifts from 1,969 m to 2,819 m | n.d. | REPORTED (Wikipedia) | [15] |
 | 39 | Vardavar (water festival, 14 weeks after Easter, a Sunday) | 12 Jul 2026; 4 Jul 2027; 23 Jul 2028; 8 Jul 2029; 28 Jul 2030 | — | ESTIMATE (computed from the Easter date) | [15] |
 | 40 | **Corridor seasonality index, segment B (Hrazdan–Sevan), base** | Jan 69, Feb 66, Mar 78, Apr 86, May 98, Jun 113, Jul 144, **Aug 151**, Sep 117, Oct 101, Nov 86, Dec 91 | Model use | ESTIMATE | §3.7 |
+| 41 | Visitor spending per day (International Visitor Survey) | Average **US$50.8**. By purpose: leisure **US$61.8**; visiting friends and relatives US$42.1. By travel mode: package tour US$193 (5.4 % of visitors); independent US$48.1. By market: Russia US$46.7; Georgia US$35.0 | 2023 | REPORTED (IVS 2023, Tables 10–13; opened in fact-check) | [18] |
+| 42 | Share of tourists visiting corridor marzes | **Gegharkunik 35.8 %** (Russia 38.1 %, Georgia 17.3 %, Iran 28.4 %, USA 40.9 %); Kotayk 31.8 %. Regional trips are mostly same-day excursions | 2023 | REPORTED (IVS 2023, Table 8, p. 24) | [18] |
 
 ---
 

@@ -396,7 +396,7 @@ Cost inputs (all ASSUMPTION, aligned with C1/C2):
 | Repairs (VAT-able; not TT-deductible) | 1.5% of G |
 | Other admin | 2% of G, half VAT-able |
 | Card acquiring (no VAT) | 1.4% of G |
-| Land lease from an individual (no VAT) | **Model-wide assumption: AMD 18M a year** (C6 base AMD 1.5M a month; B4 placeholder AMD 1.3–1.8M a month = 15.6–21.6M a year). The original runs used AMD 6M; the tables below show both. The tenant withholds 10% PIT on rent paid to an individual (Art. 150(7)), so agree the rent gross. *Fact-check correction: 6M contradicted C6/B4 and overstated the §3.11 cash lines by ≈AMD 11–12M a year.* |
+| Land lease from an individual (no VAT) | **Model-wide assumption: AMD 18M a year** (C6 base AMD 1.5M a month; B4 placeholder AMD 1.3–1.8M a month = 15.6–21.6M a year). The original runs used AMD 6M; the tables below show both. The tenant withholds 10% PIT on rent paid to an individual (Art. 150(7)), so agree the rent gross. *Fact-check correction: 6M contradicted C6/B4. It understated rent by AMD 12M a year, which overstated the §3.11 cash lines by ≈AMD 10–11M a year after tax.* |
 | Payroll (gross) | AMD 36M (Case A) / 48M (Case B) |
 | Local duties and property tax | AMD 1M a year (land leased; ≈AMD 1.4–2.5M if the plot is owned, §3.8) |
 | Capex (mid-range) | AMD 180M ex-VAT: 150M building and site, 27M equipment, 3M IT; **VAT 36M** |
@@ -420,7 +420,7 @@ Cost inputs (all ASSUMPTION, aligned with C1/C2):
 | Capex VAT recoverable only under VAT | 36.0 | 36.0 | 36.0 | 36.0 |
 | Years for TT savings to repay the forgone capex VAT (undiscounted) | 4.7 | 4.7 | 1.7 | 1.8 |
 
-*Fact-check correction: the post-tax cash lines at AMD 6M rent are overstated by about AMD 11–12M a year against the model-wide rent. The TT advantage hardly changes at G = 150, because VAT-regime profit tax falls to zero, and falls from 21.5 to 20.4 at G = 300.*
+*Fact-check correction: against the model-wide rent, the post-tax cash lines at AMD 6M rent are overstated by about AMD 10–11M a year (AMD 12M of rent, less its tax effect). The TT advantage hardly changes at G = 150, because VAT-regime profit tax falls to zero, and falls from 21.5 to 20.4 at G = 300.*
 
 **At the study's base revenue (C6: G = 140, payroll 35.2):** TT advantage is AMD 6.9M a year at rent 6 and 7.4M at rent 18, so repaying 36M of capex VAT takes 5.2 / 4.9 years. At G = 100 it is 5.3 / 6.1M (6.8 / 5.9 years) (ESTIMATE).
 
