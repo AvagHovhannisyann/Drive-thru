@@ -250,9 +250,9 @@ Coffee-to-go machines in supermarkets: **no online evidence found**. This needs 
 **Caveat.** Armstat's operational monthly series is revised upward in the yearbook: 2024 went from 282.3 bn preliminary to 311.7 bn final, **+10.4%** (ESTIMATE). The 2025 preliminary 298.1 bn is therefore **not comparable** with 311.7 bn. Against the 2024 preliminary it is +5.6% nominal (ESTIMATE). In USD, 2025 is about **US$771 m** at the 2025 average of 386.82 (ESTIMATE; A1's rate).
 
 **What the series says.**
-1. Eating out roughly **tripled** in nominal terms from 2020 to 2024. The 2022–23 surge came with the relocant and tourism inflow (A1).
+1. Eating out roughly tripled in **nominal** terms from 2020 to 2024 (311.7 / 97.8 = 3.19×), but 2020 is the COVID trough (real index 63.8, i.e. -36%). In **real** terms the 2020→2024 chain is 1.536 × 1.189 × 1.271 × 1.109 = **2.57×**; against 2019 it is about 0.638 × 2.57 ≈ **1.64×, i.e. +64% real over five years (≈10%/yr)** (ESTIMATE). That ≈10%/yr includes the 2022–23 surge that came with the relocant and tourism inflow (A1), so it overstates underlying growth. *Fact-check correction: "tripled" was stated without its COVID-trough base; use the 2019 base when describing market growth.*
 2. **2025 was a soft year for restaurants (+1.8% real)**, whereas bars and other catering grew +8.5%.
-3. 2026 is re-accelerating: section I is up +13.9% in Jan–Aug and +20.4% in August.
+3. Accommodation & food (section I) is re-accelerating in 2026: +13.9% in Jan–Aug and +20.4% in August. Section I includes hotels, which carry much of the tourism rebound, and no NACE 56 line is published for 2026, so the **F&B-only 2026 trend is unknown** (ASSUMPTION that it is positive). *Fact-check correction: downgraded from an implied F&B rebound.*
 4. No Armstat line exists for "fast food" or "coffee shops". Those would need SRC taxpayer data by NACE 56.10 and 56.30, or a Euromonitor purchase. **No public Euromonitor or Statista figure was opened** (search unavailable).
 
 **Delivery platforms (2024–2026)**
@@ -260,7 +260,7 @@ Coffee-to-go machines in supermarkets: **no online evidence found**. This needs 
 | Platform | Status | Evidence | Status tag |
 |---|---|---|---|
 | **Yandex Eats** (incl. former Menu.am) | Menu.am "now powered by Yandex Eats technology"; operator "Yandex Eda AM" LLC; switch-over promotion 7 Nov–1 Dec 2024 | [34] | VERIFIED |
-| **Glovo** | Active in Yerevan (food, groceries, pharmacy, shops); KFC 99% recommend, fee shown 49 AMD (probably the delivery fee), "-40% on orders over 5,000 AMD"; Tashir 92%, fee 99 AMD; SAS Food Court 98%, fee 699 AMD; Glovo Prime available | [2][3][9][10] | REPORTED |
+| **Glovo** | Active in Yerevan (food, groceries, pharmacy, shops); KFC 99% recommend, fee shown 49 AMD (probably the delivery fee), "-40% on orders over 5,000 AMD", capped at 3,000 AMD off; Tashir 92%, fee 99 AMD; SAS Food Court 98%, fee 699 AMD; Glovo Prime available | [2][3][9][10] | REPORTED |
 | **Buy.am** | Active ("Restaurants", "Mall") | [35] | VERIFIED (site live) |
 | Wolt | No Armenian city page (wolt.com/en/arm → 404) | [36] | REPORTED (weak evidence of absence) |
 | Order volumes / GMV | Not found | — | Gap |
@@ -270,10 +270,10 @@ Coffee-to-go machines in supermarkets: **no online evidence found**. This needs 
 | Dimension | **Highway drive-thru (M4, beyond Yerevan)** | **Suburban drive-thru (Yerevan NE districts, ring roads, exits)** |
 |---|---|---|
 | Direct same-format | **Coffee House Drive-Thru** (km 12.8 R; mass prices; known brand) | Coffee House Drive-Thru is the only one today; **Wendy's** (20 units by 2030) is the most plausible next drive-thru operator (ASSUMPTION) |
-| Near-direct (same occasion, walk-in) | **Max Cafe km 12.2 (both sides)**; Flash Express Shop (Sevan, Abovyan, Hrazdan, Tsaghkadzor; Express Cafe coming); CPS/independent CNG kiosks; Ninja coffee | Coffee House (42 Yerevan kiosks); Cofix; Max Cafe ×7 at urban Yerevan stations (Avan, Bagratunyats, Halabyan, Khorenatsi, Isakov, Ulnetsi, Nork) [FC: was ×8; the Arshakunyats 28/7 card lists LPG only, with no Max Cafe]; Shell Café (Shell stations, Yerevan) [FC: added]; KFC 13; BK ~5; Tashir ~22; Mr. Gyros 17; Karas 9; shawarma kiosks |
+| Near-direct (same occasion, walk-in) | **Max Cafe km 12.2 (both sides)**; Flash Express Shop (Sevan, Abovyan, Hrazdan, Tsaghkadzor; Express Cafe coming); CPS/independent CNG kiosks; Ninja coffee | Coffee House (41 Yerevan city branches + airport; *fact-check correction: was "42 Yerevan kiosks", which double-counted the airport, per A2*); Cofix; Max Cafe ×7 at urban Yerevan stations (Avan, Bagratunyats, Halabyan, Khorenatsi, Isakov, Ulnetsi, Nork) [FC: was ×8; the Arshakunyats 28/7 card lists LPG only, with no Max Cafe]; Shell Café (Shell stations, Yerevan) [FC: added]; KFC 12 (+1 Homplex, Proshyan) (*fact-check correction: was "KFC 13", not updated after the [FC] count correction*); BK ~5; Tashir ~22; Mr. Gyros 17; Karas 9; shawarma kiosks |
 | Destination substitutes | Lakeside restaurants and taverns (Sevan km 57–73), Dilijan cafés (≈47 POIs), Tsaghkadzor resort cafés, picnics and home-made coffee | Malls (food courts), SAS/Yerevan City food courts, office coffee |
 | Delivery substitute | Weak (en route) | **Strong**: Glovo/Yandex Eats with -40% promotions |
-| Price anchor | 800–1,200 AMD coffee; hot dog 350–1,000 | Same + QSR meal 1,700–3,200 |
+| Price anchor | 800–1,200 AMD coffee; hot dog 350–1,000 | Same + QSR meal ≈2,450–3,200 at list prices (*fact-check correction: was 1,700–3,200*) |
 | Who owns the "stop" | **Fuel stations** (CNG dwell, toilets, parking) | Malls and kiosks |
 
 **How incumbents could respond (ASSUMPTIONS, each rated on available evidence)**
