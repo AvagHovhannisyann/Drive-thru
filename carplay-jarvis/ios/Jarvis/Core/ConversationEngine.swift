@@ -1,4 +1,5 @@
 import CarPlay
+import Combine
 import Foundation
 
 /// The hands-free loop shared by the phone UI and CarPlay:
@@ -58,6 +59,7 @@ final class ConversationEngine: ObservableObject {
         loop?.cancel()
         listener.cancel()
         speaker.stop()
+        earcons.stop() // also completes a pending listen cue
     }
 
     func toggle() {

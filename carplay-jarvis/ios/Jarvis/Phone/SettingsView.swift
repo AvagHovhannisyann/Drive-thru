@@ -74,7 +74,7 @@ private struct PermissionRow: View {
     var body: some View {
         LabeledContent(title) {
             Image(systemName: granted ? "checkmark.circle.fill" : "xmark.circle")
-                .foregroundStyle(granted ? .green : .secondary)
+                .foregroundStyle(granted ? Color.green : Color.secondary)
         }
     }
 }

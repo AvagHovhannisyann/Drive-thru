@@ -28,7 +28,9 @@ final class SpeechListener {
         }
     }
 
-    private let audioEngine = AVAudioEngine()
+    /// Recreated per listen: a reused engine keeps a stale input format after a route change
+    /// (phone mic -> CarPlay mic), and installTap then raises an exception.
+    private var audioEngine = AVAudioEngine()
     private var request: SFSpeechAudioBufferRecognitionRequest?
     private var task: SFSpeechRecognitionTask?
     private var watchdog: Task<Void, Never>?
@@ -62,9 +64,14 @@ final class SpeechListener {
         if recognizer.supportsOnDeviceRecognition { request.requiresOnDeviceRecognition = true }
         self.request = request
 
+        audioEngine = AVAudioEngine()
         let input = audioEngine.inputNode
-        input.removeTap(onBus: 0)
-        input.installTap(onBus: 0, bufferSize: 1024, format: input.outputFormat(forBus: 0)) { @Sendable buffer, _ in
+        let format = input.outputFormat(forBus: 0)
+        guard format.sampleRate > 0, format.channelCount > 0 else {
+            self.request = nil
+            throw Failure.unavailable("No microphone input is available.")
+        }
+        input.installTap(onBus: 0, bufferSize: 1024, format: format) { @Sendable buffer, _ in
             request.append(buffer)
         }
         audioEngine.prepare()
@@ -196,9 +203,22 @@ final class Earcons {
     private lazy var listenCue = tone([(880, 0.07), (0, 0.03), (1320, 0.09)], volume: 0.35)
     private lazy var thinkingPulse = tone([(523, 0.12), (0, 0.9)], volume: 0.12)
 
+    private var observers: [NSObjectProtocol] = []
+
     init() {
         engine.attach(player)
         engine.connect(player, to: engine.mainMixerNode, format: format)
+        // If audio is interrupted (call, Siri) or the route changes, stop the player so a
+        // pending listen cue completes instead of leaving its caller waiting forever.
+        let center = NotificationCenter.default
+        for (name, object) in [
+            (Notification.Name.AVAudioEngineConfigurationChange, engine as AnyObject),
+            (AVAudioSession.interruptionNotification, AVAudioSession.sharedInstance() as AnyObject),
+        ] {
+            observers.append(center.addObserver(forName: name, object: object, queue: .main) { [weak self] _ in
+                MainActor.assumeIsolated { self?.stop() }
+            })
+        }
     }
 
     /// Plays the listening cue and returns when it has finished.

@@ -1,7 +1,8 @@
 # Jarvis for CarPlay
 
-A hands-free voice assistant for the car. You tap **Jarvis** on the CarPlay screen (or a quick-ask
-like *Brief me*) and talk. Jarvis answers out loud, can keep a back-and-forth going, and can start
+A hands-free voice assistant for the car. Open **Jarvis** on the CarPlay screen and it starts listening
+straight away (Apple requires voice-first for this app category); the list behind it has *Talk to Jarvis*
+and quick asks like *Brief me* for the next conversation. Jarvis answers out loud, can keep a back-and-forth going, and can start
 Apple Maps directions or place a call. The phone app is the same assistant, plus settings.
 
 ```
@@ -78,7 +79,7 @@ In the **Jarvis** target, set your Team. Change the bundle ID from `com.example.
 2. In the app, open ⚙︎ and enter the function URL (`https://<ref>.supabase.co/functions/v1/jarvis`)
    and the shared secret. Tap **Request permissions**.
 3. In Simulator: **I/O → External Displays → CarPlay**. Jarvis appears on the CarPlay home screen.
-4. Tap Jarvis → **Talk to Jarvis**, then speak. The Mac's microphone is the car mic.
+4. Tap Jarvis and speak after the chime. The Mac's microphone is the car mic.
 
 On a real iPhone the phone app works right away. CarPlay stays hidden until step 4.
 

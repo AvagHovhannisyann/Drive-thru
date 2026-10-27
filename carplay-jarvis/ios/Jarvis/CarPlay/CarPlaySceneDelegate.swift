@@ -10,6 +10,8 @@ import UIKit
 final class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
     private var interfaceController: CPInterfaceController?
     private var voiceTemplate: CPVoiceControlTemplate?
+    /// True while a present animation is running; CarPlay allows one modal at a time.
+    private var isPresenting = false
     private var phaseObserver: AnyCancellable?
 
     private let engine = ConversationEngine.shared
@@ -36,12 +38,15 @@ final class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegat
     ) {
         self.interfaceController = interfaceController
         engine.carPlayScene = templateApplicationScene
-        interfaceController.setRootTemplate(makeRootTemplate(), animated: false, completion: nil)
+        interfaceController.setRootTemplate(makeRootTemplate(), animated: false) { _, _ in }
 
         phaseObserver = engine.$phase
             .removeDuplicates()
             .receive(on: RunLoop.main)
             .sink { [weak self] phase in self?.render(phase) }
+
+        // Voice-based conversational apps must open in voice mode.
+        engine.start()
     }
 
     func templateApplicationScene(
@@ -117,9 +122,12 @@ final class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegat
         let stateID: String
         switch phase {
         case .idle:
-            if voiceTemplate != nil {
-                voiceTemplate = nil
-                interfaceController.dismissTemplate(animated: true, completion: nil)
+            // If a present is still animating, its completion calls render again.
+            guard let shown = voiceTemplate, !isPresenting else { return }
+            voiceTemplate = nil
+            // Dismissing with nothing presented raises an exception unless a completion is given.
+            if interfaceController.presentedTemplate === shown {
+                interfaceController.dismissTemplate(animated: true) { _, _ in }
             }
             return
         case .listening: stateID = StateID.listening
@@ -129,13 +137,16 @@ final class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegat
 
         if let voiceTemplate {
             voiceTemplate.activateVoiceControlState(withIdentifier: stateID)
-        } else {
+        } else if !isPresenting {
             let template = makeVoiceTemplate()
             voiceTemplate = template
+            isPresenting = true
             template.activateVoiceControlState(withIdentifier: stateID)
-            interfaceController.presentTemplate(template, animated: true) { [weak self] _, _ in
-                // The phase may have moved on during the animation.
+            interfaceController.presentTemplate(template, animated: true) { [weak self] success, _ in
                 guard let self else { return }
+                self.isPresenting = false
+                if !success { self.voiceTemplate = nil }
+                // The phase may have moved on during the animation.
                 self.render(self.engine.phase)
             }
         }
