@@ -1,0 +1,4 @@
+# Only the settings this project needs; `supabase init` adds the rest if you run it.
+[functions.jarvis]
+# The app authenticates with the x-jarvis-key header instead of a Supabase JWT.
+verify_jwt = false

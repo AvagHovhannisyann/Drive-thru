@@ -1,0 +1,52 @@
+# XcodeGen spec. Generate the Xcode project with:  brew install xcodegen && xcodegen
+name: Jarvis
+options:
+  bundleIdPrefix: com.example # change to your own reverse-DNS prefix
+  deploymentTarget:
+    iOS: "26.4" # first iOS with the voice-based conversational CarPlay category
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: "" # your Apple Developer Team ID
+targets:
+  Jarvis:
+    type: application
+    platform: iOS
+    sources:
+      - path: Jarvis
+        excludes:
+          - "*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.jarvis
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        # The Simulator's CarPlay window works with the CarPlay entitlement before
+        # Apple grants it. A real iPhone can't be signed with it until Apple adds
+        # it to your account, so device builds use the phone-only entitlements.
+        # After approval, point the iphoneos line at Jarvis-CarPlay.entitlements too.
+        "CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]": Jarvis/Jarvis-CarPlay.entitlements
+        "CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]": Jarvis/Jarvis-Phone.entitlements
+    info:
+      path: Jarvis/Info.plist
+      properties:
+        CFBundleDisplayName: Jarvis
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIBackgroundModes: [audio]
+        NSMicrophoneUsageDescription: Jarvis listens to your questions while you talk to it.
+        NSSpeechRecognitionUsageDescription: Jarvis turns what you say into text so it can answer you.
+        NSLocationWhenInUseUsageDescription: Jarvis uses your location for weather, directions and nearby places.
+        NSCalendarsFullAccessUsageDescription: Jarvis reads your upcoming events so it can brief you on your day.
+        NSContactsUsageDescription: Jarvis looks up phone numbers when you ask it to call someone.
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+          UISceneConfigurations:
+            CPTemplateApplicationSceneSessionRoleApplication:
+              - UISceneClassName: CPTemplateApplicationScene
+                UISceneConfigurationName: CarPlay
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).CarPlaySceneDelegate
