@@ -18,6 +18,12 @@ Apple Maps directions or place a call. The phone app is the same assistant, plus
                                                                     └───────────────────────────────┘
 ```
 
+| CarPlay | iPhone |
+|---|---|
+| ![CarPlay list](docs/mockups/01-carplay-jarvis-home.png) | ![iPhone conversation](docs/mockups/03-iphone-conversation.png) |
+
+*Design mockups rendered from the app's layout and copy, not device screenshots. More in `docs/mockups/`.*
+
 ## What it can and can't do
 
 | Can | Can't (Apple doesn't allow it) |
