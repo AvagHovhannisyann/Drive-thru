@@ -1,0 +1,52 @@
+{
+  "addon": {
+    "bl_info_version": "1, 8",
+    "file": "/opt/blender-mcp/userdata/scripts/addons/blender_mcp.py",
+    "protocol": "15",
+    "sha256": "a7b3873aed8405bd2785292ab9b916a4392129f82a02a336b62ac14aa121828b"
+  },
+  "apt": {
+    "libgl1-mesa-dri": "25.2.8-0ubuntu0.24.04.4",
+    "libglx-mesa0": "25.2.8-0ubuntu0.24.04.4",
+    "mesa-utils": "9.0.0-2",
+    "x11-utils": "7.7+6build2",
+    "xvfb": "2:21.1.12-1ubuntu1.9"
+  },
+  "arch": "x86_64",
+  "blender": {
+    "build_hash": "3f6797307da5",
+    "path": "/opt/blender-dl/blender-4.5.16-linux-x64",
+    "source": "https://download.blender.org/release/Blender4.5/blender-4.5.16-linux-x64.tar.xz",
+    "tarball_sha256": "23432b064977908beb1ab4b7f32f024e7331105c875c187dce002aff84b10c11",
+    "version": "Blender 4.5.16 LTS"
+  },
+  "claude_cli": "2.1.322 (Claude Code)",
+  "gpu_present": false,
+  "kernel": "6.18.44-fc-v338",
+  "mcp_command": {
+    "args": [
+      "mcp-for-blender@2.2.7"
+    ],
+    "command": "/root/.local/bin/uvx",
+    "env": {
+      "BLENDERMCP_ADDONS_DIR": "/opt/blender-mcp/userdata/scripts/addons",
+      "BLENDER_HOST": "127.0.0.1",
+      "BLENDER_PORT": "9876",
+      "DISABLE_TELEMETRY": "true"
+    }
+  },
+  "mcp_package": {
+    "bundled_addon_sha256": "a7b3873aed8405bd2785292ab9b916a4392129f82a02a336b62ac14aa121828b",
+    "dependencies": {
+      "anyio": "4.16.0",
+      "httpx": "0.28.1",
+      "mcp": "1.30.0",
+      "pydantic": "2.14.3"
+    },
+    "expected_addon_protocol": 15,
+    "mcp-for-blender": "2.2.7"
+  },
+  "os": "Ubuntu 24.04.5 LTS",
+  "recorded_utc": "2026-11-10T11:24:37Z",
+  "uv": "uvx 0.11.32 (x86_64-unknown-linux-gnu)"
+}
