@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "blender": {
+      "type": "stdio",
+      "command": "/root/.local/bin/uvx",
+      "args": [
+        "mcp-for-blender@2.2.7"
+      ],
+      "env": {
+        "DISABLE_TELEMETRY": "true",
+        "BLENDER_HOST": "127.0.0.1",
+        "BLENDER_PORT": "9876",
+        "BLENDERMCP_ADDONS_DIR": "/opt/blender-mcp/userdata/scripts/addons"
+      }
+    }
+  }
+}
