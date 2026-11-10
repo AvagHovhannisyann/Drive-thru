@@ -114,7 +114,11 @@ else
 fi
 
 # ---- what Blender itself reports (heartbeat written by blender_startup.py) ----
-if [ -f "$BMCP_STATUS_FILE" ]; then
+if [ -f "$BMCP_STATUS_FILE" ] && [ -z "$blender_pid" ]; then
+  # Nothing removed the file because the machine stopped (container suspended) or
+  # Blender was killed outright. It describes a process that no longer exists.
+  warn "heartbeat" "status file is left over from a previous run (Blender is not running); start.sh replaces it"
+elif [ -f "$BMCP_STATUS_FILE" ]; then
   "$(bmcp_python)" - "$BMCP_STATUS_FILE" "$quiet" <<'PY'
 import json, sys, time
 try:

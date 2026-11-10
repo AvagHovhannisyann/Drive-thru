@@ -71,6 +71,7 @@ written to `/opt/blender-mcp/versions.json` (snapshot of the verified run:
 | Situation | Do this |
 |---|---|
 | New session / fresh container (nothing installed) | `tools/blender-mcp/install.sh && tools/blender-mcp/start.sh` |
+| Session resumed after being idle (container was suspended) | `tools/blender-mcp/start.sh`. Files are back, processes are not; the stale X lock and pid files left behind are detected and cleared. |
 | Service stopped, or `status.sh` says NOT healthy | `tools/blender-mcp/restart.sh` |
 | Blender crashed or was killed | Nothing: the supervisor restarts it after 5 s (then 10/20/40/60 s). It gives up after 5 exits in 5 minutes; then read `blender.log` and run `restart.sh`. |
 | A script reset Blender (`wm.read_factory_settings`) | Nothing: the watchdog re-enables the add-on and reopens the socket within ~5 s. The MCP call that did the reset itself returns "connection closed"; the next call works. |
@@ -164,6 +165,9 @@ session starts.
   the same way, without an approval step.
 - `claude mcp get blender` reports `Pending approval` for a project-scoped server. That is the
   interactive CLI's trust prompt; it does not apply to cloud or other non-interactive sessions.
+- Observed in a cloud session on 2026-11-10: after the session was resumed, the nine
+  `mcp__blender__*` tools and the 94 skills were available natively, and `get_scene_info`,
+  `execute_blender_code` and `look` returned results from the live Blender.
 - A session that was already running when the files were added does not gain the tools or the
   skills (observed). It can still drive Blender *through MCP* from the terminal:
 
@@ -266,7 +270,11 @@ against this install with `BLENDER=/opt/blender-dl/current/blender bash design/3
   (it runs `install.sh`), and the MCP registration and skills from the repository itself.
   Running processes are never carried over: start the service in each new session with
   `tools/blender-mcp/start.sh` (the Claude Code documentation's advice for background services is
-  exactly that, or a `SessionStart` hook). Files under `/opt/blender-mcp` are not kept either.
+  exactly that, or a `SessionStart` hook). Observed on 2026-11-10: after about 50 idle minutes
+  the container was suspended; on resume the disk (including `/opt/blender-dl` and
+  `/opt/blender-mcp`) was back, every process was gone, and `start.sh` had the service healthy
+  again in 8 s. A brand-new session starts from the environment's snapshot instead and may not
+  have those directories.
 - **Session start only.** MCP servers and skills are picked up when a session starts, not by a
   session that is already running (see "Using it from Claude Code").
 
@@ -282,3 +290,4 @@ against this install with `BLENDER=/opt/blender-dl/current/blender bash design/3
 | `status.sh`: add-on reply FAIL, heartbeat STALE, process alive | Blender's main thread is busy or hung; wait for a render, else `restart.sh`. |
 | `get_addon_status` shows `up_to_date: false` | Server and add-on versions differ: `tools/blender-mcp/install.sh --force-addon && tools/blender-mcp/restart.sh`. |
 | `GHOST/Wayland: error …` in `blender.log` | Harmless; Blender falls back to X11. |
+| First Blender tool call of a session waits, then fails with "the server asked the user a question" after 60 s | The upstream server shows a one-time telemetry opt-in dialog to clients that support dialogs (Claude Code does), even though `DISABLE_TELEMETRY=true` already stops all collection here. Answer it in the app, or ignore it: only that one call fails, later calls work, and it is asked once per session until an explicit yes/no is stored in `~/.config/blender-mcp/consent_prompt.json`. |

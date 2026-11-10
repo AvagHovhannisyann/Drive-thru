@@ -11,6 +11,10 @@
   Operations guide: `tools/blender-mcp/README.md`.
 - If the `mcp__blender__*` tools are not loaded in the session, call the same server from the
   terminal: `uvx --from mcp-for-blender==2.2.7 python tools/blender-mcp/mcp_call.py --list`
+- The first `mcp__blender__*` call of a session can show the user a telemetry opt-in dialog from
+  the upstream server and fail after 60 s if nobody answers. Do not answer it for the user and do
+  not retry that call in the same turn; say what happened and carry on with the other tools
+  (collection is disabled here by `DISABLE_TELEMETRY=true` whatever the answer).
 - Skills: `.claude/skills/` holds the Blender Skills pack; start with `blender-director`.
   Its `get_viewport_screenshot` is the `look` tool in this server version.
 - Headless Linux without a GPU: render with Cycles on CPU. One MCP call may run at most 180 s,
