@@ -21,6 +21,8 @@ points that broke or surprised scripts written here; each was checked against Bl
 | Render region | `use_border` + `border_min_x/..` render part of the frame; with `use_crop_to_border = False` the file keeps the full size and the rest is transparent black. |
 | Timing | Do not parse render progress from the log (format changed in 5.0); measure with `time.time()` around `bpy.ops.render.render` or with `render_pre` / `render_post` handlers. |
 | Bundled HDRIs | `/opt/blender-dl/current/5.2/datafiles/studiolights/world/{city,courtyard,forest,interior,night,studio,sunrise,sunset}.exr` (small, CC0): usable for reflections and soft ambient light with `fk.world_hdri`. |
+| Extensions from the command line | `blender --online-mode --command extension sync`, then `... extension install id1,id2 --enable` (ONE comma-separated argument). The whole install fails if any id is unknown for this version or already installed; `tools/film/install.sh` installs only missing ones. Set `BLENDER_USER_RESOURCES=/opt/blender-mcp/userdata` so the live service sees them, and restart the service. |
+| glTF models | `bpy.ops.import_scene.gltf(filepath=...)`; Poly Haven models are in metres at real size. |
 | OCIO outside Blender | `PyOpenColorIO` with `/opt/blender-dl/current/5.2/datafiles/colormanagement/config.ocio` reproduces Blender's display transform on numpy arrays. |
 
 ## Cost facts (4 vCPU, no GPU)

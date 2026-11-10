@@ -67,7 +67,8 @@ Spend the frame-by-frame budget on the two or three shots that need to feel like
 with bevels · `fk.material`, `fk.wood`, `fk.add_surface_noise`, `fk.screen_material`, `fk.glass`,
 `fk.emission` · `fk.area / spot / point / sun`, `fk.world_sky / world_hdri / world_color`, all with
 `group=` · `fk.camera`, `fk.cut_to` · `fk.key`, `fk.bake`, `fk.hop`, easing functions ·
-`fk.render_plate`, `fk.plate_meta`, `fk.render_still`.
+`fk.render_plate`, `fk.plate_meta`, `fk.render_still` · downloaded assets: `fk.pbr_material`,
+`fk.import_model`, `fk.world_hdri("<asset id>")` after `tools/film/assets.py get <id>`.
 
 ## Which other skill to load
 
@@ -88,6 +89,8 @@ with bevels · `fk.material`, `fk.wood`, `fk.add_surface_noise`, `fk.screen_mate
 | Screen content and title motion in HTML | `motion-design`, `business-motion-film` |
 | Storyboard, critique rounds, sound placement with real sounds | `video-director` (and its `real-sfx`) |
 | Cuts, captions, loudness, platform exports | `ffmpeg-skill` |
+| Real surfaces, props and skies | `tools/film/assets.py` (Poly Haven, CC0): scanned texture sets, models, HDRIs |
+| Recorded sound effects and music | `tools/film/sounds.py` (Mixkit; use in films, never commit the files) |
 | Renting GPUs (needs the user's key and network access) | `runpod`, `runpodctl`, `runpod-pod-deploy` |
 
 Tool names differ from some skills: their `get_viewport_screenshot` is `look` here. Their Windows
@@ -104,9 +107,12 @@ re-render only the affected shot, re-check. Two rounds are normal.
 
 - 4 CPU threads, no GPU. EEVEE cannot be used. Real-camera shots at 3840x2160 or at 60 fps are not
   affordable; plate shots at 3840x2160 are.
-- Assets: procedural materials and Blender's bundled HDRIs unless Poly Haven is reachable.
-- Sound: synthesis, General MIDI instruments and the bundled interface sounds. No voice-over, no
-  generated music, no stock library unless hosts and keys are provided.
+- Assets: Poly Haven (CC0) through `assets.py` while its hosts are allowed in the environment; otherwise
+  procedural materials and Blender's bundled HDRIs. Prefer scanned texture sets and models for hero
+  surfaces and props: they look far better than procedural ones for the same render cost.
+- Sound: Mixkit effects and music through `sounds.py` while its hosts are allowed, plus synthesis,
+  General MIDI instruments and the bundled interface sounds. No voice-over and no generated music
+  without an online service and a key from the user.
 - A rented GPU farm removes the render limit; it needs the user's account key and network access,
   and costs money. Offer it with numbers; do not assume it.
 

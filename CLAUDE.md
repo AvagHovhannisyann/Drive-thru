@@ -32,5 +32,8 @@
   moves short. Give the user render-time numbers before starting a long render.
 - Long renders run in the background and are resumable; the container stops all processes when the
   session goes idle, so re-run the same command after a resume.
+- Outside libraries (allowed in the "Drive-thru" environment): `tools/film/assets.py` for Poly Haven
+  HDRIs, textures and models (CC0), `tools/film/sounds.py` for Mixkit effects and music (never commit
+  those files). They land in `/opt/film-studio/assets/`.
 - Work files go to `/opt/film-studio/work/<project>/`; only scripts, pages, shot and cue files belong
   in the repository. Never commit rendered frames, plates or videos (a small contact sheet as a record is fine).

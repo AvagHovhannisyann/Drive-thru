@@ -567,6 +567,8 @@ def world_hdri(path: str, strength: float = 1.0, rotation: float = 0.0, group: s
                sc: bpy.types.Scene | None = None) -> bpy.types.World:
     """Equirectangular HDRI. Blender ships eight small ones in datafiles/studiolights/world/."""
     sc = sc or scene()
+    if not os.path.isfile(str(path)):                     # an asset id or folder from tools/film/assets.py
+        path = asset(path)["files"]["hdri"]
     world = sc.world or bpy.data.worlds.new("World")
     sc.world = world
     tree = world.node_tree
@@ -808,3 +810,91 @@ def render_plate(path: str, samples: int = 256, threshold: float = 0.01, track: 
         json.dump(meta, handle, indent=1)
     c.samples, c.adaptive_threshold, c.use_denoising, sc.render.use_border = previous
     return seconds
+
+
+# --------------------------------------------------------------------------- downloaded assets (tools/film/assets.py)
+
+
+def asset(ref) -> dict:
+    """The record written by tools/film/assets.py: pass an asset folder, its asset.json, or an id
+    such as 'wood_table_001' (looked up under <FILM_HOME>/assets/*/)."""
+    import glob
+    import json
+    if isinstance(ref, dict):
+        return ref
+    path = str(ref)
+    if os.path.isdir(path):
+        path = os.path.join(path, "asset.json")
+    if not os.path.isfile(path):
+        root = os.environ.get("FILM_HOME", "/opt/film-studio") + "/assets"
+        found = glob.glob(os.path.join(root, "*", str(ref), "asset.json"))
+        if not found:
+            raise FileNotFoundError(f"asset {ref!r} not found; fetch it with tools/film/assets.py get {ref}")
+        path = found[0]
+    with open(path) as handle:
+        return json.load(handle)
+
+
+def pbr_material(name: str, ref, size: float | None = None, blend: float = 0.25, normal: float = 1.0,
+                 rough_scale: float = 1.0, coat: float = 0.0) -> bpy.types.Material:
+    """Principled material from a downloaded texture set (colour, roughness, normal).
+    Mapped in object space with box projection, so it needs no UV map and keeps its real scale:
+    `size` is the width in metres that one copy of the texture covers (default: the set's own)."""
+    record = asset(ref)
+    files = record["files"]
+    if size is None:
+        size = (record.get("dimensions_mm") or [1000])[0] / 1000.0
+    mat = material(name, (0.5, 0.5, 0.5), rough=0.5, coat_weight=coat)
+    tree, bsdf = mat.node_tree, principled(mat)
+    coords = _node(tree, "ShaderNodeTexCoord")
+    mapping = _node(tree, "ShaderNodeMapping")
+    mapping.inputs["Scale"].default_value = (1.0 / size,) * 3
+    tree.links.new(coords.outputs["Object"], mapping.inputs["Vector"])
+
+    def image_node(key: str, colour: bool):
+        image = bpy.data.images.load(files[key], check_existing=True)
+        if not colour:
+            image.colorspace_settings.name = "Non-Color"
+        node = _node(tree, "ShaderNodeTexImage", image=image, projection="BOX")
+        node.projection_blend = blend
+        tree.links.new(mapping.outputs["Vector"], node.inputs["Vector"])
+        return node
+
+    tree.links.new(image_node("color", True).outputs["Color"], bsdf.inputs["Base Color"])
+    if "roughness" in files:
+        rough = image_node("roughness", False)
+        if rough_scale == 1.0:
+            tree.links.new(rough.outputs["Color"], bsdf.inputs["Roughness"])
+        else:
+            scale = _node(tree, "ShaderNodeMath", operation="MULTIPLY")
+            scale.inputs[1].default_value = rough_scale
+            tree.links.new(rough.outputs["Color"], scale.inputs[0])
+            tree.links.new(scale.outputs["Value"], bsdf.inputs["Roughness"])
+    # Box projection has no tangents, so the tangent-space normal map cannot be used directly:
+    # surface relief comes from the height (displacement) map through a bump node instead.
+    if "displacement" in files and normal > 0:
+        bump = _node(tree, "ShaderNodeBump")
+        bump.inputs["Strength"].default_value = 0.6 * normal
+        bump.inputs["Distance"].default_value = 0.004
+        tree.links.new(image_node("displacement", False).outputs["Color"], bump.inputs["Height"])
+        tree.links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
+    return mat
+
+
+def import_model(ref, loc: Sequence[float] = (0, 0, 0), scale: float = 1.0, rot_z: float = 0.0, coll=None) -> bpy.types.Object:
+    """Import a downloaded glTF model and return an empty that parents everything in it."""
+    record = asset(ref)
+    before = set(bpy.data.objects)
+    bpy.ops.import_scene.gltf(filepath=record["files"]["gltf"])
+    new = [o for o in bpy.data.objects if o not in before]
+    root = empty(record["id"], loc, coll)
+    root.scale = (scale,) * 3
+    root.rotation_euler = (0, 0, math.radians(rot_z))
+    for obj in new:
+        if obj.parent is None:
+            obj.parent = root
+        if coll is not None:
+            for other in list(obj.users_collection):
+                other.objects.unlink(obj)
+            coll.objects.link(obj)
+    return root

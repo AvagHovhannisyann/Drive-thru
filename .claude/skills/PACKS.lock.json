@@ -269,7 +269,7 @@
   "film-studio": {
    "pack": "film-studio",
    "files": 7,
-   "sha256": "2a9383cd0d26d55d6f468d9373927d34ee53f2567ade6681ac63a8c8080b18a0"
+   "sha256": "8d949cca213e8d538a15aa0ef596ba935b0c583f3298bdbfa2a9a4166ae1d724"
   },
   "fit-repair-optimizer": {
    "pack": "roble3-cc-blender-skill",

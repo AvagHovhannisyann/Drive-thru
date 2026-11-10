@@ -75,6 +75,16 @@ def keys():
 
 
 check("keyframes, easing, bake", keys)
+# Downloaded assets are optional: tested only when tools/film/assets.py has fetched something.
+import glob  # noqa: E402
+for kind, call in (("textures", lambda ref: fk.pbr_material("M_Asset", ref).name),
+                   ("models", lambda ref: fk.import_model(ref, loc=(0.4, 0.4, 0), coll=coll).name),
+                   ("hdris", lambda ref: fk.world_hdri(ref, 0.5, group="sky").name)):
+    found = sorted(glob.glob(f"/opt/film-studio/assets/{kind}/*/asset.json"))
+    if found:
+        check(f"downloaded asset ({kind})", lambda call=call, ref=os.path.dirname(found[0]): call(ref))
+    else:
+        print(f"skip  downloaded asset ({kind}): none fetched")
 fk.set_range(2.0)
 check("still (PNG) with camera cut", lambda: f"{fk.render_still(os.path.join(tmp, 'still'), frame_number=30):.1f} s, camera {sc.camera.name}")
 check("still file exists", lambda: os.path.getsize(os.path.join(tmp, "still.png")))

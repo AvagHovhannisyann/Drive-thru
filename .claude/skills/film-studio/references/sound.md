@@ -30,7 +30,20 @@ Every track: `gain` (peak level of that track in dBFS before the mix), `pan` (-1
 - Check with numbers, since nobody here can listen: the tool prints loudness and peak; verify event
   times with onset detection (librosa) against the cue sheet (they should agree within one frame).
 
+## Recorded sounds and music (Mixkit)
+
+`tools/film/sounds.py search sfx <tag>` / `search music <tag>` list ids and titles;
+`sounds.py get sfx <id> --title "..."` saves `/opt/film-studio/assets/sfx/mixkit_<id>.mp3` and records
+the source in `manifest.jsonl`. Use the absolute path in a `file` track. Recorded effects (key
+presses, whooshes, impacts, room tone) sound more real than the synthesised ones: prefer them for
+anything the viewer can see happening, keep synthesis for musical elements.
+Licence: free to use in films, not to be redistributed as files. Never commit them, and list the
+titles used in the film's credits or notes.
+
+To cut a music track to the picture: pick a section with `ffmpeg -ss`, find its beats
+(`librosa.beat.beat_track`), and move cuts or the track's start so the main cuts land on beats.
+
 ## What is not available offline
 
-Voice-over and generated music or sound effects need an online service (for example ElevenLabs)
-and a key from the user; neither is set up. A recorded voice file from the user works with `file`.
+Voice-over and generated music need an online service (for example ElevenLabs) and a key from the
+user; neither is set up. A recorded voice file from the user works with `file`.

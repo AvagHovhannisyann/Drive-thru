@@ -47,6 +47,28 @@ else
   log "fonts: some families were not fetched (see $FILM_HOME/logs/fonts.log); the apt fonts still work"
 fi
 
+# Official free Blender add-ons (trees, terrain, extra primitives, camera shake, sun position), installed
+# into the user folder the live Blender service uses. Skipped when extensions.blender.org is not reachable.
+BLENDER_BIN="${BLENDER:-/opt/blender-dl/current/blender}"
+BLENDER_EXTENSIONS="${BLENDER_EXTENSIONS:-sapling_tree_gen,antlandscape,extra_mesh_objects,camera_shakify,sun_position}"
+if [ -x "$BLENDER_BIN" ] && [ -n "$BLENDER_EXTENSIONS" ]; then
+  export BLENDER_USER_RESOURCES="${BMCP_HOME:-/opt/blender-mcp}/userdata"
+  ext_dir="$BLENDER_USER_RESOURCES/extensions/blender_org"
+  wanted=""
+  IFS=, read -ra ext_ids <<< "$BLENDER_EXTENSIONS"
+  for ext_id in "${ext_ids[@]}"; do
+    [ -d "$ext_dir/$ext_id" ] || wanted="${wanted:+$wanted,}$ext_id"
+  done
+  if [ -z "$wanted" ]; then
+    log "blender add-ons: all ${#ext_ids[@]} present"
+  elif "$BLENDER_BIN" --online-mode --command extension sync >"$FILM_HOME/logs/extensions.log" 2>&1 \
+     && "$BLENDER_BIN" --online-mode --command extension install "$wanted" --enable >>"$FILM_HOME/logs/extensions.log" 2>&1; then
+    log "blender add-ons: installed $wanted"
+  else
+    log "blender add-ons: not installed (see $FILM_HOME/logs/extensions.log); extensions.blender.org may be blocked"
+  fi
+fi
+
 "$FILM_HOME/venv/bin/python" - "$FILM_HOME/versions.json" <<'PY'
 import importlib.metadata as md, json, shutil, subprocess, sys
 tools = {}

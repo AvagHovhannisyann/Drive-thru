@@ -9,6 +9,8 @@ reference for the commands.
 | Set-up | `install.sh` | apt packages, Python environment in `/opt/film-studio/venv`, fonts. Safe to re-run. |
 | Fonts | `fonts.py`, `fonts.txt` | 19 open-licence families from Google Fonts as static TTF, registered with fontconfig. |
 | Build | `blender/filmkit.py` | Helpers for Blender 5.2: geometry with bevels, materials, lights in groups, cameras, animation on a clock in seconds, plates. |
+| Assets | `assets.py` | Poly Haven search and download (CC0 HDRIs, scanned texture sets, models) with checksums; `fk.pbr_material`, `fk.import_model`, `fk.world_hdri` use them. |
+| Sounds | `sounds.py` | Mixkit search and download (recorded effects, music) with a source manifest. |
 | Screens, titles | `html_frames.cjs` | A web page -> numbered PNG frames, one per film frame, no real-time playback. |
 | Render | `blender/filmkit.py: render_plate` | One multilayer EXR with a pass per light group (+ a region variant for small moving things). |
 | Render | `render_farm.py` | A frame range in the background, resumable, with seconds per frame and a time estimate. |
@@ -88,11 +90,28 @@ because nothing is lost: plates and frames are files, `render_farm.py`, the proo
 `comp.py` all skip what exists. After a resume, start the Blender service again and re-run the same
 command.
 
+## Assets, sounds and add-ons from outside
+
+These need hosts that the cloud environment allows (the "Drive-thru" environment does):
+
+```bash
+python3 tools/film/assets.py search textures wood table       # or: hdris sunset, models plant
+python3 tools/film/assets.py get wood_table_001 --res 2k      # -> /opt/film-studio/assets/textures/wood_table_001/
+python3 tools/film/sounds.py search sfx whoosh                # or: music ambient
+python3 tools/film/sounds.py get sfx 1492 --title "Cinematic whoosh fast transition"
+```
+
+In a scene: `fk.pbr_material("M_Top", "wood_table_001")`, `fk.import_model("potted_plant_02", loc=...)`,
+`fk.world_hdri("kiara_1_dawn", strength=1.0)`. Models arrive at real-world size: check the bounding box.
+Poly Haven is CC0. Mixkit files may be used in films but not redistributed: never commit them.
+`install.sh` also installs five official Blender add-ons from extensions.blender.org into the live
+service's user folder: Sapling Tree Gen, A.N.T. Landscape, Extra Mesh Objects, Camera Shakify, Sun Position.
+
 ## Limits
 
 - No GPU: EEVEE is not usable (software OpenGL), Cycles runs on 4 CPU threads.
-- No online asset or sound libraries unless the hosts are allowed in the cloud environment
-  (Poly Haven for HDRIs, textures and models; Mixkit for music and effects). Without them: procedural
-  materials, Blender's eight bundled HDRIs, synthesised and General MIDI sound.
+- Online libraries work only while their hosts are allowed in the cloud environment. Without them:
+  procedural materials, Blender's eight bundled HDRIs, synthesised and General MIDI sound, and the
+  bundled CC0 interface sounds.
 - No voice-over or generated music without an online service and a key.
 - 60 fps and true 4K for moving-camera shots are out of reach on CPU; see the render budget in the skill.

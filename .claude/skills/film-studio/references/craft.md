@@ -40,6 +40,8 @@ Cut on an action or a sound. Typical lengths: 2.5-5 s per shot, the opener and t
 - No uniform surface: small roughness and colour variation plus fine bump (`fk.add_surface_noise`).
 - Real geometry for repeated things seen close (planks, keys, books) with per-object variation.
 - Roughness does more than colour. Glossy coat over a rough base for ceramics, lacquered wood, plastic.
+- For hero surfaces and props use scanned assets (`tools/film/assets.py`): a Poly Haven wood set or a
+  photoscanned pot beats any procedural version. Keep procedural materials for walls, plastics and metals.
 - Screens are emissive images with a glossy coat; what they show is a real web page rendered to frames.
 
 ## 5. Character with almost no rig
