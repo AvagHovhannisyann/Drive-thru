@@ -1,0 +1,717 @@
+{
+ "skills": {
+  "animation-quality-gate": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "92f5a466f2be890df831538e21c40f355c096d5dbebbd1d6128e6515fdf26836",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "atlas-uv-fitting": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 3,
+   "sha256": "4ddb50ab5b16bb5196d5620ce37075f8201afb24e4f682127d8c2d32c6f3c9df",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-addon-development": {
+   "pack": "el4cteo-blender-skills",
+   "files": 5,
+   "sha256": "08b15e85eaee8fe0a76f6f4a51c9e7fe9fe36894e3430233fa7df583b76014ca"
+  },
+  "blender-animation": {
+   "pack": "el4cteo-blender-skills",
+   "files": 5,
+   "sha256": "6adb2c051b5f68f27eddbeda62d7d6e0871bc1eab6faaf3c9ff2686481b148aa"
+  },
+  "blender-asset-qa": {
+   "pack": "el4cteo-blender-skills",
+   "files": 4,
+   "sha256": "4efdd1c37f7f41df39b5cca11a5870f40b714fe4b30eed85b0331a8ebeeba3de"
+  },
+  "blender-asset-studio": {
+   "pack": "blender-asset-studio",
+   "files": 1,
+   "sha256": "f1dc222264c17f7c4d2e862499fcfef067257f52c547fda12344a28087937067"
+  },
+  "blender-cameras": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "f4928067e49161682c8d504754ec28fb0cb3f59795382b9519d28ae7e9a97f91",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-car-film": {
+   "pack": "mromidev-claude-blender-skills",
+   "files": 32,
+   "sha256": "112f631f6fc87f2d81dfaeff0c9113a887e886670d2ed49ddaeefa8a8e555f56"
+  },
+  "blender-character-rigging": {
+   "pack": "el4cteo-blender-skills",
+   "files": 6,
+   "sha256": "fa63884a3a6e87c8377cf3a4efaa64e2d2ce21ace240f42281e244b4e0079805"
+  },
+  "blender-clothing": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "523e2259327f10f92ac3fd3bc0e69c711b47dbbab354ba6a85dc9d61b3eefc6b"
+  },
+  "blender-core": {
+   "pack": "el4cteo-blender-skills",
+   "files": 6,
+   "sha256": "6affb6ba74a2df101f68afc7be86bbc9acf74efdd0e41d9a64eb8598232d3ab2"
+  },
+  "blender-environment-kits": {
+   "pack": "el4cteo-blender-skills",
+   "files": 5,
+   "sha256": "29007cd87f84d62784399daa8d0dfb5da056756c94d5926efead4d3685643bb6"
+  },
+  "blender-export": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 5,
+   "sha256": "0cdd80b7cd478fc4051f424ec6903c46ec1b5c010f859659c304654b97d4ed64",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-export-pipelines": {
+   "pack": "el4cteo-blender-skills",
+   "files": 7,
+   "sha256": "231b68290d10e33d1904e44ce111d4776b4b0a33ae9d4b22b67dba0d2cdb41b9"
+  },
+  "blender-facial-shapekeys": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "9272af8261abbc69660f19544e3e17fca2a9e1777ad5699ad207b2ae9eaa3aee"
+  },
+  "blender-film": {
+   "pack": "mromidev-claude-blender-skills",
+   "files": 25,
+   "sha256": "f583e503f378cc5251a20533ece3245d236d43391fdfa0d8d4b5e040c4a8bffd"
+  },
+  "blender-forest": {
+   "pack": "mromidev-claude-blender-skills",
+   "files": 30,
+   "sha256": "2bb4a8618dc4226e1d90ae6f9c1d84b32d57a00cb38352e2df28ec55a7cc128e"
+  },
+  "blender-game-optimization": {
+   "pack": "el4cteo-blender-skills",
+   "files": 4,
+   "sha256": "01aec8382dc682bda6510635d26b938c709989175009dc57440ef5d8726b80c0"
+  },
+  "blender-geometry-nodes": {
+   "pack": "el4cteo-blender-skills",
+   "files": 4,
+   "sha256": "85daee9221ea8bd360bbdf5bb8786feb925442a9fa505fb2e0089b32fb04eafc"
+  },
+  "blender-hair-grooming": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "591a1842bfb0b8acd759de5963cef28ffacde18bafe6de0c22d63feca31dad60"
+  },
+  "blender-hardsurface-modeling": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "d4a776db5b70d6a0b9ec8f720be76e558d52acabfd74f5f89c028a4c0b22ba82"
+  },
+  "blender-lighting": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "8bcb33a2036f14066d4f2ffa94ac1e59234f05a123f1c76a1b7b926eeaf382c5",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-lighting-lookdev": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "8147ee2bf0d7af020c9b64720e3807796fef7ffccd9496d8f13d56cf7e784d2c"
+  },
+  "blender-materials": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "8f70a5bc9560117a0142cf05b5f4e84d8c0e5a8f8e1c859864abc838e8a5f7c1",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-modeling": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "466d3b9056db5817787b2540362777dcc592286757fb1134143ccd6d9f75e0bc",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-pbr-materials": {
+   "pack": "el4cteo-blender-skills",
+   "files": 4,
+   "sha256": "674f6d3c75d724803e9dbc450b8fa9fbc5f1507fccf8c593c84e48f72b5d7321"
+  },
+  "blender-pipeline-automation": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "5135eea8a76cd78f182390323eab3c1d7356c764cdfdba9251763751a07aabaa"
+  },
+  "blender-pro-workflow": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "9f4f6be3f23ecfb6d8cc4732171f30a0bf540661273b0b939e536a3da9204890",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-rendering": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "ba1f7c5ff7384807d1bf1cf5de2b33889b893817e12faa432960e4613b92f677"
+  },
+  "blender-retopology-uv": {
+   "pack": "el4cteo-blender-skills",
+   "files": 5,
+   "sha256": "262c893451e16edf324363df52bd62af8fdd21b76be9d5b32858747658abb4bb"
+  },
+  "blender-scene-setup": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "59e772d948cd96039c5984f39846239509c1137c7f8963c6aa4adf7beff564bb"
+  },
+  "blender-sculpting": {
+   "pack": "el4cteo-blender-skills",
+   "files": 4,
+   "sha256": "f3153686204a87081b5bdf5b6362a07b4eb19ccdcb75e40e60430a58ff218782"
+  },
+  "blender-simulation": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "4d7662aa0f9960418de6447645b6dc0f3eef5bf8392f2b09faf4a059af64ae6b"
+  },
+  "blender-skill-harmonizer": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 3,
+   "sha256": "a0c42f5c05e6fbfd0ab5c40481a726dffe48a45beec80bb3c8cbbc886bf5f80d",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-stylized-npr": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "5f376df6033de3e4302c9113ab710112e05e9676144e6be198aca27e68c96874"
+  },
+  "blender-texture-baking": {
+   "pack": "el4cteo-blender-skills",
+   "files": 3,
+   "sha256": "75ecba106316d390213a718c006031a4035f9f63073f0030ff14106db8d83d41"
+  },
+  "blender-texturing": {
+   "pack": "el4cteo-blender-skills",
+   "files": 5,
+   "sha256": "8de30069468353ed102ba427affcfee5c09384b4fad1b80d79b1e1f5c4611602"
+  },
+  "blender-time-of-day": {
+   "pack": "el4cteo-blender-skills",
+   "files": 6,
+   "sha256": "79fe7f9dded85e41886e72dfc3e021c1a3e9c622297f767e82ae5c44a3f310c8"
+  },
+  "blender-uv-texturing": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "e9e5fac1e7215b4f4fc97e10283afe77cf615d027b37750a458dece394060371",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "blender-video-editing": {
+   "pack": "el4cteo-blender-skills",
+   "files": 4,
+   "sha256": "19828d9d25e7ae46cc085ef930020df73a51fb9f75d7b02b2e576b21cd405bd0"
+  },
+  "blender-weather-fx": {
+   "pack": "el4cteo-blender-skills",
+   "files": 7,
+   "sha256": "70a312888339fec600d2e8466faed6ce1581e1d38189b643521bc094c4539acb"
+  },
+  "blender-workflow-recipes": {
+   "pack": "el4cteo-blender-skills",
+   "files": 1,
+   "sha256": "b4fbd5a3d24549b0d99876444c9b52b6f373b28803103a264bbe2283b6fc50cd"
+  },
+  "business-motion-film": {
+   "pack": "echris6-motion-video-kit",
+   "files": 23,
+   "sha256": "c63f4cf45f762f76325bbbcd640d7b62b61010b85075b7c57f4153ee1a2c1beb"
+  },
+  "closed-surface-uv-coverage": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "cd645c0d5f32c187f81c53ac7e34a2bd7931b8ed582fb623001581f82824482c",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "contour-to-mesh": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 3,
+   "sha256": "2972c8a07e0889af4061be40e26353e915ab370ac0341ea4604d967a55aea430",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "ffmpeg-skill": {
+   "pack": "kajisho5-ffmpeg-skill",
+   "files": 84,
+   "sha256": "85256a5cfb314b03d2de220f71e8be1ef59a9a3622e14b359ff43267bc6bee84"
+  },
+  "film-studio": {
+   "pack": "film-studio",
+   "files": 7,
+   "sha256": "8d949cca213e8d538a15aa0ef596ba935b0c583f3298bdbfa2a9a4166ae1d724"
+  },
+  "fit-repair-optimizer": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "0e280ccb81cc5eba6921c0967ea516e2ce7806dd4f02d011821a2f3d41668a80",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "landmark-fit-repair": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "c63f737882ed3f38345790d5aa1b22f88dd51e0b31cd72cdf4bf64d15d2d0a17",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "mascot-logo-reconstruction": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 1,
+   "sha256": "ead3523c68ba279c9da0fa7e8dcf8d7023ee73f4bfd7921217d4864a501894b5",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "motion-design": {
+   "pack": "howseen-claude-motion-design",
+   "files": 15,
+   "sha256": "b6d4490f1482f354bb85434418df7d3d6d65a91f1500250f1aa9271495c1d259"
+  },
+  "multiview-constraint-solver": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "bdfe983510e52f0fdfde40444365a33c48eb43b79820b5a195501d7d9021af16",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "multiview-fit-loop": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "ccb1dac2570f1690ec48c80ac08f26a8687ad9360a20ea5caf78866d6b7efb77",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "orbital-hud-motion": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "9c9de93005fe83fedf2fe75087325381d966b06fd6a272abb20642aa6f2804bb",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "orthographic-registration": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "983bcaffd551af33a7613b9c582601e85d3696e4422c44b63dde62f848e43061",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "procedural-blender-nodes": {
+   "pack": "gokayfem-video-to-blender",
+   "files": 42,
+   "sha256": "5354f7561cbd359e1f6743e05dd9b044355da2a7d55af957f88191c477217a30"
+  },
+  "quality-refinement-autoloop": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 4,
+   "sha256": "b54291bca72b5401f9c4d2faaa892b3d620462b0cf4251ba7b25a8a6390f683d",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "reference-analysis-validator": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 4,
+   "sha256": "c6d8c1c7c24f5d33e96da8cf91ca32e70a832fc5b02e817d05b0653ac4d282b4",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "reference-look-calibration": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "d16fe6acedfc38530d0cb5ac64ced3740eb7bdee3910629659179f31bd7defb1",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "reference-to-3d": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 4,
+   "sha256": "d6382076274d812f9d6c1b7895ce3d1074d8a3eec7e9ec370e52b454d9dd6284",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "runpod": {
+   "pack": "runpod-plugins-official",
+   "files": 67,
+   "sha256": "f275e84ec0b098b915a39dc66d6d1db2917ea3b9ec30d0336fee95cf855c5aac"
+  },
+  "runpod-build-template": {
+   "pack": "runpod-plugins-official",
+   "files": 11,
+   "sha256": "79acb256551dc312a36b0f3da0eefbef6d3b12f8e20b57f3099336cd35ba416d"
+  },
+  "runpod-companion-clis": {
+   "pack": "runpod-plugins-official",
+   "files": 9,
+   "sha256": "6f7e7cdaed7bbb596871724fb3ece6edcff3285dead87f0d88a0734c06dad560"
+  },
+  "runpod-cost-audit": {
+   "pack": "runpod-plugins-official",
+   "files": 1,
+   "sha256": "925eb9181b2918c967a14f93d28a37203ae47bc8c9316699982a65c7818dbb85"
+  },
+  "runpod-discovery": {
+   "pack": "runpod-plugins-official",
+   "files": 1,
+   "sha256": "0b85b59f9e9e9dfc5e146d1ae81a64469ce6bb12a318393ae6da7813893d462f"
+  },
+  "runpod-endpoint-ops": {
+   "pack": "runpod-plugins-official",
+   "files": 1,
+   "sha256": "c24825c744a6efdda50f7e29b7867436aa2ee0e83b45c945e0d6e1766696f016"
+  },
+  "runpod-flash": {
+   "pack": "runpod-plugins-official",
+   "files": 12,
+   "sha256": "1779ebb6e506e76cbd7215deb1110df5b8ce414b7ab68d82222853d351cf417f"
+  },
+  "runpod-lifecycle-crud": {
+   "pack": "runpod-plugins-official",
+   "files": 1,
+   "sha256": "d0eb3ab06be5087b829aa728a6dad348b30da09ca555ace6d56432fceebd7170"
+  },
+  "runpod-mcp": {
+   "pack": "runpod-plugins-official",
+   "files": 3,
+   "sha256": "b38bd59efba4f53bef30f7521d2a8fb0f82af334af40fe445637b508dd190dc8",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "runpod-migrate": {
+   "pack": "runpod-plugins-official",
+   "files": 8,
+   "sha256": "5cd4f95dc706d59995a47a46e555ed9b29453717149486a6fdbc23c41daae303",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "runpod-pod-deploy": {
+   "pack": "runpod-plugins-official",
+   "files": 1,
+   "sha256": "148a761fa8c8c5c64ce5e486d0727b1f0ef95c84da23fe31f41e49dc3c0e81a2"
+  },
+  "runpod-pod-doctor": {
+   "pack": "runpod-plugins-official",
+   "files": 1,
+   "sha256": "d09b73f2ebdfc362846b0463104af3455cb4115449f43adf3bf7f444e00c799b"
+  },
+  "runpod-serverless-deploy": {
+   "pack": "runpod-plugins-official",
+   "files": 4,
+   "sha256": "97c88a9278eb808bcc273fa3e6f2554cc90ac1a9cc4fc37d76d89895c820b024"
+  },
+  "runpod-templates": {
+   "pack": "runpod-plugins-official",
+   "files": 10,
+   "sha256": "dc39fd4651781f5ef52baa82bed6baff6ade2aebbc2e853e6b2c905fcb89035f",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "runpod-usage": {
+   "pack": "runpod-plugins-official",
+   "files": 71,
+   "sha256": "728cac0461479bf8ea59423fa813265064725489aa72a35aeb3df45e6bed1b82"
+  },
+  "runpod-vllm": {
+   "pack": "runpod-plugins-official",
+   "files": 7,
+   "sha256": "450244568460ad6e52055331fae7b123c5563a49d44d62e2f7be1b9ee204d2ba"
+  },
+  "runpodctl": {
+   "pack": "runpod-plugins-official",
+   "files": 4,
+   "sha256": "26c1602cc718b53c985216e677b9a4ffe9e0f2b34012927f03967fa41a4476b8",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "source-part-segmentation": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 3,
+   "sha256": "5436fb48ee3bf6f1a68864b8f68db133820c437d21b7a06c8e456e07027d4642",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "text-to-blender": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 45,
+   "sha256": "d69c13b046a5245798040a8fdf0a3193a779538618dfebe3e43172c1962621db",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "texture-driven-mesh-fitting": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "5f57f299c8609258c3c7f80eca8c5a4105173d0efc5aa25957c1ca714d4ae9e7",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "texture-state-animation": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 2,
+   "sha256": "62ee6ac0a3926de446971cec31213decb7ed47b6d55c6815697865a259aa1195",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  },
+  "video-3d-production": {
+   "pack": "rwspatin-video-3d-skill",
+   "files": 8,
+   "sha256": "56d47fde85e71295b30345b6339aea6fa38a468590cc30123b3632e09549bfec"
+  },
+  "video-director": {
+   "pack": "sallyrs-video-director",
+   "files": 1104,
+   "sha256": "45ea2e66cc19c9bc813426cee49bef0fae4e1477180ceb7272d54776c211ea9d"
+  },
+  "wireframe-to-3d": {
+   "pack": "roble3-cc-blender-skill",
+   "files": 5,
+   "sha256": "4de104f79d1d7e052e63cae8a0d394f74b94605c271d63a3f45ec0adaf506df8",
+   "removed_frontmatter": [
+    "allowed-tools"
+   ]
+  }
+ },
+ "packs": {
+  "el4cteo-blender-skills": {
+   "repo": "EL4CTEO/blender-skills",
+   "commit": "389f28addc79b87b28764898e38e7bf408d14b77",
+   "license": "MIT",
+   "purpose": "28 Blender 5.x Python API skills (core, animation, rendering, time of day, weather, video editing, lighting/lookdev)",
+   "skills": 28
+  },
+  "roble3-cc-blender-skill": {
+   "repo": "RobLe3/cc-blender-skill",
+   "commit": "a2634b588e80265e796aa53f8ab178d75105c2af",
+   "license": "MIT",
+   "purpose": "Reference-to-3D reconstruction, cameras, lighting, materials, quality gates",
+   "skills": 28,
+   "skipped": {
+    "blender-animation": "same name as the EL4CTEO skill, which targets Blender 5.x",
+    "blender-rendering": "same name as the EL4CTEO skill, which targets Blender 5.x"
+   }
+  },
+  "mromidev-claude-blender-skills": {
+   "repo": "mromidev/claude-blender-skills",
+   "commit": "567116bf3514ce0e469c2cb5cb04fa974fca217a",
+   "license": "MIT",
+   "purpose": "End-to-end film pipelines: blender-film, blender-car-film, blender-forest",
+   "skills": 3
+  },
+  "blender-asset-studio": {
+   "repo": "new-experement/blender-asset-studio",
+   "commit": "e68a7f31dd1e311c7f57b71da9be17f200ec2b00",
+   "license": "MIT",
+   "purpose": "Asset build loop with visual review",
+   "skills": 1
+  },
+  "gokayfem-video-to-blender": {
+   "repo": "gokayfem/video-to-blender",
+   "commit": "bfeca3ff77d1468f3f9c6a801342cb6286e3f6b1",
+   "license": "MIT",
+   "purpose": "Procedural shader and geometry node recipes",
+   "skills": 1
+  },
+  "rwspatin-video-3d-skill": {
+   "repo": "rwspatin/video-3d-skill",
+   "commit": "6bacc36bbc1f67cff4fde9856c95494aa4006867",
+   "license": "MIT",
+   "purpose": "Choosing and combining Three.js, Blender/Cycles and AI video; resuming long renders",
+   "skills": 1
+  },
+  "echris6-motion-video-kit": {
+   "repo": "echris6/motion-video-kit",
+   "commit": "e4b1c0004080fe6a0deb883631bad5eba1e5f339",
+   "license": "MIT",
+   "purpose": "Motion film with a critic loop; sound-effect placement and offline mix scripts",
+   "skills": 1
+  },
+  "howseen-claude-motion-design": {
+   "repo": "howseen-ai/claude-motion-design",
+   "commit": "3d90d349ef3fdde9b7e89de4df4a2159c9e8697f",
+   "license": "MIT",
+   "purpose": "HTML + headless browser + ffmpeg motion design (screen content, titles)",
+   "skills": 1
+  },
+  "sallyrs-video-director": {
+   "repo": "SallyRS/video-director",
+   "commit": "5e869cf7f1e260fdffcfe2644c86f1c687939839",
+   "license": "MIT",
+   "purpose": "Storyboard-to-delivery direction with render checks; nested real-sfx sound design with the CC0 uisfx library",
+   "skills": 1
+  },
+  "kajisho5-ffmpeg-skill": {
+   "repo": "kajisho5/ffmpeg-skill",
+   "commit": "6e42a79247909659b3d80833120b272fb5e46aba",
+   "license": "MIT",
+   "purpose": "Cut, join, loudness, captions, delivery checks with local FFmpeg",
+   "skills": 1
+  },
+  "runpod-plugins-official": {
+   "repo": "runpod/runpod-plugins-official",
+   "commit": "5a83c49e1094c3fef9ce755230b64c62e6cc7173",
+   "license": "Apache-2.0",
+   "purpose": "Official RunPod skills (GPU pods, runpodctl, cost audit). Usable only after a RunPod API key and network access are granted",
+   "skills": 17
+  },
+  "arjun988-blender-skills": {
+   "repo": "arjun988/blender-skills",
+   "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+   "license": "MIT",
+   "purpose": "94 art-direction, modelling, style and export skills; entry point blender-director",
+   "skills": 94,
+   "skill_names": [
+    "analog-found-footage-horror",
+    "animation",
+    "anime-style",
+    "apocalypse-worlds",
+    "archviz",
+    "asset-optimization",
+    "biome-worlds",
+    "blender-director",
+    "blender-modeler",
+    "body-horror-style",
+    "brutalist-mood",
+    "camera-cinematography",
+    "cartoon-style",
+    "character-archetypes",
+    "character-artist",
+    "chibi-style",
+    "cloth-sim",
+    "collision-proxy",
+    "comic-book-style",
+    "compositing",
+    "cosmic-eldritch-horror",
+    "cozy-wholesome-mood",
+    "creature-artist",
+    "dark-gritty-mood",
+    "dream-surreal-mood",
+    "dream-weirdcore-style",
+    "environment-artist",
+    "export-pipeline",
+    "fantasy-worlds",
+    "folk-horror-style",
+    "frutiger-aero-style",
+    "genre-action-combat",
+    "genre-card-party-idle",
+    "genre-metroidvania-roguelike",
+    "genre-narrative-vn",
+    "genre-open-world-sandbox",
+    "genre-puzzle-platformer",
+    "genre-racing-sports",
+    "genre-rpg",
+    "genre-shooter",
+    "genre-soulslike",
+    "genre-stealth",
+    "genre-strategy-sim",
+    "genre-survival",
+    "geometry-nodes",
+    "godot-export",
+    "hair-groom",
+    "hand-painted-style",
+    "hard-surface",
+    "hd-2d-style",
+    "historical-worlds",
+    "horror-style",
+    "indie-horror-aesthetics",
+    "isometric-style",
+    "lighting",
+    "liminal-space-style",
+    "lod-pipeline",
+    "lookdev",
+    "lowpoly-style",
+    "manga-style",
+    "mascot-puppet-horror",
+    "materials",
+    "minimalist-style",
+    "neon-retrofuturism",
+    "noir-style",
+    "painterly-style",
+    "physics-sim",
+    "pixel-art-style",
+    "procedural-modeling",
+    "prop-artist",
+    "psx-horror-style",
+    "qa-review",
+    "realistic-style",
+    "rendering",
+    "retopology",
+    "retro-16bit-style",
+    "retro-8bit-style",
+    "rigging",
+    "scene-assembly",
+    "sci-fi-punk-worlds",
+    "sculpting",
+    "set-dressing",
+    "stop-motion-craft-style",
+    "stylized-style",
+    "texture-workflow",
+    "unity-export",
+    "unreal-export",
+    "uv-workflow",
+    "vector-style",
+    "vegetation-artist",
+    "vehicle-artist",
+    "vfx-fx",
+    "visual-console-eras",
+    "voxel-style"
+   ],
+   "shared_dirs": [
+    "references"
+   ]
+  },
+  "film-studio": {
+   "repo": "this repository",
+   "commit": "local",
+   "license": "repository",
+   "purpose": "Entry point for making films here: plate-based CPU pipeline, tools in tools/film",
+   "skills": 1,
+   "local": true
+  }
+ }
+}

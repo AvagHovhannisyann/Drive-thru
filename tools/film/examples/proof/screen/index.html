@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Proof studio screen</title>
+<style>
+  /* Fonts come from fontconfig (tools/film/fonts.py), so the page works offline. */
+  :root { --bg: #0d1016; --panel: #151a23; --line: #232a37; --ink: #e8ecf3; --dim: #8892a6; --accent: #ffb454; --ok: #7ddc9a; --cool: #6fb7ff; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1920px; height: 1200px; background: var(--bg); color: var(--ink); font-family: "Inter", sans-serif; overflow: hidden; }
+  .bar { height: 64px; display: flex; align-items: center; gap: 18px; padding: 0 30px; border-bottom: 1px solid var(--line); background: #10141b; font-size: 22px; color: var(--dim); }
+  .dot { width: 16px; height: 16px; border-radius: 50%; background: #2c3442; }
+  .title { margin-left: 22px; color: var(--ink); font-weight: 600; letter-spacing: 0.01em; }
+  .clock { margin-left: auto; font-family: "JetBrains Mono", monospace; color: var(--accent); }
+  .grid { display: grid; grid-template-columns: 560px 1fr; gap: 26px; padding: 26px 30px; height: 866px; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 26px; overflow: hidden; }
+  h2 { margin: 0 0 20px; font-size: 20px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); }
+  .shot { margin-bottom: 24px; }
+  .shot .row { display: flex; justify-content: space-between; font-size: 25px; margin-bottom: 10px; }
+  .shot .pct { font-family: "JetBrains Mono", monospace; color: var(--dim); }
+  .track { height: 14px; background: #0c0f14; border-radius: 7px; overflow: hidden; }
+  .fill { height: 100%; width: 0; border-radius: 7px; background: linear-gradient(90deg, #ff8a3d, var(--accent)); }
+  .done .fill { background: linear-gradient(90deg, #4fbf7a, var(--ok)); }
+  .done .pct { color: var(--ok); }
+  .prompt { font-family: "Fraunces", serif; font-size: 62px; line-height: 1.16; font-weight: 400; min-height: 232px; }
+  .caret { display: inline-block; width: 4px; height: 58px; background: var(--accent); vertical-align: -8px; margin-left: 4px; }
+  .log { margin-top: 26px; font-family: "JetBrains Mono", monospace; font-size: 23px; line-height: 1.75; color: var(--dim); }
+  .log div { opacity: 0; white-space: pre; }
+  .log b { color: var(--cool); font-weight: 500; }
+  .log i { color: var(--ok); font-style: normal; }
+  .timeline { margin: 0 30px; height: 190px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; position: relative; overflow: hidden; }
+  .clip { position: absolute; top: 44px; height: 46px; border-radius: 9px; font-size: 19px; padding: 11px 14px; color: #10141b; font-weight: 600; white-space: nowrap; overflow: hidden; }
+  .wave { position: absolute; left: 30px; right: 30px; top: 110px; height: 56px; display: flex; align-items: center; gap: 4px; }
+  .wave span { flex: 1; background: #3a4558; border-radius: 2px; }
+  .head { position: absolute; top: 0; bottom: 0; width: 3px; background: var(--accent); box-shadow: 0 0 18px 4px rgba(255, 180, 84, 0.55); }
+  .ticks { position: absolute; left: 30px; right: 30px; top: 12px; display: flex; justify-content: space-between; font-family: "JetBrains Mono", monospace; font-size: 16px; color: var(--dim); }
+</style>
+</head>
+<body>
+<div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+  <span class="title">studio / pipeline-proof</span><span class="clock" id="clock">00:00:00</span></div>
+<div class="grid">
+  <div class="panel"><h2>Render queue</h2><div id="shots"></div></div>
+  <div class="panel"><h2>Brief</h2>
+    <div class="prompt"><span id="typed"></span><span class="caret" id="caret"></span></div>
+    <div class="log" id="log"></div></div>
+</div>
+<div class="timeline"><div class="ticks" id="ticks"></div><div id="clips"></div><div class="wave" id="wave"></div><div class="head" id="head"></div></div>
+<script>
+// Everything on this page is a pure function of t (seconds). No timers, no randomness.
+const SHOTS = [["S1  wide plate", 0.2, 1.9], ["S1  light groups", 0.9, 2.7], ["S1  region frames", 1.8, 3.9], ["S2  macro move", 2.6, 5.2], ["Score and mix", 3.6, 5.6]];
+const TEXT = "Light the room from dusk to night, then let the lamp take over.";
+const LOG = [[1.0, "<b>plan</b>      2 shots, 192 frames, one clock"], [1.7, "<b>render</b>    plate 3840x2160, 5 light groups"],
+             [2.5, "<b>denoise</b>   per light group <i>ok</i>"], [3.2, "<b>relight</b>   sun down, lamp up, screen on"],
+             [4.0, "<b>region</b>    only what moves"], [4.8, "<b>grade</b>     AgX, bloom, grain"], [5.4, "<i>done</i>      4 CPU cores, no GPU"]];
+const CLIPS = [["S1 wide", 0, 0.70, "#ffb454"], ["S2 macro", 0.705, 0.94, "#6fb7ff"], ["end", 0.945, 1, "#7ddc9a"]];
+const clamp = (x) => Math.min(1, Math.max(0, x));
+const ease = (x) => { x = clamp(x); return 1 - Math.pow(1 - x, 3); };
+const hash = (n) => { const s = Math.sin(n * 127.1) * 43758.5453; return s - Math.floor(s); };
+
+document.getElementById("shots").innerHTML = SHOTS.map((s, i) =>
+  `<div class="shot" id="s${i}"><div class="row"><span>${s[0]}</span><span class="pct">0%</span></div><div class="track"><div class="fill"></div></div></div>`).join("");
+document.getElementById("log").innerHTML = LOG.map((l) => `<div>${l[1]}</div>`).join("");
+document.getElementById("ticks").innerHTML = [0, 2, 4, 6, 8].map((s) => `<span>${s}s</span>`).join("");
+document.getElementById("clips").innerHTML = CLIPS.map((c) =>
+  `<div class="clip" style="left:calc(30px + (100% - 60px) * ${c[1]}); width:calc((100% - 60px) * ${c[2] - c[1]}); background:${c[3]}">${c[0]}</div>`).join("");
+document.getElementById("wave").innerHTML = Array.from({ length: 150 }, (_, i) => `<span data-i="${i}"></span>`).join("");
+
+window.seek = (t) => {
+  const f = Math.floor(t * 24);
+  document.getElementById("clock").textContent = `00:00:0${Math.floor(t)}:${String(f % 24).padStart(2, "0")}`.slice(0, 11);
+  SHOTS.forEach((s, i) => {
+    const p = ease((t - s[1]) / (s[2] - s[1]));
+    const el = document.getElementById("s" + i);
+    el.querySelector(".fill").style.width = (p * 100).toFixed(2) + "%";
+    el.querySelector(".pct").textContent = p >= 0.999 ? "done" : Math.round(p * 100) + "%";
+    el.classList.toggle("done", p >= 0.999);
+  });
+  const typedCount = Math.floor(clamp((t - 0.25) / 2.6) * TEXT.length);
+  document.getElementById("typed").textContent = TEXT.slice(0, typedCount);
+  document.getElementById("caret").style.opacity = typedCount < TEXT.length ? 1 : (Math.floor(t * 2.5) % 2 ? 1 : 0.15);
+  document.querySelectorAll("#log div").forEach((el, i) => {
+    const a = ease((t - LOG[i][0]) / 0.3);
+    el.style.opacity = a; el.style.transform = `translateY(${(1 - a) * 12}px)`;
+  });
+  const progress = clamp(t / 8);
+  document.getElementById("head").style.left = `calc(30px + (100% - 60px) * ${progress})`;
+  document.querySelectorAll("#wave span").forEach((el, i) => {
+    const x = i / 150, live = x <= progress;
+    const h = 8 + 44 * Math.abs(Math.sin(i * 0.37) * 0.6 + hash(i) * 0.6) * (0.55 + 0.45 * Math.sin(x * 9));
+    el.style.height = Math.max(6, h) + "px";
+    el.style.background = live ? "#ffb454" : "#3a4558";
+  });
+};
+window.seek(0);
+</script>
+</body>
+</html>
