@@ -1,0 +1,198 @@
+{
+  "_comment": "Third-party skill packs vendored into .claude/skills/. Edit, then run tools/skills/vendor.py. The arjun988 pack was copied by hand earlier (see .claude/skills/README.md) and is only recorded here.",
+  "strip_frontmatter_keys": [
+    "allowed-tools",
+    "hooks"
+  ],
+  "exclude_names": [
+    "__pycache__",
+    ".DS_Store",
+    ".git",
+    ".github",
+    "tests",
+    "evals"
+  ],
+  "packs": [
+    {
+      "id": "arjun988-blender-skills",
+      "repo": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "license": "MIT",
+      "license_file": "LICENSE-blender-skills",
+      "purpose": "94 art-direction, modelling, style and export skills; entry point blender-director",
+      "preinstalled": true,
+      "shared_dirs": [
+        "references"
+      ]
+    },
+    {
+      "id": "el4cteo-blender-skills",
+      "repo": "EL4CTEO/blender-skills",
+      "commit": "389f28addc79b87b28764898e38e7bf408d14b77",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "28 Blender 5.x Python API skills (core, animation, rendering, time of day, weather, video editing, lighting/lookdev)",
+      "skills_dir": "skills"
+    },
+    {
+      "id": "roble3-cc-blender-skill",
+      "repo": "RobLe3/cc-blender-skill",
+      "commit": "a2634b588e80265e796aa53f8ab178d75105c2af",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "Reference-to-3D reconstruction, cameras, lighting, materials, quality gates",
+      "skills_dir": "plugin/skills",
+      "skip": {
+        "blender-animation": "same name as the EL4CTEO skill, which targets Blender 5.x",
+        "blender-rendering": "same name as the EL4CTEO skill, which targets Blender 5.x"
+      }
+    },
+    {
+      "id": "mromidev-claude-blender-skills",
+      "repo": "mromidev/claude-blender-skills",
+      "commit": "567116bf3514ce0e469c2cb5cb04fa974fca217a",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "End-to-end film pipelines: blender-film, blender-car-film, blender-forest",
+      "skills_dir": "skills"
+    },
+    {
+      "id": "blender-asset-studio",
+      "repo": "new-experement/blender-asset-studio",
+      "commit": "e68a7f31dd1e311c7f57b71da9be17f200ec2b00",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "Asset build loop with visual review",
+      "skills": {
+        "claude-code/blender-asset-studio": "blender-asset-studio"
+      }
+    },
+    {
+      "id": "gokayfem-video-to-blender",
+      "repo": "gokayfem/video-to-blender",
+      "commit": "bfeca3ff77d1468f3f9c6a801342cb6286e3f6b1",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "Procedural shader and geometry node recipes",
+      "skills": {
+        "skills/procedural-blender-nodes": "procedural-blender-nodes"
+      }
+    },
+    {
+      "id": "rwspatin-video-3d-skill",
+      "repo": "rwspatin/video-3d-skill",
+      "commit": "6bacc36bbc1f67cff4fde9856c95494aa4006867",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "Choosing and combining Three.js, Blender/Cycles and AI video; resuming long renders",
+      "skills": {
+        "skill": "video-3d-production"
+      }
+    },
+    {
+      "id": "echris6-motion-video-kit",
+      "repo": "echris6/motion-video-kit",
+      "commit": "e4b1c0004080fe6a0deb883631bad5eba1e5f339",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "Motion film with a critic loop; sound-effect placement and offline mix scripts",
+      "skills": {
+        "business-motion-film": "business-motion-film"
+      }
+    },
+    {
+      "id": "howseen-claude-motion-design",
+      "repo": "howseen-ai/claude-motion-design",
+      "commit": "3d90d349ef3fdde9b7e89de4df4a2159c9e8697f",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "HTML + headless browser + ffmpeg motion design (screen content, titles)",
+      "skills": {
+        "skill/motion-design": "motion-design"
+      }
+    },
+    {
+      "id": "sallyrs-video-director",
+      "repo": "SallyRS/video-director",
+      "commit": "5e869cf7f1e260fdffcfe2644c86f1c687939839",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "Storyboard-to-delivery direction with render checks; nested real-sfx sound design with the CC0 uisfx library",
+      "skills": {
+        "skills/video-director": "video-director"
+      },
+      "notes": "real-sfx (Clipwing, MIT) and uisfx (code MIT, audio CC0-1.0) keep their own licence files inside the folder"
+    },
+    {
+      "id": "kajisho5-ffmpeg-skill",
+      "repo": "kajisho5/ffmpeg-skill",
+      "commit": "6e42a79247909659b3d80833120b272fb5e46aba",
+      "license": "MIT",
+      "license_src": "LICENSE",
+      "purpose": "Cut, join, loudness, captions, delivery checks with local FFmpeg",
+      "skills": {
+        ".": "ffmpeg-skill"
+      },
+      "include": [
+        "SKILL.md",
+        "scripts",
+        "references",
+        "templates",
+        "examples"
+      ]
+    },
+    {
+      "id": "runpod-plugins-official",
+      "repo": "runpod/runpod-plugins-official",
+      "commit": "5a83c49e1094c3fef9ce755230b64c62e6cc7173",
+      "license": "Apache-2.0",
+      "license_src": "LICENSE",
+      "purpose": "Official RunPod skills (GPU pods, runpodctl, cost audit). Usable only after a RunPod API key and network access are granted",
+      "skills_dir": "plugins/runpod/skills"
+    },
+    {
+      "id": "film-studio",
+      "repo": "this repository",
+      "commit": "local",
+      "license": "repository",
+      "purpose": "Entry point for making films here: plate-based CPU pipeline, tools in tools/film",
+      "local": [
+        "film-studio"
+      ]
+    }
+  ],
+  "reviewed_not_installed": [
+    {
+      "repo": "remotion-dev/skills",
+      "reason": "no licence file or licence field; not redistributable"
+    },
+    {
+      "repo": "edemaistre/blender-expert-skills",
+      "reason": "no licence; older than the requested window"
+    },
+    {
+      "repo": "aminellkadaoui/3d-scenes",
+      "reason": "no licence"
+    },
+    {
+      "repo": "Tejashmakwana/motionmaxxing",
+      "reason": "bundles GSAP under a non-open-source licence; 26 MB; HTML motion graphics rather than Blender"
+    },
+    {
+      "repo": "nocodehack/make-short",
+      "reason": "39 MB, Windows-specific tooling, one fixed character style"
+    },
+    {
+      "repo": "sunxiayi/make-blender-education-video-skill",
+      "reason": "last changed 2026-07-24, outside the requested recent window"
+    },
+    {
+      "repo": "viettranx/3dviz-pro-max",
+      "reason": "89 MB Three.js teaching-visual catalogue, not a film pipeline"
+    },
+    {
+      "repo": "iart-ai/motion-skills",
+      "reason": "no SKILL.md in the repository"
+    }
+  ]
+}

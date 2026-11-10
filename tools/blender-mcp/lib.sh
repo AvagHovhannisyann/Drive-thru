@@ -16,7 +16,7 @@ BMCP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # --- derived paths ------------------------------------------------------------
 BMCP_BLENDER_DIR="$BMCP_BLENDER_ROOT/blender-$BMCP_BLENDER_VERSION-linux-x64"
 BMCP_BLENDER_BIN="$BMCP_BLENDER_DIR/blender"
-BMCP_BLENDER_SERIES="${BMCP_BLENDER_VERSION%.*}"            # 4.5.16 -> 4.5
+BMCP_BLENDER_SERIES="${BMCP_BLENDER_VERSION%.*}"            # 5.2.4 -> 5.2
 BMCP_LOG_DIR="$BMCP_HOME/logs"
 BMCP_RUN_DIR="$BMCP_HOME/run"
 BMCP_TMP_DIR="$BMCP_HOME/tmp"

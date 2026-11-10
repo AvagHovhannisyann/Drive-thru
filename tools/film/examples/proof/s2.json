@@ -1,0 +1,38 @@
+{
+ "id": "s2",
+ "fps": 24,
+ "duration": 2.0,
+ "first_frame": 145,
+ "frames": "s2_####.exr",
+ "source_first": 1,
+ "out": "frames/s2_####.png",
+ "size": [
+  3840,
+  2160
+ ],
+ "camera": {
+  "scale": 1.0
+ },
+ "fade": [
+  [
+   0.0,
+   1.0
+  ],
+  [
+   1.35,
+   1.0
+  ],
+  [
+   2.0,
+   0.0
+  ]
+ ],
+ "look": {
+  "exposure": 0.65,
+  "bloom": 0.18,
+  "bloom_threshold": 0.9,
+  "vignette": 0.28,
+  "chromatic": 0.0006,
+  "grain": 0.012
+ }
+}

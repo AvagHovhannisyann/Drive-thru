@@ -1,0 +1,38 @@
+# Project layout
+
+Create this layout at stage 1. Every later stage writes into it.
+
+```
+<project>/
+  brief.md                  type, format, narration, people, footage, length, viewer,
+                            what it's made of, reference videos or not (and any named film),
+                            the styles picked at stage 1b
+  script.md                 locked lines (and narration), one row per scene
+  direction-notes.md        every decision, dated, with exact values
+  ideas.md                  the 8+ ideas per key line, what each picture says, the pick
+  references/               styles-v<N>.html (the style page from stage 1b),
+                            notes and measured stills from reference films, the one kept
+                            reference file, and blind-compare-<version>.md for each comparison
+                            (type-check-<version>.md instead for a film built from scratch)
+  storyboard/
+    frame-kit.js            copied from this skill's assets/
+    frames.html             every frame design (from assets/frames-starter.html)
+    frames-v0.N/            rendered PNGs for one round
+    options-<decision>-v0.N.json / .html
+    storyboard-v0.N.json / .html
+  motion-spec.md            the motion plan (also written into the storyboard JSON)
+  assets/images/            generated stills, with the BRIEF file that made each set,
+                            or the user's own photos
+  assets/video/             generated clips and any supplied footage, with LEDGER.md
+  assets/logos/             official marks, with where each came from
+  assets/audio/             music, voiceover, effects; SOURCES.md lists each file's source
+                            and licence (sound-stage.md); never in a public repository
+  build/                    the HyperFrames project
+  build/audio/              the stems (music, effects, voice), sound-plan.json (every moment that
+                            makes a sound) and events.json (sound-stage.md)
+  build/audio/sfx/          real-sfx's working files: its event list, pins, cue sheet, results
+  output/                   rendered cuts
+  output/build-log.md       one line per render: version, notes answered, what changed, and for
+                            films with effects: planned/placed sounds, picks chosen by the user,
+                            and anything quiet, unplanned or off its frame
+```

@@ -7,7 +7,7 @@ no display and no clicks in Blender's UI.
 Claude Code ──stdio──▶ mcp-for-blender (MCP server, started by Claude Code via uvx)
                               │ TCP 127.0.0.1:9876  (JSON commands, loopback only)
                               ▼
-                 "MCP for Blender" add-on  ─ inside ─▶  Blender 4.5 LTS GUI process
+                 "MCP for Blender" add-on  ─ inside ─▶  Blender 5.2 LTS GUI process
                                                               │ X11
                                                               ▼
                                                    Xvfb virtual display :99
@@ -37,7 +37,7 @@ uvx --from mcp-for-blender==2.2.7 python tools/blender-mcp/mcp_e2e_test.py
 
 | Component | Version | Where | Integrity |
 |---|---|---|---|
-| Blender (official build) | 4.5.16 LTS, build `3f6797307da5` | `/opt/blender-dl/blender-4.5.16-linux-x64` (`/opt/blender-dl/current`, `blender` on PATH) | tarball SHA-256 `23432b06…84b10c11`, checked against the official `blender-4.5.16.sha256` |
+| Blender (official build) | 5.2.4 LTS, build `cd5dc428cce1` | `/opt/blender-dl/blender-5.2.4-linux-x64` (`/opt/blender-dl/current`, `blender` on PATH) | tarball SHA-256 `23432b06…84b10c11`, checked against the official `blender-4.5.16.sha256` |
 | MCP server | `mcp-for-blender` 2.2.7 (PyPI; upstream `ahujasid/blender-mcp`, formerly `blender-mcp`) | uv cache, run as `/root/.local/bin/uvx mcp-for-blender@2.2.7` | wheel SHA-256 `2fd2ad6f…1640472c` (PyPI) |
 | Add-on | "MCP for Blender" `bl_info` 1.8, protocol 15 | `/opt/blender-mcp/userdata/scripts/addons/blender_mcp.py` | SHA-256 `a7b3873a…a121828b` = file bundled in the 2.2.7 wheel = upstream `main/addon.py` on that date |
 | MCP SDK | `mcp` 1.30.0 (resolved by uvx) | uv cache | — |
@@ -229,7 +229,7 @@ Edit [`config.env`](config.env) or override per command (`BMCP_PORT=9877 tools/b
 
 | Variable | Default | Meaning |
 |---|---|---|
-| `BMCP_BLENDER_VERSION` / `BMCP_BLENDER_SHA256` | `4.5.16` / pinned | Blender build and its tarball hash (`official` = fetch the hash from download.blender.org) |
+| `BMCP_BLENDER_VERSION` / `BMCP_BLENDER_SHA256` | `5.2.4` / pinned | Blender build and its tarball hash (`official` = fetch the hash from download.blender.org) |
 | `BMCP_MCP_VERSION` / `BMCP_ADDON_SHA256` | `2.2.7` / pinned | MCP package and the hash of its bundled add-on |
 | `BMCP_HOME` | `/opt/blender-mcp` | logs, run state, private Blender profile, test output |
 | `BMCP_DISPLAY` / `BMCP_SCREEN` | `:99` / `1920x1080x24` | virtual display |
@@ -245,7 +245,7 @@ Changing host, port or the MCP version: re-run `install.sh` so `.mcp.json` match
 ## Upgrading
 
 ```bash
-# Blender: pick a release from https://download.blender.org/release/Blender4.5/ and copy its
+# Blender: pick a release from https://download.blender.org/release/Blender5.2/ and copy its
 # linux-x64 hash from blender-<version>.sha256 into config.env, then:
 tools/blender-mcp/install.sh && tools/blender-mcp/restart.sh
 
