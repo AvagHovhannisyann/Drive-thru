@@ -60,6 +60,7 @@ written to `/opt/blender-mcp/versions.json` (snapshot of the verified run:
 | `tools/blender-mcp/stop.sh` | Stops supervisor, Blender, Xvfb. `--keep-xvfb` leaves the display up. |
 | `tools/blender-mcp/restart.sh` | `stop.sh` then `start.sh`. `--keep-xvfb` restarts Blender only. |
 | `tools/blender-mcp/status.sh` | Read-only health report. `--mcp` also shows the Claude Code registration; `--quiet` only sets the exit code. |
+| `python3 tools/blender-mcp/check_skills.py` | Integrity check of the Blender Skills pack in `.claude/skills/`. |
 | `uvx --from mcp-for-blender==2.2.7 python tools/blender-mcp/mcp_e2e_test.py` | Full-chain test through MCP. Outputs in `/opt/blender-mcp/test-output/`. `--keep-scene` leaves the test scene open. |
 | `uvx --from mcp-for-blender==2.2.7 python tools/blender-mcp/mcp_call.py …` | Call any tool of the MCP server from the terminal (see below). |
 
@@ -97,6 +98,7 @@ Everything the service writes is under `/opt/blender-mcp` (outside the repositor
 | `run/*.pid`, `run/blender-status.json` | PIDs and the heartbeat Blender writes every 5 s |
 | `userdata/` | the service's private Blender config + scripts (`BLENDER_USER_RESOURCES`); holds the add-on |
 | `tmp/` | Blender temp files (`quit.blend`, viewport captures) |
+| `work/` | scratch space for scenes, frames and exports (not kept when the container is reclaimed) |
 | `test-output/` | `mcp_test_scene.blend`, `mcp_test_render.png`, `mcp_test_look.png`, `mcp_e2e_report.json` |
 | `versions.json`, `backups/` | install record; copies of `~/.claude.json` taken before each registration change |
 
@@ -134,27 +136,36 @@ Service defaults chosen for this environment:
 
 ## Using it from Claude Code
 
-Registered (local scope, project `/home/user/Drive-thru`) by `install.sh` with:
+The server is registered in the repository's project-scoped [`.mcp.json`](../../.mcp.json).
+`install.sh` keeps that entry in step with `config.env`; it was created with:
 
 ```bash
-claude mcp add --scope local blender \
+claude mcp add --scope project blender \
   -e DISABLE_TELEMETRY=true -e BLENDER_HOST=127.0.0.1 -e BLENDER_PORT=9876 \
   -e BLENDERMCP_ADDONS_DIR=/opt/blender-mcp/userdata/scripts/addons \
   -- /root/.local/bin/uvx mcp-for-blender@2.2.7
 ```
 
 This is upstream's `claude mcp add blender uvx mcp-for-blender` with an absolute `uvx` path, a
-pinned version (so server and add-on always match) and explicit settings. Check it with
-`claude mcp get blender` (expect `Status: ✓ Connected`); remove it with
-`claude mcp remove blender -s local`. Other MCP servers are not touched.
+pinned version (so server and add-on always match) and explicit settings. Other MCP servers are
+not touched. Remove it with `claude mcp remove blender -s project`.
 
 Tools offered by the server: `get_addon_status`, `get_scene_info`, `execute_blender_code`, `look`,
 `search_assets`, `import_asset`, `generate_3d`, `disable_telemetry`, `record_trajectory_feedback`.
 In a Claude Code session they appear as `mcp__blender__<tool>`.
 
-**Limitation.** Claude Code connects MCP servers when a session starts. A session that was already
-running when the server was registered does not gain the `mcp__blender__*` tools (observed in the
-session that built this). Such a session can still drive Blender *through MCP* from the terminal:
+**When the tools are available.** Claude Code reads `.mcp.json` (and `.claude/skills/`) when a
+session starts.
+
+- A Claude Code process started in this repository after the files existed loaded the server
+  (`blender: connected, source: project`), all nine `mcp__blender__*` tools and all 94 skills
+  (checked 2026-11-10 with the non-interactive loader of Claude Code 2.1.322). The Claude Code
+  documentation says cloud sessions load a repository's `.mcp.json` servers and `.claude/skills/`
+  the same way, without an approval step.
+- `claude mcp get blender` reports `Pending approval` for a project-scoped server. That is the
+  interactive CLI's trust prompt; it does not apply to cloud or other non-interactive sessions.
+- A session that was already running when the files were added does not gain the tools or the
+  skills (observed). It can still drive Blender *through MCP* from the terminal:
 
 ```bash
 PY="uvx --from mcp-for-blender==2.2.7 python tools/blender-mcp/mcp_call.py"
@@ -165,8 +176,24 @@ $PY execute_blender_code --code-file path/to/script.py
 $PY look '{"mode": "camera", "max_size": 800}' --save-images /opt/blender-mcp/tmp
 ```
 
-`mcp_call.py` reads the registered command from Claude Code's config and starts the server the
-same way Claude Code does, so it exercises the identical path.
+`mcp_call.py` reads the registered command from Claude Code's config (`.mcp.json` included) and
+starts the server the same way Claude Code does, so it exercises the identical path.
+
+The MCP server is only a bridge: its tools answer "could not connect to Blender" until the
+service is running (`tools/blender-mcp/start.sh`). [`CLAUDE.md`](../../CLAUDE.md) tells every
+session in this repository to start it before the first Blender call.
+
+## Blender Skills pack
+
+[`.claude/skills/`](../../.claude/skills/README.md) holds the 94 skills of
+[arjun988/blender-skills](https://github.com/arjun988/blender-skills) 1.3.0 (MIT), copied from
+commit `904f095` after review: markdown only, no scripts, hooks or settings. Start a Blender task
+with `blender-director`. The skills run through the tools above; their `get_viewport_screenshot`
+is `look` in this server version. Integrity check:
+
+```bash
+python3 tools/blender-mcp/check_skills.py     # 94 skills, valid metadata, no broken reference links
+```
 
 ## Rendering
 
@@ -207,9 +234,9 @@ Edit [`config.env`](config.env) or override per command (`BMCP_PORT=9877 tools/b
 | `BMCP_WATCHDOG_INTERVAL` | `5` | seconds between in-Blender socket checks |
 | `BMCP_DISPLAY_CHECK_INTERVAL` | `10` | seconds between the supervisor's display checks |
 | `BMCP_MAX_RESTARTS` / `BMCP_RESTART_WINDOW` | `5` / `300` | crash-loop guard |
-| `BMCP_CLAUDE_SCOPE` / `BMCP_MCP_NAME` | `local` / `blender` | Claude Code registration |
+| `BMCP_CLAUDE_SCOPE` / `BMCP_MCP_NAME` | `project` / `blender` | Claude Code registration (`project` = the committed `.mcp.json`) |
 
-Changing host or port: also re-run `install.sh` so the registered command matches.
+Changing host, port or the MCP version: re-run `install.sh` so `.mcp.json` matches, then commit it.
 
 ## Upgrading
 
@@ -235,9 +262,13 @@ against this install with `BLENDER=/opt/blender-dl/current/blender bash design/3
   allowed; those tools will fail until their hosts are added to the environment.
 - **Persistence.** There is no systemd (PID 1 is the sandbox init). The service is kept alive by
   its own supervisor and survives between turns and commands, but only for the life of the
-  container. A reclaimed container loses `/opt/blender-dl`, `/opt/blender-mcp` and the Claude Code
-  registration; the scripts in this directory restore all of it (see "Restart procedure").
-- **Native tools.** See the limitation under "Using it from Claude Code".
+  container. A new container gets Blender back from the "Drive-thru" environment's setup script
+  (it runs `install.sh`), and the MCP registration and skills from the repository itself.
+  Running processes are never carried over: start the service in each new session with
+  `tools/blender-mcp/start.sh` (the Claude Code documentation's advice for background services is
+  exactly that, or a `SessionStart` hook). Files under `/opt/blender-mcp` are not kept either.
+- **Session start only.** MCP servers and skills are picked up when a session starts, not by a
+  session that is already running (see "Using it from Claude Code").
 
 ## Troubleshooting
 

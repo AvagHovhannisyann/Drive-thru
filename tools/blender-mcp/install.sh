@@ -153,6 +153,9 @@ fi
 #   DISABLE_TELEMETRY=true   no usage records leave this machine
 #   BLENDER_HOST/PORT        the add-on socket (loopback)
 #   BLENDERMCP_ADDONS_DIR    lets the server's start-up check find the add-on
+# Default scope is "project": the entry lives in the repository's .mcp.json, the file
+# Claude Code cloud sessions load on their own. If the committed entry already matches
+# config.env nothing is written.
 claude_entry() {   # prints the stored entry for our name in the configured scope, if any
   "$(bmcp_python)" - "$REPO_ROOT" "$BMCP_MCP_NAME" "$BMCP_CLAUDE_SCOPE" <<'PY'
 import json, os, sys
@@ -193,8 +196,9 @@ else
   if [ "$current" = "$expected_entry" ]; then
     bmcp_log "claude: server '$BMCP_MCP_NAME' already registered ($BMCP_CLAUDE_SCOPE scope) with the expected command"
   else
-    # Keep a private copy of the config before changing it (it holds account details).
-    if [ -f "$HOME/.claude.json" ]; then
+    # local/user scope edits ~/.claude.json: keep a private copy first (it holds account
+    # details). project scope edits the repository's .mcp.json, which git already tracks.
+    if [ "$BMCP_CLAUDE_SCOPE" != "project" ] && [ -f "$HOME/.claude.json" ]; then
       mkdir -p "$BMCP_HOME/backups" && chmod 700 "$BMCP_HOME/backups"
       cp -p "$HOME/.claude.json" "$BMCP_HOME/backups/claude.json.$(date -u +%Y%m%dT%H%M%SZ)"
     fi
@@ -211,6 +215,9 @@ else
     [ "$(claude_entry || true)" = "$expected_entry" ] ||
       bmcp_die "claude mcp add ran but the stored entry is not the expected one: $(claude_entry || true)"
     bmcp_log "claude: registered '$BMCP_MCP_NAME' ($BMCP_CLAUDE_SCOPE scope): $expected_entry"
+    if [ "$BMCP_CLAUDE_SCOPE" = "project" ]; then
+      bmcp_log "claude: $REPO_ROOT/.mcp.json changed - commit it so new sessions use the same command"
+    fi
   fi
 fi
 

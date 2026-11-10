@@ -21,6 +21,7 @@ BMCP_LOG_DIR="$BMCP_HOME/logs"
 BMCP_RUN_DIR="$BMCP_HOME/run"
 BMCP_TMP_DIR="$BMCP_HOME/tmp"
 BMCP_TEST_DIR="$BMCP_HOME/test-output"
+BMCP_WORK_DIR="$BMCP_HOME/work"                              # scenes, frames, exports
 # Blender user resources for the service only (BLENDER_USER_RESOURCES). Keeps the
 # add-on and its preferences out of ~/.config/blender, so plain `blender -b` batch
 # renders stay add-on free.
@@ -56,7 +57,7 @@ bmcp_require_loopback() {
 }
 
 bmcp_mkdirs() {
-  mkdir -p "$BMCP_LOG_DIR" "$BMCP_RUN_DIR" "$BMCP_TMP_DIR" "$BMCP_TEST_DIR" \
+  mkdir -p "$BMCP_LOG_DIR" "$BMCP_RUN_DIR" "$BMCP_TMP_DIR" "$BMCP_TEST_DIR" "$BMCP_WORK_DIR" \
            "$BMCP_ADDONS_DIR" "$BMCP_USERDATA/config" "$BMCP_RUN_DIR/xdg"
   chmod 700 "$BMCP_RUN_DIR/xdg"
 }

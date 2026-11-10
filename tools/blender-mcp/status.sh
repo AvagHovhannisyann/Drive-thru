@@ -150,6 +150,11 @@ if [ "$show_mcp" -eq 1 ]; then
     if reg="$(cd "$BMCP_DIR/../.." && timeout 90 claude mcp get "$BMCP_MCP_NAME" 2>&1)"; then
       ok "claude mcp" "server '$BMCP_MCP_NAME' is registered:"
       [ "$quiet" -eq 1 ] || printf '%s\n' "$reg" | sed 's/^/                     /'
+      # "Pending approval" is the interactive CLI's trust prompt for .mcp.json servers.
+      # Cloud and other non-interactive sessions load project servers without it.
+      case "$reg" in *"Pending approval"*)
+        note "" "(approval applies to the interactive CLI only; cloud sessions load .mcp.json servers at start)" ;;
+      esac
     else
       warn "claude mcp" "server '$BMCP_MCP_NAME' is not registered (run install.sh): $(printf '%s' "$reg" | head -n1)"
     fi
