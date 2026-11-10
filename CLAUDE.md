@@ -33,4 +33,4 @@
 - Long renders run in the background and are resumable; the container stops all processes when the
   session goes idle, so re-run the same command after a resume.
 - Work files go to `/opt/film-studio/work/<project>/`; only scripts, pages, shot and cue files belong
-  in the repository. Never commit rendered frames or plates.
+  in the repository. Never commit rendered frames, plates or videos (a small contact sheet as a record is fine).

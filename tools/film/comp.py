@@ -488,8 +488,9 @@ def render_frame(job: tuple) -> str:
     return str(out)
 
 
-def run_shot(path: str, jobs: int = 0, only: str | None = None) -> None:
+def run_shot(path: str, jobs: int = 0, only: str | None = None, overwrite: bool = False) -> None:
     shot = json.loads(Path(path).read_text())
+    shot["overwrite"] = overwrite or shot.get("overwrite", False)
     base = str(Path(path).resolve().parent)
     shot["out"] = shot["out"] if os.path.isabs(shot["out"]) else os.path.join(base, shot["out"])
     count = int(round(shot["duration"] * shot["fps"]))
@@ -532,6 +533,7 @@ def main() -> int:
     p.add_argument("shot")
     p.add_argument("--jobs", type=int, default=0)
     p.add_argument("--frames", help="only these frame indexes (0-based), e.g. 0-23")
+    p.add_argument("--overwrite", action="store_true", help="render frames again even when the PNG exists")
     args = parser.parse_args()
 
     if args.command == "prepare":
@@ -555,7 +557,7 @@ def main() -> int:
         save_png(args.out, finish(picture, json.loads(args.look)))
         print(f"wrote {args.out}")
     else:
-        run_shot(args.shot, args.jobs, args.frames)
+        run_shot(args.shot, args.jobs, args.frames, args.overwrite)
     return 0
 
 

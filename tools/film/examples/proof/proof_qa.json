@@ -1,0 +1,84 @@
+{
+ "file": "/opt/film-studio/work/proof/pipeline_proof_4k.mp4",
+ "video": {
+  "codec": "h264",
+  "size": "3840x2160",
+  "fps": 24.0,
+  "frames": 192,
+  "seconds": 8.0,
+  "pix_fmt": "yuv420p",
+  "colour": [
+   "bt709",
+   "bt709",
+   "bt709"
+  ]
+ },
+ "megabytes": 124.7,
+ "checks": [
+  {
+   "name": "size",
+   "ok": true,
+   "detail": "3840x2160 (expected 3840x2160)"
+  },
+  {
+   "name": "frame rate",
+   "ok": true,
+   "detail": "24.000 fps (expected 24.0)"
+  },
+  {
+   "name": "frame count",
+   "ok": true,
+   "detail": "192 (expected 192)"
+  },
+  {
+   "name": "colour tags",
+   "ok": true,
+   "detail": "['bt709', 'bt709', 'bt709']"
+  },
+  {
+   "name": "sound and picture length",
+   "ok": true,
+   "detail": "sound 8.000 s, picture 8.000 s"
+  },
+  {
+   "name": "loudness",
+   "ok": true,
+   "detail": "-14.0 LUFS (target -14.0)"
+  },
+  {
+   "name": "true peak",
+   "ok": true,
+   "detail": "-1.0 dBTP (limit -1)"
+  },
+  {
+   "name": "black",
+   "ok": true,
+   "detail": "0.00 s black (allowed 0.5)"
+  },
+  {
+   "name": "frozen picture",
+   "ok": true,
+   "detail": "0.00 s frozen (allowed 0.0)"
+  },
+  {
+   "name": "flicker",
+   "ok": true,
+   "detail": "0 single-frame brightness spikes"
+  }
+ ],
+ "audio": {
+  "codec": "aac",
+  "rate": 48000,
+  "channels": 2,
+  "seconds": 8.0,
+  "lufs": -14.0,
+  "true_peak": -1.0
+ },
+ "luma": {
+  "min": 0.017,
+  "max": 0.529,
+  "largest_step": 0.038
+ },
+ "sheet": "/opt/film-studio/work/proof/proof_sheet.jpg",
+ "result": "PASS"
+}

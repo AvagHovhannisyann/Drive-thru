@@ -15,7 +15,8 @@ reference for the commands.
 | Picture | `comp.py` | Denoise per light group, relight over time, insert screens, push-in, titles, bloom, grain, AgX. |
 | Sound | `audio.py` | Score and effects from a cue sheet: synthesis, General MIDI instruments, bundled CC0 interface sounds; mixed to a loudness target. |
 | Delivery | `encode.py` | Frames + sound -> H.264 / 10-bit H.265 / ProRes with BT.709 tags. |
-| Checks | `look_check.py`, `qa.py` | Exposure and colour of stills as numbers; delivery checks and a contact sheet for the finished file. |
+| Checks | `sheet.py`, `look_check.py`, `qa.py` | Contact sheets from frames or linear EXR renders (with crops); exposure and colour of stills as numbers; delivery checks for the finished file. |
+| Self-test | `blender/selftest.py` | Calls every `filmkit` helper once on the installed Blender (`blender -b --factory-startup --python tools/film/blender/selftest.py`). |
 | Example | `examples/proof/` | An 8-second 3840x2160 film that uses every stage: `examples/proof/run.sh`. |
 
 Python tools that need numpy, OpenCV, OpenColorIO or OpenImageDenoise run with
@@ -58,9 +59,10 @@ PY=/opt/film-studio/venv/bin/python
 $PY tools/film/comp.py still WORK/s1_plate.exr look.png --gains '{"sun": 0, "lamp": 3, "sky": [0.1, [0.4, 0.55, 1]]}' \
     --look '{"exposure": 0.6, "bloom": 0.2}' --screen WORK/ui/ui_0100.png
 $PY tools/film/look_check.py look.png --night
+$PY tools/film/sheet.py sheet.jpg WORK/preview/s2_00*.exr --look '{"exposure": 0.65}' --labels      # look before a long render
 
 # every frame of a shot, then sound, encode, check
-$PY tools/film/comp.py shot WORK/s1.json
+$PY tools/film/comp.py shot WORK/s1.json                       # skips frames that exist; --overwrite, --frames 0-23
 $PY tools/film/audio.py WORK/cues.json WORK/mix.wav
 python3 tools/film/encode.py WORK/film.mp4 --fps 24 --frames "WORK/frames/s1_*.png" "WORK/frames/s2_*.png" --audio WORK/mix.wav
 $PY tools/film/qa.py WORK/film.mp4 --expect-size 3840x2160 --expect-fps 24 --sheet WORK/sheet.jpg
@@ -71,6 +73,13 @@ python3 tools/film/render_farm.py WORK/shot.blend --frames 1-120 --out WORK/s3/s
 
 Shot description format: `.claude/skills/film-studio/references/shot-format.md`.
 Cue sheet format: `.claude/skills/film-studio/references/sound.md`.
+
+## Delivery sizes
+
+Film grain is expensive to compress. The 8-second proof at 3840x2160 came to 125 MB as H.264 at
+CRF 17 and to 32 MB as 10-bit H.265 at CRF 18 with the same measured fidelity (PSNR 39.7 dB against
+the frames). Use `--preset hevc10` for 4K files that will be shared, `h264` for 1080p and for
+anything that must play everywhere, `prores` for a master that will be edited further.
 
 ## Long renders and the container
 

@@ -40,11 +40,11 @@ everything that must be reproducible in scripts run with `blender -b`.
 | Step | Output | Gate before moving on |
 |---|---|---|
 | 1. Brief | Purpose, audience, length, aspect ratio, delivery size, any required words | If length, format or the words on screen are unknown, ask once; otherwise decide and say so |
-| 2. Treatment | One-line idea, beat list, timeline rows: SHOTS / LIGHT / SCREEN / CHARACTER / SCORE / SOUND / TITLES | Each beat has one job; nothing on screen without a reason |
+| 2. Treatment | `references/treatment-template.md` filled in: one-line idea, beats, timeline rows SHOTS / LIGHT / SCREEN / CHARACTER / SCORE / SOUND / TITLES | Each beat has one job; nothing on screen without a reason |
 | 3. Shot list and budget | Per shot: seconds, type (plate / frames), lens, light state, what moves; total render hours | Total fits the time available, with half again as reserve |
 | 4. Set | `scene.py` builds the set from code with `filmkit`; top-view plan in metres first | Quarter-size stills from every camera, looked at, three rounds |
 | 5. Screens and titles | Web pages with `window.seek(t)`, rendered by `html_frames.cjs` | Readable at delivery size; text spelled and timed |
-| 6. Plates and frames | `fk.render_plate` per plate shot; region frames for small motion; `render_farm.py` for moving shots | First plate checked at full size before the rest |
+| 6. Plates and frames | `fk.render_plate` per plate shot; region frames for small motion; `render_farm.py` for moving shots | For every moving shot, five quarter-size frames on a `sheet.py` contact sheet BEFORE the full render; first plate checked at full size |
 | 7. Picture | One shot JSON per shot -> `comp.py shot` | `look_check.py` on a still from each light state; contact sheet per shot |
 | 8. Sound | Cue sheet -> `audio.py` | Loudness and event times printed and inside tolerance |
 | 9. Delivery | `encode.py`, then `qa.py` with expected size, rate and frame count | QA passes; contact sheet looked at; send the file with SendUserFile |
@@ -112,6 +112,7 @@ re-render only the affected shot, re-check. Two rounds are normal.
 
 ## References
 
+- `references/treatment-template.md` - the one-page brief, beats, timeline rows, shot list and risks, filled in for the proof film
 - `references/render-budget.md` - measured speeds, formulas, what 4K and 60 fps cost here
 - `references/craft.md` - lens plan, light, surfaces, character, titles, finish, review loop
 - `references/shot-format.md` - the shot JSON for `comp.py`

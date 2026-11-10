@@ -49,14 +49,14 @@ def main() -> int:
             except OSError:
                 os.symlink(os.path.abspath(name), target)
         ext = os.path.splitext(files[0])[1]
-        command = ["ffmpeg", "-v", "error", "-stats", "-y", "-framerate", str(args.fps), "-i", os.path.join(tmp, f"f_%06d{ext}")]
+        command = ["ffmpeg", "-v", "error", "-nostats", "-y", "-framerate", str(args.fps), "-i", os.path.join(tmp, f"f_%06d{ext}")]
         if args.audio:
             command += ["-i", args.audio]
         filters = ["scale=in_range=pc:out_range=tv:out_color_matrix=bt709:flags=lanczos+accurate_rnd+full_chroma_int"
                    + (f":w={args.size.split('x')[0]}:h={args.size.split('x')[1]}" if args.size else "")]
         command += ["-vf", ",".join(filters)] + PRESETS[args.preset] + BT709
         if args.preset != "prores":
-            command += ["-crf", str(args.crf if args.crf is not None else (16 if args.preset == "h264" else 18)), "-movflags", "+faststart"]
+            command += ["-crf", str(args.crf if args.crf is not None else 18), "-movflags", "+faststart"]
         if args.audio:
             command += (["-c:a", "pcm_s24le"] if args.preset == "prores" else ["-c:a", "aac", "-b:a", "256k"]) + ["-shortest"]
         command += ["-r", str(args.fps), args.out]

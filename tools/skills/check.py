@@ -68,7 +68,8 @@ def parse_front_matter(text: str) -> tuple[dict[str, str], list[str]]:
 def tree_digest(folder: Path) -> tuple[str, int]:
     digest = hashlib.sha256()
     count = 0
-    for path in sorted(p for p in folder.rglob("*") if p.is_file() and not p.is_symlink()):
+    # Python writes __pycache__ next to a script the first time it runs: not part of the content.
+    for path in sorted(p for p in folder.rglob("*") if p.is_file() and not p.is_symlink() and "__pycache__" not in p.parts):
         digest.update(str(path.relative_to(folder)).encode() + b"\0")
         digest.update(hashlib.sha256(path.read_bytes()).digest())
         count += 1
