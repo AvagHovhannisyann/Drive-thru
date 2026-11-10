@@ -31,12 +31,15 @@ fi
 
 $SUDO mkdir -p "$FILM_HOME"/{work,logs,fonts}
 [ -w "$FILM_HOME" ] || $SUDO chown -R "$(id -u):$(id -g)" "$FILM_HOME"
-if [ ! -x "$FILM_HOME/venv/bin/python" ]; then
-  log "python: creating $FILM_HOME/venv"
-  "$UV" venv "$FILM_HOME/venv" >/dev/null
+if [ -x "$UV" ]; then
+  [ -x "$FILM_HOME/venv/bin/python" ] || { log "python: creating $FILM_HOME/venv (uv)"; "$UV" venv "$FILM_HOME/venv" >/dev/null; }
+  log "python: installing the pinned packages"
+  VIRTUAL_ENV="$FILM_HOME/venv" "$UV" pip install -q -r "$HERE/requirements.txt"
+else                                  # no uv on this machine: the standard library does the same, more slowly
+  [ -x "$FILM_HOME/venv/bin/python" ] || { log "python: creating $FILM_HOME/venv (venv)"; python3 -m venv "$FILM_HOME/venv"; }
+  log "python: installing the pinned packages with pip"
+  "$FILM_HOME/venv/bin/python" -m pip install -q -r "$HERE/requirements.txt"
 fi
-log "python: installing the pinned packages"
-VIRTUAL_ENV="$FILM_HOME/venv" "$UV" pip install -q -r "$HERE/requirements.txt"
 
 if FILM_HOME="$FILM_HOME" python3 "$HERE/fonts.py" >"$FILM_HOME/logs/fonts.log" 2>&1; then
   log "fonts: $(find "$FILM_HOME/fonts" -name '*.ttf' | wc -l) files in $FILM_HOME/fonts"

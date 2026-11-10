@@ -5,7 +5,7 @@
 
 The cue sheet is on the same clock as the picture (seconds from the start of the film):
 
-    {"duration": 8.0, "lufs": -14, "reverb": 0.22,
+    {"duration": 8.0, "lufs": -14, "reverb": 0.22, "air": 2.5,
      "tracks": [
        {"type": "pad",   "t": 0, "dur": 8, "notes": ["F2", "C3", "A3", "E4"], "gain": -16},
        {"type": "keys",  "program": 0, "gain": -12, "notes": [[0.5, "A4", 1.2, 70], [1.0, "C5", 1.0, 64]]},
@@ -268,7 +268,9 @@ def render(cues: dict, base: Path, stems_dir: Path | None = None) -> np.ndarray:
             sf.write(stems_dir / f"{index:02d}_{kind}.wav", stem, SR, subtype="PCM_24")
     room = pedalboard.Pedalboard([pedalboard.Reverb(room_size=0.78, damping=0.45, wet_level=1.0, dry_level=0.0, width=1.0)])
     mix = dry + room(wet, SR) * cues.get("reverb", 0.22) * 4
-    mix = pedalboard.Pedalboard([pedalboard.HighpassFilter(28), pedalboard.Compressor(threshold_db=-16, ratio=2.2, attack_ms=12, release_ms=180)])(mix, SR)
+    mix = pedalboard.Pedalboard([pedalboard.HighpassFilter(28),
+                                 pedalboard.HighShelfFilter(cutoff_frequency_hz=6500, gain_db=cues.get("air", 2.5)),
+                                 pedalboard.Compressor(threshold_db=-16, ratio=2.2, attack_ms=12, release_ms=180)])(mix, SR)
     meter = pyloudnorm.Meter(SR)
     target = cues.get("lufs", -14.0)
     for _ in range(3):                                   # normalise, limit, and correct what the limiter took away

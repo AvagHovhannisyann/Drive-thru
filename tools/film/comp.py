@@ -99,8 +99,9 @@ def prepare(plate: str, force: bool = False) -> dict[str, np.ndarray]:
         return _plates[plate]
     cache = Path(plate.removesuffix(".exr") + ".plate.npz")
     if cache.exists() and not force and cache.stat().st_mtime >= Path(plate).stat().st_mtime:
-        with np.load(cache) as data:
-            _plates[plate] = {key: data[key] for key in data.files}
+        with np.load(cache) as data:                       # float16 on disk, float32 in memory (faster arithmetic)
+            _plates[plate] = {key: data[key].astype(np.float32) if data[key].dtype == np.float16 else data[key]
+                              for key in data.files}
         return _plates[plate]
     passes = read_exr(plate)
     beauty = passes.get("Noisy Image", passes.get("Combined"))
@@ -126,8 +127,8 @@ def prepare(plate: str, force: bool = False) -> dict[str, np.ndarray]:
     if "Depth" in passes:
         out["depth"] = passes["Depth"].astype(np.float32)
     np.savez(cache, **out)
-    _plates[plate] = out
-    return out
+    _plates[plate] = {key: value.astype(np.float32) if value.dtype == np.float16 else value for key, value in out.items()}
+    return _plates[plate]
 
 
 def read_frame(path: str) -> np.ndarray:
@@ -185,35 +186,43 @@ def kelvin(temperature: float) -> np.ndarray:
 # --------------------------------------------------------------------------- picture operations (linear)
 
 
-def relight(groups: dict[str, np.ndarray], gains: dict[str, float | list], skip: tuple[str, ...] = ("depth", "rect")) -> np.ndarray:
-    """sum(gain * pass). A gain is a number, or [number, [r, g, b]] to tint that light as well."""
+def relight(groups: dict[str, np.ndarray], gains: dict[str, float | list], skip: tuple[str, ...] = ("depth", "rect"),
+            only: tuple[str, ...] | None = None) -> np.ndarray:
+    """sum(gain * pass). A gain is a number, or [number, [r, g, b]] to tint that light as well.
+    `only` restricts the sum to some groups (the rest count as zero)."""
     out = None
     for name, image in groups.items():
-        if name in skip:
+        if name in skip or (only is not None and name not in only):
             continue
         gain = gains.get(name, 1.0)
-        tint = None
-        if isinstance(gain, (list, tuple)):
-            gain, tint = gain[0], np.asarray(gain[1], dtype=np.float32)
-        if gain == 0:
+        factor = np.float32(gain) if not isinstance(gain, (list, tuple)) else \
+            np.asarray(gain[1], np.float32) * np.float32(gain[0])
+        if not np.any(factor):
             continue
-        layer = image.astype(np.float32) * float(gain)
-        if tint is not None:
-            layer = layer * tint
-        out = layer if out is None else out + layer
+        if out is None:
+            out = np.multiply(image, factor, dtype=np.float32)
+        else:
+            out += np.multiply(image, factor, dtype=np.float32)
     if out is None:
         out = np.zeros(next(iter(groups.values())).shape[:2] + (3,), np.float32)
     return out
 
 
+_masks: dict[tuple, np.ndarray] = {}
+
+
 def quad_mask(shape: tuple[int, int], corners: list[list[float]], blur_px: float = 0.0, supersample: int = 4) -> np.ndarray:
     """Anti-aliased coverage (0-1) of a four-cornered polygon."""
     height, width = shape
+    key = ("quad", height, width, tuple(round(float(v), 3) for c in corners for v in c), round(blur_px, 2))
+    if key in _masks:
+        return _masks[key]
     big = np.zeros((height * supersample, width * supersample), np.uint8)
     cv2.fillConvexPoly(big, np.round(np.asarray(corners, np.float32) * supersample).astype(np.int32), 255)
     mask = cv2.resize(big, (width, height), interpolation=cv2.INTER_AREA).astype(np.float32) / 255.0
     if blur_px > 0.6:
         mask = cv2.GaussianBlur(mask, (0, 0), blur_px / 2.5)
+    _masks[key] = mask
     return mask
 
 
@@ -259,9 +268,12 @@ def vignette(image: np.ndarray, amount: float = 0.25, power: float = 2.2) -> np.
     if amount <= 0:
         return image
     height, width = image.shape[:2]
-    y, x = np.mgrid[0:height, 0:width].astype(np.float32)
-    r = np.hypot((x - width / 2) / (width / 2), (y - height / 2) / (height / 2)) / math.sqrt(2)
-    return image * (1 - amount * r ** power)[..., None]
+    key = ("vignette", height, width, amount, power)
+    if key not in _masks:
+        y = ((np.arange(height, dtype=np.float32) - height / 2) / (height / 2))[:, None]
+        x = ((np.arange(width, dtype=np.float32) - width / 2) / (width / 2))[None, :]
+        _masks[key] = (1 - amount * (np.hypot(x, y) / math.sqrt(2)) ** power).astype(np.float32)[..., None]
+    return image * _masks[key]
 
 
 def chromatic(image: np.ndarray, amount: float = 0.0008) -> np.ndarray:
@@ -420,8 +432,8 @@ def render_frame(job: tuple) -> str:
                 top, bottom, left, right = (int(v) for v in patch["rect"])
                 weight = _feather(bottom - top, right - left, spec.get("feather", 12))
                 for name in [n for n in groups if n in patch and n not in ("depth", "rect")]:
-                    merged = groups[name].astype(np.float32, copy=True)
-                    merged[top:bottom, left:right] = merged[top:bottom, left:right] * (1 - weight) + patch[name].astype(np.float32) * weight
+                    merged = groups[name].copy()
+                    merged[top:bottom, left:right] = merged[top:bottom, left:right] * (1 - weight) + patch[name] * weight
                     groups[name] = merged
 
         # Plates that replace each other over time (for example the sun at several angles): cross-fade.
@@ -430,9 +442,9 @@ def render_frame(job: tuple) -> str:
             lower = int(min(max(math.floor(position), 0), len(spec["plates"]) - 1))
             upper = min(lower + 1, len(spec["plates"]) - 1)
             mix = position - lower
-            a = prepare(os.path.join(base, spec["plates"][lower]))[spec.get("pass", name)].astype(np.float32)
+            a = prepare(os.path.join(base, spec["plates"][lower]))[spec.get("pass", name)]
             groups[name] = a if upper == lower or mix <= 0 else \
-                a * (1 - mix) + prepare(os.path.join(base, spec["plates"][upper]))[spec.get("pass", name)].astype(np.float32) * mix
+                a * (1 - mix) + prepare(os.path.join(base, spec["plates"][upper]))[spec.get("pass", name)] * mix
 
         screens = shot.get("screens", {})
         screen_groups = {spec.get("group", "screen") for spec in screens.values()}
@@ -447,9 +459,11 @@ def render_frame(job: tuple) -> str:
             level = gains.get(group, 1.0)
             level = level[0] if isinstance(level, list) else level
             gains[group] = [level, mean.tolist()]              # the room is lit by the average colour of the picture
-        picture = relight(groups, gains)
-        if screens:
+        if not screens:
+            picture = relight(groups, gains)
+        else:
             without = relight(groups, {**gains, **{g: 0.0 for g in screen_groups}})
+            picture = without + relight(groups, gains, only=tuple(screen_groups))
             for name, spec in screens.items():
                 group = spec.get("group", "screen")
                 quad = meta["quads"][name]
@@ -495,7 +509,7 @@ def run_shot(path: str, jobs: int = 0, only: str | None = None) -> None:
             prepare(os.path.join(base, plate))
     jobs = jobs or max(1, (os.cpu_count() or 2) - 1)
     with ProcessPoolExecutor(max_workers=jobs) as pool:
-        for done, name in enumerate(pool.map(render_frame, [(shot, i, base) for i in frames], chunksize=2), 1):
+        for done, _ in enumerate(pool.map(render_frame, [(shot, i, base) for i in frames], chunksize=2), 1):
             if done % 24 == 0 or done == len(frames):
                 print(f"  {shot.get('id', Path(path).stem)}: {done}/{len(frames)} frames", flush=True)
 

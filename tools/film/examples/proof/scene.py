@@ -184,8 +184,8 @@ def build_lamp(coll):
 def build_props(coll):
     rng = random.Random(3)
     ceramic = fk.material("M_Mug", (0.86, 0.84, 0.78), rough=0.22, coat_weight=0.5, coat_roughness=0.08)
-    mug = fk.lathe("Mug", [(0.0, 0.004), (0.034, 0.004), (0.038, 0.012), (0.04, 0.085), (0.0385, 0.088)],
-                   loc=(-0.36, DESK_Y - 0.10, DESK_Z), mat=ceramic, coll=coll, thickness=0.004)
+    fk.lathe("Mug", [(0.0, 0.004), (0.034, 0.004), (0.038, 0.012), (0.04, 0.085), (0.0385, 0.088)],
+             loc=(-0.36, DESK_Y - 0.10, DESK_Z), mat=ceramic, coll=coll, thickness=0.004)
     fk.torus_arc("Mug_Handle", 0.024, 0.0052, start=-90, end=90, segments=24, mat=ceramic, coll=coll,
                  loc=(-0.36 + 0.036 * math.cos(math.radians(-125)), DESK_Y - 0.10 + 0.036 * math.sin(math.radians(-125)), DESK_Z + 0.047),
                  rot=(0, 0, math.radians(-125)))
